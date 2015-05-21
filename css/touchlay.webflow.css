@@ -493,7 +493,7 @@ img {
 	margin:0 auto;
 	background-color:#ccc;
 	padding-top:0px;
-	background-image:url('../images/_MG_6793_normal_large.jpg');
+	background-image:url('../images/IMG_6793_normal_large.jpg');
 	background-position:50% 0px;
 	background-size:100%;
 	background-attachment:scroll;
@@ -656,7 +656,7 @@ img {
 }
 
 .content-bg.team {
-	background-image:url('../images/_MG_6793_normal_large.jpg');
+	background-image:url('../images/IMG_6793_normal_large.jpg');
 	background-position:42% 4%;
 	background-size:cover;
 }
@@ -801,7 +801,7 @@ img {
 .content-bg.team {
 	height:320px;
 	min-height:300px;
-	background-image:url('../images/_MG_6793_normal_small.png');
+	background-image:url('../images/IMG_6793_normal_small.png');
 	background-position:50% 0px;
 	background-size:contain;
 }
@@ -935,7 +935,7 @@ img {
 	height:180px;
 	min-height:50px;
 	padding-top:16px;
-	background-image:url('../images/_MG_6793_normal_small.png');
+	background-image:url('../images/IMG_6793_normal_small.png');
 	background-position:50% 0px;
 	background-size:contain;
 }
