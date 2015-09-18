@@ -1,0 +1,92 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header-img {
+    background-image: url('');
+    background-size: cover !important;
+    width: 100%;
+    height: 700px;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background: #ccc;
+}
+
+.full-segment {
+  margin-top: 0 !important;
+  border-radius: 0 !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.content-element {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.ui.footer{
+  margin-bottom: 0px;
+}
+
+/* Menu */
+.ui.inverted.menu .item.logo:before {
+  background: none !important;
+}
+
+.ui.inverted.menu .item {
+  line-height: 36px;
+}
+
+/* Section: home */
+#home {
+  height: 100vh;
+  background-color: #333;
+}
+
+#home video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  /*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
+  background-size: cover;
+  transition: 1s opacity;
+  -webkit-filter:blur(5px);
+  filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
+
+}
+
+#home .features {
+  position: absolute;
+  bottom: 50px;
+  left: 10%;
+}
+
+#home #welcome {
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .header-img {
+    height: 440px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-img {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header-img {
+    height: 190px;
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html data-wf-site="51fff4fae3bb0b2562000155">
+<head>
+<meta charset="utf-8">
+<title>touchlay</title>
+<meta name="description" content="">
+<meta name="theme-color" content="#3293C7">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="9VUnCw57X_YgwyvKB0LsvIngTMtZTCePSRw-LCYQ3Nw"/>
+<link rel="stylesheet" type="text/css" href="css/semantic-ui/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/semantic-ui/menu.min.css">
+<link rel="stylesheet" type="text/css" href="css/semantic-ui/segment.min.css">
+<link rel="stylesheet" type="text/css" href="css/semantic-ui/card.min.css">
+<link rel="stylesheet" type="text/css" href="css/semantic-ui/dropdown.min.css">
+<link rel="stylesheet" type="text/css" href="css/page.css">
+
+<link rel="icon" type="image/x-icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon-144-precomposed.png">
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-23939953-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body>
+<a style="display: none;" href="https://plus.google.com/109985994085811390634" rel="publisher">Google+</a>
+
+<div class="ui secondary top fixed blue inverted pointing stackable menu" id="main-menu">
+  <div class="container">
+		<div class="item logo">
+			<img src="images/touchlay_logo_horizontal_white.png" style="width: 120px;">
+  </div>
+  <div class="right menu">
+		<a href="#home" class="active item">
+	    home
+	  </a>
+	  <a href="#nova" class="item">
+	    nova
+	  </a>
+	  <a href="#projects" class="item">
+	    projekte
+	  </a>
+		<a href="#team" class="item">
+			team
+		</a>
+    <a href="#blog" class="item">
+      blog
+    </a>
+  </div>
+</div>
+</div>
+
+<div class="pusher">
+	<div class="full height">
+
+		<div class="main">
+			{{ content }}
+		</div>
+	</div>
+	<div class="ui inverted blue segment full-segment footer">
+    <div class="ui stackable inverted divided page relaxed grid">
+      <div class="twelve wide column">
+        <p class="ui inverted">&copy; TouchLay GmbH 2015 Alle Rights reserved.</p>
+      </div>
+      <div class="four wide column" style="text-align: right; box-shadow: none;">
+        <div class="ui dropdown">
+          <div class="text">
+          {% if page.lang == "en" %}
+            <i class="gb flag"></i> English
+          {% elsif page.lang == "de" %}
+            <i class="de flag"></i> Deutsch
+          {% else %}
+            Language
+          {% endif %}
+          </div>
+          <i class="angle up icon"></i>
+          <div class="menu">
+            <a href="/" class="item"><i class="gb flag"></i> English</a>
+            <a href="index.de.html" class="item"><i class="de flag"></i> German</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery_lazyload/jquery.lazyload.js"></script>
+<script type="text/javascript" src="js/semantic-ui/semantic.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

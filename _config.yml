@@ -1,0 +1,8 @@
+markdown: kramdown
+t:
+  en:
+    home:  "Home"
+  fr:
+    home:  "Accueil"
+  zh:
+    home:  "首页"
