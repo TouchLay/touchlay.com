@@ -6,13 +6,10 @@
 <meta name="description" content="">
 <meta name="theme-color" content="#3293C7">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="google-site-verification" content="9VUnCw57X_YgwyvKB0LsvIngTMtZTCePSRw-LCYQ3Nw"/>
-<link rel="stylesheet" type="text/css" href="css/semantic-ui/semantic.min.css">
-<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/semantic-ui/menu.min.css">
-<link rel="stylesheet" type="text/css" href="css/semantic-ui/segment.min.css">
-<link rel="stylesheet" type="text/css" href="css/semantic-ui/card.min.css">
-<link rel="stylesheet" type="text/css" href="css/semantic-ui/dropdown.min.css">
+
+<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 <link rel="stylesheet" type="text/css" href="css/page.css">
 
 <link rel="icon" type="image/x-icon" href="images/favicon.png">
@@ -36,30 +33,64 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <body>
 <a style="display: none;" href="https://plus.google.com/109985994085811390634" rel="publisher">Google+</a>
 
-<div class="ui secondary top fixed blue inverted pointing stackable menu" id="main-menu">
-  <div class="container">
-		<div class="item logo">
-			<img src="images/touchlay_logo_horizontal_white.png" style="width: 120px;">
+
+<div class="ui grid">
+  <div class="computer tablet only row">
+    <div class="ui inverted secondary blue pointing fixed menu navbar" id="main-menu">
+      <div class="container">
+    		<div class="item logo">
+    			<img src="images/touchlay_logo_horizontal_white.png" style="width: 120px;">
+      </div>
+      <div class="right menu">
+    		<a href="#home" class="active item">
+    	    home
+    	  </a>
+    	  <a href="#nova" class="item">
+    	    nova
+    	  </a>
+    	  <a href="#projects" class="item">
+          {% if page.lang == "en" %}projects{% elsif page.lang == "de" %}projekte{% endif %}
+    	  </a>
+    		<a href="#team" class="item">
+    			team
+    		</a>
+        <a href="#blog" class="item">
+          blog
+        </a>
+      </div>
+    </div>
+    </div>
   </div>
-  <div class="right menu">
-		<a href="#home" class="active item">
-	    home
-	  </a>
-	  <a href="#nova" class="item">
-	    nova
-	  </a>
-	  <a href="#projects" class="item">
-	    projekte
-	  </a>
-		<a href="#team" class="item">
-			team
-		</a>
-    <a href="#blog" class="item">
-      blog
-    </a>
+  <div class="mobile only row">
+      <div class="ui fixed blue inverted navbar menu">
+          <a href="" class="brand item"><img src="images/touchlay_logo_horizontal_white.png" style="width: 120px;"></a>
+          <div class="right menu open">
+              <a href="" class="menu item">
+                  <i class="content icon"></i>
+              </a>
+          </div>
+      </div>
+      <div class="ui vertical navbar menu">
+          <a href="#home" class="active item">
+            home
+          </a>
+          <a href="#nova" class="item">
+            nova
+          </a>
+          <a href="#projects" class="item">
+            {% if page.lang == "en" %}projects{% elsif page.lang == "de" %}projekte{% endif %}
+          </a>
+          <a href="#team" class="item">
+            team
+          </a>
+          <a href="#blog" class="item">
+            blog
+          </a>
+      </div>
   </div>
 </div>
-</div>
+
+
 
 <div class="pusher">
 	<div class="full height">
@@ -71,7 +102,15 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	<div class="ui inverted blue segment full-segment footer">
     <div class="ui stackable inverted divided page relaxed grid">
       <div class="twelve wide column">
-        <p class="ui inverted">&copy; TouchLay GmbH 2015 Alle Rights reserved.</p>
+        <p class="ui inverted">&copy; TouchLay GmbH 2015</p>
+        <div class="menu inverted">
+          <a class="item">
+            Imprint
+          </a>
+          <a class="item">
+            Jobs
+          </a>
+        </div>
       </div>
       <div class="four wide column" style="text-align: right; box-shadow: none;">
         <div class="ui dropdown">
@@ -97,7 +136,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery_lazyload/jquery.lazyload.js"></script>
-<script type="text/javascript" src="js/semantic-ui/semantic.min.js"></script>
+<script type="text/javascript" src="semantic/dist/semantic.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

@@ -132,4 +132,14 @@ $(document).ready(function() {
     $('#quote-modal').modal('show');
   });
 
+  $('.right.menu.open').on("click",function(e){
+   e.preventDefault();
+   $('.ui.vertical.menu').toggle();
+ });
+
+ $('.ui.dropdown').dropdown();
+
+ $('#send-quote').click(function() {
+   $('#quote-form').submit();
+ });
 });
