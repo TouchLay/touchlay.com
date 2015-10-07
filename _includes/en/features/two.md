@@ -1,4 +1,4 @@
 Flexible
 
 {: .sub .header}
-Rotate and adjust the novaTouch, just like you need it.
+Rotate and adjust the nova, just like you need it.
