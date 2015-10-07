@@ -51,20 +51,7 @@ $(document).ready(function() {
   });
 
   $(window).scroll(function () {
-    var $nav = $('#main-menu');
-    if ($('body').scrollTop() > 94 && $(window).width() >= 692) {
-      if ($nav.data('size') == 'big') {
-        $nav.data('size', 'small');
-        $nav.css('background', '#3293C7').css('padding-top', '12px').css('box-shadow', '0px 0px 2px rgba(0,0,0,.4)');;
-        $nav.find('a.item').css('text-shadow', 'none');
-      }
-    } else {
-      if ($nav.data('size') == 'small') {
-        $nav.data('size', 'big');
-        $nav.css('background', 'rgba(0,0,0,0)').css('padding-top', '20px').css('box-shadow', 'none');
-        $nav.find('a.item').css('text-shadow', '0px 0px 2px rgba(0,0,0,.4)');
-      }
-    }
+    $('#main-menu').css('background', (($('body').scrollTop() > 94) && ($(window).width() >= 320)) ? '#3293C7' : 'transparent');
   });
 
   // Submit the form with an ajax/jsonp request.
@@ -89,21 +76,17 @@ $(document).ready(function() {
 
         var helper = $('.msg-helper');
         if (data.result != "success") {
-          helper.removeClass('success');
-          helper.addClass('error');
-          if (data.msg && data.msg.indexOf("already subscribed") >= 0) {
-            helper.text("You're already subscribed. Thank you.");
+          if (resultMessage && resultMessage.indexOf("already subscribed") >= 0) {
+            helper.html('<i class="close icon red"></i> ' + "You're already subscribed. Thank you.");
           } else {
-            if (data.msg.split('-').length >= 2) {
-              helper.text(data.msg.split('-')[1]);
+            if (resultMessage.split('-').length >= 2) {
+              helper.html('<i class="close icon red"></i> ' + resultMessage.split('-')[1]);
             } else {
-              helper.text(data.msg);
+              helper.html('<i class="close icon red"></i> ' + resultMessage);
             }
           }
         } else {
-          helper.removeClass('error');
-          helper.addClass('success');
-          helper.text("Thank you!\nYou must confirm the subscription in your inbox.");
+          helper.html('<i class="check icon green"></i> Thank you!\nYou must confirm the subscription in your inbox.');
         }
         helper.fadeIn();
       }
@@ -142,4 +125,32 @@ $(document).ready(function() {
  $('#send-quote').click(function() {
    $('#quote-form').submit();
  });
+
+ $('#quote-form').on('submit', function(e) {
+   e.preventDefault();
+ });
+
+ // Quote Form validation
+ $('#quote-form').form({
+    fields: {
+      name     : 'empty',
+      country  : 'empty',
+      email    : 'empty',
+      type     : 'empty'
+    },
+    onSuccess: function() {
+      $('#send-quote').addClass('loading');
+      var el = $('#quote-form');
+      var request = $.post(el.prop('action'), el.serialize(), function(resp) {
+        // success
+        $('#send-quote').hide()
+        $('#quote-status .success').fadeIn();
+      });
+      request.fail(function(error) {
+        console.log("Error sending Quote:", error);
+        $('#send-quote').hide()
+        $('#quote-status .error').fadeIn();
+      });
+    }
+  });
 });

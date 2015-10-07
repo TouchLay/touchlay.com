@@ -1,3 +1,12 @@
 /*******************************
          Theme Overrides
 *******************************/
+
+.ui.secondary.inverted.pointing.menu {
+  border-width: 0px;
+  border-bottom-width: 2px;
+}
+
+.ui.secondary.pointing.menu .item {
+  /*margin: 0px 0px;*/
+}

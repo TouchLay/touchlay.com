@@ -1,5 +1,5 @@
-Aller guten Dinge sind drei plus eins.
---------------------------------------
+##Aller guten Dinge sind drei plus eins.
+
 Innovativ. Intuitiv. Ideenreich. Das sind wir. Aber das sagen außer uns noch weitere tausende Jungunternehmer von sich.
 
 Was macht uns also zu etwas Besonderem? Wir sind jung! Unsere Software-Entwickler sind zwei neugierige und vor allem wissbegierige Jungs im Alter von 18 Jahren, die sich von Ideen begeistern lassen und die die Welt verändern wollen. Am besten schon morgen.

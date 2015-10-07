@@ -3,7 +3,6 @@
   "version": "0.1",
   "dependencies" : {
     "jquery" : "2.1.4",
-    "semantic-ui": "2.1.4",
     "jquery_lazyload": "1.9.1"
   },
   "install" : {
@@ -16,14 +15,6 @@
       "jquery" : [
         "components/jquery/dist/jquery.min.js",
         "components/jquery/dist/jquery.min.map"
-      ],
-      "semantic-ui": [
-      	"components/semantic-ui/dist/semantic.min.css",
-      	"components/semantic-ui/dist/semantic.min.js",
-      	"components/semantic-ui/dist/components/menu.min.css",
-        "components/semantic-ui/dist/components/segment.min.css",
-        "components/semantic-ui/dist/components/card.min.css",
-        "components/semantic-ui/dist/components/dropdown.min.css"
       ],
       "jquery_lazyload": [
        "components/jquery_lazyload/jquery.lazyload.js"

@@ -1,4 +1,4 @@
-#Was ist der novaTouch?
+##Was ist der novaTouch?
 
 Der novaTouch ist unsere neuste Hardware-Innovation. Es handelt sich um einen 55 Zoll Bildschirm, der sich an der horizontalen Achse um 360° drehen und auf der vertikalen Achse im Hoch- oder Querformat montieren lässt.
 

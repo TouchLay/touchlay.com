@@ -611,12 +611,12 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183C4;
+  color: #3293C7;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1e70bf;
+  color: #1583be;
   text-decoration: none;
 }
 
@@ -864,7 +864,7 @@ input::selection {
 }
 
 .ui.basic.loading.button:not(.inverted):after {
-  border-top-color: #767676;
+  border-top-color: #333333;
 }
 
 /*-------------------
@@ -2237,7 +2237,7 @@ input::selection {
 
 .ui.grey.buttons .button,
 .ui.grey.button {
-  background-color: #767676;
+  background-color: #333333;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -2249,21 +2249,21 @@ input::selection {
 
 .ui.grey.buttons .button:hover,
 .ui.grey.button:hover {
-  background-color: #838383;
+  background-color: #404040;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.grey.buttons .button:focus,
 .ui.grey.button:focus {
-  background-color: #8a8a8a;
+  background-color: #474747;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.grey.buttons .button:active,
 .ui.grey.button:active {
-  background-color: #909090;
+  background-color: #4d4d4d;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2272,7 +2272,7 @@ input::selection {
 .ui.grey.buttons .active.button:active,
 .ui.grey.active.button,
 .ui.grey.button .active.button:active {
-  background-color: #696969;
+  background-color: #262626;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2281,35 +2281,35 @@ input::selection {
 
 .ui.basic.grey.buttons .button,
 .ui.basic.grey.button {
-  box-shadow: 0px 0px 0px 1px #767676 inset !important;
-  color: #767676 !important;
+  box-shadow: 0px 0px 0px 1px #333333 inset !important;
+  color: #333333 !important;
 }
 
 .ui.basic.grey.buttons .button:hover,
 .ui.basic.grey.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #838383 inset !important;
-  color: #838383 !important;
+  box-shadow: 0px 0px 0px 1px #404040 inset !important;
+  color: #404040 !important;
 }
 
 .ui.basic.grey.buttons .button:focus,
 .ui.basic.grey.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #8a8a8a inset !important;
-  color: #838383 !important;
+  box-shadow: 0px 0px 0px 1px #474747 inset !important;
+  color: #404040 !important;
 }
 
 .ui.basic.grey.buttons .active.button,
 .ui.basic.grey.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #696969 inset !important;
-  color: #909090 !important;
+  box-shadow: 0px 0px 0px 1px #262626 inset !important;
+  color: #4d4d4d !important;
 }
 
 .ui.basic.grey.buttons .button:active,
 .ui.basic.grey.button:active {
-  box-shadow: 0px 0px 0px 1px #909090 inset !important;
-  color: #909090 !important;
+  box-shadow: 0px 0px 0px 1px #4d4d4d inset !important;
+  color: #4d4d4d !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.grey.button:not(:first-child) {
@@ -14900,7 +14900,7 @@ ol.ui.horizontal.list li:before,
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   border-radius: 500rem;
-  border-color: #767676 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+  border-color: #333333 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 0.2em;
   box-shadow: 0px 0px 0px 1px transparent;
@@ -15087,11 +15087,11 @@ ol.ui.horizontal.list li:before,
 /* Grey */
 
 .ui.grey.segment:not(.inverted) {
-  border-top: 2px solid #767676;
+  border-top: 2px solid #333333;
 }
 
 .ui.inverted.grey.segment {
-  background-color: #767676 !important;
+  background-color: #333333 !important;
   color: #FFFFFF !important;
 }
 
@@ -20875,8 +20875,8 @@ Floated Menu / Item
 
 .ui.menu .grey.active.item,
 .ui.grey.menu .active.item {
-  border-color: #767676 !important;
-  color: #767676 !important;
+  border-color: #333333 !important;
+  color: #333333 !important;
 }
 
 /*--------------
@@ -21179,7 +21179,7 @@ Floated Menu / Item
 
 .ui.inverted.menu .grey.active.item,
 .ui.inverted.grey.menu {
-  background-color: #767676;
+  background-color: #333333;
 }
 
 .ui.inverted.grey.menu .item:before {
@@ -21608,6 +21608,15 @@ Floated Menu / Item
 /*******************************
          Theme Overrides
 *******************************/
+
+.ui.secondary.inverted.pointing.menu {
+  border-width: 0px;
+  border-bottom-width: 2px;
+}
+
+.ui.secondary.pointing.menu .item {
+  /*margin: 0px 0px;*/
+}
 
 /*******************************
          Site Overrides

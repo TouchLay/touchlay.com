@@ -1,5 +1,5 @@
 .DS_Store
-components/
+_components/
 node_modules/
 _site/
 

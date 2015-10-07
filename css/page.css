@@ -42,6 +42,9 @@
 #home {
   height: 100vh;
   background-color: #333;
+  background-image: url('/images/IMG_6602.JPG');
+	background-position: center center;
+	background-size: cover;
 }
 
 #home video {
@@ -53,7 +56,6 @@
   height: auto;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  /*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
   background-size: cover;
   transition: 1s opacity;
   -webkit-filter:blur(5px);
@@ -70,6 +72,21 @@
 #home #welcome {
   text-align: center;
   padding-top: 100px;
+}
+
+/* Sub Pages */
+#sub-page {
+  height: 25vh;
+  background-color: #333;
+  background-image: url('/images/IMG_6602.JPG');
+	background-position: center center;
+	background-size: cover;
+}
+
+#sub-page h1 {
+	color: #fff;
+	margin-top: 17.5vh;
+	font-size: 3em;
 }
 
 /* Media Queries */
@@ -131,4 +148,30 @@
 	margin-top: -15px !important;
 	width: 100%;
 	display: none;
+}
+
+#contact p{
+	padding-left: 10px;
+}
+
+#customers {
+	padding-top: 50px;
+	text-align: center;
+	background: #f1f1f1;
+}
+
+#quote-status .success,
+#quote-status .error {
+	display: none;
+}
+
+#social .segment,
+.ui.footer {
+	background-color: #333 !important;
+}
+
+.footer .sub-pages a.item {
+	color: #fff;
+  text-decoration: underline;
+  margin-left: 12px;
 }

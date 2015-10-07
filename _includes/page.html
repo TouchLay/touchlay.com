@@ -309,7 +309,14 @@
   </div>
 </div>
 <div class="actions">
-
+  <div id="quote-status">
+    <div class="success">
+      <p><i class="checkmark icon green"></i> Your message was sent, thank you.</p>
+    </div>
+    <div class="error">
+      <p><i class="close icon red"></i> There was a Problem sending this Message. Please contact us directly at <a href="mailto:hello@touchlay.com">hello@touchlay.com</a>.</p>
+    </div>
+  </div>
   <div class="ui green basic inverted button" id="send-quote">
     <i class="checkmark icon"></i>
     Send Message
@@ -318,8 +325,8 @@
 </div>
 
 <section id="home" class="ui page one column grid stackable">
-  <div class="column" style="margin-top: 200px; text-align: center;">
-    <img src="images/novaTouch_top.png" width="500px">
+  <div class="column" style="margin-top: 100px; text-align: center;">
+    <img src="{{site.url}}/images/novaTouch_top_2.png" width="100%">
     <br><br>
     <div class="ui huge blue button get-quote">Get a Quote for Rental or Sale</div>
   </div>
@@ -362,8 +369,7 @@
 
 <section id="nova">
   <!--<div class="lazy ui vertical header-img" data-original="images/IMG_2_edit.JPG"></div>-->
-  <div class="container">
-    <div class="ui two column grid stackable content-element">
+    <div class="ui page two column grid stackable content-element">
       <div class="column">
         {% capture stuff %}{% include {{page.lang}}/what.md %}{% endcapture %}
         {{ stuff | markdownify }}
@@ -371,30 +377,28 @@
       <div class="column">
         <div class="ui two column grid stackable">
           <div class="column">
-            <img class="feature-image lazy" data-original="images/IMG_6428_edit.JPG" alt="IMG_6428_edit.JPG" style="width: 100%;">
-            <img class="feature-image lazy" data-original="images/IMG_6448_edit_small.JPG" alt="IMG_6448_edit_small.JPG" style="width: 100%;">
+            <img class="feature-image lazy" data-original="{{site.url}}/images/IMG_6428_edit.JPG" alt="IMG_6428_edit.JPG" style="width: 100%;">
+            <img class="feature-image lazy" data-original="{{site.url}}/images/IMG_6448_edit_small.JPG" alt="IMG_6448_edit_small.JPG" style="width: 100%;">
           </div>
           <div class="column">
-            <img class="feature-image lazy" data-original="images/IMG_6467_edit.JPG" alt="IMG_6467_edit.JPG" style="width: 100%;">
-            <img class="feature-image lazy" data-original="images/find_kiosk_bright_edit.jpg" alt="find_kiosk_bright_edit.jpg" style="width: 100%;">
+            <img class="feature-image lazy" data-original="{{site.url}}/images/IMG_6467_edit.JPG" alt="IMG_6467_edit.JPG" style="width: 100%;">
+            <img class="feature-image lazy" data-original="{{site.url}}/images/find_kiosk_bright_edit.jpg" alt="find_kiosk_bright_edit.jpg" style="width: 100%;">
           </div>
         </div>
       </div>
-    </div>
   </div>
 
   <!--<div class="ui vertical segment header-img lazy" data-original="images/IMG_6692_.JPG"></div>-->
-  <div class="container">
-    <div class="ui two column grid stackable content-element">
+    <div class="ui page two column grid stackable content-element">
       <div class="column">
         <div class="ui two column grid stackable">
           <div class="column">
-            <img class="feature-image lazy" data-original="images/IMG_6602_edit.JPG" alt="IMG_6602_edit.JPG" style="width: 100%;">
-            <img class="feature-image lazy" data-original="images/IMG_6629_edit.JPG" alt="IMG_6629_edit.JPG" style="width: 100%;">
+            <img class="feature-image lazy" data-original="{{site.url}}/images/IMG_6602_edit.JPG" alt="IMG_6602_edit.JPG" style="width: 100%;">
+            <img class="feature-image lazy" data-original="{{site.url}}/images/IMG_6629_edit.JPG" alt="IMG_6629_edit.JPG" style="width: 100%;">
           </div>
           <div class="column">
-            <img class="feature-image lazy" data-original="images/interface_2.jpg" alt="Architecture Interface" style="width: 100%;">
-            <img class="feature-image lazy" data-original="images/IMG_6690_edit.JPG" alt="IMG_6690_edit.JPG" style="width: 100%;">
+            <img class="feature-image lazy" data-original="{{site.url}}/images/interface_2.jpg" alt="Architecture Interface" style="width: 100%;">
+            <img class="feature-image lazy" data-original="{{site.url}}/images/IMG_6690_edit.JPG" alt="IMG_6690_edit.JPG" style="width: 100%;">
           </div>
         </div>
       </div>
@@ -403,29 +407,28 @@
         {{ stuff | markdownify }}
       </div>
     </div>
-  </div>
 
 
-  <div class="container" id="customers">
-    <h1>Customer</h1>
-    <div class="ui four column grid stackable content-element">
+  <div id="customers" class="ui text-center">
+    <h2>Some of our Customers</h2>
+    <div class="ui page four column grid stackable content-element">
       <div class="column">
-        <img src="images/partner/wunschhaus.png" style="width: 100%" alt="Wunschhaus GmbH">
+          <img src="{{site.url}}/images/partner/nova_wunschhaus.jpg" style="width: 100%" alt="Wunschhas GmbH">
       </div>
       <div class="column">
-        <img src="images/partner/step.png" style="width: 100%" alt="Ste.p ZT-GmbH">
+        <img src="{{site.url}}/images/partner/nova_actual.jpg" style="width: 100%" alt="Actual GmbH">
       </div>
       <div class="column">
-        <img src="images/partner/schelkshorn.png" style="width: 100%" alt="Schelkshorn GmbH">
+          <img src="{{site.url}}/images/partner/nova_otto.jpg" style="width: 100%" alt="Otto Immobilien GmbH">
       </div>
       <div class="column">
-        <img src="images/partner/hostinger.png" style="width: 100%" alt="Hosiner GmbH">
+        <img src="{{site.url}}/images/partner/nova_hosiner.jpg" style="width: 100%" alt="Hosiner GmbH">
       </div>
     </div>
   </div>
 </section>
 
-<section id="projects">
+<!--<section id="projects">
   <div class="ui page two column grid content-element">
     <div class="column">
       <h1>Other Projects</h1>
@@ -453,7 +456,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 <section id="newsletter" class="ui blue segment full-segment inverted">
   <div class="ui centered content-element" style="text-align: center;">
@@ -472,13 +475,13 @@
         <div style="position: absolute; left: -5000px;"><input type="text" name="b_61192115196961388ececdeb1_7425f66543" tabindex="-1" value=""></div>
         <div class="clear"></div>
       </form>
-      <div class="ui success message msg-helper" style="width: 50%; margin: 0 auto; display: none; position: absolute; bottom: 40px; left: 25%;"></div>
+      <div class="ui success msg-helper" style="width: 50%; margin: 0 auto; display: none; position: absolute; bottom: 50px; left: 25%;"></div>
     </div>
   </div>
 </section>
 
 <section id="team">
-  <div class="ui vertical header-img lazy" data-original="images/IMG_6793_normal_large.jpg"></div>
+  <div class="ui vertical header-img lazy" data-original="{{site.url}}/images/IMG_6793_normal_large.jpg"></div>
   <div class="ui page four column stackable grid" style="margin-top: 20px;">
     <div class="column">
       <div class="ui card">
@@ -532,9 +535,16 @@
       {{ stuff | markdownify }}
     </div>
     <div class="six wide column">
-      <div class="ui grey inverted segment">
-        {% capture stuff %}{% include {{page.lang}}/contact.md %}{% endcapture %}
-        {{ stuff | markdownify }}
+      <div class="ui blue segment" id="contact">
+        <div class="ui two column grid">
+          <div class="column">
+            {% capture stuff %}{% include {{page.lang}}/contact.md %}{% endcapture %}
+            {{ stuff | markdownify }}
+          </div>
+          <div class="column">
+            <!--<i class="icon marker"></i>-->
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -545,24 +555,21 @@
     <div class="ui page one column grid content-element">
       <div class="column">
         <h1>Latest Article</h1><br><br>
-        <div class="ui two column grid">
+        <div class="ui two column stackable grid">
           <div class="column">
         <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" data-border="true" data-width="100%" href="https://medium.com/touchlay-blog/maintaining-a-corporate-blog-on-medium-ded465ab30ef">How to Maintain a Corporate Blog on Medium</a>
 </div>
 <div class="column">
-        <div class="medium-container" style="border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-color: #eee #ddd #bbb;
-    border-width: 1px;
-    border-style: solid;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;
-    width: 400px;
-    padding: 50px;
+        <div class="medium-container" style="
+    color: #fff;
+    max-width: 100%;
+    min-width: 220px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     font-size: 20px; text-align:center;">
-    <i class="icon external" style="padding: 50px; font-size: 50px; display:block;"></i><br>
-          find more articles on medium
+    <a href="http://medium.com/touchlay-blog" style="color: #fff;">
+    <i class="icon external" style="margin-right: -10px; font-size: 50px;"></i><br><br>
+          find more articles on medium</a>
         </div>
       </div>
     </div>
@@ -572,7 +579,7 @@
 </section>
 
 <section id="social">
-  <div class="ui inverted teal vertical segment">
+  <div class="ui inverted vertical segment">
     <div class="ui page two column grid content-element">
       <div class="column">
         <h1>Gut vernetzt in sozialen Netzwerken!</h1>

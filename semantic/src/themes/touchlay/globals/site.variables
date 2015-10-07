@@ -129,7 +129,7 @@
        Links
 --------------------*/
 
-@linkColor           : #4183C4;
+@linkColor           : @blue;
 @linkUnderline       : none;
 @linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
 @linkHoverUnderline  : @linkUnderline;
@@ -197,7 +197,7 @@
 @purple           : #A333C8;
 @pink             : #E03997;
 @brown            : #A5673F;
-@grey             : #767676;
+@grey             : #333333;
 @black            : #1B1C1D;
 
 /*---  Light Colors  ---*/
