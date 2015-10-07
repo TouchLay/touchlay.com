@@ -121,9 +121,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
           </div>
           <i class="angle up icon"></i>
           <div class="menu">
-            {% assign current = page.url | downcase | split: page.lang %}
-            <a href="/en{{current[-1]}}" class="item"><i class="gb flag"></i> English</a>
-            <a href="/de{{current[-1]}}" class="item"><i class="de flag"></i> German</a>
+            {% assign current = page.url | downcase | split: "/" + page.lang + "/" %}
+            <a href="/en/{{current[-1]}}" class="item"><i class="gb flag"></i> English</a>
+            <a href="/de/{{current[-1]}}" class="item"><i class="de flag"></i> German</a>
           </div>
         </div>
       </div>
