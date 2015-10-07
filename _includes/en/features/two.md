@@ -1,4 +1,4 @@
-Anpassungsfähigkeit
+Flexible
 
 {: .sub .header}
-Rotieren und verändern Sie den novaTouch ganz wie Sie wollen.
+Rotate and adjust the novaTouch, just like you need it.

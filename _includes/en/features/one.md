@@ -1,4 +1,4 @@
-Einfach Anders
+Different
 
 {: .sub .header}
-Sein schwebendes design macht den novaTouch einzigartig.
+The free floating design makes novaTouch unique.

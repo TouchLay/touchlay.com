@@ -1,4 +1,4 @@
-Örtlich ungebunden
+Freedom
 
 {: .sub .header}
-Dank Cloud-Service sind sämliche Dokumente immer am letzten Stand und jederzeit verfügbar.
+The Cloud-Service makes sure that all your documents are up-to-date and available at all times.
