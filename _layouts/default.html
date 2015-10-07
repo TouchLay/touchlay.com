@@ -60,7 +60,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   </div>
   <div class="mobile only row" id="mobile-menu">
       <div class="ui fixed blue inverted navbar menu">
-          <a href="" class="brand item"><img src="/images/touchlay_logo_horizontal_white.png" style="width: 120px;"></a>
+          <a href="" class="logo item"><img src="/images/touchlay_logo_horizontal_white.png" style="width: 120px;"></a>
           <div class="right menu open">
               <a href="" class="menu item">
                   <i class="content icon"></i>
@@ -80,6 +80,27 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
           <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#blog" class="item blue">
             blog
           </a>
+          <div class="item blue" style="padding: 2.5em 2em;">
+            <div style="position: absolute; bottom: 2em; left: 2em;" class="ui dropdown">
+              <span class="text">
+              <span style="pull: right;">
+              {% if page.lang == "en" %}
+                Language: &nbsp;&nbsp;&nbsp;<i class="gb flag"></i> English
+              {% elsif page.lang == "de" %}
+                Sprache: &nbsp;&nbsp;&nbsp;<i class="de flag"></i> Deutsch
+              {% else %}
+                Language
+              {% endif %}
+            </span>
+            </span>
+              <i class="angle down icon"></i>
+              <div class="menu" style="width: 100vh; left: -2.1em; border-radius:0; top: 2.5em;">
+                {% assign current = page.url | downcase | split: "/" + page.lang + "/" %}
+                <a style="padding: 2em 2em;" href="/en/{{current[-1]}}" class="item"><i class="gb flag"></i> English</a>
+                <a href="/de/{{current[-1]}}" class="item"><i class="de flag"></i> German</a>
+              </div>
+            </div>
+          </div>
       </div>
   </div>
 </div>

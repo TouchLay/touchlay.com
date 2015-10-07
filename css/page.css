@@ -186,16 +186,21 @@
 }
 
 #mobile-nav a.item {
-	padding: 2em 2em;
+	padding: 2em 2em !important;
 }
 
-#mobile-menu {
+#mobile-menu .navbar {
 	border-bottom: 1px solid #3088B7;
+}
+
+#mobile-menu .menu.item::before {
+	background: transparent !important;
 }
 
 #mobile-menu .menu.item {
 	text-align: center;
 	padding-top: 10px;
+	background: transparent !important;
 }
 
 #mobile-menu .icon.content {
