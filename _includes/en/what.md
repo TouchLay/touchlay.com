@@ -1,7 +1,5 @@
-##Was ist der novaTouch?
+##What is the novaTouch?
 
-Der novaTouch ist unsere neuste Hardware-Innovation. Es handelt sich um einen 55 Zoll Bildschirm, der sich an der horizontalen Achse um 360° drehen und auf der vertikalen Achse im Hoch- oder Querformat montieren lässt.
+The novaTouch is our newest hardware innovation: It is a 55” monitor, which can turn 360° on the horizontal axis and can be mounted in upright or in landscape format on the vertical axis.
 
-Der novaTouch ist höchst flexibel und in verschiedensten Bereichen verwendbar. Besonders interessant ist er für Anwendungsgebiete wie Bau- und Baunebengewerbe, Schauräume, Ausstellungsbereiche und Messen, Werbebranche und Digital Signage, Infopoints sowie Unterhaltungs- und Spielbranche. Für jedes Anwendungsgebiet haben wir spezifische Softwarelösungen geplant und sind nun dabei diese konkret zu entwickeln.
-
-/*Wer einen Giganten schaffen möchte, der hat viel zu tun. Deshalb befinden wir uns noch am Anfang unseres Arbeitsprozesses. Wir arbeiten intensiv am ersten Prototyp des novaTouch und schon bald werden wir ihn vorstellen. Aber auch dann sind wir noch lange nicht am Ziel: Anschließen stellen wir uns dem Kundenfeedback, das direkt in unser Design und unsere Technik einfließt. Schließlich gehen bei uns zwei Dinge über alles: die Usability unserer Produkte und die Zufriedenheit unserer Kunden.*/
+The novaTouch is highly flexible and can be used in different fields of work. We recommend novaTouch especially for usage in the building industry, construction trades, show rooms, exhibitions, fairs, the advertising industry, digital signage, info points, as well as the entertainment and gaming industry. Special software solutions are currently being developed for each field of application.

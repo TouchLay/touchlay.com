@@ -328,7 +328,7 @@
   <div class="column" style="margin-top: 100px; text-align: center;">
     <img src="{{site.url}}/images/novaTouch_top_2.png" width="100%">
     <br><br>
-    <div class="ui huge blue button get-quote">Get a Quote for Rental or Sale</div>
+    <div class="ui huge blue button get-quote">{% if page.lang == 'de' %}Preis für Miete oder Kauf anfragen{% else %}Get a Quote for Rental or Sale{% endif %}</div>
   </div>
 
 
@@ -461,12 +461,13 @@
 <section id="newsletter" class="ui blue segment full-segment inverted">
   <div class="ui centered content-element" style="text-align: center;">
     <i class="massive announcement icon"></i>
-    <h1>Immer am letzten Stand bleiben<br><small>Registrieren Sie sich für Unseren Newsletter</small></h1>
+    {% capture stuff %}{% include {{page.lang}}/newsletter.md %}{% endcapture %}
+    {{ stuff | markdownify }}
     <form action="//touchlay.us6.list-manage.com/subscribe/post-json?u=61192115196961388ececdeb1&amp;id=7425f66543" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
       <div class="mc-field-group">
         <div class="ui action huge input">
           <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Adresse">
-          <div name="subscribe" id="mc-embedded-subscribe" class="ui primary inverted button">Newsletter beitreten</div>
+          <div name="subscribe" id="mc-embedded-subscribe" class="ui primary inverted button"><i class="icon chevron right"></i></div>
         </div></div>
         <div id="mce-responses" class="clear">
           <div class="response" id="mce-error-response" style="display:none"></div>
@@ -582,8 +583,8 @@
   <div class="ui inverted vertical segment">
     <div class="ui page two column grid content-element">
       <div class="column">
-        <h1>Gut vernetzt in sozialen Netzwerken!</h1>
-        <p>Sagen Sie uns Ihre Meinung! Wir freuen uns über jede E-Mail und über Likes und Follower.</p>
+        {% capture stuff %}{% include {{page.lang}}/social.md %}{% endcapture %}
+        {{ stuff | markdownify }}
       </div>
       <div class="column" style="text-align: right;">
         <a href="https://facebook.com/TouchLay" class="ui huge facebook button">
