@@ -175,3 +175,21 @@
   text-decoration: underline;
   margin-left: 12px;
 }
+
+#mobile-nav {
+	border-radius: 0;
+}
+
+#mobile-nav a.item {
+	padding: 2em 2em;
+}
+
+#mobile-menu .menu.item {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#mobile-menu .icon.content {
+	font-size: 2em;
+	margin: 0;
+}

@@ -58,7 +58,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     </div>
     </div>
   </div>
-  <div class="mobile only row">
+  <div class="mobile only row" id="mobile-menu">
       <div class="ui fixed blue inverted navbar menu">
           <a href="" class="brand item"><img src="/images/touchlay_logo_horizontal_white.png" style="width: 120px;"></a>
           <div class="right menu open">
@@ -67,17 +67,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
               </a>
           </div>
       </div>
-      <div class="ui vertical navbar menu">
-          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#home" class="active item">
+      <div class="ui vertical navbar menu" id="mobile-nav">
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#home" class="active item blue">
             home
           </a>
-          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#nova" class="item">
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#nova" class="item blue">
             nova
           </a>
-          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#team" class="item">
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#team" class="item blue">
             team
           </a>
-          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#blog" class="item">
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#blog" class="item blue">
             blog
           </a>
       </div>
