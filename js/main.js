@@ -146,6 +146,9 @@ $(document).ready(function() {
         // success
         $('#send-quote').hide()
         $('#quote-status .success').fadeIn();
+        setTimeout(function() {
+          $('#quote-modal').modal('hide');
+        }, 3000);
       });
       request.fail(function(error) {
         console.log("Error sending Quote:", error);
