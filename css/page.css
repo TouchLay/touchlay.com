@@ -30,6 +30,13 @@
 }
 
 /* Menu */
+#main-menu {
+	-moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
 .ui.inverted.menu .item.logo:before {
   background: none !important;
 }
