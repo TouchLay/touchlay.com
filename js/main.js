@@ -138,6 +138,7 @@ $(document).ready(function() {
       email    : 'empty',
       type     : 'empty'
     },
+    keyboardShortcuts: false,
     onSuccess: function() {
       $('#send-quote').addClass('loading');
       var el = $('#quote-form');
