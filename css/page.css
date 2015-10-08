@@ -149,6 +149,16 @@
 	#sub-page h1 {
 		margin-top: 15vh;
 	}
+
+	#team .extra.content{
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	#team .extra.content a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 
 .ui.grid.main{
