@@ -367,7 +367,7 @@
 
 <section id="nova">
   <!--<div class="lazy ui vertical header-img" data-original="images/IMG_2_edit.JPG"></div>-->
-    <div class="ui page two column grid stackable content-element">
+    <div class="ui page two column grid stackable very padded segment basic">
       <div class="column">
         {% capture stuff %}{% include {{page.lang}}/what.md %}{% endcapture %}
         {{ stuff | markdownify }}
@@ -387,7 +387,7 @@
   </div>
 
   <!--<div class="ui vertical segment header-img lazy" data-original="images/IMG_6692_.JPG"></div>-->
-    <div class="ui page two column grid stackable content-element">
+    <div class="ui page two column grid stackable very padded segment basic">
       <div class="column">
         <div class="ui two column grid stackable">
           <div class="column">
@@ -407,9 +407,9 @@
     </div>
 
 
-  <div id="customers" class="ui text-center">
-    <h2>some of our customers</h2>
-    <div class="ui page four column grid stackable content-element">
+  <div id="customers" class="ui text-center very padded segment basic">
+      <h2 class="ui header">some of our customers</h2>
+    <div class="ui page four column grid stackable">
       <div class="column">
           <img src="{{site.url}}/images/partner/nova_wunschhaus.jpg" style="width: 100%" alt="Wunschhas GmbH">
           <h3>Wunschhaus</h3>
@@ -430,38 +430,8 @@
   </div>
 </section>
 
-<!--<section id="projects">
-  <div class="ui page two column grid content-element">
-    <div class="column">
-      <h1>Other Projects</h1>
-      <div class="ui fluid card">
-        <div class="image">
-          <img src="images/project_wunschhaus.png">
-        </div>
-        <div class="content">
-          <a class="header">Wunschhaus Media Center</a>
-          <div class="description">In collaboration with the architects from Wunschhaus we have developed a Multitouch-Table with a screen diagonal of 180 cm. Via this Multitouch-Table customers can take a look at pictures of their future home – even during the designing or building phase. The Multitouch-Table enables the architects to share and discuss their plans in an innovative way.</div>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="ui fluid card">
-        <div class="image">
-          <img src="images/project_ordersystem.png">
-        </div>
-        <div class="content">
-          <a class="header">Interactives Bestellsystem</a>
-          <div class="description">Gemeinsam mit Foresight Media haben wir eine völlig neue Art der Selbstbedienung entwickelt: Unser interaktives Bestellungssystem – integriert in einen Esstisch – ermöglicht es den Kunden einfach und spielerisch Bestellungen aufzugeben. Der Multitouch-Tisch
-            reagiert dabei nur auf Finger, wodurch die Gästen auch problemlos auf demselben Tisch essen können. Die Bestellung wird in Echtzeit an die Küche übermittlet. Das Servicepersonal wird entlastet und Bestellungen werden schneller abwickelt.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>-->
-
-<section id="newsletter" class="ui blue segment full-segment inverted">
-  <div class="ui centered content-element" style="text-align: center;">
+<section id="newsletter" class="ui blue very padded segment full-segment inverted">
+  <div class="ui centered" style="text-align: center;">
     <i class="massive announcement icon"></i>
     {% capture stuff %}{% include {{page.lang}}/newsletter.md %}{% endcapture %}
     {{ stuff | markdownify }}
@@ -532,7 +502,7 @@
       </div>
     </div>
   </div>
-  <div class="ui page two column grid stackable content-element">
+  <div class="ui page two column grid stackable very padded segment basic">
     <div class="ten wide column">
       {% capture stuff %}{% include {{page.lang}}/team.md %}{% endcapture %}
       {{ stuff | markdownify }}
@@ -551,8 +521,8 @@
 </section>
 
 <section id="blog">
-  <div class="ui inverted blue vertical segment">
-    <div class="ui page one column grid content-element">
+  <div class="ui inverted blue vertical very padded segment basic">
+    <div class="ui page one column grid">
       <div class="column">
         <h1>Latest Articles</h1><br><br>
         <div class="ui two column stackable grid">
@@ -571,8 +541,8 @@
 </section>
 
 <section id="social">
-  <div class="ui inverted vertical segment">
-    <div class="ui page two column grid stackable content-element">
+  <div class="ui inverted vertical very padded segment basic">
+    <div class="ui page two column grid stackable">
       <div class="column">
         {% capture stuff %}{% include {{page.lang}}/social.md %}{% endcapture %}
         {{ stuff | markdownify }}
