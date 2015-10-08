@@ -3,17 +3,8 @@ $(document).ready(function() {
   // Language detection
   var language = window.navigator.userLanguage || window.navigator.language;
   if (language.search(/de/) === 0) {
-    window.location = 'index.de.html';
+    window.location = '/de/';
   }
-  $(document).ready(function() {
-    $("a[href='" + window.location.hash + "']").addClass("active");
-    //$('#header').data('size', 'big');
-    $('#arrow').click(function() {
-      $('html,body').animate({
-        scrollTop: '1390px'
-      }, 800);
-    });
-  });
 
   /**
   * This part handles the highlighting functionality.
