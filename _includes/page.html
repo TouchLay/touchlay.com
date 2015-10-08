@@ -323,7 +323,7 @@
 </div>
 
 <section id="home" class="ui page one column grid stackable">
-  <div class="column" style="margin-top: 100px; text-align: center;">
+  <div class="column" style="margin-top: 100px !important; text-align: center;">
     <img src="{{site.url}}/images/novatouch_top_2.png" width="100%">
     <br><br>
     <div class="ui huge blue button get-quote">{% if page.lang == 'de' %}Preis für Miete oder Kauf anfragen{% else %}Get a Quote for Rental or Sale{% endif %}</div>
@@ -467,7 +467,7 @@
     {{ stuff | markdownify }}
     <form action="//touchlay.us6.list-manage.com/subscribe/post-json?u=61192115196961388ececdeb1&amp;id=7425f66543" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
       <div class="mc-field-group">
-        <div class="ui action huge input">
+        <div class="ui action large input">
           <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
           <div name="subscribe" id="mc-embedded-subscribe" class="ui primary inverted button"><i class="icon chevron right"></i></div>
         </div></div>
@@ -539,13 +539,10 @@
     </div>
     <div class="six wide column">
       <div class="ui blue segment" id="contact">
-        <div class="ui two column grid">
+        <div class="ui one column grid">
           <div class="column">
             {% capture stuff %}{% include {{page.lang}}/contact.md %}{% endcapture %}
             {{ stuff | markdownify }}
-          </div>
-          <div class="column">
-            <!--<i class="icon marker"></i>-->
           </div>
         </div>
       </div>
@@ -557,7 +554,7 @@
   <div class="ui inverted blue vertical segment">
     <div class="ui page one column grid content-element">
       <div class="column">
-        <h1>Latest Article</h1><br><br>
+        <h1>Latest Articles</h1><br><br>
         <div class="ui two column stackable grid">
           <div class="column">
         <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" data-border="true" data-width="100%" href="https://medium.com/touchlay-blog/maintaining-a-corporate-blog-on-medium-ded465ab30ef">How to Maintain a Corporate Blog on Medium</a>
@@ -583,7 +580,7 @@
 
 <section id="social">
   <div class="ui inverted vertical segment">
-    <div class="ui page two column grid content-element">
+    <div class="ui page two column grid stackable content-element">
       <div class="column">
         {% capture stuff %}{% include {{page.lang}}/social.md %}{% endcapture %}
         {{ stuff | markdownify }}

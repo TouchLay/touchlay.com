@@ -137,6 +137,18 @@
 	  padding-top: 25px !important;
 	  padding-bottom: 25px !important;
 	}
+
+	#home {
+		height: 200vh;
+	}
+
+	#home .features {
+		bottom: -100vh;
+	}
+
+	#sub-page h1 {
+		margin-top: 15vh;
+	}
 }
 
 .ui.grid.main{
