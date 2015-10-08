@@ -94,11 +94,6 @@ $(document).ready(function() {
     $("#mc-embedded-subscribe-form").submit();
   });
 
-  // Lazy loading images
-  $(".lazy").lazyload({
-    threshold : 200
-  });
-
   // Initialize dropdown
   $('.ui.dropdown').dropdown();
 

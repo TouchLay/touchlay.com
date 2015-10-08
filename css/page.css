@@ -76,6 +76,10 @@
   left: 10%;
 }
 
+.feature-image {
+	width: 100%;
+}
+
 #home #welcome {
   text-align: center;
   padding-top: 100px;

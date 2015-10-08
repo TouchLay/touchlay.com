@@ -3,7 +3,6 @@
   "version": "0.1",
   "dependencies" : {
     "jquery" : "2.1.4",
-    "jquery_lazyload": "1.9.1"
   },
   "install" : {
     "path" : {
@@ -13,11 +12,8 @@
     },
     "sources" : {
       "jquery" : [
-        "components/jquery/dist/jquery.min.js",
-        "components/jquery/dist/jquery.min.map"
-      ],
-      "jquery_lazyload": [
-       "components/jquery_lazyload/jquery.lazyload.js"
+        "_components/jquery/dist/jquery.min.js",
+        "_components/jquery/dist/jquery.min.map"
       ]
     }
   }
