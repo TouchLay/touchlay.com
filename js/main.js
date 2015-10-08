@@ -108,7 +108,7 @@ $(document).ready(function() {
 
   $('.right.menu.open').on("click",function(e){
    e.preventDefault();
-   $('.ui.vertical.menu').toggle();
+   $('.ui.vertical.menu').fadeToggle('fast');
  });
 
  $('.ui.dropdown').dropdown();
