@@ -47,7 +47,7 @@
 
 /* Section: home */
 #home {
-  height: 100vh;
+  height: 100%;
   background-color: #333;
   background-image: url('/images/IMG_6602.JPG');
 	background-position: center center;
@@ -71,9 +71,8 @@
 }
 
 #home .features {
-  position: absolute;
-  bottom: 50px;
-  left: 10%;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .feature-image {
