@@ -334,7 +334,11 @@
     <div class="ui three column grid stackable">
       <div class="column">
         <div class="ui icon header inverted">
-          <i class="icon rocket"></i>
+          <div class="ui circular segment">
+            <h2 class="ui header">
+              <i class="icon rocket"></i>
+            </h2>
+          </div>
           <div class="content inverted">
             {% capture stuff %}{% include {{page.lang}}/features/one.md %}{% endcapture %}
             {{ stuff | markdownify }}
@@ -343,7 +347,11 @@
       </div>
       <div class="column">
         <div class="ui icon header inverted">
-          <i class="icon settings"></i>
+          <div class="ui circular segment">
+            <h2 class="ui header">
+              <i class="icon settings"></i>
+            </h2>
+          </div>
           <div class="content inverted">
             {% capture stuff %}{% include {{page.lang}}/features/two.md %}{% endcapture %}
             {{ stuff | markdownify }}
@@ -352,7 +360,11 @@
       </div>
       <div class="column">
         <div class="ui icon header inverted">
-          <i class="icon cloud"></i>
+          <div class="ui circular segment">
+            <h2 class="ui header">
+              <i class="icon trophy"></i>
+            </h2>
+          </div>
           <div class="content inverted">
             {% capture stuff %}{% include {{page.lang}}/features/three.md %}{% endcapture %}
             {{ stuff | markdownify }}

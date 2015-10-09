@@ -1,4 +1,4 @@
-Einfach Anders
+Transportieren
 
 {: .sub .header}
-Sein schwebendes design macht den nova einzigartig.
+Durch sein flexiebles Design lässt sich der nova leicht transportieren.
