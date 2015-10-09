@@ -1,11 +1,5 @@
 $(document).ready(function() {
 
-  // Language detection
-  var language = window.navigator.userLanguage || window.navigator.language;
-  if (language.search(/de/) === 0) {
-    window.location = '/de/';
-  }
-
   /**
   * This part handles the highlighting functionality.
   * We use the scroll functionality again, some array creation and
@@ -42,7 +36,8 @@ $(document).ready(function() {
   });
 
   $(window).scroll(function () {
-    $('#main-menu').css('background', (($('body').scrollTop() > 94) && ($(window).width() >= 320)) ? '#3293C7' : 'transparent');
+    $('#main-menu').css('background', (((document.documentElement && document.documentElement.scrollTop) ||
+                document.body.scrollTop > 94) && ($(window).width() >= 320)) ? '#3293C7' : 'transparent');
   });
 
   // Submit the form with an ajax/jsonp request.
