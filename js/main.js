@@ -37,7 +37,9 @@ $(document).ready(function() {
 
   $(window).scroll(function () {
     $('#main-menu').css('background', (((document.documentElement && document.documentElement.scrollTop) ||
-                document.body.scrollTop > 94) && ($(window).width() >= 320)) ? '#3293C7' : 'transparent');
+                document.body.scrollTop > 94) && ($(window).width() >= 320)) ? '#3293C7' : 'transparent')
+                .css('border-width', (((document.documentElement && document.documentElement.scrollTop) ||
+                            document.body.scrollTop > 94) && ($(window).width() >= 320)) ? '0 0 2px' : '0');
   });
 
   // Submit the form with an ajax/jsonp request.

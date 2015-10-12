@@ -45,6 +45,10 @@
   line-height: 36px;
 }
 
+#main-menu {
+    border-width: 0;
+}
+
 /* Section: home */
 #home {
   height: 100%;
