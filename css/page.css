@@ -224,6 +224,10 @@
 	#blog .segment {
 		padding: 1em !important;
 	}
+
+	#social .button {
+		margin-top: 10px;
+	}
 }
 
 .questionmark {
