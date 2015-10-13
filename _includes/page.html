@@ -324,9 +324,9 @@
 <section id="home" class="ui page one column grid stackable">
   <div class="column" style="margin-top: 100px !important; text-align: center;">
     <div class="ui three column grid stackable">
-        <div class="four wide column">  <img src="{{site.url}}/images/novatouch_top_2_1.png" width="90%" style="margin-top: 135px;"></div>
+        <div class="computer tablet only four wide column">  <img src="{{site.url}}/images/novatouch_top_2_1.png" width="90%" style="margin-top: 135px;"></div>
         <div class="eight wide column">  <img src="{{site.url}}/images/novatouch_top_2_2.png" width="80%"></div>
-        <div class="four wide column">  <img src="{{site.url}}/images/novatouch_top_2_3.png" width="90%" style="margin-top: 135px;"></div>
+        <div class="computer tablet only four wide column">  <img src="{{site.url}}/images/novatouch_top_2_3.png" width="90%" style="margin-top: 135px;"></div>
     </div>
     <br><br>
     <div class="ui huge inverted blue button get-quote">{% if page.lang == 'de' %}Preis für Miete oder Kauf anfragen{% else %}Get a Quote for Rental or Sale{% endif %}</div>
@@ -334,7 +334,7 @@
 
   <div class="ui segment basic features">
     <div class="ui three column grid stackable">
-      <div class="four wide column">
+      <div class="four wide column" style="text-align: center;">
         <div class="ui icon header inverted">
             <h2 class="ui header number">
               1
@@ -374,50 +374,9 @@
 
 
 <section id="nova">
-  <!--<div class="lazy ui vertical header-img" data-original="images/IMG_2_edit.JPG"></div>-->
-    <!--<div class="ui page two column grid stackable very padded segment basic">
-      <div class="column">
-        {% capture stuff %}{% include {{page.lang}}/what.md %}{% endcapture %}
-        {{ stuff | markdownify }}
-      </div>
-      <div class="column">
-        <div class="ui two column grid stackable">
-          <div class="column">
-            <img class="feature-image lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/IMG_6428_edit.JPG" alt="IMG_6428_edit.JPG">
-            <img class="feature-image lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/IMG_6448_edit_small.JPG" alt="IMG_6448_edit_small.JPG">
-          </div>
-          <div class="column">
-            <img class="feature-image lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/IMG_6467_edit.JPG" alt="IMG_6467_edit.JPG">
-            <img class="feature-image lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/find_kiosk_bright_edit.jpg" alt="find_kiosk_bright_edit.jpg">
-          </div>
-        </div>
-      </div>
-  </div>-->
-
-  <!--<div class="ui vertical segment header-img lazy" data-original="images/IMG_6692_.JPG"></div>-->
-    <!--<div class="ui page two column grid stackable very padded segment basic">
-      <div class="column">
-        <div class="ui two column grid stackable">
-          <div class="column">
-            <img class="feature-image lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/IMG_6602_edit.JPG" alt="IMG_6602_edit.JPG">
-            <img class="feature-image lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/IMG_6629_edit.JPG" alt="IMG_6629_edit.JPG">
-          </div>
-          <div class="column">
-            <img class="feature-image lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/interface_2.jpg" alt="Architecture Interface" style="width: 100%;">
-            <img class="feature-image lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/IMG_6690_edit.JPG" alt="IMG_6690_edit.JPG" style="width: 100%;">
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        {% capture stuff %}{% include {{page.lang}}/background.md %}{% endcapture %}
-        {{ stuff | markdownify }}
-      </div>
-    </div>-->
-
-
-  <section class="ui very padded segment basic full-segment" style="background-color: #f1f1f1; background-image: url({{site.url}}/images/features/flexible_design.png); background-repeat: no-repeat; background-position: right top;">
-      <div class="ui page two column grid">
-        <div class="ten wide column" style="padding-top: 135px; padding-bottom: 135px;">
+  <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/flexible_design.png">
+      <div class="ui page two column stackable grid">
+        <div class="ten wide column section-padding">
           <h2>Flexible Design</h2>
           <div class="description">
             <p>Adjust the nova to fit all your needs. Use it as a presentation screen, desk or even in portrait mode.</p>
@@ -428,12 +387,11 @@
       </div>
   </section>
 
-  <section class="ui very padded segment basic full-segment inverted" style="background-image: url({{site.url}}/images/features/percise_touch.png); background-repeat: no-repeat;">
-    <!--<img style="position: absolute; left:0; top:0;" src="{{site.url}}/images/features/percise_touch.png" >-->
-      <div class="ui page two column grid">
+  <section class="ui very padded segment basic full-segment inverted b-segment lazyload" data-bg="{{site.url}}/images/features/percise_touch.png">
+      <div class="ui page two column stackable grid">
         <div class="six wide column">
         </div>
-        <div class="ten wide column" style="padding-top: 135px; padding-bottom: 135px;">
+        <div class="ten wide column section-padding">
           <h2>Precise Multitouch</h2>
           <div class="description">
             <p>Our precise multitouch sensor can detect 2, 4, 6, 12 or 32 touch points simultaneously, and it even detects objects as small as a 1.5mm pen tip! The sensor refreshes 200 times per second, which ensures smooth interaction with the nova.</p>
@@ -442,9 +400,9 @@
       </div>
   </section>
 
-  <section class="ui very padded segment basic full-segment" style="background-color: #f1f1f1; background-image: url({{site.url}}/images/features/vibrant_display.png); background-repeat: no-repeat; background-position: right top;">
-      <div class="ui page two column grid">
-        <div class="ten wide column" style="padding-top: 135px; padding-bottom: 135px;">
+  <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/vibrant_display.png">
+      <div class="ui page two column stackable grid">
+        <div class="ten wide column section-padding">
           <h2>Vibrant Display</h2>
           <div class="description">
             <p>The nova comes with a 55 inch full HD display, we personally made sure it displays your products as impressive as possible and looks good from any angle.</p>
@@ -455,11 +413,11 @@
       </div>
   </section>
 
-  <section class="ui very padded segment basic full-segment inverted" style="background-image: url({{site.url}}/images/features/powerfull_machine.png); background-repeat: no-repeat;">
-      <div class="ui page two column grid">
+  <section class="ui very padded segment basic full-segment inverted b-segment lazyload" data-bg="{{site.url}}/images/features/powerfull_machine.png">
+      <div class="ui page two column stackable grid">
         <div class="six wide column">
         </div>
-        <div class="ten wide column" style="padding-top: 135px; padding-bottom: 135px;">
+        <div class="ten wide column section-padding">
           <h2>Powerful Machine</h2>
           <div class="description">
             <p>A flexible, yet powerful embedded computer - the Zotac Z-Box - allows us to optimize the nova specifically for your </p>
@@ -468,9 +426,9 @@
       </div>
   </section>
 
-  <section class="ui very padded segment basic full-segment" style="background-color: #f1f1f1; background-image: url({{site.url}}/images/features/known_systems.png); background-repeat: no-repeat; background-position: right center;">
-      <div class="ui page two column grid">
-        <div class="ten wide column" style="padding-top: 135px; padding-bottom: 135px;">
+  <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/known_systems.png">
+      <div class="ui page two column stackable grid">
+        <div class="ten wide column section-padding">
           <h2>Known Systems</h2>
           <div class="description">
           <p>We made sure you don't have to learn anything new when using the nova. You can run Windows 10, Android 5.1 or your custom solution.</p>
@@ -481,11 +439,11 @@
       </div>
   </section>
 
-  <section class="ui very padded segment basic full-segment inverted" style="background-image: url({{site.url}}/images/features/software.png); background-repeat: no-repeat;">
-      <div class="ui page two column grid">
+  <section class="ui very padded segment basic full-segment inverted b-segment lazyload" data-bg="{{site.url}}/images/features/software.png">
+      <div class="ui page two column stackable grid">
         <div class="six wide column">
         </div>
-        <div class="ten wide column" style="padding-top: 135px; padding-bottom: 135px;">
+        <div class="ten wide column section-padding">
           <h2>Impressive Software</h2>
           <div class="description">
             <p>Together with your team we create an immersive digital experience tailored specifically for you. Our professionals will take care of graphic design and development to make sure you're 100% satisfied with the nova.</p>
@@ -494,9 +452,9 @@
       </div>
   </section>
 
-  <section class="ui very padded segment basic full-segment" style="background-color: #f1f1f1; background-image: url({{site.url}}/images/features/excellent_quality.png); background-repeat: no-repeat; background-position: right top;">
-      <div class="ui page two column grid">
-        <div class="ten wide column" style="padding-top: 135px; padding-bottom: 135px;">
+  <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/excellent_quality.png">
+      <div class="ui page two column stackable grid">
+        <div class="ten wide column section-padding">
           <h2>Excellent Quality</h2>
           <div class="description">
             <p>We believe in the importance of excellent quality, which is why the nova is entirely designed and produced in beautiful Austria <i class="at flag"></i></p>
@@ -508,11 +466,11 @@
   </section>
 
   <section class="ui blue very padded segment basic full-segment inverted">
-      <div class="ui page two column grid">
+      <div class="ui page two column stackable grid">
         <div class="six wide column" style="text-align: center;">
-          <i class="question icon" style="font-size: 10em; padding-top: 160px;"></i>
+          <i class="question icon questionmark"></i>
         </div>
-        <div class="ten wide column" style="padding-top: 135px; padding-bottom: 135px;">
+        <div class="ten wide column section-padding">
           <h2>Any Questions?</h2>
           <div class="description">
             <p>Just enter your email and question and we'll answer you as soon as possible!</p>
@@ -552,7 +510,7 @@
     {{ stuff | markdownify }}
     <form action="//touchlay.us6.list-manage.com/subscribe/post-json?u=61192115196961388ececdeb1&amp;id=7425f66543" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
       <div class="mc-field-group">
-        <div class="ui action large input">
+        <div class="ui action inverted huge input">
           <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
           <div name="subscribe" id="mc-embedded-subscribe" class="ui primary inverted button"><i class="icon chevron right"></i></div>
         </div></div>
@@ -571,7 +529,7 @@
 
 <section id="team">
   <div class="ui vertical header-img lazyload" data-bg="{{site.url}}/images/IMG_6793_normal_large.jpg"></div>
-  <div class="ui page four column stackable grid" style="margin-top: 20px;">
+  <div class="ui page four column stackable grid">
     <div class="column">
       <div class="ui card">
         <div class="content">
@@ -643,7 +601,7 @@
         <h1>Latest Articles</h1><br><br>
         <div class="ui two column stackable grid">
           <div class="column">
-            <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-border="true" data-width="100%" data-collapsed="true" href="https://medium.com/@GeorgS/how-wunschhaus-is-using-novatouch-to-engage-with-customers-5296d8a4d22">Why We Developed Our Hardware Product with Our Customer</a>
+            <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-border="true" data-width="100%" data-collapsed="true" href="https://medium.com/touchlay-blog/why-we-developed-our-hardware-product-with-our-customer-16f38dc37a76">Why We Developed Our Hardware Product with Our Customer</a>
           </div>
 <div class="column" style="text-align: right;">
   <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" data-border="true" data-width="100%" href="https://medium.com/touchlay-blog/maintaining-a-corporate-blog-on-medium-ded465ab30ef">How to Maintain a Corporate Blog on Medium</a>

@@ -13,6 +13,21 @@
     background: #ccc;
 }
 
+.section-padding {
+	padding-top: 135px !important;
+	padding-bottom: 135px !important;
+}
+
+.a-segment {
+	background-color: #f1f1f1 !important;
+	background-repeat: no-repeat !important;
+	background-position: right top !important;
+}
+
+.b-segment {
+	background-repeat: no-repeat !important;
+}
+
 .full-segment {
   margin-top: 0 !important;
   border-radius: 0 !important;
@@ -89,10 +104,6 @@
 }
 
 /* Section nova */
- #nova {
-	 margin-top: 15px;
- }
-
  #nova .content-element {
  	  padding-top: 100px !important;
  	  padding-bottom: 50px !important;
@@ -135,6 +146,10 @@
 	text-align: right;
 }
 
+#team .ui.page {
+	margin-top: -50px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1024px) {
   .header-img {
@@ -175,6 +190,37 @@
 	#social .icons {
 		text-align: center;
 	}
+
+	.ui.footer {
+		text-align: center;
+	}
+
+	.ui.stackable.grid>.wide.column.section-padding {
+		padding-top: 10px !important;
+		padding-bottom: 400px !important;
+	}
+
+	.ui.stackable.grid>.wide.column.section-padding:nth-child(2) {
+		padding-bottom: 420px !important;
+	}
+
+	.a-segment {
+		background-position: center bottom !important;
+	}
+
+	.b-segment {
+		background-position: center bottom !important;
+	}
+
+	.questionmark {
+		padding-top: 150px !important;
+		padding-bottom: 150px;
+	}
+}
+
+.questionmark {
+	font-size: 10em !important;
+	padding-top: 160px;
 }
 
 .ui.grid.main{
