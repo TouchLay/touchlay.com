@@ -1,3 +1,7 @@
+body {
+	min-width: 0 !important;
+}
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -193,6 +197,10 @@
 
 	#social .icons {
 		text-align: center;
+	}
+
+	#newsletter .input.huge {
+		font-size: 1.14285714em;
 	}
 
 	.ui.footer {
