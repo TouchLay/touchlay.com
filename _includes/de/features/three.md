@@ -1,4 +1,4 @@
 Begeistern
 
 {: .sub .header}
-Durch das auffalende Design und intuitiever software begeistern Sie.
+Durch das auffallende Design und intuitiver Software begeistern Sie.

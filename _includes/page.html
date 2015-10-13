@@ -377,10 +377,8 @@
   <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/flexible_design.png">
       <div class="ui page two column stackable grid">
         <div class="ten wide column section-padding">
-          <h2>Flexible Design</h2>
-          <div class="description">
-            <p>Adjust the nova to fit all your needs. Use it as a presentation screen, desk or even in portrait mode.</p>
-          </div>
+          {% capture stuff %}{% include {{page.lang}}/features/flexible_design.md %}{% endcapture %}
+          {{ stuff | markdownify }}
         </div>
         <div class="six wide column">
         </div>
@@ -392,10 +390,8 @@
         <div class="six wide column">
         </div>
         <div class="ten wide column section-padding">
-          <h2>Precise Multitouch</h2>
-          <div class="description">
-            <p>Our precise multitouch sensor can detect 2, 4, 6, 12 or 32 touch points simultaneously, and it even detects objects as small as a 1.5mm pen tip! The sensor refreshes 200 times per second, which ensures smooth interaction with the nova.</p>
-          </div>
+          {% capture stuff %}{% include {{page.lang}}/features/percise_multitouch.md %}{% endcapture %}
+          {{ stuff | markdownify }}
         </div>
       </div>
   </section>
@@ -403,10 +399,8 @@
   <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/vibrant_display.png">
       <div class="ui page two column stackable grid">
         <div class="ten wide column section-padding">
-          <h2>Vibrant Display</h2>
-          <div class="description">
-            <p>The nova comes with a 55 inch full HD display, we personally made sure it displays your products as impressive as possible and looks good from any angle.</p>
-          </div>
+          {% capture stuff %}{% include {{page.lang}}/features/vibrant_display.md %}{% endcapture %}
+          {{ stuff | markdownify }}
         </div>
         <div class="six wide column">
         </div>
@@ -418,10 +412,8 @@
         <div class="six wide column">
         </div>
         <div class="ten wide column section-padding">
-          <h2>Powerful Machine</h2>
-          <div class="description">
-            <p>A flexible, yet powerful embedded computer - the Zotac Z-Box - allows us to optimize the nova specifically for your </p>
-          </div>
+          {% capture stuff %}{% include {{page.lang}}/features/powerfull_machine.md %}{% endcapture %}
+          {{ stuff | markdownify }}
         </div>
       </div>
   </section>
@@ -429,10 +421,8 @@
   <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/known_systems.png">
       <div class="ui page two column stackable grid">
         <div class="ten wide column section-padding">
-          <h2>Known Systems</h2>
-          <div class="description">
-          <p>We made sure you don't have to learn anything new when using the nova. You can run Windows 10, Android 5.1 or your custom solution.</p>
-          </div>
+          {% capture stuff %}{% include {{page.lang}}/features/known_systems.md %}{% endcapture %}
+          {{ stuff | markdownify }}
         </div>
         <div class="six wide column">
         </div>
@@ -444,10 +434,8 @@
         <div class="six wide column">
         </div>
         <div class="ten wide column section-padding">
-          <h2>Impressive Software</h2>
-          <div class="description">
-            <p>Together with your team we create an immersive digital experience tailored specifically for you. Our professionals will take care of graphic design and development to make sure you're 100% satisfied with the nova.</p>
-          </div>
+          {% capture stuff %}{% include {{page.lang}}/features/impressive_software.md %}{% endcapture %}
+          {{ stuff | markdownify }}
         </div>
       </div>
   </section>
@@ -455,10 +443,8 @@
   <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/excellent_quality.png">
       <div class="ui page two column stackable grid">
         <div class="ten wide column section-padding">
-          <h2>Excellent Quality</h2>
-          <div class="description">
-            <p>We believe in the importance of excellent quality, which is why the nova is entirely designed and produced in beautiful Austria <i class="at flag"></i></p>
-          </div>
+          {% capture stuff %}{% include {{page.lang}}/features/excellent_quality.md %}{% endcapture %}
+          {{ stuff | markdownify }}
         </div>
         <div class="six wide column">
         </div>
@@ -471,17 +457,14 @@
           <i class="question icon questionmark"></i>
         </div>
         <div class="ten wide column section-padding">
-          <h2>Any Questions?</h2>
-          <div class="description">
-            <p>Just enter your email and question and we'll answer you as soon as possible!</p>
-              <div class="ui large inverted button get-quote">Ask a Questions</div>
-          </div>
+          {% capture stuff %}{% include {{page.lang}}/features/any_questions.md %}{% endcapture %}
+          {{ stuff | markdownify }}
         </div>
       </div>
   </section>
 
   <div id="customers" class="ui text-center very padded segment basic">
-      <h2 class="ui header">some of our customers</h2>
+      <h2 class="ui header">{% if page.lang == 'de' %}Einige unserer Kunden{% else %}some of our customers{% endif %}</h2>
     <div class="ui page four column grid stackable">
       <div class="column">
           <img class="lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/partner/nova_wunschhaus.jpg" style="width: 100%" alt="Wunschhas GmbH">
@@ -598,7 +581,7 @@
   <div class="ui inverted vertical very padded segment basic">
     <div class="ui page one column grid">
       <div class="column">
-        <h1>Latest Articles</h1><br><br>
+        <h1>{% if page.lang == 'de' %}Neuesten Artikel{% else %}Latest Articles{% endif %}</h1><br><br>
         <div class="ui two column stackable grid">
           <div class="column">
             <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-border="true" data-width="100%" data-collapsed="true" href="https://medium.com/touchlay-blog/why-we-developed-our-hardware-product-with-our-customer-16f38dc37a76">Why We Developed Our Hardware Product with Our Customer</a>
@@ -606,7 +589,7 @@
 <div class="column" style="text-align: right;">
   <script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" data-border="true" data-width="100%" href="https://medium.com/touchlay-blog/maintaining-a-corporate-blog-on-medium-ded465ab30ef">How to Maintain a Corporate Blog on Medium</a>
         <br>
-        <a href="http://blog.touchlay.com" class="ui button inverted large pull right">read more on our blog <i class="icon chevron right"></i></a>
+        <a href="http://blog.touchlay.com" class="ui button inverted large pull right">{% if page.lang == 'de' %}mehr auf unserem Blog{% else %}read more on our blog{% endif %} <i class="icon chevron right"></i></a>
       </div>
     </div>
       </div>

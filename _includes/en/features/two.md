@@ -1,4 +1,4 @@
-Flexible
+Adjust
 
 {: .sub .header}
-Rotate and adjust the nova, just like you need it.
+<p style="width: 25em;">Rotate and adjust the nova to your needs.</p>

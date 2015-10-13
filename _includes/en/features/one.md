@@ -1,4 +1,4 @@
-Different
+Transport
 
 {: .sub .header}
-The free floating design makes nova unique.
+It's flexible design makes the nova super easy to transport.
