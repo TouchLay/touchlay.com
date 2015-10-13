@@ -220,6 +220,10 @@
 		padding-top: 150px !important;
 		padding-bottom: 150px;
 	}
+
+	#blog .segment {
+		padding: 1em !important;
+	}
 }
 
 .questionmark {
