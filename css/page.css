@@ -19,10 +19,14 @@ body {
 .right-feature {
 	margin-right: 0 !important;
 	padding-right: 0 !important;
+	margin-top: -10px !important;
+	margin-bottom: -20px !important;
 	background-position: right;
 }
 
 .left-feature {
+  margin-top: -10px !important;
+	margin-bottom: -20px !important;
 	margin-left: 0 !important;
 	padding-left: 0 !important;
 }
