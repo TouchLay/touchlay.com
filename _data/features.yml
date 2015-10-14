@@ -1,16 +1,23 @@
 - name: flexible_design
+  height: 400
 
 - name: precise_multitouch
   left: true
+  height: 450
 
 - name: vibrant_display
+  height: 500
 
 - name: powerful_machine
   left: true
+  height: 400
 
 - name: known_systems
+  height: 400
 
 - name: impressive_software
   left: true
+  height: 400
 
 - name: excellent_quality
+  height: 514

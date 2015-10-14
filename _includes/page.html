@@ -377,7 +377,7 @@
   {% for feature in site.data.features %}
     {% capture filename %}{{page.lang}}/features/{{feature.name}}.md{% endcapture %}
     {% if feature.left %}
-      <section class="ui padded segment basic full-segment inverted b-segment feature-container left-feature">
+      <section class="ui padded segment basic full-segment inverted b-segment feature-container left-feature" style="max-height: {{feature.height}}px;">
           <div class="ui page two column stackable grid left-feature">
             <div class="ten wide column lazyload left-feature feature-height" data-bg="{{site.url}}/images/features/{{feature.name}}.png">
             </div>
@@ -388,7 +388,7 @@
           </div>
       </section>
     {% else %}
-      <section class="ui padded segment basic full-segment a-segment feature-container right-feature">
+      <section class="ui padded segment basic full-segment a-segment feature-container right-feature" style="max-height: {{feature.height}}px;">
           <div class="ui page two column stackable grid right-feature">
             <div class="six wide column section-padding">
               {% capture stuff %}{% include {{filename}} %}{% endcapture %}

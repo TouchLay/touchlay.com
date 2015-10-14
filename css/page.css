@@ -201,9 +201,18 @@ body {
 	.right-feature {
 		padding-top: 0px !important;
 	}
+
+	.left-feature {
+		max-height: none !important;
+	}
+
+	.right-feature {
+		max-height: none !important;
+	}
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 768px) {
+
   .header-img {
     height: 190px;
   }
