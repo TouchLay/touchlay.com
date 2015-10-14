@@ -193,6 +193,14 @@ body {
   .header-img {
     height: 280px;
   }
+
+	.left-feature {
+		padding-top: 0px !important;
+	}
+
+	.right-feature {
+		padding-top: 0px !important;
+	}
 }
 
 @media screen and (max-width: 460px) {
@@ -233,14 +241,6 @@ body {
 
 	.ui.stackable.grid>.wide.column.section-padding {
 		padding-top: 10px !important;
-	}
-
-	.a-segment {
-		background-position: center bottom !important;
-	}
-
-	.b-segment {
-		background-position: center bottom !important;
 	}
 
 	.questionmark {
