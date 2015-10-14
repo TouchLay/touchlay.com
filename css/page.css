@@ -19,6 +19,7 @@ body {
 .right-feature {
 	margin-right: 0 !important;
 	padding-right: 0 !important;
+	background-position: right;
 }
 
 .left-feature {
@@ -290,6 +291,10 @@ body {
 		position: fixed;
     z-index: 1;
     top: 54px;
+	}
+
+	.questionmark {
+		padding-top: 50px !important;
 	}
 }
 
