@@ -7,6 +7,25 @@ body {
 	margin: 0 auto;
 }
 
+.feature-container {
+	width: 100% !important;
+}
+
+.feature-height {
+	/*min-height: 250px !important;*/
+	background-repeat: no-repeat;
+}
+
+.right-feature {
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+}
+
+.left-feature {
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+
 .header-img {
     background-image: url('');
     background-size: cover !important;

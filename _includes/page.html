@@ -374,82 +374,32 @@
 
 
 <section id="nova">
-  <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/flexible_design.png">
-      <div class="ui page two column stackable grid">
-        <div class="ten wide column section-padding">
-          {% capture stuff %}{% include {{page.lang}}/features/flexible_design.md %}{% endcapture %}
-          {{ stuff | markdownify }}
-        </div>
-        <div class="six wide column">
-        </div>
-      </div>
-  </section>
-
-  <section class="ui very padded segment basic full-segment inverted b-segment lazyload" data-bg="{{site.url}}/images/features/percise_touch.png">
-      <div class="ui page two column stackable grid">
-        <div class="six wide column">
-        </div>
-        <div class="ten wide column section-padding">
-          {% capture stuff %}{% include {{page.lang}}/features/percise_multitouch.md %}{% endcapture %}
-          {{ stuff | markdownify }}
-        </div>
-      </div>
-  </section>
-
-  <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/vibrant_display.png">
-      <div class="ui page two column stackable grid">
-        <div class="ten wide column section-padding">
-          {% capture stuff %}{% include {{page.lang}}/features/vibrant_display.md %}{% endcapture %}
-          {{ stuff | markdownify }}
-        </div>
-        <div class="six wide column">
-        </div>
-      </div>
-  </section>
-
-  <section class="ui very padded segment basic full-segment inverted b-segment lazyload" data-bg="{{site.url}}/images/features/powerfull_machine.png">
-      <div class="ui page two column stackable grid">
-        <div class="six wide column">
-        </div>
-        <div class="ten wide column section-padding">
-          {% capture stuff %}{% include {{page.lang}}/features/powerfull_machine.md %}{% endcapture %}
-          {{ stuff | markdownify }}
-        </div>
-      </div>
-  </section>
-
-  <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/known_systems.png">
-      <div class="ui page two column stackable grid">
-        <div class="ten wide column section-padding">
-          {% capture stuff %}{% include {{page.lang}}/features/known_systems.md %}{% endcapture %}
-          {{ stuff | markdownify }}
-        </div>
-        <div class="six wide column">
-        </div>
-      </div>
-  </section>
-
-  <section class="ui very padded segment basic full-segment inverted b-segment lazyload" data-bg="{{site.url}}/images/features/software.png">
-      <div class="ui page two column stackable grid">
-        <div class="six wide column">
-        </div>
-        <div class="ten wide column section-padding">
-          {% capture stuff %}{% include {{page.lang}}/features/impressive_software.md %}{% endcapture %}
-          {{ stuff | markdownify }}
-        </div>
-      </div>
-  </section>
-
-  <section class="ui very padded segment basic full-segment a-segment lazyload" data-bg="{{site.url}}/images/features/excellent_quality.png">
-      <div class="ui page two column stackable grid">
-        <div class="ten wide column section-padding">
-          {% capture stuff %}{% include {{page.lang}}/features/excellent_quality.md %}{% endcapture %}
-          {{ stuff | markdownify }}
-        </div>
-        <div class="six wide column">
-        </div>
-      </div>
-  </section>
+  {% for feature in site.data.features %}
+    {% capture filename %}{{page.lang}}/features/{{feature.name}}.md{% endcapture %}
+    {% if feature.left %}
+      <section class="ui very padded segment basic full-segment inverted b-segment feature-container left-feature">
+          <div class="ui page two column stackable grid left-feature">
+            <div class="ten wide column lazyload left-feature feature-height" data-bg="{{site.url}}/images/features/{{feature.name}}.png">
+            </div>
+            <div class="six wide column section-padding">
+              {% capture stuff %}{% include {{filename}} %}{% endcapture %}
+              {{ stuff | markdownify }}
+            </div>
+          </div>
+      </section>
+    {% else %}
+      <section class="ui very padded segment basic full-segment a-segment feature-container right-feature">
+          <div class="ui page two column stackable grid right-feature">
+            <div class="six wide column section-padding">
+              {% capture stuff %}{% include {{filename}} %}{% endcapture %}
+              {{ stuff | markdownify }}
+            </div>
+            <div class="ten wide column lazyload right-feature feature-height" data-bg="{{site.url}}/images/features/{{feature.name}}.png">
+            </div>
+          </div>
+      </section>
+    {% endif %}
+  {% endfor %}
 
   <section class="ui blue very padded segment basic full-segment inverted">
       <div class="ui page two column stackable grid">
