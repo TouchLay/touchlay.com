@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html data-wf-site="51fff4fae3bb0b2562000155">
+<head>
+<meta charset="utf-8">
+<title>TouchLay</title>
+<meta name="description" content="interactive presentation and software development">
+<meta name="keywords" content="interactive,presentation,software,development,nova,touch,multitouch,touchlay">
+<meta name="theme-color" content="#3293C7">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="google-site-verification" content="9VUnCw57X_YgwyvKB0LsvIngTMtZTCePSRw-LCYQ3Nw"/>
+
+<link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="/css/page.css">
+
+<link rel="icon" type="image/x-icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon-144-precomposed.png">
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-23939953-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body>
+<a style="display: none;" href="https://plus.google.com/109985994085811390634" rel="publisher">Google+</a>
+
+
+<div class="ui grid">
+  <div class="computer tablet only row">
+    <div class="ui inverted secondary pointing fixed menu navbar" id="main-menu" data-size="big">
+      <div class="container">
+    		<div class="item logo">
+    			<a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}"><img src="{{site.url}}/images/touchlay_logo_horizontal_white.png" style="width: 120px;"></a>
+      </div>
+      <div class="right menu">
+    		<a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#home" class="active item">
+    	    home
+    	  </a>
+    	  <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#nova" class="item">
+    	    nova
+    	  </a>
+    		<a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#team" class="item">
+    			team
+    		</a>
+        <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#blog" class="item">
+          blog
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="mobile only row" id="mobile-menu">
+      <div class="ui fixed blue inverted navbar menu">
+          <a href="" class="logo item"><img src="/images/touchlay_logo_horizontal_white.png" style="width: 120px;"></a>
+          <div class="right menu open">
+              <a href="" class="menu item">
+                  <i class="content icon"></i>
+              </a>
+          </div>
+      </div>
+      <div class="ui vertical navbar menu" id="mobile-nav">
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#home" class="active item blue">
+            home
+          </a>
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#nova" class="item blue">
+            nova
+          </a>
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#team" class="item blue">
+            team
+          </a>
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#blog" class="item blue">
+            blog
+          </a>
+          <div class="item blue" style="padding: 2.5em 2em;">
+            <div style="position: absolute; bottom: 2em; left: 2em;" class="ui dropdown">
+              <span class="text">
+              <span style="pull: right;">
+              {% if page.lang == "en" %}
+                Language: &nbsp;&nbsp;&nbsp;<i class="gb flag"></i> English
+              {% elsif page.lang == "de" %}
+                Sprache: &nbsp;&nbsp;&nbsp;<i class="de flag"></i> Deutsch
+              {% else %}
+                Language
+              {% endif %}
+            </span>
+            </span>
+              <i class="angle down icon"></i>
+              <div class="menu" style="width: 100vh; left: -2.1em; border-radius:0; top: 2.5em;">
+                {% assign current = page.url | downcase | split: "/" + page.lang + "/" %}
+                <a style="padding: 2em 2em;" href="/en/{{current[-1]}}" class="item"><i class="gb flag"></i> English</a>
+                <a href="/de/{{current[-1]}}" class="item"><i class="de flag"></i> German</a>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="pusher">
+	<div class="full height">
+		<div class="main">
+			{{ content }}
+		</div>
+	</div>
+	<div class="ui inverted segment full-segment footer">
+    <div class="ui stackable inverted divided page relaxed grid">
+      <div class="twelve wide column">
+        <span>&copy; TouchLay GmbH 2015</span>
+        <span class="menu inverted sub-pages">
+          <a href="/{{page.lang}}/press.html" class="item">
+            Press
+          </a>
+          <a href="/{{page.lang}}/imprint.html" class="item">
+            Imprint
+          </a>
+          <a href="/{{page.lang}}/jobs.html" class="item">
+            Jobs
+          </a>
+        </span>
+      </div>
+      <div class="computer tablet only four wide column" style="text-align: right; box-shadow: none;">
+        <div class="ui dropdown">
+          <div class="text">
+          {% if page.lang == "en" %}
+            <i class="gb flag"></i> English
+          {% elsif page.lang == "de" %}
+            <i class="de flag"></i> Deutsch
+          {% else %}
+            Language
+          {% endif %}
+          </div>
+          <i class="angle up icon"></i>
+          <div class="menu">
+            {% assign current = page.url | downcase | split: "/" + page.lang + "/" %}
+            <a href="/en/{{current[-1]}}" class="item"><i class="gb flag"></i> English</a>
+            <a href="/de/{{current[-1]}}" class="item"><i class="de flag"></i> German</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/js/lazysizes/lazysizes.min.js"></script>
+<script type="text/javascript" src="/semantic/dist/semantic.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>
