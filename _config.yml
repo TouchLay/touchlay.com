@@ -1,3 +1,3 @@
 markdown: kramdown
 exclude: ["semantic/src", "semantic/dist/components", "semantic/tasks", "semantic/gulp.js", "node_modules"]
-url: http://localhost:4000
+url: //touchlay.com
