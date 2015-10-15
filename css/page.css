@@ -2,11 +2,7 @@ body {
 	min-width: 0 !important;
 }
 
-html, body {
-	overflow-x: hidden;
-}
-
-#wrapper {
+.main {
 	overflow-x: hidden;
 }
 
