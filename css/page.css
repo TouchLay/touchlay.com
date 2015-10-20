@@ -36,6 +36,10 @@ body {
 	padding-left: 0 !important;
 }
 
+.feature-height.lazyload {
+    background: url(../images/loading.gif) no-repeat center;
+}
+
 .header-img {
     background-image: url('');
     background-size: cover !important;
