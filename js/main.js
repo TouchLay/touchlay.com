@@ -1,3 +1,5 @@
+document.body.className = document.body.className.replace("no-js","js");
+
 $(document).ready(function() {
 
   /**
@@ -35,6 +37,7 @@ $(document).ready(function() {
     }
   });
 
+  $('#main-menu').css('background', 'transparent');
   $(window).scroll(function () {
     $('#main-menu').css('background', (((document.documentElement && document.documentElement.scrollTop) ||
                 document.body.scrollTop > 94) && ($(window).width() >= 320)) ? '#3293C7' : 'transparent')

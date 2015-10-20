@@ -379,6 +379,8 @@
     {% if feature.left %}
       <section class="ui padded segment basic full-segment inverted b-segment feature-container left-feature" style="max-height: {{feature.height}}px;">
           <div class="ui page two column stackable grid left-feature">
+            <noscript class="ten wide column left-feature feature-height" style="background: url('{{site.url}}/images/features/{{feature.name}}.png');">
+            </noscript>
             <div class="ten wide column lazyload left-feature feature-height" data-bg="{{site.url}}/images/features/{{feature.name}}.png">
             </div>
             <div class="six wide column section-padding" style="padding-left: 35px !important;">
@@ -394,6 +396,8 @@
               {% capture stuff %}{% include {{filename}} %}{% endcapture %}
               {{ stuff | markdownify }}
             </div>
+            <noscript class="ten wide column right-feature feature-height" style="background: url('{{site.url}}/images/features/{{feature.name}}.png');">
+            </noscript>
             <div class="ten wide column lazyload right-feature feature-height" data-bg="{{site.url}}/images/features/{{feature.name}}.png">
             </div>
           </div>
@@ -417,18 +421,22 @@
       <h2 class="ui header">{% if page.lang == 'de' %}Einige unserer Kunden{% else %}some of our customers{% endif %}</h2>
     <div class="ui page four column grid stackable">
       <div class="column">
+          <noscript><img src="{{site.url}}/images/partner/nova_wunschhaus.jpg" style="width: 100%" alt="Wunschhas GmbH"></noscript>
           <img class="lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/partner/nova_wunschhaus.jpg" style="width: 100%" alt="Wunschhas GmbH">
           <h3>Wunschhaus</h3>
       </div>
       <div class="column">
+        <noscript><img src="{{site.url}}/images/partner/nova_actual.jpg" style="width: 100%" alt="Actual GmbH"></noscript>
         <img class="lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/partner/nova_actual.jpg" style="width: 100%" alt="Actual GmbH">
         <h3>Actual</h3>
       </div>
       <div class="column">
+          <noscript><img src="{{site.url}}/images/partner/nova_otto.jpg" style="width: 100%" alt="Otto Immobilien GmbH"></noscript>
           <img class="lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/partner/nova_otto.jpg" style="width: 100%" alt="Otto Immobilien GmbH">
           <h3>Otto Immobilien</h3>
       </div>
       <div class="column">
+        <noscript><img src="{{site.url}}/images/partner/nova_hosiner.jpg" style="width: 100%" alt="Hosiner GmbH"></noscript>
         <img class="lazyload" src="{{site.url}}/images/loading.gif" data-src="{{site.url}}/images/partner/nova_hosiner.jpg" style="width: 100%" alt="Hosiner GmbH">
         <h3>Internorm</h3>
       </div>
@@ -461,6 +469,7 @@
 </section>
 
 <section id="team">
+  <noscript class="ui vertical header-img" style="background: url('{{site.url}}/images/IMG_6793_normal_large.jpg');"></noscript>
   <div class="ui vertical header-img lazyload" data-bg="{{site.url}}/images/IMG_6793_normal_large.jpg"></div>
   <div class="ui page four column stackable grid">
     <div class="column">

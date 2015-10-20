@@ -44,6 +44,7 @@ body {
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background: #ccc;
+		display: block;
 }
 
 .section-padding {
@@ -83,6 +84,7 @@ body {
   -o-transition: all .2s ease-in;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
+	background: #3293C7;
 }
 
 .ui.inverted.menu .item.logo:before {
@@ -405,4 +407,17 @@ h2 small {
 	text-align: center;
 	vertical-align: middle;
 	border-radius: 500em;
+}
+
+.no-js .lazyload {
+	display: none !important;
+}
+
+noscript.left-feature,
+noscript.right-feature {
+	background-repeat: no-repeat !important;
+}
+
+noscript.right-feature {
+	background-position: right center !important;
 }
