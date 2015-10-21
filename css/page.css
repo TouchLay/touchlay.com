@@ -260,7 +260,11 @@ body {
 	}
 
 	.ui.stackable.grid>.wide.column.section-padding {
-		padding-top: 10px !important;
+		padding-top: 20px !important;
+	}
+
+	.left-feature {
+		padding-bottom: 15px !important;
 	}
 
 	.questionmark {
