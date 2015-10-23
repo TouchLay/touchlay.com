@@ -19,7 +19,7 @@ includes content from the `de` and `en` folders where the translated content is
 located. If you want to add a markdown content block you can include it via:
 
 ```
-{% capture stuff %}{% include {{ page.lang }}/background.md %}{% endcapture %}
+{% capture stuff %}{% include {{page.lang}}/background.md %}{% endcapture %}
 {{ stuff | markdownify }}
 ```
 
@@ -32,12 +32,12 @@ For example, The *german* version is located in `de/index.html` with `language`
 set to `de`.
 
 If you want to add sub-pages, add them in the language folder (`en`, `de`, ...)
-and link to them with `{{ page.lang }}/PAGE.html`.
+and link to them with `{{page.lang}}/PAGE.html`.
 
 
 ## Assets
 
 Always make sure to load assets with the absolute path.
 
-To load images with the absolute path just prepend `{{ site.url }}`, which will
+To load images with the absolute path just prepend `{{site.url}}`, which will
 resolve to `//touchlay.com` (or `//localhost:4000` in development mode).

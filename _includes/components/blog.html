@@ -1,0 +1,24 @@
+<div class="ui inverted vertical very padded segment basic">
+  <div class="ui page one column grid">
+    <div class="column">
+      <h1>{% if page.lang == 'de' %}Neuesten Artikel{% else %}Latest Articles{% endif %}</h1><br><br>
+      <div class="ui two column stackable grid">
+        <script async src="https://static.medium.com/embed.js"></script>
+        <div class="column">
+          <a class="m-story" data-border="true" data-width="100%" data-collapsed="true"
+             href="{{site.data.blogposts.featured1.url}}">
+              {{site.data.blogposts.featured1.title}}
+          </a>
+        </div>
+        <div class="column" style="text-align: right;">
+          <a class="m-story" data-border="true" data-width="100%" data-collapsed="true"
+             href="{{site.data.blogposts.featured2.url}}">
+              {{site.data.blogposts.featured2.title}}
+          </a>
+          <br />
+          <a href="http://blog.touchlay.com" class="ui button inverted large pull right">{% if page.lang == 'de' %}mehr auf unserem Blog{% else %}read more on our blog{% endif %} <i class="icon chevron right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
