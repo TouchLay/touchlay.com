@@ -198,6 +198,13 @@ body {
   .header-img {
     height: 440px;
   }
+	.section-padding {
+		padding-top: 50px !important;
+		padding-bottom: 50px !important;
+	}
+	.feature-height {
+    min-height: 350px !important;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -223,7 +230,7 @@ body {
 
 	.right-feature {
 		max-height: none !important;
-		background-position: bottom center;
+		background-position: bottom right;
 	}
 
   .header-img {
