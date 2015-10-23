@@ -1,4 +1,4 @@
-# touchlay.com
+# [touchlay.com](https://touchlay.com)
 
 ## Setup / Running
 
