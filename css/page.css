@@ -219,10 +219,8 @@ body {
 
 	.right-feature {
 		max-height: none !important;
+		background-position: bottom center;
 	}
-}
-
-@media screen and (max-width: 768px) {
 
   .header-img {
     height: 190px;
