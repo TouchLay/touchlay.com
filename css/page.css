@@ -209,6 +209,10 @@ body {
 		padding-top: 0px !important;
 	}
 
+	.feature-height {
+		min-height: 280px !important;
+	}
+
 	.right-feature {
 		padding-top: 0px !important;
 	}
