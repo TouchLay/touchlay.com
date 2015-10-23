@@ -139,6 +139,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
           <a href="/{{page.lang}}/jobs.html" class="item">
             Jobs
           </a>
+          <a href="#home" class="item jump">
+            Jump to top
+          </a>
         </span>
       </div>
       <div class="computer tablet only four wide column" style="text-align: right; box-shadow: none;">
@@ -165,6 +168,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </div>
 
 <script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+<script>
+    function loadJS(u){var r=document.getElementsByTagName("script")[0],s=document.createElement("script");s.src=u;r.parentNode.insertBefore(s,r);}
+
+    if(!window.HTMLPictureElement || !('sizes' in document.createElement('img'))){
+        loadJS("/js/lazysizes/ls.respimg.min.js");
+    }
+</script>
 <script type="text/javascript" src="/js/lazysizes/lazysizes.min.js"></script>
 <script type="text/javascript" src="/semantic/dist/semantic.min.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>

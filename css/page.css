@@ -198,6 +198,13 @@ body {
   .header-img {
     height: 440px;
   }
+	.section-padding {
+		padding-top: 50px !important;
+		padding-bottom: 50px !important;
+	}
+	.feature-height {
+    min-height: 350px !important;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -209,6 +216,10 @@ body {
 		padding-top: 0px !important;
 	}
 
+	.feature-height {
+		min-height: 280px !important;
+	}
+
 	.right-feature {
 		padding-top: 0px !important;
 	}
@@ -219,10 +230,8 @@ body {
 
 	.right-feature {
 		max-height: none !important;
+		background-position: bottom right;
 	}
-}
-
-@media screen and (max-width: 768px) {
 
   .header-img {
     height: 190px;
@@ -260,7 +269,11 @@ body {
 	}
 
 	.ui.stackable.grid>.wide.column.section-padding {
-		padding-top: 10px !important;
+		padding-top: 20px !important;
+	}
+
+	.left-feature {
+		padding-bottom: 15px !important;
 	}
 
 	.questionmark {
@@ -371,7 +384,7 @@ body {
 
 #mobile-menu .menu.item {
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 6px;
 	background: transparent !important;
 }
 

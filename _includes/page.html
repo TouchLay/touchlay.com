@@ -377,11 +377,11 @@
   {% for feature in site.data.features %}
     {% capture filename %}{{page.lang}}/features/{{feature.name}}.md{% endcapture %}
     {% if feature.left %}
-      <section class="ui padded segment basic full-segment inverted b-segment feature-container left-feature" style="max-height: {{feature.height}}px;">
+      <section class="ui padded segment basic full-segment inverted b-segment feature-container left-feature" style="max-height: 450px;">
           <div class="ui page two column stackable grid left-feature">
             <noscript class="ten wide column left-feature feature-height" style="background: url('{{site.url}}/images/features/{{feature.name}}.png');">
             </noscript>
-            <div class="ten wide column lazyload left-feature feature-height" data-bg="{{site.url}}/images/features/{{feature.name}}.png">
+            <div class="ten wide column lazyload left-feature feature-height" data-bgset="{{site.url}}/images/features/{{feature.name}}_small.png [(max-width: 400px)] | {{site.url}}/images/features/{{feature.name}}.png [(min-width: 400px)]" data-sizes="auto">
             </div>
             <div class="six wide column section-padding" style="padding-left: 35px !important;">
               {% capture stuff %}{% include {{filename}} %}{% endcapture %}
@@ -390,7 +390,7 @@
           </div>
       </section>
     {% else %}
-      <section class="ui padded segment basic full-segment a-segment feature-container right-feature" style="max-height: {{feature.height}}px;">
+      <section class="ui padded segment basic full-segment a-segment feature-container right-feature" style="max-height: 450px;">
           <div class="ui page two column stackable grid right-feature">
             <div class="six wide column section-padding">
               {% capture stuff %}{% include {{filename}} %}{% endcapture %}
@@ -398,7 +398,7 @@
             </div>
             <noscript class="ten wide column right-feature feature-height" style="background: url('{{site.url}}/images/features/{{feature.name}}.png');">
             </noscript>
-            <div class="ten wide column lazyload right-feature feature-height" data-bg="{{site.url}}/images/features/{{feature.name}}.png">
+            <div class="ten wide column lazyload right-feature feature-height" data-bgset="{{site.url}}/images/features/{{feature.name}}_small.png [(max-width: 400px)] | {{site.url}}/images/features/{{feature.name}}.png [(min-width: 400px)]" data-sizes="auto">
             </div>
           </div>
       </section>
@@ -469,8 +469,8 @@
 </section>
 
 <section id="team">
-  <noscript class="ui vertical header-img" style="background: url('{{site.url}}/images/IMG_6793_normal_large.jpg');"></noscript>
-  <div class="ui vertical header-img lazyload" data-bg="{{site.url}}/images/IMG_6793_normal_large.jpg"></div>
+  <noscript class="ui vertical header-img" style="background: url('{{site.url}}/images/team.jpg');"></noscript>
+  <div class="ui vertical header-img lazyload" data-bgset="{{site.url}}/images/team_small.jpg [(max-width: 400px)] | {{site.url}}/images/team.jpg [(min-width: 400px)]" data-sizes="auto"></div>
   <div class="ui page four column stackable grid">
     <div class="column">
       <div class="ui card">

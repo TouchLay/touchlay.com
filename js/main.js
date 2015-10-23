@@ -37,12 +37,25 @@ $(document).ready(function() {
     }
   });
 
-  $('#main-menu').css('background', 'transparent');
   $(window).scroll(function () {
     $('#main-menu').css('background', (((document.documentElement && document.documentElement.scrollTop) ||
                 document.body.scrollTop > 94) && ($(window).width() >= 320)) ? '#3293C7' : 'transparent')
                 .css('border-width', (((document.documentElement && document.documentElement.scrollTop) ||
                             document.body.scrollTop > 94) && ($(window).width() >= 320)) ? '0 0 2px' : '0');
+  });
+
+  // Smooth Scrolling
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500, "swing");
+        return false;
+      }
+    }
   });
 
   // Submit the form with an ajax/jsonp request.
