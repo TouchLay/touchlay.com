@@ -1,27 +1,43 @@
-Development instructions
-========================
+# touchlay.com
 
-First you need to get jekyll. Make sure you have Ruby gems installed and run `gem install jekyll`.
-To get all the dependencies install `npm install -g bower-installer` and run `bower-installer`.
+## Setup / Running
 
-In order to load the assets from your local instance change the "url" parameter in `._config.yml` to `http://localhost:4000`.
-That's it - now you are ready to serve the page via `jekyll serve`.
+ * Make sure you have Ruby gems installed.
+ * Get jekyll: `gem install jekyll`
+ * Get dependencies: `npm install -g bower-installer`, then run `bower-installer`
 
-Structure
-=========
+Now you can run the website in development mode: `./dev.sh`
 
-The Layout is located at _layouts/default.html which contains the js and css imports as well as header and footer of the page.
-The main content of the page is located at _includs/page.html. The page includes content from the "de" and "en" folders where the translated content is located. If you want to add a markdown content block you can include it via:
+
+## Structure
+
+The *layout* is located at `_layouts/default.html`, which contains the js and css
+imports as well as header and footer of the page.
+
+The *main content* of the page is located at `_includs/page.html`. The page
+includes content from the `de` and `en` folders where the translated content is
+located. If you want to add a markdown content block you can include it via:
+
 ```
-{% capture stuff %}{% include {{page.lang}}/background.md %}{% endcapture %}
+{% capture stuff %}{% include {{ page.lang }}/background.md %}{% endcapture %}
 {{ stuff | markdownify }}
 ```
-But always make sure that the file exists for every language you want to generate.
 
-The different versions are then generated thought the "language" attribute in index.html. The german version is located in en/index.htmll with "language" set to "de".
-If you want to add sub-pages, add them in the language folder (en, de, ...) and link to them with `LANGUAGE/PAGE.html`.
+Always make sure that the file exists for every language you want to generate.
 
-Assets
-======
+The different versions are then generated through the `language` attribute in
+`index.html`.
 
-Always make sure to load assets with the absolute path. To load images with the absolute path just append `{{site.url}}` to get `http://touchlay.com`.
+For example, The *german* version is located in `de/index.html` with `language`
+set to `de`.
+
+If you want to add sub-pages, add them in the language folder (`en`, `de`, ...)
+and link to them with `{{ page.lang }}/PAGE.html`.
+
+
+## Assets
+
+Always make sure to load assets with the absolute path.
+
+To load images with the absolute path just prepend `{{ site.url }}`, which will
+resolve to `//touchlay.com` (or `//localhost:4000` in development mode).
