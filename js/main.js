@@ -1,4 +1,10 @@
 document.body.className = document.body.className.replace("no-js","js");
+
+window.lazySizesConfig = window.lazySizesConfig || {};
+
+lazySizesConfig.throttle = 70;
+lazySizesConfig.expand = 500;
+lazySizesConfig.expFactor = 2;
 lazySizesConfig.loadMode = 3;
 
 $(document).ready(function() {
