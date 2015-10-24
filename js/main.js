@@ -1,4 +1,5 @@
 document.body.className = document.body.className.replace("no-js","js");
+lazySizesConfig.loadMode = 3;
 
 $(document).ready(function() {
 
