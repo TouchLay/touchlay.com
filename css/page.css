@@ -36,8 +36,13 @@ body {
 	padding-left: 0 !important;
 }
 
-.feature-height.lazyload {
-    background: url(../images/loading.gif) no-repeat center;
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 300ms;
 }
 
 .header-img {
