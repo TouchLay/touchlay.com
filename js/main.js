@@ -37,6 +37,8 @@ $(document).ready(function() {
     }
   });
 
+  $('#main-menu').css('background', 'transparent').css('border-width', '0');
+
   $(window).scroll(function () {
     $('#main-menu').css('background', (((document.documentElement && document.documentElement.scrollTop) ||
                 document.body.scrollTop > 94) && ($(window).width() >= 320)) ? '#3293C7' : 'transparent')
