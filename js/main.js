@@ -1,4 +1,5 @@
 document.body.className = document.body.className.replace("no-js","js");
+lazySizesConfig.loadMode = 3;
 
 $(document).ready(function() {
 
@@ -36,6 +37,8 @@ $(document).ready(function() {
       }
     }
   });
+
+  $('#main-menu').css('background', 'transparent').css('border-width', '0');
 
   $(window).scroll(function () {
     $('#main-menu').css('background', (((document.documentElement && document.documentElement.scrollTop) ||
