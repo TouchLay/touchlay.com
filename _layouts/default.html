@@ -123,52 +123,52 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	<div class="full height">
 		<div class="main">
 			{{ content }}
+      <div class="ui inverted segment full-segment footer">
+        <div class="ui stackable inverted divided page relaxed grid">
+          <div class="twelve wide column">
+            <span>&copy; TouchLay GmbH 2015</span>
+            <span class="menu inverted sub-pages">
+              <a href="/{{page.lang}}/press.html" class="item">
+                Press
+              </a>
+              <a href="/{{page.lang}}/imprint.html" class="item">
+                Imprint
+              </a>
+              <a href="/{{page.lang}}/jobs.html" class="item">
+                Jobs
+              </a>
+              <a href="#home" class="item jump">
+                {% if page.lang == "de" %}
+                  Zum Anfang der Seite
+                {% else %}
+                  Jump to top
+                {% endif %}
+              </a>
+            </span>
+          </div>
+          <div class="computer tablet only four wide column" style="text-align: right; box-shadow: none;">
+            <div class="ui dropdown">
+              <div class="text">
+              {% if page.lang == "en" %}
+                <i class="gb flag"></i> English
+              {% elsif page.lang == "de" %}
+                <i class="de flag"></i> Deutsch
+              {% else %}
+                Language
+              {% endif %}
+              </div>
+              <i class="angle up icon"></i>
+              <div class="menu">
+                {% assign current = page.url | downcase | split: "/" + page.lang + "/" %}
+                <a href="/en/{{current[-1]}}" class="item"><i class="gb flag"></i> English</a>
+                <a href="/de/{{current[-1]}}" class="item"><i class="de flag"></i> German</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
 		</div>
 	</div>
-	<div class="ui inverted segment full-segment footer">
-    <div class="ui stackable inverted divided page relaxed grid">
-      <div class="twelve wide column">
-        <span>&copy; TouchLay GmbH 2015</span>
-        <span class="menu inverted sub-pages">
-          <a href="/{{page.lang}}/press.html" class="item">
-            Press
-          </a>
-          <a href="/{{page.lang}}/imprint.html" class="item">
-            Imprint
-          </a>
-          <a href="/{{page.lang}}/jobs.html" class="item">
-            Jobs
-          </a>
-          <a href="#home" class="item jump">
-            {% if page.lang == "de" %}
-              Zum Anfang der Seite
-            {% else %}
-              Jump to top
-            {% endif %}
-          </a>
-        </span>
-      </div>
-      <div class="computer tablet only four wide column" style="text-align: right; box-shadow: none;">
-        <div class="ui dropdown">
-          <div class="text">
-          {% if page.lang == "en" %}
-            <i class="gb flag"></i> English
-          {% elsif page.lang == "de" %}
-            <i class="de flag"></i> Deutsch
-          {% else %}
-            Language
-          {% endif %}
-          </div>
-          <i class="angle up icon"></i>
-          <div class="menu">
-            {% assign current = page.url | downcase | split: "/" + page.lang + "/" %}
-            <a href="/en/{{current[-1]}}" class="item"><i class="gb flag"></i> English</a>
-            <a href="/de/{{current[-1]}}" class="item"><i class="de flag"></i> German</a>
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
 </div>
 
 <script type="text/javascript" src="/js/jquery/jquery.min.js"></script>

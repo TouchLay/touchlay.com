@@ -11,6 +11,15 @@ body {
 	margin: 0 auto;
 }
 
+.pusher {
+	min-height: 100%;
+	position: relative;
+}
+
+.full.height {
+	padding-bottom: 59px;
+}
+
 .feature-container {
 	width: 100% !important;
 }
@@ -90,6 +99,10 @@ body {
 
 .ui.footer{
   margin-bottom: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
 
 /* Menu */
