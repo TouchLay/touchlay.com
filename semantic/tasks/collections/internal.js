@@ -27,6 +27,8 @@ module.exports = function(gulp) {
     replace    = require('gulp-replace'),
     uglify     = require('gulp-uglify'),
 
+    uncss      = require('gulp-uncss'),
+
     // user config
     config     = require('./../config/user'),
     docsConfig = require('./../config/docs'),
@@ -70,6 +72,16 @@ module.exports = function(gulp) {
       .pipe(replace(assets.uncompressed, assets.packaged))
       .pipe(concatCSS(filenames.concatenatedMinifiedCSS))
         .pipe(gulpif(config.hasPermission, chmod(config.permission)))
+        .pipe(minifyCSS(settings.concatMinify))
+        .pipe(uncss({
+          html: [output.packaged + '/../../_site/**/*.html'],
+          ignore: [/[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*transition[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*/g, // this is on purpose not in a single regex
+                   /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*dimmer[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*/g,
+                   /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*input[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*/g,
+                   /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*field[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*/g,
+                   /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*fields[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*/g,
+                   /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*loading[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*/g],
+        }))
         .pipe(minifyCSS(settings.concatMinify))
         .pipe(header(banner, settings.header))
         .pipe(gulp.dest(output.packaged))
