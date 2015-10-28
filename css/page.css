@@ -154,6 +154,7 @@ body {
 #home .features {
   margin-bottom: 50px;
   margin-top: 50px;
+	width: 100%;
 }
 
 .feature-image {
