@@ -217,6 +217,11 @@ body {
 	width: 100%;
 }
 
+.questionmark {
+	font-size: 10em !important;
+	padding-top: 160px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1024px) {
   .header-img {
@@ -229,9 +234,24 @@ body {
 	.feature-height {
     min-height: 350px !important;
 	}
+	.questionmark {
+		padding-top: 100px;
+	}
 }
 
 @media screen and (max-width: 768px) {
+	.ui.grid.main{
+		margin-top: 70px;
+}
+
+.ui.grid { margin: 0 !important; }
+.ui.vertical.menu.navbar{
+	margin-top: 0px !important;
+	position: fixed;
+	z-index: 1;
+	top: 54px;
+}
+
   .header-img {
     height: 280px;
   }
@@ -301,8 +321,8 @@ body {
 	}
 
 	.questionmark {
-		padding-top: 150px !important;
-		padding-bottom: 150px;
+		padding-top: 50px !important;
+		padding-bottom: 50px;
 	}
 
 	#blog .segment {
@@ -312,11 +332,6 @@ body {
 	#social .button {
 		margin-top: 10px;
 	}
-}
-
-.questionmark {
-	font-size: 10em !important;
-	padding-top: 160px;
 }
 
 .ui.grid.main{
@@ -339,24 +354,6 @@ body {
 
 .ui.message{
 	padding: 40px !important;
-}
-
-@media (max-width: 767px) {
-  	.ui.grid.main{
-  		margin-top: 70px;
-	}
-
-  .ui.grid { margin: 0 !important; }
-	.ui.vertical.menu.navbar{
-		margin-top: 0px !important;
-		position: fixed;
-    z-index: 1;
-    top: 54px;
-	}
-
-	.questionmark {
-		padding-top: 50px !important;
-	}
 }
 
 .ui.vertical.menu{
