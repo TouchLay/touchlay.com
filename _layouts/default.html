@@ -182,5 +182,16 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <script type="text/javascript" src="/js/lazysizes/lazysizes.min.js"></script>
 <script type="text/javascript" src="/semantic/dist/semantic.min.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
+<script>
+var $buoop = {vs:{i:10,f:25,o:12.1,s:7},c:2, text: "This Browser (%s) is not supported. Please update to a modern Browser <a%s>here</a>."};
+function $buo_f(){
+ var e = document.createElement("script");
+ e.src = "//browser-update.org/update.min.js";
+ document.body.appendChild(e);
+};
+try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+catch(e){window.attachEvent("onload", $buo_f)}
+</script>
+
 </body>
 </html>
