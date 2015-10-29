@@ -350,6 +350,19 @@ body {
 	.right-feature {
 		max-height: none !important;
 	}
+
+		.footer .menu {
+			display: block;
+			padding-top: 10px;
+		}
+
+		.footer .menu .item {
+			padding-right: 5px;
+		}
+
+		.full.height {
+    padding-bottom: 100px;
+	}
 }
 
 @media screen and (max-width: 480px) {
