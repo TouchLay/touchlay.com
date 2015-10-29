@@ -75,6 +75,10 @@ body {
 	padding-bottom: 135px !important;
 }
 
+.left-feature .section-padding {
+	padding-left: 35px !important;
+}
+
 .a-segment {
 	background-color: #f1f1f1 !important;
 	background-repeat: no-repeat !important;
@@ -154,6 +158,7 @@ body {
 #home .features {
   margin-bottom: 50px;
   margin-top: 50px;
+	width: 100%;
 }
 
 .feature-image {
@@ -216,6 +221,11 @@ body {
 	width: 100%;
 }
 
+.questionmark {
+	font-size: 10em !important;
+	padding-top: 160px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1024px) {
   .header-img {
@@ -226,13 +236,40 @@ body {
 		padding-bottom: 50px !important;
 	}
 	.feature-height {
-    min-height: 350px !important;
+    min-height: 330px !important;
+	}
+	.questionmark {
+		padding-top: 100px;
+	}
+	.left-feature,
+	.right-feature {
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+		padding-bottom: 0px !important;
+	}
+.right-feature,
+.left-feature {
+	max-height: 330px !important;
+	margin-top: 0px !important;
+	padding-top: 0px !important;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+	.ui.grid.main{
+		margin-top: 70px;
+}
+
+.ui.grid { margin: 0 !important; }
+.ui.vertical.menu.navbar{
+	margin-top: 0px !important;
+	position: fixed;
+	z-index: 1;
+	top: 54px;
+}
+
   .header-img {
-    height: 280px;
+    height: 320px;
   }
 
 	.left-feature {
@@ -255,10 +292,6 @@ body {
 		max-height: none !important;
 		background-position: bottom right;
 	}
-
-  .header-img {
-    height: 190px;
-  }
 
 	.content-element {
 	  padding-top: 25px !important;
@@ -292,6 +325,7 @@ body {
 	}
 
 	.ui.stackable.grid>.wide.column.section-padding {
+		padding-left: 0px !important;
 		padding-top: 20px !important;
 	}
 
@@ -300,8 +334,8 @@ body {
 	}
 
 	.questionmark {
-		padding-top: 150px !important;
-		padding-bottom: 150px;
+		padding-top: 50px !important;
+		padding-bottom: 50px;
 	}
 
 	#blog .segment {
@@ -311,11 +345,34 @@ body {
 	#social .button {
 		margin-top: 10px;
 	}
+
+	.left-feature,
+	.right-feature {
+		max-height: none !important;
+	}
+
+		.footer .menu {
+			display: block;
+			padding-top: 10px;
+		}
+
+		.footer .menu .item {
+			padding-right: 5px;
+		}
+
+		.full.height {
+    padding-bottom: 100px;
+	}
 }
 
-.questionmark {
-	font-size: 10em !important;
-	padding-top: 160px;
+@media screen and (max-width: 480px) {
+	.header-img {
+		height: 190px;
+	}
+
+	.left-feature .ui.stackable.grid>.wide.column.section-padding {
+		padding-left: 23px !important;
+	}
 }
 
 .ui.grid.main{
@@ -338,24 +395,6 @@ body {
 
 .ui.message{
 	padding: 40px !important;
-}
-
-@media (max-width: 767px) {
-  	.ui.grid.main{
-  		margin-top: 70px;
-	}
-
-  .ui.grid { margin: 0 !important; }
-	.ui.vertical.menu.navbar{
-		margin-top: 0px !important;
-		position: fixed;
-    z-index: 1;
-    top: 54px;
-	}
-
-	.questionmark {
-		padding-top: 50px !important;
-	}
 }
 
 .ui.vertical.menu{
@@ -460,4 +499,34 @@ noscript.right-feature {
 
 noscript.right-feature {
 	background-position: right center !important;
+}
+
+body .buorg {
+    position:fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    border-bottom: 1px solid #256588;;
+    background: rgb(50, 147, 199);
+    text-align:left;
+    cursor:pointer;
+    font-family: Arial,Helvetica,sans-serif; color:#fff;
+    font-size: 12px;
+}
+body .buorg div {
+    padding:5px 36px 5px 40px;
+}
+body .buorg a {
+    color:#fff;
+}
+body #buorgclose {
+    position: absolute;
+    right: .5em;
+    top:.2em;
+    height: 20px;
+    width: 12px;
+    font-weight: bold;
+    font-size:14px;
+    padding:0;
+		color: #fff;
 }

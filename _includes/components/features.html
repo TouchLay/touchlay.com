@@ -7,7 +7,7 @@
           </noscript>
           <div class="ten wide column lazyload left-feature feature-height" data-bgset="{{site.url}}/images/features/{{feature.name}}_small.png [(max-width: 400px)] | {{site.url}}/images/features/{{feature.name}}.png [(min-width: 400px)]" data-sizes="auto">
           </div>
-          <div class="six wide column section-padding" style="padding-left: 35px !important;">
+          <div class="six wide column section-padding">
             {% capture stuff %}{% include {{filename}} %}{% endcapture %}
             {{ stuff | markdownify }}
           </div>

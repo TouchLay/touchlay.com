@@ -128,6 +128,10 @@ $(document).ready(function() {
    $('.ui.vertical.menu').fadeToggle('fast');
  });
 
+ $('#mobile-menu a.item.blue').click(function(e) {
+   $('.ui.vertical.menu').fadeToggle('fast');
+ });
+
  $('.ui.dropdown').dropdown();
 
  $('#send-quote').click(function() {

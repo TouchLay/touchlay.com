@@ -27,6 +27,8 @@ module.exports = function(gulp) {
     replace    = require('gulp-replace'),
     uglify     = require('gulp-uglify'),
 
+    uncss      = require('gulp-uncss'),
+
     // user config
     config     = require('./../config/user'),
     docsConfig = require('./../config/docs'),
@@ -70,6 +72,31 @@ module.exports = function(gulp) {
       .pipe(replace(assets.uncompressed, assets.packaged))
       .pipe(concatCSS(filenames.concatenatedMinifiedCSS))
         .pipe(gulpif(config.hasPermission, chmod(config.permission)))
+        //.pipe(minifyCSS(settings.concatMinify))
+        .pipe(uncss({
+          html: [output.packaged + '/../../_site/**/*.html'],
+          ignore: [/[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.loading[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  '.transition[class*="slide down"].in',
+                  '.transition[class*="slide down"].out',
+                  '.scale.transition.in',
+                  '.scale.transition.out',
+                  '.transition.fade.in',
+                  '.transition.fade.out',
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.transition[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.dimmer[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.modal[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.input[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.dropdown[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  '.ui.form.error', '.field.error', '.ui.dropdown.error',
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.upward[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.fields[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.search[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.menu[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.selected[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  /[a-zA-Z.\[\]\*\=\"\>\(\)\:\,]*.active[a-zA-Z.\[\]\*\=\"\>\(\)\:\,\n\s]*/g,
+                  '.item', '.item.filtered', '.text.filtered', '.ui.dropdown .filtered.item',
+                  '.ui.dropdown .menu .active.item', '.ui.dropdown .menu .selected.item, .ui.dropdown.selected', '.ui.selection.dropdown .menu>.item' ],
+        }))
         .pipe(minifyCSS(settings.concatMinify))
         .pipe(header(banner, settings.header))
         .pipe(gulp.dest(output.packaged))
