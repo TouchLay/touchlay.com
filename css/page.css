@@ -530,3 +530,16 @@ body #buorgclose {
     padding:0;
 		color: #fff;
 }
+
+.color-dots {
+	text-align: center;
+}
+
+.color-dot {
+	width: 90px;
+  height: 90px;
+  border-radius: 50%;
+	display: inline-block;
+	border: 2px solid rgba(0,0,0,.2);
+	margin: 20px;
+}
