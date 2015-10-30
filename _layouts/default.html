@@ -137,6 +137,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
               <a href="/{{page.lang}}/jobs.html" class="item">
                 Jobs
               </a>
+              {% if page.type != 'sub-page' %}
               <a href="#home" class="item jump">
                 {% if page.lang == "de" %}
                   Zum Anfang der Seite
@@ -144,6 +145,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                   Jump to top
                 {% endif %}
               </a>
+              {% endif %}
             </span>
           </div>
           <div class="computer tablet only four wide column" style="text-align: right; box-shadow: none;">
