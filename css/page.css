@@ -543,3 +543,9 @@ body #buorgclose {
 	border: 2px solid rgba(0,0,0,.2);
 	margin: 20px;
 }
+
+#main-menu.sub-page {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}

@@ -48,7 +48,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <div class="ui grid">
   <div class="computer tablet only row">
-    <div class="ui inverted secondary pointing fixed menu navbar" id="main-menu" data-size="big">
+    <div class="ui inverted secondary pointing {% if page.type != 'sub-page' %}fixed{% else %}sub-page{%endif%} menu navbar" id="main-menu" data-size="big">
       <div class="container">
     		<div class="item logo">
     			<a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}"><img src="{{site.url}}/images/touchlay_logo_horizontal_white.png" style="width: 120px;"></a>
