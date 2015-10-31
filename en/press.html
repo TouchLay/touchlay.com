@@ -19,16 +19,16 @@ type: "sub-page"
   <div class="column">
     <h2>Articles about us</h2>
     <ul>
-      <li>October 2015 / <a href="http://www.nuisense.com/40/p.ashx">Nuisense Blogpost</a></li>
-      <li>April 2015 / <a href="https://twitter.com/TouchLay/status/583689148478939136">Bezirksblatt Mödling</a></li>
-      <li>February 2014 / <a href="http://www.internetszene.at/2014/02/18/minderjahrig-und-mitten-im-geschaft-zwei-teenie-grunder-im-interview">Interview, Internetszene</a></li>
-      <li>November 2013 / <a href="http://inventures.eu/touchlay" about="blank">Startup Pick, Inventures</a></li>
+      {% for article in site.data.press.articles %}
+        <li>{{article.date}} / <a href="{{article.link}}">{{article.title}}</a></li>
+      {% endfor %}
     </ul>
 
     <h2>Photos</h2>
     <ul>
-      <li><a href="https://drive.google.com/folderview?id=0B8FoRXmM5x9VY2ZqTW9RU2xhamc&usp=sharing">Team Photos</a></li>
-      <li><a href="https://drive.google.com/folderview?id=0B8FoRXmM5x9VUEt5bnJITVl1TlE&usp=sharing">Product Photos</a></li>
+      {% for photo in site.data.press.photos %}
+        <li><a href="{{photo.link}}">{{photo.title}}</a></li>
+      {% endfor %}
     </ul>
 
     <h2>Branding Guidlines</h2>
