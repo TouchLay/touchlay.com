@@ -9,12 +9,82 @@ type: "sub-page"
 </section>
 
 <section id="press" class="ui page one column grid stackable very padded segment basic">
+  <p style="font-size: 1.5em;">
+    Hello, thanks for you interest in us :)
+  </p>
+  <p style="font-size: 1.5em;">
+    Below you can find resources for a blogpost or article and our guidelines on branding.<br />
+    If you need more information don't hesitate to contact use at <a href="mailto:hello@touchlay.com">hello@touchlay.com</a>.
+  </p>
   <div class="column">
-    <h2>Articles</h2>
+    <h2>Articles about us</h2>
     <ul>
-      <li><a href="https://inventures.eu/touchlay" about="blank">Startup Pick, Inventures</a></li>
-      <li><a href="http://www.internetszene.at/2014/02/18/minderjahrig-und-mitten-im-geschaft-zwei-teenie-grunder-im-interview" about="blank">Minderjahrig und mitten im Geschäft, zwei teenie Gründer im Interview, Internetszene</a></li>
+      {% for article in site.data.press.articles %}
+        <li>{{article.date}} / <a href="{{article.link}}">{{article.title}}</a></li>
+      {% endfor %}
     </ul>
-    <a href="https://app.frontify.com/d/swNJ0BQKHrRp/touchlay-style-guide"><h2>Style Guide</h2></a>
-  </div>
+
+    <h2>Photos</h2>
+    <ul>
+      {% for photo in site.data.press.photos %}
+        <li><a href="{{photo.link}}">{{photo.title}}</a></li>
+      {% endfor %}
+    </ul>
+
+    <h2>Branding Guidlines</h2>
+    <h3>Naming</h3>
+    <p>Always write "TouchLay" with the capital T an L. When you want to use "nova", always use lower case. Example: TouchLay nova</p>
+    <h3>Colors</h3>
+      <div class="ui four column grid stackable color-dots">
+        <div class="column">
+          <span class="color-dot" style="background-color: rgb(51, 51, 51);"></span>
+          <br/><b>Dark</b><br/>
+          #333333<br/>
+          51, 51, 51
+        </div>
+        <div class="column">
+          <span class="color-dot" style="background-color: rgb(241, 241, 241);"></span>
+          <br/><b>Gray</b><br/>
+          #F1F1F1<br/>
+          241, 241, 241
+        </div>
+        <div class="column">
+          <span class="color-dot" style="background-color: rgb(255, 255, 255);"></span>
+          <br/><b>White</b><br/>
+          #FFFFFF<br/>
+          255, 255, 255
+        </div>
+        <div class="column">
+          <span class="color-dot" style="background-color: rgb(50, 147, 199);"></span>
+          <br/><b>Blue</b><br/>
+          #3293C7<br/>
+          50, 147, 199
+        </div>
+      </div>
+    <h3>Logo</h3>
+      <div class="ui three column grid stackable">
+        <div class="column">
+          <img src="{{site.url}}/images/press/logo_flat_white_transp.png" style="background: #ccc; width: 100%;" alt="Transparent Logo"/>
+          <br/>Transparent white (<a href="{{site.url}}/images/press/logo_flat_white_transp.png">download</a>)
+        </div>
+        <div class="column">
+          <img src="{{site.url}}/images/press/logo_flat_black_transp.png" style="background: #ccc; width: 100%;" alt="Transparent Logo"/>
+          <br/>Transparent black (<a href="{{site.url}}/images/press/logo_flat_black_transp.png">download</a>)
+        </div>
+        <div class="column">
+          <img src="{{site.url}}/images/press/logo_flat.png" style="width: 100%;" alt="Transparent Logo"/>
+          <br/>Blue background (<a href="{{site.url}}/images/press/logo_flat.png">download</a>)
+        </div>
+      </div>
+      <div class="ui two column grid stackable">
+        <div class="column">
+          <img src="{{site.url}}/images/press/logo_flat_text_white_transp.png" style="background: #ccc; width: 100%;" alt="Transparent Logo"/>
+          <br/>Transparent white text (<a href="{{site.url}}/images/press/logo_flat_text_white_transp.png">download</a>)
+        </div>
+        <div class="column">
+          <img src="{{site.url}}/images/press/logo_flat_text.png" style="width: 100%;" alt="Transparent Logo"/>
+          <br/>Blue background text (<a href="{{site.url}}/images/press/logo_flat_text.png">download</a>)
+        </div>
+      </div>
+    </div>
 </section>

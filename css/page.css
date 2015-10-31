@@ -530,3 +530,27 @@ body #buorgclose {
     padding:0;
 		color: #fff;
 }
+
+.color-dots {
+	text-align: center;
+}
+
+.color-dot {
+	width: 90px;
+  height: 90px;
+  border-radius: 50%;
+	display: inline-block;
+	border: 2px solid rgba(0,0,0,.2);
+	margin: 20px;
+}
+
+#main-menu.sub-page {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+#nav-grid {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
