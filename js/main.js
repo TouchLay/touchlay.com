@@ -165,7 +165,7 @@ $(document).ready(function() {
         } else {
           // error
           console.log("Error sending Quote:", resp.error || resp.errors);
-          $('#send-quote').hide()
+          $('#send-quote').hide();
           $('#quote-status .error').fadeIn();
         }
       });
