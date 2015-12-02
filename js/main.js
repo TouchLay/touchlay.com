@@ -155,14 +155,22 @@ $(document).ready(function() {
       $('#send-quote').addClass('loading');
       var el = $('#quote-form');
       var request = $.post(el.prop('action'), el.serialize(), function(resp) {
-        // success
-        $('#send-quote').hide()
-        $('#quote-status .success').fadeIn();
-        setTimeout(function() {
-          $('#quote-modal').modal('hide');
-        }, 3000);
+        if (!(resp.hasOwnProperty('error') || resp.hasOwnProperty('errors'))) {
+          // success
+          $('#send-quote').hide()
+          $('#quote-status .success').fadeIn();
+          setTimeout(function() {
+            $('#quote-modal').modal('hide');
+          }, 3000);
+        } else {
+          // error
+          console.log("Error sending Quote:", resp.error || resp.errors);
+          $('#send-quote').hide()
+          $('#quote-status .error').fadeIn();
+        }
       });
       request.fail(function(error) {
+        // error
         console.log("Error sending Quote:", error);
         $('#send-quote').hide()
         $('#quote-status .error').fadeIn();
