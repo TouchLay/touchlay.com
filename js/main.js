@@ -121,6 +121,7 @@ $(document).ready(function() {
 
   $('.get-quote').click(function() {
     $('#quote-modal').modal('show');
+    ga('send', 'event', 'Button', 'click', 'Quote modal opened');
   });
 
   $('.right.menu.open').on("click",function(e){
@@ -136,6 +137,7 @@ $(document).ready(function() {
 
  $('#send-quote').click(function() {
    $('#quote-form').submit();
+   ga('send', 'event', 'Button', 'click', 'Quote requested');
  });
 
  $('#quote-form').on('submit', function(e) {
