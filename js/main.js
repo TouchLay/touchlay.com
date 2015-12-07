@@ -120,8 +120,8 @@ $(document).ready(function() {
   $('.ui.dropdown').dropdown();
 
   $('.get-quote').click(function() {
-    ga('send', 'event', 'Button', 'click', 'Quote modal opened');
     $('#quote-modal').modal('show');
+    ga('send', 'event', 'Button', 'click', 'Quote modal opened');
   });
 
   $('.right.menu.open').on("click",function(e){
@@ -136,8 +136,8 @@ $(document).ready(function() {
  $('.ui.dropdown').dropdown();
 
  $('#send-quote').click(function() {
-   ga('send', 'event', 'Button', 'click', 'Quote requested');
    $('#quote-form').submit();
+   ga('send', 'event', 'Button', 'click', 'Quote requested');
  });
 
  $('#quote-form').on('submit', function(e) {
