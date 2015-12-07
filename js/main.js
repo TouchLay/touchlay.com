@@ -120,7 +120,6 @@ $(document).ready(function() {
   $('.ui.dropdown').dropdown();
 
   $('.get-quote').click(function() {
-    ga('send', 'event', 'Button', 'click', 'Quote modal opened');
     $('#quote-modal').modal('show');
   });
 
@@ -136,7 +135,6 @@ $(document).ready(function() {
  $('.ui.dropdown').dropdown();
 
  $('#send-quote').click(function() {
-   ga('send', 'event', 'Button', 'click', 'Quote requested');
    $('#quote-form').submit();
  });
 
