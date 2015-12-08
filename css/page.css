@@ -373,6 +373,10 @@ body {
 	.left-feature .ui.stackable.grid>.wide.column.section-padding {
 		padding-left: 23px !important;
 	}
+
+	.quote-additional-message {
+		display: none;
+	}
 }
 
 .ui.grid.main{
