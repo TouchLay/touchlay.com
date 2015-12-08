@@ -488,6 +488,12 @@ h2 small {
 	border-radius: 500em;
 }
 
+.ui.modal {
+	position: absolute !important;
+	top: 0;
+	margin-top: 10% !important;
+}
+
 .no-js .lazyload {
 	display: none !important;
 }
