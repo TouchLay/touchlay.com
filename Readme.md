@@ -2,8 +2,8 @@
 
 ## Updating content
 
-* German texts: [https://github.com/TouchLay/touchlay.com/tree/gh-pages/_includes/de](_includes/de)
-* English texts: [https://github.com/TouchLay/touchlay.com/tree/gh-pages/_includes/en](_includes/en)
+* German texts: [_includes/de](https://github.com/TouchLay/touchlay.com/tree/gh-pages/_includes/de)
+* English texts: [_includes/en](https://github.com/TouchLay/touchlay.com/tree/gh-pages/_includes/en)
 
 ## Setup / Running
 
