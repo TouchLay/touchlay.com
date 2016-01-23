@@ -1,5 +1,10 @@
 # [touchlay.com](https://touchlay.com)
 
+## Updating content
+
+* German texts: [https://github.com/TouchLay/touchlay.com/tree/gh-pages/_includes/de](_includes/de)
+* English texts: [https://github.com/TouchLay/touchlay.com/tree/gh-pages/_includes/en](_includes/en)
+
 ## Setup / Running
 
  * Make sure you have Ruby gems installed.
