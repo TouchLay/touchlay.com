@@ -1,4 +1,4 @@
-##Aller guten Dinge sind drei plus eins.
+<h2>Aller guten Dinge sind drei plus eins.</h2>
 
 Innovativ. Intuitiv. Ideenreich. Das sind wir. Aber das sagen außer uns noch weitere tausende Jungunternehmer von sich.
 

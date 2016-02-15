@@ -1,4 +1,4 @@
-##Was steckt hinter dem nova?
+<h2>Was steckt hinter dem nova?</h2>
 
 Ohne einer guten Software ist auch die beste Hardware nur solala. Die Unterstützung durch ein geeignetes Betriebssystem ist deshalb unverzichtbar. Deshalb sind all unsere Softwarelösungen maßgeschneidert.
 
