@@ -1,4 +1,4 @@
-##What stands behind our nova?
+<h2>What stands behind our nova?</h2>
 
 Without the right software even the best hardware is just mediocre. The fundamental support of a strong operating system is vital. This is why our software solutions are customized.
 

@@ -1,4 +1,4 @@
-##All good things come in threes plus one.
+<h2>All good things come in threes plus one.</h2>
 Innovative. Intuitive. Imaginative. That’s us! That is also what thousands of start-ups claim to be.
 
 But what makes us so special? We are young. We, the software developers, are two inquisitive 18-year-olds, who are inspired by new ideas and our desire to change the world.

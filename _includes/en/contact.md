@@ -1,4 +1,4 @@
-###Contact
+<h3>Contact</h3>
 
 TouchLay GmbH <br>
 Enzersdorferstraße 19, <br>

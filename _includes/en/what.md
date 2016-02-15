@@ -1,4 +1,4 @@
-##What is the nova?
+<h2>What is the nova?</h2>
 
 The nova is our newest hardware innovation: It is a 55” monitor, which can turn 360° on the horizontal axis and can be mounted in upright or in landscape format on the vertical axis.
 
