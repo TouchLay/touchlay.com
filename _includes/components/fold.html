@@ -5,7 +5,13 @@
       <div class="computer tablet only four wide column"><img src="{{site.url}}/images/novatouch_top_2_3.png" srcset="{{site.url}}/images/novatouch_top_2_3_small.png 250w, {{site.url}}/images/novatouch_top_2_3_medium.png 400w, {{site.url}}/images/novatouch_top_2_3.png 500w" sizes="(min-width: 768px) calc((((100vw * .7) * .25) - 2rem) * .9), 100vw" width="90%" style="margin-top: 100px;"></div>
   </div>
   <br><br>
-  <div class="ui huge inverted blue button get-quote">{% if page.lang == 'de' %}Preis für Miete oder Kauf anfragen{% else %}Get a Quote for Rental or Sale{% endif %}</div>
+  <div class="ui huge inverted blue button get-quote">
+    {% if page.lang == 'de' %}
+      Preis für Miete oder Kauf anfragen
+    {% else %}
+      Get Pricing for Rental or Sale
+    {% endif %}
+  </div>
 </div>
 
 <div class="ui segment basic features">
