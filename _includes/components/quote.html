@@ -23,7 +23,11 @@
     </div>
     <button class="ui green basic inverted button" id="send-quote" tabindex="0">
       <i class="checkmark icon"></i>
-      Send Message
+      {% if page.lang == 'de' %}
+        Preis anfragen
+      {% else %}
+        Request Pricing
+      {% endif %}
     </button>
   </div>
 </div>
