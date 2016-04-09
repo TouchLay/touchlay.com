@@ -1,4 +1,4 @@
 Transport
 
 {: .sub .header}
-It's flexible design makes the nova super easy to transport.
+Its flexible design makes the nova super easy to transport.
