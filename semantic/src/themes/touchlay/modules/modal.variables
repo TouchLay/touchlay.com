@@ -33,7 +33,7 @@
 @headerColor: @darkTextColor;
 @headerFontSize: @huge;
 @headerBoxShadow: none;
-@headerFontWeight: bold;
+@headerFontWeight: 400;
 @headerFontFamily: @headerFont;
 @headerBorder: 1px solid @borderColor;
 
