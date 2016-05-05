@@ -1,25 +1,57 @@
-<div id="customers" class="ui text-center very padded segment basic">
-  <h2 class="ui header">{% if page.lang == 'de' %}Einige unserer Kunden{% else %}some of our customers{% endif %}</h2>
-  <div class="ui page four column grid stackable">
-    <div class="column">
-      <noscript><img class="customer-img" src="{{site.url}}/images/partner/nova_wunschhaus.jpg" alt="Wunschhas GmbH"></noscript>
-      <img class="customer-img" src="{{site.url}}/images/partner/nova_wunschhaus_small.jpg" srcset="{{site.url}}/images/partner/nova_wunschhaus_small.jpg 250w, {{site.url}}/images/partner/nova_wunschhaus_medium.jpg 400w, {{site.url}}/images/partner/nova_wunschhaus.jpg 600w" sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw" alt="Wunschhas GmbH">
-      <h3>Wunschhaus</h3>
+<div id="customers">
+  <div class="ui text-center very padded segment basic">
+    <h2 class="ui header">{% if page.lang == 'de' %}Unserer Kunden{% else %}Our Customers{% endif %}</h2>
+    <div class="ui page four column grid stackable logo-container">
+      <div class="column">
+        <img class="customer-logo-img" src="{{site.url}}/images/partner/logos/erste.png" />
+        <h3>Erste Bank</h3>
+      </div>
+      <div class="column">
+        <img class="customer-logo-img" src="{{site.url}}/images/partner/logos/wunschhaus.png" />
+        <h3>Wunschhaus</h3>
+      </div>
+      <div class="column">
+        <img class="customer-logo-img" src="{{site.url}}/images/partner/logos/actual.png" />
+        <h3>Actual</h3>
+      </div>
+      <div class="column">
+        <img class="customer-logo-img" src="{{site.url}}/images/partner/logos/otto.png" />
+        <h3>Otto Immobilien</h3>
+      </div>
+      <div class="column">
+        <img class="customer-logo-img" src="{{site.url}}/images/partner/logos/internorm.png" />
+        <h3>Internorm</h3>
+      </div>
+      <div class="column">
+        <img class="customer-logo-img" src="{{site.url}}/images/partner/logos/medmedia.png" />
+        <h3>MedMedia</h3>
+      </div>
+      <div class="column">
+        <img class="customer-logo-img" src="{{site.url}}/images/partner/logos/step.png" />
+        <h3>Ste.p</h3>
+      </div>
+      <div class="column">
+        <img class="customer-logo-img" src="{{site.url}}/images/partner/logos/pfi.png" />
+        <h3>Forum Innovation 13</h3>
+      </div>
     </div>
-    <div class="column">
-      <noscript><img class="customer-img" src="{{site.url}}/images/partner/nova_actual.jpg" alt="Actual GmbH"></noscript>
-      <img class="customer-img" src="{{site.url}}/images/partner/nova_actual_small.jpg" srcset="{{site.url}}/images/partner/nova_actual_small.jpg 250w, {{site.url}}/images/partner/nova_actual_medium.jpg 400w, {{site.url}}/images/partner/nova_actual.jpg 600w" sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw" alt="Actual GmbH">
-      <h3>Actual</h3>
-    </div>
-    <div class="column">
-      <noscript><img class="customer-img" src="{{site.url}}/images/partner/nova_otto.jpg" alt="Otto Immobilien GmbH"></noscript>
-      <img class="customer-img" src="{{site.url}}/images/partner/nova_otto_small.jpg" srcset="{{site.url}}/images/partner/nova_otto_small.jpg 250w, {{site.url}}/images/partner/nova_otto_medium.jpg 400w, {{site.url}}/images/partner/nova_otto.jpg 600w" sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw" alt="Otto Immobilien GmbH">
-      <h3>Otto Immobilien</h3>
-    </div>
-    <div class="column">
-      <noscript><img class="customer-img" src="{{site.url}}/images/partner/nova_hosiner.jpg" alt="Hosiner GmbH"></noscript>
-      <img class="customer-img" src="{{site.url}}/images/partner/nova_hosiner_small.jpg" srcset="{{site.url}}/images/partner/nova_hosiner_small.jpg 250w, {{site.url}}/images/partner/nova_hosiner_medium.jpg 400w, {{site.url}}/images/partner/nova_hosiner.jpg 600w" sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw" alt="Hosiner GmbH">
-      <h3>Internorm</h3>
-    </div>
+  </div>
+  <div class="ui gird four column grid stackable">
+    <noscript><div class="column customer-img" style="backgound: url({site.url}}/images/partner/nova_hosiner.jpg);"></div></noscript>
+    <div class="column customer-img lazyload" data-bgset="{{site.url}}/images/partner/nova_hosiner_small.jpg 250w, {{site.url}}/images/partner/nova_hosiner_medium.jpg 400w, {{site.url}}/images/partner/nova_hosiner.jpg 600w" data-sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw"></div>
+    <noscript><div class="column customer-img" style="backgound: url({{site.url}}/images/partner/nova_otto.jpg);"></div></noscript>
+    <div class="column customer-img lazyload" data-bgset="{{site.url}}/images/partner/nova_otto_small.jpg 250w, {{site.url}}/images/partner/nova_otto_medium.jpg 400w, {{site.url}}/images/partner/nova_otto.jpg 600w" data-sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw"></div>
+    <noscript><div class="column customer-img" style="backgound: url({{site.url}}/images/partner/nova_erste.jpg);"></div></noscript>
+    <div class="column customer-img lazyload" data-bgset="{{site.url}}/images/partner/nova_erste_small.jpg 250w, {{site.url}}/images/partner/nova_erste_medium.jpg 400w, {{site.url}}/images/partner/nova_erste.jpg 600w" data-sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw"></div>
+    <noscript><div class="column customer-img" style="backgound: url({{site.url}}/images/partner/nova_actual.jpg);"></div></noscript>
+    <div class="column customer-img lazyload" data-bgset="{{site.url}}/images/partner/nova_actual_small.jpg 250w, {{site.url}}/images/partner/nova_actual_medium.jpg 400w, {{site.url}}/images/partner/nova_actual.jpg 600w" data-sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw"></div>
+    <noscript><div class="column customer-img" style="backgound: url({{site.url}}/images/partner/nova_wunschhaus.jpg);"></div></noscript>
+    <div class="column customer-img lazyload" data-bgset="{{site.url}}/images/partner/nova_wunschhaus_small.jpg 250w, {{site.url}}/images/partner/nova_wunschhaus_medium.jpg 400w, {{site.url}}/images/partner/nova_wunschhaus.jpg 600w" data-sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw"></div>
+    <noscript><div class="column customer-img" style="backgound: url({{site.url}}/images/partner/nova_pfi.jpg);"></div></noscript>
+    <div class="column customer-img lazyload" data-bgset="{{site.url}}/images/partner/nova_pfi_small.jpg 250w, {{site.url}}/images/partner/nova_pfi_medium.jpg 400w, {{site.url}}/images/partner/nova_pfi.jpg 600w" data-sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw"></div>
+    <noscript><div class="column customer-img" style="backgound: url({{site.url}}/images/partner/nova_medmedia.jpg);"></div></noscript>
+    <div class="column customer-img lazyload" data-bgset="{{site.url}}/images/partner/nova_medmedia_small.jpg 250w, {{site.url}}/images/partner/nova_medmedia_medium.jpg 400w, {{site.url}}/images/partner/nova_medmedia.jpg 600w" data-sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw"></div>
+    <noscript><div class="column customer-img" style="backgound: url({{site.url}}/images/partner/nova_aknoe.jpg);"></div></noscript>
+    <div class="column customer-img lazyload" data-bgset="{{site.url}}/images/partner/nova_aknoe_small.jpg 250w, {{site.url}}/images/partner/nova_aknoe_medium.jpg 400w, {{site.url}}/images/partner/nova_aknoe.jpg 600w" data-sizes="(max-width: 768px) calc(100vw - 6em), (min-width: 768px) calc(.25 * (100vw - 8em)), 100vw"></div>
   </div>
 </div>

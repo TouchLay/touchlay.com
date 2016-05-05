@@ -46,8 +46,23 @@ body {
 }
 
 .customer-img {
-	width: 100%;
-	min-height: 100px;
+	background-size: 100% auto !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	height: 20em;
+	opacity: .6 !important;
+	transition: all .2s ease-in-out !important;
+	-webkit-transition: all .2s ease-in-out !important;
+}
+
+.customer-img:hover {
+  background-size: 110% auto !important;
+	opacity: 1 !important;
+}
+
+.customer-logo-img {
+	max-width: 100%;
+	opacity: .75;
 }
 
 .lazyload,
@@ -320,6 +335,10 @@ body {
 		font-size: 1.14285714em;
 	}
 
+	.customer-img {
+		opacity: 1 !important;
+	}
+
 	.ui.footer {
 		text-align: center;
 	}
@@ -464,10 +483,12 @@ body {
   color: #333;
   font-size: 1.2em;
   font-weight: 500;
+	opacity: .4;
 }
 
-#customers .content-element {
-	padding-top: 25px !important;
+#customers .logo-container {
+	padding-top: 4em;
+	padding-bottom: 4em;
 }
 
 #newsletter {
