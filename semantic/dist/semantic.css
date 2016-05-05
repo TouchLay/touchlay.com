@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400italic&subset=latin');
 /*!
  * # Semantic UI 2.1.4 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -529,7 +529,7 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #FFFFFF;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
@@ -545,10 +545,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.2857em;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
-  font-weight: bold;
+  font-weight: 400;
   padding: 0em;
 }
 
@@ -692,7 +692,7 @@ input::selection {
   vertical-align: baseline;
   background: #E0E1E2 none;
   color: rgba(0, 0, 0, 0.6);
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571429em 1.5em 0.78571429em;
   text-transform: none;
@@ -6183,8 +6183,8 @@ i.flag.zimbabwe:before {
   border: none;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
   padding: 0em 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   line-height: 1.2857em;
   text-transform: none;
   color: rgba(0, 0, 0, 0.87);
@@ -6664,15 +6664,15 @@ a.ui.inverted.teal.header:hover {
 /*--- Blue ---*/
 
 .ui.blue.header {
-  color: #2185D0 !important;
+  color: #3293C7 !important;
 }
 
 a.ui.blue.header:hover {
-  color: #1678c2 !important;
+  color: #2686b9 !important;
 }
 
 .ui.blue.dividing.header {
-  border-bottom: 2px solid #2185D0;
+  border-bottom: 2px solid #3293C7;
 }
 
 /* Inverted */
@@ -6784,15 +6784,15 @@ a.ui.inverted.brown.header:hover {
 /*--- Grey ---*/
 
 .ui.grey.header {
-  color: #767676 !important;
+  color: #333333 !important;
 }
 
 a.ui.grey.header:hover {
-  color: #838383 !important;
+  color: #404040 !important;
 }
 
 .ui.grey.dividing.header {
-  border-bottom: 2px solid #767676;
+  border-bottom: 2px solid #333333;
 }
 
 /* Inverted */
@@ -12000,8 +12000,8 @@ a.ui.basic.teal.label:hover {
 
 .ui.blue.labels .label,
 .ui.blue.label {
-  background-color: #2185D0 !important;
-  border-color: #2185D0 !important;
+  background-color: #3293C7 !important;
+  border-color: #3293C7 !important;
   color: #FFFFFF !important;
 }
 
@@ -12009,8 +12009,8 @@ a.ui.basic.teal.label:hover {
 
 .ui.blue.labels .label:hover,
 a.ui.blue.label:hover {
-  background-color: #1678c2 !important;
-  border-color: #1678c2 !important;
+  background-color: #2686b9 !important;
+  border-color: #2686b9 !important;
   color: #FFFFFF !important;
 }
 
@@ -12024,22 +12024,22 @@ a.ui.blue.label:hover {
 /* Ribbon */
 
 .ui.blue.ribbon.label {
-  border-color: #1a69a4 !important;
+  border-color: #28759e !important;
 }
 
 /* Basic */
 
 .ui.basic.blue.label {
   background-color: #FFFFFF !important;
-  color: #2185D0 !important;
-  border-color: #2185D0 !important;
+  color: #3293C7 !important;
+  border-color: #3293C7 !important;
 }
 
 .ui.basic.blue.labels a.label:hover,
 a.ui.basic.blue.label:hover {
   background-color: #FFFFFF !important;
-  color: #1678c2 !important;
-  border-color: #1678c2 !important;
+  color: #2686b9 !important;
+  border-color: #2686b9 !important;
 }
 
 /*--- Violet ---*/
@@ -12230,8 +12230,8 @@ a.ui.basic.brown.label:hover {
 
 .ui.grey.labels .label,
 .ui.grey.label {
-  background-color: #767676 !important;
-  border-color: #767676 !important;
+  background-color: #333333 !important;
+  border-color: #333333 !important;
   color: #FFFFFF !important;
 }
 
@@ -12239,8 +12239,8 @@ a.ui.basic.brown.label:hover {
 
 .ui.grey.labels .label:hover,
 a.ui.grey.label:hover {
-  background-color: #838383 !important;
-  border-color: #838383 !important;
+  background-color: #404040 !important;
+  border-color: #404040 !important;
   color: #FFFFFF !important;
 }
 
@@ -12261,15 +12261,15 @@ a.ui.grey.label:hover {
 
 .ui.basic.grey.label {
   background-color: #FFFFFF !important;
-  color: #767676 !important;
-  border-color: #767676 !important;
+  color: #333333 !important;
+  border-color: #333333 !important;
 }
 
 .ui.basic.grey.labels a.label:hover,
 a.ui.basic.grey.label:hover {
   background-color: #FFFFFF !important;
-  color: #838383 !important;
-  border-color: #838383 !important;
+  color: #404040 !important;
+  border-color: #404040 !important;
 }
 
 /*--- Black ---*/
@@ -12334,7 +12334,7 @@ a.ui.basic.black.label:hover {
 a.ui.basic.label:hover {
   text-decoration: none;
   background: none #FFFFFF;
-  color: #1e70bf;
+  color: #1583be;
   box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: none;
 }
@@ -17218,7 +17218,7 @@ a.ui.basic.label:hover {
   display: -ms-flexbox;
   display: flex;
   margin: 1rem 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #FFFFFF;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -19601,7 +19601,7 @@ Floated Menu / Item
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -19609,7 +19609,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > .header:not(.ui),
 .ui.card > .content > .header:not(.ui) {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 1.28571429em;
   margin-top: -0.21425em;
   line-height: 1.2857em;
@@ -19752,7 +19752,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #1e70bf;
+  color: #1583be;
 }
 
 /* Meta */
@@ -19872,7 +19872,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #1e70bf;
+  color: #1583be;
 }
 
 /*******************************
@@ -20024,13 +20024,13 @@ a.ui.card:hover,
 .ui.blue.cards > .card,
 .ui.cards > .blue.card,
 .ui.blue.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #2185D0, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #3293C7, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.blue.cards > .card:hover,
 .ui.cards > .blue.card:hover,
 .ui.blue.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #1678c2, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #2686b9, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Violet */
@@ -20094,13 +20094,13 @@ a.ui.card:hover,
 .ui.grey.cards > .card,
 .ui.cards > .grey.card,
 .ui.grey.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #767676, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #333333, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.grey.cards > .card:hover,
 .ui.cards > .grey.card:hover,
 .ui.grey.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #838383, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #404040, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Black */
@@ -22814,7 +22814,7 @@ select.ui.dropdown {
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #FFFFFF;
   margin: 0em;
   padding: 1.25rem 1.5rem;
@@ -22826,7 +22826,7 @@ select.ui.dropdown {
 .ui.modal > .header:not(.ui) {
   font-size: 1.42857143rem;
   line-height: 1.2857em;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 /*--------------
