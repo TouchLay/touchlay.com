@@ -61,7 +61,7 @@ body {
 }
 
 .customer-img {
-	opacity: 1;
+	opacity: .6;
 	width: 100%;
 	transition: all .2s ease-in-out !important;
 	-webkit-transition: all .2s ease-in-out !important;
