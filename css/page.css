@@ -45,11 +45,28 @@ body {
 	padding-left: 0 !important;
 }
 
+.customer-img-container {
+	margin-bottom: -4px !important;
+}
+
+.customer-img-container.first {
+	margin-bottom: -18px !important;
+}
+
+.customer-img-container .column {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
 .customer-img {
-	opacity: .6 !important;
+	opacity: 1;
+	width: 100%;
 	transition: all .2s ease-in-out !important;
 	-webkit-transition: all .2s ease-in-out !important;
 	padding: 0 !important;
+	position: relative;
 }
 
 .customer-img:hover {
@@ -337,6 +354,10 @@ body {
 
 	.customer-img {
 		opacity: 1 !important;
+	}
+
+	.customer-img-container.first {
+		margin-bottom: -4px !important;
 	}
 
 	.ui.footer {
