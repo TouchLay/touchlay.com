@@ -1,5 +1,6 @@
+{% assign current = page.url | downcase | split: "/" + page.lang + "/" %}
 <!DOCTYPE html>
-<html data-wf-site="51fff4fae3bb0b2562000155">
+<html lang="{{page.lang}}" data-wf-site="51fff4fae3bb0b2562000155">
 <head>
 <meta charset="utf-8">
 <title>TouchLay</title>
@@ -9,6 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="google-site-verification" content="9VUnCw57X_YgwyvKB0LsvIngTMtZTCePSRw-LCYQ3Nw"/>
+<link rel="alternate" hreflang="{% if page.lang == 'en' %}de{% else %}en{% endif %}" href="{{site.url}}/{% if page.lang == 'en' %}de{% else %}en{% endif %}/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}" />
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@TouchLay">
@@ -99,7 +101,6 @@ ga('send', 'pageview');
             </span>
               <i class="angle down icon"></i>
               <div class="menu" style="width: 100vh; left: -2.1em; border-radius:0; top: 2.5em;">
-                {% assign current = page.url | downcase | split: "/" + page.lang + "/" %}
                 <a style="padding: 2em 2em;" href="/en/{{current[-1]}}" class="item"><i class="gb flag"></i> English</a>
                 <a href="/de/{{current[-1]}}" class="item"><i class="de flag"></i> German</a>
               </div>
@@ -153,9 +154,8 @@ ga('send', 'pageview');
               </div>
               <i class="angle up icon"></i>
               <div class="menu">
-                {% assign current = page.url | downcase | split: "/" + page.lang + "/" %}
-                <a href="/en/{{current[-1]}}" class="item"><i class="gb flag"></i> English</a>
-                <a href="/de/{{current[-1]}}" class="item"><i class="de flag"></i> German</a>
+                <a href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}" class="item"><i class="gb flag"></i> English</a>
+                <a href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}" class="item"><i class="de flag"></i> German</a>
               </div>
             </div>
           </div>
@@ -186,6 +186,8 @@ function $buo_f(){
 try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
 catch(e){window.attachEvent("onload", $buo_f)}
 </script>
+
+<script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiIzMjkzYzciLCJjdXN0b21Db2xvciI6dHJ1ZSwiaWNvbiI6ImJ1YmJsZSIsInByb25vdW4iOiJ1cyIsImxhbmd1YWdlIjoiZW4iLCJicmFuZGVkIjpmYWxzZSwiaW50cm9UZXh0IjoiIiwiY2hhbm5lbHMiOltbImZhY2Vib29rIiwidG91Y2hsYXkiLCJzb2NpYWwiXSxbIm1lc3NlbmdlciIsInRvdWNobGF5Iiwic29jaWFsIl0sWyJ0d2l0dGVyIiwidG91Y2hsYXkiLCJzb2NpYWwiXSxbInBob25lIiwiKzQzNjc2ODg2MzM2NTUiLCJjbGFzc2ljIl0sWyJlbWFpbCIsImhlbGxvQHRvdWNobGF5LmNvbSIsImNsYXNzaWMiXV19'></script>
 
 </body>
 </html>
