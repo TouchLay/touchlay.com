@@ -2,6 +2,10 @@ body {
 	min-width: 0 !important;
 }
 
+iframe {
+	border: 0;
+}
+
 .main {
 	overflow-x: hidden;
 }
@@ -604,4 +608,38 @@ body #buorgclose {
 #nav-grid {
 	margin-left: 0 !important;
 	margin-right: 0 !important;
+}
+
+.get-quote {
+	margin-top: 2em !important;
+	margin-bottom: 5em !important;
+}
+
+#video-wrapper {
+	position: relative;
+	padding-bottom: 53.8%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	background: #000;
+	margin: 0 auto;
+	box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
+}
+#video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+	#video-wrapper {
+		padding-bottom: 52.5%; /* 16:9 */
+	}
+}
+
+@media screen and (max-width: 424px) {
+	#video-wrapper {
+		padding-bottom: 49.8%; /* 16:9 */
+	}
 }
