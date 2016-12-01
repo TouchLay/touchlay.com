@@ -126,10 +126,14 @@ $(document).ready(function() {
   // Initialize dropdown
   $('.ui.dropdown').dropdown();
 
-  $('.get-quote').click(function() {
+  var showModal = function() {
     $('#quote-modal').modal('show');
     ga('send', 'event', 'Button', 'click', 'Quote modal opened');
-  });
+    $('#pepper-embed-iframe').css('right', '-300px')
+    $('#pepper-embed-iframe').css('opacity', '0')
+  }
+  $('.get-quote').click(showModal);
+  $('.get-quote-2').click(showModal);
 
   $('.right.menu.open').on("click",function(e){
    e.preventDefault();
