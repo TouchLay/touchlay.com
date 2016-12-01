@@ -165,6 +165,86 @@ ga('send', 'pageview');
 	</div>
 </div>
 
+<div id="pepper-embed-badge">
+    <img src="//pepper.swat.io/assets/icons/widget/white/bubble.svg">
+</div>
+
+<div id="pepper-embed-iframe" class="right">
+  <div class="widget widget-right">
+      <div class="widget-body">
+
+        <div class="group social" style="display: block;">
+          <h2 class="group-title">Social Media</h2>
+          <div class="group-body">
+            <ul class="list social">
+    <li class="item is-facebook">
+      <a class="link" onclick="window.open('https://www.facebook.com/touchlay', '_top'); return false;" target="_blank">
+        <div class="icon">
+          <img src="//pepper.swat.io/assets/icons/facebook.svg" alt="facebook">
+        </div>
+        <div class="content">
+          <h3 class="title">{% if page.lang == 'en' %}Like us{% else %}Liken Sie uns{% endif %}</h3>
+          <span class="target">facebook.com/touchlay</span>
+        </div>
+      </a>
+  </li>
+    <li class="item is-messenger">
+      <a class="link" onclick="window.open('https://m.me/touchlay', '_top'); return false;" target="_blank">
+        <div class="icon">
+          <img src="//pepper.swat.io/assets/icons/messenger.svg" alt="messenger">
+        </div>
+        <div class="content">
+          <h3 class="title">{% if page.lang == 'en' %}Message us{% else %}Schreiben Sie uns{% endif %}</h3>
+          <span class="target">m.me/touchlay</span>
+        </div>
+      </a>
+  </li>
+    <li class="item is-twitter">
+      <a class="link" onclick="window.open('https://twitter.com/touchlay', '_top'); return false;" target="_blank">
+        <div class="icon">
+          <img src="//pepper.swat.io/assets/icons/twitter.svg" alt="twitter">
+        </div>
+        <div class="content">
+          <h3 class="title">{% if page.lang == 'en' %}Tweet us{% else %}Tweeten Sie uns{% endif %}</h3>
+          <span class="target">twitter.com/touchlay</span>
+        </div>
+      </a>
+  </li></ul>
+          </div>
+        </div>
+
+        <div class="group classic" style="display: block;">
+          <h2 class="group-title">{% if page.lang == 'en' %}Classic{% else %}Klassisch{% endif %}</h2>
+          <div class="group-body">
+            <ul class="list classic">
+    <li class="item is-phone">
+      <a class="link" onclick="window.open('tel:+4367688633655', '_top'); return false;" target="_blank">
+        <div class="icon">
+          <img src="//pepper.swat.io/assets/icons/phone.svg" alt="phone">
+        </div>
+        <div class="content">
+          <h3 class="title">{% if page.lang == 'en' %}Call us{% else %}Rufen Sie uns an{% endif %}</h3>
+          <span class="target">+4367688633655</span>
+        </div>
+      </a>
+  </li>
+    <li class="item is-email">
+      <a class="link" onclick="window.open('mailto:hello@touchlay.com', '_top'); return false;" target="_blank">
+        <div class="icon">
+          <img src="//pepper.swat.io/assets/icons/email.svg" alt="email">
+        </div>
+        <div class="content">
+          <h3 class="title">{% if page.lang == 'en' %}Email us{% else %}Schreiben Sie uns{% endif %}</h3>
+          <span class="target">hello@touchlay.com</span>
+        </div>
+      </a>
+  </li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
 <script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
 <script>
     function loadJS(u){var r=document.getElementsByTagName("script")[0],s=document.createElement("script");s.src=u;r.parentNode.insertBefore(s,r);}
@@ -176,7 +256,8 @@ ga('send', 'pageview');
 <script type="text/javascript" src="/js/lazysizes/lazysizes.min.js"></script>
 <script type="text/javascript" src="/semantic/dist/semantic.min.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
-<script async src='//pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiIzMjkzYzciLCJjdXN0b21Db2xvciI6dHJ1ZSwiaWNvbiI6ImJ1YmJsZSIsInByb25vdW4iOiJ1cyIsImxhbmd1YWdlIjoiZW4iLCJicmFuZGVkIjpmYWxzZSwiaW50cm9UZXh0IjoiIiwiY2hhbm5lbHMiOltbImZhY2Vib29rIiwidG91Y2hsYXkiLCJzb2NpYWwiXSxbIm1lc3NlbmdlciIsInRvdWNobGF5Iiwic29jaWFsIl0sWyJ0d2l0dGVyIiwidG91Y2hsYXkiLCJzb2NpYWwiXSxbInBob25lIiwiKzQzNjc2ODg2MzM2NTUiLCJjbGFzc2ljIl0sWyJlbWFpbCIsImhlbGxvQHRvdWNobGF5LmNvbSIsImNsYXNzaWMiXV19'></script>
+<!--<script type="text/javascript" async src='//pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiIzMjkzYzciLCJjdXN0b21Db2xvciI6dHJ1ZSwiaWNvbiI6ImJ1YmJsZSIsInByb25vdW4iOiJ1cyIsImxhbmd1YWdlIjoiZW4iLCJicmFuZGVkIjpmYWxzZSwiaW50cm9UZXh0IjoiIiwiY2hhbm5lbHMiOltbImZhY2Vib29rIiwidG91Y2hsYXkiLCJzb2NpYWwiXSxbIm1lc3NlbmdlciIsInRvdWNobGF5Iiwic29jaWFsIl0sWyJ0d2l0dGVyIiwidG91Y2hsYXkiLCJzb2NpYWwiXSxbInBob25lIiwiKzQzNjc2ODg2MzM2NTUiLCJjbGFzc2ljIl0sWyJlbWFpbCIsImhlbGxvQHRvdWNobGF5LmNvbSIsImNsYXNzaWMiXV19'></script>-->
+
 
 <script>
 var $buoop = {vs:{i:10,f:25,o:12.1,s:7},c:2, text: "Your browser (%s) is out of date. It has known security flaws and may not display all features of this and other websites. You can update to a modern browser ​<a%s>here</a>."};

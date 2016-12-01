@@ -116,6 +116,13 @@ $(document).ready(function() {
     $("#mc-embedded-subscribe-form").submit();
   });
 
+
+  // Swat.io plugin
+  $('#pepper-embed-badge').click(function() {
+    $('#pepper-embed-iframe').css('right', ($('#pepper-embed-iframe').css('right') == '30px') ? '-300px' : '30px')
+    $('#pepper-embed-iframe').css('opacity', ($('#pepper-embed-iframe').css('opacity') == '0') ? '1' : '0')
+  })
+
   // Initialize dropdown
   $('.ui.dropdown').dropdown();
 

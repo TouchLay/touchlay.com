@@ -644,3 +644,169 @@ body #buorgclose {
 		padding-bottom: 49.8%; /* 16:9 */
 	}
 }
+
+#pepper-embed-badge {
+    all: initial;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-family: 'Helvetica Neue', Verdana, Arial;
+    background: rgba(0, 0, 0, 0.8);
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1), 0 0 10px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    z-index: 2147483646;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+		background-color: rgb(50, 147, 199);
+    right: 20px;
+    bottom: 20px;
+}
+
+#pepper-embed-iframe {
+	all: initial;
+    border: none;
+    position: fixed;
+    z-index: 2147483647;
+    width: auto;
+		right: -300px;
+		height: 378px;
+		opacity: 0;
+		bottom: 80px;
+
+		margin: 0;
+		padding: 0;
+		background-color: transparent;
+		font-size: 12px;
+		line-height: 1.4;
+		color: #666;
+		-webkit-font-smoothing: antialiased;
+		font-family: Roboto, sans-serif;
+		transition: all 150ms ease-in-out;
+}
+
+
+#pepper-embed-iframe::selection {
+  background: rgba(0, 0, 0, 0.05); }
+
+#pepper-embed-iframe a {
+  color: #666;
+  text-decoration: underline; }
+
+#pepper-embed-iframe img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto; }
+
+#pepper-embed-iframe .widget {
+  position: relative;
+  padding: 20px; }
+  #pepper-embed-iframe .widget:after {
+    bottom: 4px;
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 25px; }
+  #pepper-embed-iframe .widget.widget-right .widget-body {
+    border-radius: 10px 10px 0 10px; }
+  #pepper-embed-iframe .widget.widget-right:after {
+    right: 20px;
+    background: url('data:image/svg+xml;utf8,<svg width="25px" height="16px" viewBox="0 0 25 16" version="1.1" xmlns="http://www.w3.org/2000/svg"><path fill="#ffffff" d="M25,12.5252018 C25,15.840387 22.8468765,16.9321633 20.1797485,14.9555147 L0,0 L25,0 L25,12.5252018 Z"/></svg>') no-repeat; }
+  #pepper-embed-iframe .widget.widget-left .widget-body {
+    border-radius: 10px 10px 10px 0; }
+  #pepper-embed-iframe .widget.widget-left:after {
+    left: 20px;
+    background: url('data:image/svg+xml;utf8,<svg width="25px" height="16px" viewBox="0 0 25 16" version="1.1" xmlns="http://www.w3.org/2000/svg"><path fill="#ffffff" d="M25,12.5252018 C25,15.840387 22.8468765,16.9321633 20.1797485,14.9555147 L0,0 L25,0 L25,12.5252018 L25,12.5252018 Z" transform="translate(12.500000, 7.970410) scale(-1, 1) translate(-12.500000, -7.970410)"/></svg>') no-repeat; }
+  #pepper-embed-iframe .widget .widget-body {
+    width: 260px;
+    background-color: white;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.3); }
+
+#pepper-embed-iframe .group {
+  display: none; }
+
+#pepper-embed-iframe .group-title {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  margin: 0;
+  padding: 0 1rem;
+  color: #444;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f3f3f3;
+  letter-spacing: 0.5px; }
+
+#pepper-embed-iframe .group-body {
+  padding: 0.5rem 1rem; }
+
+#pepper-embed-iframe .list {
+  margin: 0 -1rem;
+  padding: 0;
+  list-style: none; }
+
+#pepper-embed-iframe .item {
+  margin: 0;
+  padding: 0; }
+
+#pepper-embed-iframe .link {
+  display: flex;
+  padding: 0.35rem 1rem;
+  text-decoration: none;
+  cursor: pointer; }
+  #pepper-embed-iframe .link:hover {
+    background-color: #fafafa; }
+
+#pepper-embed-iframe .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px; }
+  #pepper-embed-iframe .icon img {
+    max-width: 20px;
+    max-height: 20px; }
+#pepper-embed-iframe .icon + .content {
+    margin-left: 1rem; }
+
+#pepper-embed-iframe .content {
+  min-width: 0; }
+
+#pepper-embed-iframe .title {
+  display: block;
+  margin: 0;
+  color: #444;
+  font-size: 12px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0.5px; }
+
+#pepper-embed-iframe .target {
+  display: block;
+  margin: .1rem 0 0;
+  color: #666;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+#pepper-embed-iframe .closure {
+  text-align: center;
+  padding-bottom: .5rem; }
+#pepper-embed-iframe .closure a {
+    display: inline-block;
+    padding: .5rem; }
