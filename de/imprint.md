@@ -41,3 +41,5 @@ Daten nur in anonymisierte oder pseudonomisierter Form.
 ## Credits
 
 Social Media Icons von [alfredocreates.com](https://www.alfredocreates.com/)
+
+WKO Photo (usecase-1.jpg, customer-6.jpg) von [Philipp Lipiarski](http://www.lipiarski.com/)
