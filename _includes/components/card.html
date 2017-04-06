@@ -1,0 +1,24 @@
+{% if include.link %}
+  <a {% if include.lity %}
+    data-lity data-lity-target="{{include.link}}"
+  {% else %}
+    href="{{include.link}}"
+  {% endif %}
+  {% if include.gacategory %}data-event-category="{{ include.gacategory }}"{% endif %}
+  {% if include.gacategory and include.gaaction %}data-event-action="{{ include.gaaction }}"{% endif %}
+  >
+{% endif %}
+<div class="card {{include.size}}">
+  {% if include.image %}
+    {% include components/image.html image=include.image class="card-image" %}
+  {% endif %}
+  {% if include.logo %}
+    {% include components/image.html image=include.logo class="card-logo" %}
+  {% endif %}
+  <div class="content">
+    <span class="card-title">{{ include.title }}</span>
+    <span class="card-subtitle">{{ include.subtitle }}</span>
+    <p>{{ include.description }}</p>
+  </div>
+</div>
+{% if include.link %}</a>{% endif %}

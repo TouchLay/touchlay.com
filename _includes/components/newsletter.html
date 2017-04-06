@@ -1,21 +1,21 @@
-<div class="ui centered" style="text-align: center;">
-  <i class="massive announcement icon"></i>
-  {% capture stuff %}{% include {{page.lang}}/newsletter.md %}{% endcapture %}
-  {{ stuff | markdownify }}
-  <form action="//touchlay.us6.list-manage.com/subscribe/post-json?u=61192115196961388ececdeb1&amp;id=7425f66543" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-    <div class="mc-field-group">
-      <div class="ui action inverted huge input">
-        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
-        <div name="subscribe" id="mc-embedded-subscribe" class="ui primary inverted button"><i class="icon chevron right"></i></div>
+<section id="newsletter">
+  <div class="container">
+    <div class="popout {% if include.alone %}alone {% else %}between {% endif %}block-center flexcontainer row middle space-around">
+      <div class="newsletter-description">
+        <h1>{{site.data.base.newsletter.headline[page.lang]}}</h1>
+        <p>Erhalten Sie Information über Sonderangebote, neue Produkte, <br />sowie Tips und Tricks um Ihre Kunden zu begeistern.</p>
+      </div>
+      <div>
+        <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form" target="_blank" novalidate="">
+          <div class="mc-field-group">
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="{{ site.data.base.texts.email[page.lang] }}" />
+            <button data-event-category="newsletter" data-event-action="subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-blue btn-next">
+              {{site.data.base.texts.subscribe[page.lang]}}
+            </button>
+          </div>
+        </form>
+        <div class="newsletter-response"></div>
       </div>
     </div>
-    <div id="mce-responses" class="clear">
-      <div class="response" id="mce-error-response" style="display:none"></div>
-      <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_61192115196961388ececdeb1_7425f66543" tabindex="-1" value=""></div>
-    <div class="clear"></div>
-  </form>
-  <br>
-  <div class="ui success msg-helper" style="width: 50%; margin: 0 auto; display: none; position: absolute; left: 25%;"></div>
-</div>
+  </div>
+</section>

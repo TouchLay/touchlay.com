@@ -1,0 +1,17 @@
+{% for feature in include.features %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% capture padding %}{% if feature.topOnly %}paddedTop{% else %}padded{% endif %}{% endcapture %}
+  {% if loopindex == 1 %}
+    <section id="feature-{{feature.id}}" class="{{padding}} section-a">
+  {% else %}
+    <section id="feature-{{feature.id}}" class="{{padding}} section-b gray">
+  {% endif %}
+  {% include components/feature-section.html
+      title=feature.title
+      subtitle=feature.subtitle
+      description=feature.description
+      image=feature.image
+      cta=feature.cta
+  %}
+  </section>
+{% endfor %}

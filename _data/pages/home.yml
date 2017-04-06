@@ -1,0 +1,40 @@
+header:
+  image: /img/header-image.png
+  title:
+    en: TouchLay nova
+    de: TouchLay nova
+  subtitle:
+    en: the people magnet
+    de: Der Kundenmagnet
+  video:
+    en: https://www.youtube.com/watch?v=nhPHPHCceFQ
+    de: https://www.youtube.com/watch?v=0DydF2SkYYQ
+  link:
+
+vision:
+  en: Wir verbessern die Interaktion mit Ihren Kunden, durch unsere <a href="software/index.html">Software-</a> und <a href="hardware/index.html">Hardwarelösungen</a>.
+  de: Wir verbessern die Interaktion mit Ihren Kunden, durch unsere <a href="software/index.html">Software-</a> und <a href="hardware/index.html">Hardwarelösungen</a>.
+
+software:
+  title:
+    en: "Umfangreiche<br />Präsentations-Plattform"
+    de: "Umfangreiche <br />Präsentations-Plattform"
+  subtitle:
+    en: "Beeindruckend & Interaktiv"
+    de: "Beeindruckend & Interaktiv"
+  description:
+    en: "Verbinden Sie unsere Plattform mit Datenquellen (z.B. Dropbox, Webseite, etc) und generieren Sie in ein paar Schritten  Ihre eigene beeindruckende Präsentation. Unser Device-Management Feature erlaubt einfaches Deployment und ausgiebige Statistiken."
+    de: "Verbinden Sie unsere Plattform mit Datenquellen (z.B. Dropbox, Webseite, etc) und generieren Sie in ein paar Schritten  Ihre eigene beeindruckende Präsentation. Unser Device-Management Feature erlaubt einfaches Deployment und ausgiebige Statistiken."
+  image: "/img/overview-software.png"
+
+hardware:
+  title:
+    en: "Zuverlässige Hardware"
+    de: "Zuverlässige Hardware"
+  subtitle:
+    en: "Elegant & Präzise"
+    de: "Elegant & Präzise"
+  description:
+    en: "Adjustieren Sie den TouchLay nova so wie Sie möchten. Verwenden Sie Ihn als Präsentations-Screen, Tisch oder sogar im Hochformat. Unser präziser Multitouch Sensor kann 2-32 Berührungspunkte gleichzeitig, und sogar Objekte bis 1.5mm erkennen."
+    de: "Adjustieren Sie den TouchLay nova so wie Sie möchten. Verwenden Sie Ihn als Präsentations-Screen, Tisch oder sogar im Hochformat. Unser präziser Multitouch Sensor kann 2-32 Berührungspunkte gleichzeitig, und sogar Objekte bis 1.5mm erkennen."
+  image: "/img/overview-hardware.png"

@@ -1,0 +1,239 @@
+header:
+  image: /img/header-image.png
+  title:
+    en: TouchLay Nova
+    de: TouchLay Nova
+  subtitle:
+    en: the people magnet
+    de: Der Kundenmagnet
+  video:
+    en: https://www.youtube.com/watch?v=nhPHPHCceFQ
+    de: https://www.youtube.com/watch?v=0DydF2SkYYQ
+  buttonlink: '#contact'
+  description:
+    en: Der TouchLay Nova ist ein 55 Zoll Touch-Bildschirm, der sich an der horizontalen Achse drehen und auf der vertikalen Achse im Hoch- oder Querformat montieren lässt.
+    de: Der TouchLay Nova ist ein 55 Zoll Touch-Bildschirm, der sich an der horizontalen Achse drehen und auf der vertikalen Achse im Hoch- oder Querformat montieren lässt.
+
+
+features:
+  - id: flexible
+    title:
+      en: Flexibles Design
+      de: Flexibles Design
+    description:
+      en: 'Adjustieren Sie den TouchLay Nova so wie Sie möchten. Verwenden Sie Ihn als Präsentations-Screen, Tisch oder sogar im Hochformat. Optional kann auch eine andere RAL Farbe gewählt werden.'
+      de: 'Adjustieren Sie den TouchLay Nova so wie Sie möchten. Verwenden Sie Ihn als Präsentations-Screen, Tisch oder sogar im Hochformat. Optional kann auch eine andere RAL Farbe gewählt werden.'
+    image: /img/feature-flexible.jpg
+    topOnly: true
+
+  - id: display
+    title:
+      en: Lebhaftes Display
+      de: Lebhaftes Display
+    description:
+      en: 'Der TouchLay Nova hat ein 55 Zoll Full-HD Display bei dem wir besonders darauf geachtet haben, dass Ihre Produkte so beeindruckend wie möglich, sowie von jedem Winkel, präsentiert werden können.'
+      de: 'Der TouchLay Nova hat ein 55 Zoll Full-HD Display bei dem wir besonders darauf geachtet haben, dass Ihre Produkte so beeindruckend wie möglich, sowie von jedem Winkel, präsentiert werden können.'
+    image: /img/feature-display.jpg
+
+  - id: Multitouch
+    title:
+      en: Präziser Multitouch
+      de: Präziser Multitouch
+    description:
+      en: 'Unser präziser Multitouch Sensor kann mehrere Berührungspunkte gleichzeitig und sogar Objekte bis 1.5mm erkennen. Der Sensor aktualisiert 200 mal pro Sekunde, dadurch wird eine flüssige Interaktion mit dem Nova gewährleistet.'
+      de: 'Unser präziser Multitouch Sensor kann mehrere Berührungspunkte gleichzeitig und sogar Objekte bis 1.5mm erkennen. Der Sensor aktualisiert 200 mal pro Sekunde, dadurch wird eine flüssige Interaktion mit dem Nova gewährleistet.'
+    image: /img/feature-multitouch.jpg
+    topOnly: true
+
+  - id: os
+    title:
+      en: Bekannte Systeme
+      de: Bekannte Systeme
+    description:
+      en: 'Wir haben darauf geachtet, dass Sie nichts Neues lernen müssen, um den TouchLay Nova verwenden zu können. Sie können Windows 10, Android 6.0 oder Ihre eigene Lösung verwenden.'
+      de: 'Wir haben darauf geachtet, dass Sie nichts Neues lernen müssen, um den TouchLay Nova verwenden zu können. Sie können Windows 10, Android 6.0 oder Ihre eigene Lösung verwenden.'
+    image: /img/feature-os.png
+
+  - id: quality
+    title:
+      en: Exzellente Qualität
+      de: Exzellente Qualität
+    description:
+      en: 'Uns ist Qualität sehr wichtig, deshalb fertigen wir den TouchLay Nova im wunderschönen Österreich.'
+      de: 'Uns ist Qualität sehr wichtig, deshalb fertigen wir den TouchLay Nova im wunderschönen Österreich.'
+    image: /img/feature-map.jpg
+
+specs:
+  - title:
+      en: 'Multitouch'
+      de: 'Multitouch'
+    properties:
+      - title:
+          en: 'Berührungspunkte'
+          de: 'Berührungspunkte'
+        description:
+          en: '2 — 32'
+          de: '2 — 32'
+      - title:
+          en: 'Toucherkennung'
+          de: 'Toucherkennung'
+        description:
+          en: 'Finger und Objekte ab 1.5 mm'
+          de: 'Finger und Objekte ab 1.5 mm'
+      - title:
+          en: 'Touch-Aktualisierungsrate'
+          de: 'Touch-Aktualisierungsrate'
+        description:
+          en: '250 fps'
+          de: '250 fps'
+      - title:
+          en: 'Passiv und Aktiv Pen (Stift) Input'
+          de: 'Passiv und Aktiv Pen (Stift) Input'
+        description:
+          en: 'Yes'
+          de: 'Ja'
+
+  - title:
+      en: 'Display'
+      de: 'Bildschirm'
+    properties:
+      - title:
+          en: 'Bildschirmlaufzeit'
+          de: 'Bildschirmlaufzeit'
+        description:
+          en: '24 / 7 Betrieb'
+          de: '24 / 7 Betrieb'
+      - title:
+          en: 'Bildschirmdiagonale'
+          de: 'Bildschirmdiagonale'
+        description:
+          en: '139,7 cm (55 Zoll)'
+          de: '139,7 cm (55 Zoll)'
+      - title:
+          en: 'Auflösung'
+          de: 'Auflösung'
+        description:
+          en: '1920 x 1080 (16:9)'
+          de: '1920 x 1080 (16:9)'
+      - title:
+          en: 'Sicherheitsglas'
+          de: 'Sicherheitsglas'
+        description:
+          en: '4 mm'
+          de: '4 mm'
+      - title:
+          en: 'Betrachtungswinkel'
+          de: 'Betrachtungswinkel'
+        description:
+          en: '178°'
+          de: '178°'
+      - title:
+          en: 'Kontrast'
+          de: 'Kontrast'
+        description:
+          en: '5.000:1'
+          de: '5.000:1'
+      - title:
+          en: 'Helligkeitswert'
+          de: 'Helligkeitswert'
+        description:
+          en: '450 cd/m²'
+          de: '450 cd/m²'
+
+  - title:
+      en: 'Gehäuse'
+      de: 'Gehäuse'
+    properties:
+      - title:
+          en: 'Adjustierung'
+          de: 'Adjustierung'
+        description:
+          en: 'Höhenverstellbar: 45 cm (gefedert), Rotierbar: 90°'
+          de: 'Höhenverstellbar: 45 cm (gefedert), Rotierbar: 90°'
+      - title:
+          en: 'Color'
+          de: 'Farbe'
+        description:
+          en: 'Höhenverstellbar: 45 cm (gefedert), Rotierbar: 90°'
+          de: 'Weiß (Standard) Andere RAL Farben auf Anfrage'
+      - title:
+          en: 'Abmessungen Fuß (ohne Display)'
+          de: 'Abmessungen Fuß (ohne Display)'
+        description:
+          en: '125 x 40 x 93 cm (L x B x H)'
+          de: '125 x 40 x 93 cm (L x B x H)'
+      - title:
+          en: 'Verschließbar'
+          de: 'Verschließbar'
+        description:
+          en: 'Yes'
+          de: 'Ja'
+      - title:
+          en: 'Gewicht'
+          de: 'Gewicht'
+        description:
+          en: 'Unterkonstruktion: 68 kg<br />Display: 42 kg</br>Gesamt: 110 kg'
+          de: 'Unterkonstruktion: 68 kg<br />Display: 42 kg</br>Gesamt: 110 kg'
+
+  - title:
+      en: 'Computer'
+      de: 'Computer'
+    properties:
+      - title:
+          en: 'Betriebssystem'
+          de: 'Betriebssystem'
+        description:
+          en: 'Windows 10 / Android'
+          de: 'Windows 10 / Android'
+      - title:
+          en: 'Prozessor'
+          de: 'Prozessor'
+        description:
+          en: 'Intel i3 / i5'
+          de: 'Intel i3 / i5'
+      - title:
+          en: 'Arbeitsspeicher'
+          de: 'Arbeitsspeicher'
+        description:
+          en: '8 GB — 16 GB'
+          de: '8 GB — 16 GB'
+      - title:
+          en: 'Grafikchip'
+          de: 'Grafikchip'
+        description:
+          en: 'Intel HD Graphics 5500 (oder höher)'
+          de: 'Intel HD Graphics 5500 (oder höher)'
+      - title:
+          en: 'Kartenleser'
+          de: 'Kartenleser'
+        description:
+          en: 'SD/SDHC/SDXC'
+          de: 'SD/SDHC/SDXC'
+      - title:
+          en: 'Speicherplatz'
+          de: 'Speicherplatz'
+        description:
+          en: '60 / 128 / 256 GB SSD'
+          de: '60 / 128 / 256 GB SSD'
+      - title:
+          en: 'Anschlüsse'
+          de: 'Anschlüsse'
+        description:
+          en: 'Audio: Mikrofon, Kopfhörer, Optisch<br />USB Port: 4 x USB 3.0, 1 x USB 2.0<br />LAN: Dual Gigabit LAN<br />Wifi: 802.11ac/b/g/n<br />Antenne: 1 x WiFI SMA connector<br />Bluetooth: Bluetooth 4.0<br />Grafikausgabe: DisplayPort, HDMI'
+          de: 'Audio: Mikrofon, Kopfhörer, Optisch<br />USB Port: 4 x USB 3.0, 1 x USB 2.0<br />LAN: Dual Gigabit LAN<br />Wifi: 802.11ac/b/g/n<br />Antenne: 1 x WiFI SMA connector<br />Bluetooth: Bluetooth 4.0<br />Grafikausgabe: DisplayPort, HDMI'
+
+brochuere:
+  text:
+    en: download folder
+    de: Brochuere herunterladen
+  link:
+    en: '/downloads/info_nova_2017_english.pdf'
+    de: '/downloads/info_nova_2017_deutsch.pdf'
+
+cta:
+  headline:
+    en: Leasing, Kauf oder Miete
+    de: Leasing, Kauf oder Miete
+  text:
+    en: Sie können den TouchLay nova kaufen oder mieten. Weiters bieten wir auch Leasing an. Wenn Sie interessiert sind, senden Sie uns eine Anfrage! Wir melden uns daraufhin in Kürze bei Ihnen.
+    de: Sie können den TouchLay nova kaufen oder mieten. Weiters bieten wir auch Leasing an. Wenn Sie interessiert sind, senden Sie uns eine Anfrage! Wir melden uns daraufhin in Kürze bei Ihnen.

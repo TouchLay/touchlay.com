@@ -1,0 +1,44 @@
+<header class="bg-gray">
+  <div class="flexcontainer row center" style="padding-top: 2em;">
+    {% include Components/image.html image="/img/team-image-large.jpg" %}
+  </div>
+</header>
+
+<section id="team-members" class="container padded">
+  <div class="flexcontainer row center space-between" style="text-align: center;">
+    <div style="padding: 0.5em 2em 0.5em 2em;"><a href="mailto:gerhard.schelkshorn@touchlay.com">ING. GERHARD SCHELKSHORN</a></div>
+    <div style="padding: 0.5em 2em 0.5em 2em;"><a href="mailto:gerhard.schelkshorn@touchlay.com">DANIEL BUGL</a></div>
+    <div style="padding: 0.5em 2em 0.5em 2em;"><a href="mailto:gerhard.schelkshorn@touchlay.com">ING. THOAMS ANDRE</a></div>
+    <div style="padding: 0.5em 2em 0.5em 2em;"><a href="mailto:gerhard.schelkshorn@touchlay.com">GEORG SCHELKSHORN</a></div>
+  </div>
+</section>
+
+<section id="team-description" class="padded">
+  <div class="container">
+    <h1 class="hero-text" style="margin-bottom: 1em;">{{site.data.pages.about.team.headline[page.lang]}}</h1>
+    <p style="margin-bottom: 1em;">{{site.data.pages.about.team.description[page.lang]}}</p>
+  </div>
+</section>
+
+{% include components/newsletter.html alone=true %}
+
+<section id="articles" class="gray padded">
+  <div class="container text-center">
+    <h1>{{site.data.pages.about.team.articleheadline[page.lang]}}</h1>
+    <br />
+    <script async src="https://static.medium.com/embed.js"></script>
+    <div>
+      <a class="m-story" data-border="true" data-width="100%" data-collapsed="true"
+      href="{{site.data.blogposts.featured1.url}}">
+      {{site.data.blogposts.featured1.title}}
+      </a>
+    </div>
+    <br />
+    <div>
+      <a class="m-story" data-border="true" data-width="100%" data-collapsed="true"
+      href="{{site.data.blogposts.featured2.url}}">
+      {{site.data.blogposts.featured2.title}}
+    </a>
+    </div>
+  </div>
+</section>

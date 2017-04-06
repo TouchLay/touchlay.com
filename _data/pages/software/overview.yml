@@ -1,0 +1,81 @@
+header:
+  image: /img/header-software.png
+  title:
+    en: CLUUD Platfrom
+    de: CLUUD Platfrom
+  subtitle:
+    en: Beeindruckend & Interaktiv
+    de: Beeindruckend & Interaktiv
+  buttontext:
+    en: Demo anfragen
+    de: Demo anfragen
+  buttonlink: '#contact'
+  description:
+    en: Generieren Sie aus bestehenden Datenquellen in wenigen Schritten Ihre eigene interaktive Präsentation. Unser Device-Management Feature erlaubt einfaches Deployment und ausgiebige Statistiken.
+    de: Generieren Sie aus bestehenden Datenquellen in wenigen Schritten Ihre eigene interaktive Präsentation. Unser Device-Management Feature erlaubt einfaches Deployment und ausgiebige Statistiken.
+
+features:
+  - id: sources
+    title:
+      en: 1. Datenquellen verbinden
+      de: 1. Datenquellen verbinden
+    description:
+      en: 'Importieren Sie bestehende Daten in unsere Plattform. Diverse Services sind bereits integriert. Auf Wunsch implementieren wir auch neue Schnittstellen oder bereiten Daten von einer existierenden Webseite auf.'
+      de: 'Importieren Sie bestehende Daten in unsere Plattform. Diverse Services sind bereits integriert. Auf Wunsch implementieren wir auch neue Schnittstellen oder bereiten Daten von einer existierenden Webseite auf.'
+    image: /img/feature-sources.jpg
+
+  - id: layout
+    title:
+      en: 2. Layout anpassen
+      de: 2. Layout anpassen
+    description:
+      en: 'Wählen Sie ein passendes Layout aus, das Ihre Daten am besten präsentiert. Sie sehen bereits eine Vorschau mit den importierten Daten.'
+      de: 'Wählen Sie ein passendes Layout aus, das Ihre Daten am besten präsentiert. Sie sehen bereits eine Vorschau mit den importierten Daten.'
+    image: /img/feature-layout.png
+
+  - id: style
+    title:
+      en: 3. Aussehen definieren
+      de: 3. Aussehen definieren
+    description:
+      en: 'Nun laden Sie Ihr Firmenlogo hoch und passen die Farben an Ihre Corporate-Identity an.'
+      de: 'Nun laden Sie Ihr Firmenlogo hoch und passen die Farben an Ihre Corporate-Identity an.'
+    image: /img/feature-style.png
+
+  - id: devices
+    title:
+      en: 4. Geräte zuweisen
+      de: 4. Geräte zuweisen
+    description:
+      en: 'Schließlich wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden sollen. Dabei werden der TouchLay nova, aber auch jegliche Tablets, Smartphones, Desktops und Signage Screens unterstützt.'
+      de: 'Schließlich wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden sollen. Dabei werden der TouchLay nova, aber auch jegliche Tablets, Smartphones, Desktops und Signage Screens unterstützt.'
+    image: /img/feature-devices.jpg
+
+  - id: tracking
+    title:
+      en: Tracking und Statistiken
+      de: Tracking und Statistiken
+    description:
+      en: 'Es werden automatisch Daten über Usereingaben gesammelt und Statistiken generiert, z.B. Heatmap, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze.'
+      de: 'Es werden automatisch Daten über Usereingaben gesammelt und Statistiken generiert, z.B. Heatmap, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze.'
+    image: /img/feature-stats.jpg
+
+  - id: tracking
+    title:
+      en: Branchenspezifische Module
+      de: Branchenspezifische Module
+    description:
+      en: 'Wir entwickeln auch branchenspezifische Module für die Plattform. Momentan bieten wir zusätzlich zur Standard-Präsentationsapp, den Wayfinder (Digitaler Wegweiser) an.'
+      de: 'Wir entwickeln auch branchenspezifische Module für die Plattform. Momentan bieten wir zusätzlich zur Standard-Präsentationsapp, den Wayfinder (Digitaler Wegweiser) an.'
+    image: /img/feature-modules.png
+
+cta:
+  headline:
+    en: Jetzt Demo Anfragen
+    de: Jetzt Demo Anfragen
+  text:
+    en: Momentan befindet sich die CLUUD Plattform in der Pre-Alpha Phase und wird noch aktiv entwickelt. Wenn Sie daran interessiert sind, können wir Ihnen gerne einen Demo-Zugang bereitstellen.
+    de: Momentan befindet sich die CLUUD Plattform in der Pre-Alpha Phase und wird noch aktiv entwickelt. Wenn Sie daran interessiert sind, können wir Ihnen gerne einen Demo-Zugang bereitstellen.
+  buttontext:
+    en: Software Demo anfragen
+    de: Software Demo anfragen

@@ -1,0 +1,82 @@
+navigation:
+  - title: 'Home'
+    url: ''
+
+  - title: 'Hardware'
+    url: 'hardware/'
+
+  - title: 'Software'
+    url: 'software/'
+
+  - title: 'About'
+    url: 'about/'
+
+footer:
+  - title:
+      en: 'Imprint'
+      de: 'Impressum'
+    url: 'imprint.html'
+  - title:
+      en: 'Press'
+      de: 'Presse'
+    url: 'press.html'
+  - title:
+      en: 'Jobs'
+      de: 'Jobs'
+    url: 'jobs.html'
+  - title:
+      en: 'Blog'
+      de: 'Blog'
+    full_url: 'https://blog.touchlay.com'
+
+interessts:
+  en:
+    - nova
+    - rent
+    - buy
+    - project
+  de:
+    - nova
+    - mieten
+    - kaufen
+    - projekt
+
+interesstsplaceholder:
+  en: 'Interested in ...'
+  de: 'Interessiert an ...'
+
+texts:
+  more:
+    en: 'learn more'
+    de: 'mehr erfahren'
+  playvideo:
+    en: 'play video'
+    de: 'Video abspielen'
+  subscribe:
+    en: 'subscribe'
+    de: 'anmelden'
+  send:
+    en: 'send'
+    de: 'senden'
+  email:
+    en: 'email'
+    de: 'E-Mail'
+  requestprice:
+    en: "request pricing"
+    de: "Preise anfragen"
+
+newsletter:
+  headline:
+    en: Bleiben Sie am letzten Stand
+    de: Bleiben Sie am letzten Stand
+
+cookie:
+  description:
+    en: "This website uses cookies to ensure you get the best experience on our website."
+    de: "This website uses cookies to ensure you get the best experience on our website."
+  more:
+    en: "Learn more"
+    de: "Mehr erfahren"
+  accept:
+    en: "got it!"
+    de: "ok!"
