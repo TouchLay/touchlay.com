@@ -818,7 +818,8 @@ input, textarea,
   resize:none;
 }
 
-input.unhappy, textarea.unhappy, {
+input.unhappy, textarea.unhappy,
+.selectivity-single-select.unhappy {
   border-color: #f44336; /* red */
   background: rgb(251, 224, 222); /* light red */
 }
@@ -1081,7 +1082,7 @@ footer input[type="checkbox"]:checked:after {
   padding: 7px; }
 
 .selectivity-placeholder {
-  color: #999; 
+  color: #999;
 }
 
 /* Multi-selection input */

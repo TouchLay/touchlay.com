@@ -123,9 +123,9 @@ $(document).ready(function() {
       '#contact-name': {
         required: true,
       },
-      /*'#contact-country': {
+      '#contact-country .selectivity-single-select-input': {
         required: true,
-      },*/
+      },
       '#contact-message': {
         test: function(val) { return happy.maxLength(val, 5000) },
         message: 'Message is too long!'
@@ -133,6 +133,14 @@ $(document).ready(function() {
       '#contact-email': {
         required: true,
         test: happy.email
+      }
+    },
+    unHappy: function (ev) {
+      ev.preventDefault();
+
+      // set "unhappy" class on auto-complete input
+      if ($('#contact-country .selectivity-single-select-input').hasClass('unhappy')) {
+        $('#contact-country .selectivity-single-select').addClass('unhappy')
       }
     },
     happy: function(ev) {
@@ -147,7 +155,7 @@ $(document).ready(function() {
         name: $('#contact-name').val(),
         email: $('#contact-email').val(),
         message: $('#contact-message').val(),
-        country: $('#contact-country').val(),
+        country: $('#contact-country').selectivity('data'),
         interests: $.map($('#contact-interested').selectivity('data'), function(item) { return item.text })
       })
     }
