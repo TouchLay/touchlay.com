@@ -806,7 +806,8 @@ section.verypaddedTop {
 
 /* Forms */
 input, textarea,
-.selectivity-multiple-input-container {
+.selectivity-multiple-input-container,
+.selectivity-single-select {
   cursor: text;
   border-radius: 3px;
 	background-color: $white-two;
@@ -1026,6 +1027,7 @@ footer input[type="checkbox"]:checked:after {
   border-radius: 0 0 3px 3px;
   position: fixed;
   z-index: 1046;
+  margin-top: -0.5em;
 }
 
 .selectivity-search-input-container {
@@ -1035,10 +1037,13 @@ footer input[type="checkbox"]:checked:after {
   background: transparent;
   border: 0;
   outline: 0;
-  width: 100%; }
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
 
 .selectivity-results-container {
-  max-height: 28em;
+  max-height: 15em;
   overflow: auto;
   position: relative; }
 
@@ -1075,11 +1080,15 @@ footer input[type="checkbox"]:checked:after {
 .selectivity-result-label {
   padding: 7px; }
 
+.selectivity-placeholder {
+  color: #999; 
+}
+
 /* Multi-selection input */
 
 .selectivity-multiple-input-container .selectivity-placeholder {
   height: calc(2em + 4px);
-line-height: calc(2em + 4px); }
+line-height: calc(2em + 4px);}
 
 .selectivity-multiple-input,
 input[type='text'].selectivity-multiple-input {
@@ -1130,26 +1139,22 @@ input[type='text'].selectivity-multiple-input {
 }
 
 /* Single-selection input */
-
 .selectivity-single-select {
-  background: #eee;
-  border-radius: 2px;
-  cursor: pointer;
-  min-height: 2em;
-  padding: 5px;
   position: relative;
-  box-sizing: content-box;
 }
 
 .selectivity-single-select-input {
   opacity: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .selectivity-single-result-container {
   position: absolute;
-  top: 0.8em;
+  top: 1em;
   right: 15px;
-  left: 5px;
+  left: 1em;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1160,18 +1165,17 @@ input[type='text'].selectivity-multiple-input {
 }
 
 .selectivity-single-selected-item-remove {
-  color: #000;
   float: right;
   padding: 0 5px;
+  color: #fff;
+  cursor: pointer;
 }
 
-.selectivity-caret {
-  position: absolute;
-  right: 5px;
-  top: 0.7em;
+.selectivity-single-selected-item-remove:after {
+  content: '\2716';
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: $breakpoint-mobile) {
   .selectivity-single-select {
     background: #eee;
     border-radius: 2px;
@@ -1179,9 +1183,5 @@ input[type='text'].selectivity-multiple-input {
 
   .selectivity-single-result-container {
     right: 5px;
-  }
-
-  .selectivity-caret {
-    display: none;
   }
 }
