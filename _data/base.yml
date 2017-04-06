@@ -45,6 +45,10 @@ interesstsplaceholder:
   en: 'Interested in ...'
   de: 'Interessiert an ...'
 
+countryplaceholder:
+  en: 'Country'
+  de: 'Land'
+
 texts:
   more:
     en: 'learn more'
