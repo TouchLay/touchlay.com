@@ -123,9 +123,9 @@ $(document).ready(function() {
       '#contact-name': {
         required: true,
       },
-      '#contact-country': {
+      /*'#contact-country': {
         required: true,
-      },
+      },*/
       '#contact-message': {
         test: function(val) { return happy.maxLength(val, 5000) },
         message: 'Message is too long!'
@@ -134,6 +134,22 @@ $(document).ready(function() {
         required: true,
         test: happy.email
       }
+    },
+    happy: function(ev) {
+      ev.preventDefault();
+
+      // add to newsletter if checkbox is checked
+      if ($('#checkbox-newsletter').prop('checked')) {
+        submitSubscribeForm('EMAIL=' + encodeURIComponent($('#contact-email').val()));
+      }
+
+      sendInquiry({
+        name: $('#contact-name').val(),
+        email: $('#contact-email').val(),
+        message: $('#contact-message').val(),
+        country: $('#contact-country').val(),
+        interests: $.map($('#contact-interested').selectivity('data'), function(item) { return item.text })
+      })
     }
   });
 
@@ -152,23 +168,6 @@ $(document).ready(function() {
     }
     xhr.send(JSON.stringify(data));
   }
-
-
-  $('#contact-form').submit(function(ev) {
-    ev.preventDefault()
-    // add to newsletter if checkbox is checked
-    if ($('#checkbox-newsletter').prop('checked')) {
-      submitSubscribeForm('EMAIL=' + encodeURIComponent($('#contact-email').val()));
-    }
-
-    sendInquiry({
-      name: $('#contact-name').val(),
-      email: $('#contact-email').val(),
-      message: $('#contact-message').val(),
-      country: $('#contact-country').val(),
-      interests: $.map($('#contact-interested').selectivity('data'), function(item) { return item.text })
-    })
-  })
 });
 
 var countries = [
