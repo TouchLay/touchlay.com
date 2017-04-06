@@ -107,7 +107,9 @@ $(document).ready(function() {
   });
 
   // Handle scooch carousel(s)
-  $('.m-scooch').scooch()
+  $('.m-scooch').scooch({
+    infinite: true
+  })
 
   // Validate Contact form
   var happy = {
