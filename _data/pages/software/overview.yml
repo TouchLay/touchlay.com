@@ -1,81 +1,81 @@
 header:
   image: /img/header-software.png
   title:
-    en: CLUUD Platfrom
-    de: CLUUD Platfrom
+    en: CLUUD platform
+    de: CLUUD Plattform
   subtitle:
-    en: Beeindruckend & Interaktiv
+    en: impressive & interactive
     de: Beeindruckend & Interaktiv
   buttontext:
-    en: Demo anfragen
+    en: request demo
     de: Demo anfragen
   buttonlink: '#contact'
   description:
-    en: Generieren Sie aus bestehenden Datenquellen in wenigen Schritten Ihre eigene interaktive Präsentation. Unser Device-Management Feature erlaubt einfaches Deployment und ausgiebige Statistiken.
+    en: Connect our platform with data sources (e.g. Dropbox, Website, etc). Generate your own impressive presentation in a few steps. Our device management feature allows for simple deployment and extensive tracking and statistics.
     de: Generieren Sie aus bestehenden Datenquellen in wenigen Schritten Ihre eigene interaktive Präsentation. Unser Device-Management Feature erlaubt einfaches Deployment und ausgiebige Statistiken.
 
 features:
   - id: sources
     title:
-      en: 1. Datenquellen verbinden
+      en: 1. Connect Data Sources
       de: 1. Datenquellen verbinden
     description:
-      en: 'Importieren Sie bestehende Daten in unsere Plattform. Diverse Services sind bereits integriert. Auf Wunsch implementieren wir auch neue Schnittstellen oder bereiten Daten von einer existierenden Webseite auf.'
+      en: 'Import existing data into our platform through various services. On request, we also implement new data sources or process information from an existing website.'
       de: 'Importieren Sie bestehende Daten in unsere Plattform. Diverse Services sind bereits integriert. Auf Wunsch implementieren wir auch neue Schnittstellen oder bereiten Daten von einer existierenden Webseite auf.'
     image: /img/feature-sources.jpg
 
   - id: layout
     title:
-      en: 2. Layout anpassen
+      en: 2. Choose Layout
       de: 2. Layout anpassen
     description:
-      en: 'Wählen Sie ein passendes Layout aus, das Ihre Daten am besten präsentiert. Sie sehen bereits eine Vorschau mit den importierten Daten.'
+      en: 'Pick a layout that presents your data in the best way. You can see a preview with the imported data.'
       de: 'Wählen Sie ein passendes Layout aus, das Ihre Daten am besten präsentiert. Sie sehen bereits eine Vorschau mit den importierten Daten.'
     image: /img/feature-layout.png
 
   - id: style
     title:
-      en: 3. Aussehen definieren
+      en: 3. Define Style
       de: 3. Aussehen definieren
     description:
-      en: 'Nun laden Sie Ihr Firmenlogo hoch und passen die Farben an Ihre Corporate-Identity an.'
+      en: 'Upload your company logo and adjust the colors to your corporate identity.'
       de: 'Nun laden Sie Ihr Firmenlogo hoch und passen die Farben an Ihre Corporate-Identity an.'
     image: /img/feature-style.png
 
   - id: devices
     title:
-      en: 4. Geräte zuweisen
+      en: 4. Assign Devices
       de: 4. Geräte zuweisen
     description:
-      en: 'Schließlich wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden sollen. Dabei werden der TouchLay Nova, aber auch jegliche Tablets, Smartphones, Desktops und Signage Screens unterstützt.'
+      en: 'Finally, select a device to deploy the presentation on. Supported are the TouchLay Nova, as well as various tablets, smartphones, desktops and signage screens.'
       de: 'Schließlich wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden sollen. Dabei werden der TouchLay Nova, aber auch jegliche Tablets, Smartphones, Desktops und Signage Screens unterstützt.'
     image: /img/feature-devices.jpg
 
   - id: tracking
     title:
-      en: Tracking und Statistiken
+      en: Tracking and Statistics
       de: Tracking und Statistiken
     description:
-      en: 'Es werden automatisch Daten über Usereingaben gesammelt und Statistiken generiert, z.B. Heatmap, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze.'
+      en: 'User input will be automatically collected and statistics generated, e.g. heatmap, input in search fields, clicks on certain data sets.'
       de: 'Es werden automatisch Daten über Usereingaben gesammelt und Statistiken generiert, z.B. Heatmap, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze.'
     image: /img/feature-stats.jpg
 
   - id: tracking
     title:
-      en: Branchenspezifische Module
+      en: Branch-specific Modules
       de: Branchenspezifische Module
     description:
-      en: 'Wir entwickeln auch branchenspezifische Module für die Plattform. Momentan bieten wir zusätzlich zur Standard-Präsentationsapp, den Wayfinder (Digitaler Wegweiser) an.'
+      en: 'We also develop branch specific modules for the platform. At the moment, we offer the digital Wayfinder in addition to the default presentation app.'
       de: 'Wir entwickeln auch branchenspezifische Module für die Plattform. Momentan bieten wir zusätzlich zur Standard-Präsentationsapp, den Wayfinder (Digitaler Wegweiser) an.'
     image: /img/feature-modules.png
 
 cta:
   headline:
-    en: Jetzt Demo Anfragen
-    de: Jetzt Demo Anfragen
+    en: Request Demo Now
+    de: Jetzt Demo anfragen
   text:
-    en: Momentan befindet sich die CLUUD Plattform in der Pre-Alpha Phase und wird noch aktiv entwickelt. Wenn Sie daran interessiert sind, können wir Ihnen gerne einen Demo-Zugang bereitstellen.
+    en: At the moment, the CLUUD platform is in pre-alpha stage and still being actively developed. If you are interested, we can provide you demo access.
     de: Momentan befindet sich die CLUUD Plattform in der Pre-Alpha Phase und wird noch aktiv entwickelt. Wenn Sie daran interessiert sind, können wir Ihnen gerne einen Demo-Zugang bereitstellen.
   buttontext:
-    en: Software Demo anfragen
+    en: Request software demo
     de: Software Demo anfragen
