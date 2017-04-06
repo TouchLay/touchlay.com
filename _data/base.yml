@@ -42,8 +42,8 @@ interessts:
     - projekt
 
 interesstsplaceholder:
-  en: 'Interested in ...'
-  de: 'Interessiert an ...'
+  en: 'Interested in...'
+  de: 'Interessiert an...'
 
 countryplaceholder:
   en: 'Country'
@@ -71,16 +71,16 @@ texts:
 
 newsletter:
   headline:
-    en: Bleiben Sie am letzten Stand
+    en: Stay up to date
     de: Bleiben Sie am letzten Stand
 
 cookie:
   description:
     en: "This website uses cookies to ensure you get the best experience on our website."
-    de: "This website uses cookies to ensure you get the best experience on our website."
+    de: "Diese Webseite verwendet Cookies. Durch das Nutzen dieser Seite sind Sie mit der Verwendung von Cookies einverstanden."
   more:
     en: "Learn more"
-    de: "Mehr erfahren"
+    de: "Mehr Information"
   accept:
     en: "got it!"
     de: "ok!"

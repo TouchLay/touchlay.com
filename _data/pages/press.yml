@@ -12,5 +12,5 @@ text:
     en: Colors
     de: Farben
   naming:
-    en: 'Always write "TouchLay" with the capital T an L. When you want to use "nova", always use lower case. Example: TouchLay nova'
-    de: 'Schreiben Sie "TouchLay" bitte immer mit großem T und L. Wenn Sie den Namen "nova" verwenden möchten, bitte immer klein schreiben. Beispiel: TouchLay nova'
+    en: 'Always write "TouchLay" with the capital T an L. Always capitalize product names. Example: TouchLay Nova'
+    de: 'Schreiben Sie "TouchLay" bitte immer mit großem T und L. Schreiben Sie Produktnamen mit großem Anfangsbuchstaben. Beispiel: TouchLay Nova'
