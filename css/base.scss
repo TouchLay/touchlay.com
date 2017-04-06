@@ -132,7 +132,7 @@ h3 {
 }
 
 body {
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	color: $black;
 }
@@ -529,7 +529,7 @@ button {
   color: $touchlay-blue;
   padding: 12px 20px;
 
-  font: 14px Roboto;
+  font: 14px 'Roboto';
   font-weight: 500;
   text-transform: uppercase;
 
