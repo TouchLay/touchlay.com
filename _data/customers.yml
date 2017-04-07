@@ -1,11 +1,10 @@
-- company: "Buch Messe Wien 2016"
-  image: "/img/customer-1.jpg"
-  logo: "/img/customer-logo-1.png"
+- company: "Reed Exhibitions Wien"
+  image: "/img/customer-8.jpg"
+  logo: "/img/customer-logo-8.png"
   description:
-    en: "used the TouchLay Nova as digital timetable and wayfinder."
-    de: "verwendete den TouchLay Nova als digitaler Zeitplan und Wegweiser."
-  lity: true
-  media: "https://www.youtube.com/watch?v=L5oxUTE3bh4"
+    en: "regularly uses the TouchLay Nova as digital wayfinder and timetable at exhibitions."
+    de: "setzt den TouchLay Nova regelmäßig bei Messen als Digitaler Wegweiser und Zeitplan ein."
+  media: "https://www.youtube.com/watch?v=UKmZ6LIZKaI"
 
 - company: "Österreichische Post"
   image: "/img/customer-2.jpg"
@@ -44,20 +43,21 @@
     en: "uses the TouchLay Nova at various events to present their apps."
     de: "verwendet den TouchLay Nova bei diversen Events, um verschiedene Apps zu präsentieren."
 
+- company: "Buch Messe Wien 2016"
+  image: "/img/customer-1.jpg"
+  logo: "/img/customer-logo-1.png"
+  description:
+    en: "used the TouchLay Nova as digital timetable and wayfinder."
+    de: "verwendete den TouchLay Nova als digitaler Zeitplan und Wegweiser."
+  lity: true
+  media: "https://www.youtube.com/watch?v=L5oxUTE3bh4"
+
 - company: "Otto Immobilien"
   image: "/img/customer-7.jpg"
   logo: "/img/customer-logo-7.png"
   description:
     en: "utilises the TouchLay Nova to present their real estate portfolio."
     de: "nutzt den TouchLay Nova, um ihr Immobilienportfolio zu präsentieren."
-
-- company: "Reed Exhibitions Wien"
-  image: "/img/customer-8.jpg"
-  logo: "/img/customer-logo-8.png"
-  description:
-    en: "regularly uses the TouchLay Nova as digital wayfinder and timetable at exhibitions."
-    de: "setzt den TouchLay Nova regelmäßig bei Messen als Digitaler Wegweiser und Zeitplan ein."
-  media: "https://www.youtube.com/watch?v=UKmZ6LIZKaI"
 
 - company: "Arbeiterkammer Niederösterreich"
   image: "/img/customer-9.jpg"

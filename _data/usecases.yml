@@ -1,16 +1,22 @@
-- title: Messen und Events
+- title:
+    en: Exhibitions und Events
+    de: Messen and Events
   image: /img/usecase-1.jpg
   description:
     en: "Attracting your customers' attention is the essential goal at exhibitions and event. With the TouchLay Nova you can attract potential customers."
     de: "Die Aufmerksamkeit der Besucher auf sich zu ziehen ist ein essentieller Teil von Messen und Events. Mit dem nova ziehen Sie die Besucher an."
 
-- title: Point of Sale
+- title:
+    en: Point of Sale
+    de: Point of Sale
   image: /img/usecase-2.jpg
   description:
     en: "Through support from the TouchLay Nova and our software you can make your sales process interactive."
     de: "Durch Unterstützung vom TouchLay Nova können Sie den Verkaufsprozess interaktiv gestalten und dabei von der Software unterstützt werden."
 
-- title: Wayfinder
+- title:
+    en: Wayfinder
+    de: Wayfinder
   image: /img/usecase-3.jpg
   description:
     en: "The TouchLay Nova as digital wayfinder helps people get around. Improve frequency in certain areas through tracking and advertisements."

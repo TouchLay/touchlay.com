@@ -29,6 +29,10 @@ footer:
       de: 'Blog'
     full_url: 'https://blog.touchlay.com'
 
+footertitle:
+  en: 'Interested? Contact us!'
+  de: 'Interessiert? Kontaktieren Sie uns!'
+
 interessts:
   en:
     - nova
@@ -42,11 +46,11 @@ interessts:
     - projekt
 
 interesstsplaceholder:
-  en: 'Interested in...'
+  en: 'interested in...'
   de: 'Interessiert an...'
 
 countryplaceholder:
-  en: 'Country'
+  en: 'country'
   de: 'Land'
 
 texts:
@@ -65,14 +69,41 @@ texts:
   email:
     en: 'email'
     de: 'E-Mail'
+  phone:
+    en: 'phone'
+    de: 'Telefon'
+  address:
+    en: 'address'
+    de: 'Adresse'
+  austria:
+    en: 'Austria'
+    de: 'Österreich'
+  name:
+    en: 'name'
+    de: 'Name'
+  message:
+    en: 'message (optional)'
+    de: 'Nachricht (optional)'
+  requestnewsletter:
+    en: 'subscribe to newsletter'
+    de: 'Newsletter erhalten'
   requestprice:
     en: "request pricing"
     de: "Preise anfragen"
+  contactsuccess:
+    en: '✔ Recived inquiry'
+    de: '✔ Anfrage erhalten'
+  contacterror:
+    en: '❌ Could not send your request, please contact us at <a href="mailto:hello@touchlay.com">hello@touchlay.com</a>.'
+    de: '❌ Wir konnte ihre Anfrage nicht senden, bitte kontaktiern Sie uns unter <a href="mailto:hello@touchlay.com">hello@touchlay.com</a>.'
 
 newsletter:
   headline:
     en: Stay up to date
     de: Bleiben Sie am letzten Stand
+  description:
+    en: 'Receive special offers, information about new products, <br />and tips and tricks to impress your customers.'
+    de: 'Erhalten Sie Information über Sonderangebote, neue Produkte, <br />sowie Tips und Tricks um Ihre Kunden zu begeistern.'
 
 cookie:
   description:

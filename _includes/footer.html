@@ -1,40 +1,43 @@
 <footer id="contact">
   <div class="container">
-    <h1 class="h1-white">Interessiert? Kontaktieren Sie uns!</h1>
+    <h1 class="h1-white">{{ site.data.base.footertitle[page.lang] }}</h1>
 
     <div class="flexcontainer row space-between" style="margin-top: 2em;">
       <form id="contact-form" class="contact-form">
-        <input style="width: calc(40% - 2em - 8px);" id="contact-name" type="text" placeholder="Name" />
-        <input style="width: calc(60% - 2em - 4px);" id="contact-email" type="email" placeholder="{{ site.data.base.texts.email[page.lang] }}" />
+        <input id="contact-name" type="text" placeholder="{{ site.data.base.texts.name[page.lang] }}" />
+        <input id="contact-email" type="email" placeholder="{{ site.data.base.texts.email[page.lang] }}" />
+        <span style="clear: both;"></span>
         <br />
-        <textarea style="width: calc(100% - 2em - 4px);" id="contact-message" rows="6" placeholder="Nachricht (optional)"></textarea>
+        <textarea id="contact-message" rows="6" placeholder="{{ site.data.base.texts.message[page.lang] }}"></textarea>
         <br />
-        <!--<input style="width: calc(30% - 2em - 8px);" id="contact-country" type="text" placeholder="Land" />-->
-        <div id="contact-country" style="width: calc(40% - 2em - 4px); display: inline-block; float: left;"></div>
-        <!--<input id="contact-interested" style="width: calc(70% - 2em - 4px);" type="text" placeholder="Interessiert an ..."/>-->
-        <div id="contact-interested" style="width: calc(70% - 2em - 4px); display: inline-block; float: right;"></div>
-        <span class="clear: both;"></span>
+        <div id="contact-country"></div>
+        <div id="contact-interested"></div>
+        <span style="clear: both;"></span>
         <br />
         <div style="float: right;">
-          <div style="padding-top: 9px; padding-right: 1em; float: left;"><input type="checkbox" name="newsletter" id="checkbox-newsletter" value="newsletter">
-          <label for="checkbox-newsletter" style="top: -12px; position: relative;">Newsletter erhalten</label>
+          <div id="contact-confirmation-success">{{ site.data.base.texts.contactsuccess[page.lang] }}</div>
+          <div id="contact-confirmation-error">{{ site.data.base.texts.contacterror[page.lang] }}</div>
+
+          <div id="contact-checkbox"><input type="checkbox" name="newsletter" id="checkbox-newsletter" value="newsletter">
+          <label for="checkbox-newsletter" id="contact-checkbox-description">{{ site.data.base.texts.requestnewsletter[page.lang] }}</label>
         </div>
-          <button type="submit" class="btn-orange">{{ site.data.base.texts.send[page.lang] }}</button>
+          <button id="contact-submit" type="submit" class="btn-orange">{{ site.data.base.texts.send[page.lang] }}</button>
         </div>
+        <span style="clear: both;"></span>
       </form>
 
       <div class="contact-information">
       <address>
-        <div class="address-description">Telefon</div>
+        <div class="address-description">{{ site.data.base.texts.phone[page.lang] }}</div>
         <div class="address-content"><a href="tel:+4367688633655">+43 (0) 676 88 633 655</a></div>
         <div class="address-description">{{ site.data.base.texts.email[page.lang] }}</div>
         <div class="address-content"><a href="mailto:hello@touchlay.com">hello@touchlay.com</a></div>
-        <div class="address-description">Addresse</div>
+        <div class="address-description">{{ site.data.base.texts.address[page.lang] }}</div>
         <div class="address-content">
           <a target="_blank" href="https://www.google.com/maps/place/Enzersdorfer+Str.+19,+2340+Mödling/@48.0881282,16.2811531,17z/data=!3m1!4b1!4m5!3m4!1s0x476daf0dad4215b7:0xab1c6f91372fe04d!8m2!3d48.0881246!4d16.2833471">TouchLay GmbH<br/>
           Enzersdorferstraße 19,<br/>
           2340 Mödling<br/>
-          Österreich</a>
+          {{ site.data.base.texts.austria[page.lang] }}</a>
         </div>
       </address>
     </div>

@@ -137,6 +137,10 @@ body {
 	color: $black;
 }
 
+i {
+  font-style: italic;
+}
+
 /* Basic Elements */
 
 html, body {
@@ -881,6 +885,65 @@ footer .language-toggle {
   @media screen and (max-width: $breakpoint-tablet) {
     width: 100%;
   }
+}
+
+#contact-name {
+  width: calc(40% - 2em - 8px);
+  float: left;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    width: calc(100% - 2em - 4px);
+  }
+}
+
+#contact-email {
+  width: calc(59% - 2em - 4px);
+  float: right;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    width: calc(100% - 2em - 4px);
+  }
+}
+
+#contact-message {
+  width: calc(100% - 2em - 4px);
+}
+
+#contact-country {
+  width: calc(30%);
+  display: inline-block;
+  float: left;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    width: 100%;
+  }
+}
+
+#contact-interested {
+  width: calc(69%);
+  display: inline-block;
+  float: right;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    width: 100%;
+  }
+}
+
+#contact-checkbox {
+  padding-top: 9px;
+  padding-right: 1em;
+  float: left;
+}
+
+#contact-checkbox-description {
+  top: -12px;
+  position: relative;
+}
+
+#contact-confirmation-success,
+#contact-confirmation-error {
+  display: none;
+  margin-top: 1em;
 }
 
 .contact-information {

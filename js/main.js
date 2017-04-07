@@ -125,9 +125,9 @@ $(document).ready(function() {
       '#contact-name': {
         required: true,
       },
-      '#contact-country .selectivity-single-select-input': {
+      /*'#contact-country .selectivity-single-select-input': {
         required: true,
-      },
+      },*/
       '#contact-message': {
         test: function(val) { return happy.maxLength(val, 5000) },
         message: 'Message is too long!'
@@ -137,14 +137,14 @@ $(document).ready(function() {
         test: happy.email
       }
     },
-    unHappy: function (ev) {
+    /*unHappy: function (ev) {
       ev.preventDefault();
 
       // set "unhappy" class on auto-complete input
       if ($('#contact-country .selectivity-single-select-input').hasClass('unhappy')) {
         $('#contact-country .selectivity-single-select').addClass('unhappy')
       }
-    },
+    },*/
     happy: function(ev) {
       ev.preventDefault();
 
@@ -157,8 +157,8 @@ $(document).ready(function() {
         name: $('#contact-name').val(),
         email: $('#contact-email').val(),
         message: $('#contact-message').val(),
-        country: $('#contact-country').selectivity('data'),
-        interests: $.map($('#contact-interested').selectivity('data'), function(item) { return item.text })
+        country: $('#contact-country').selectivity('data') && $('#contact-country').selectivity('data').text,
+        interests: $('#contact-interested').selectivity('data') && $.map($('#contact-interested').selectivity('data'), function(item) { return item.text })
       })
     }
   });
@@ -171,9 +171,17 @@ $(document).ready(function() {
     xhr.onreadystatechange = function () {
       if (xhr.readyState == 4 && xhr.status == 204) {
         console.log('success');
+        $('#contact-checkbox').hide();
+        $('#contact-checkbox-description').hide();
+        $('#contact-submit').hide();
+        $('#contact-confirmation-success').show();
       }
       if (xhr.status != 204) {
         console.log('error, status code:', xhr.status);
+        $('#contact-checkbox').hide();
+        $('#contact-checkbox-description').hide();
+        $('#contact-submit').hide();
+        $('#contact-confirmation-error').show();
       }
     }
     xhr.send(JSON.stringify(data));
