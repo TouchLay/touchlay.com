@@ -1,0 +1,75 @@
+{% include components/header-skew.html
+  image=site.data.pages.home.header.image
+  title=site.data.pages.home.header.title
+  subtitle=site.data.pages.home.header.subtitle
+  gacategory="intro"
+
+  primarytext=site.data.base.texts.playvideo
+  primarylink=site.data.pages.home.header.video
+  primarylity=true
+  primarygaaction="playvideo"
+
+  secondarytext=site.data.base.texts.more
+  secondarylink="hardware"
+  secondarygaaction="more"
+%}
+
+
+<section id="about">
+  <div class="container">
+    <div class="hero-wrapper">
+      <p class="hero-text">{{ site.data.pages.home.vision[page.lang] }}</p>
+    </div>
+    <div class="flexcontainer row middle space-around">
+      <a href="about/index.html"><button data-event-category="team" data-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
+    </div>
+  </div>
+</section>
+
+<section id="usecases" class="padded gray">
+  <div class="container">
+    <h1 class="text-center section-title">Usecases</h1>
+    {% include components/usecases.html %}
+    <!--<button data-event-category="usecases" data-event-action="more" class="block-center section-btn">weitere usecases</button>-->
+  </div>
+</section>
+
+<section id="overview-software" class="padded section-a">
+  {% assign content = site.data.pages.home.software %}
+  {% include components/feature-section.html
+      title=content.title
+      subtitle=content.subtitle
+      description=content.description
+      image=content.image
+      cta=site.data.base.texts.more
+      ctalink="software/index.html"
+
+      gacategory="software"
+      gaaction="more"
+  %}
+</section>
+
+<section id="overview-hardware" class="padded section-b gray">
+  {% assign content = site.data.pages.home.hardware %}
+  {% include components/feature-section.html
+      title=content.title
+      subtitle=content.subtitle
+      description=content.description
+      image=content.image
+      cta=site.data.base.texts.more
+      ctalink="hardware/index.html"
+
+      gacategory="hardware"
+      gaaction="more"
+  %}
+</section>
+
+{% include components/newsletter.html %}
+
+<section id="customers" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">Unsere Kunden</h1>
+    {% include components/customers.html %}
+  </div>
+</section>

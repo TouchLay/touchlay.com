@@ -1,0 +1,66 @@
+{% include components/header-skew.html
+  image=site.data.pages.hardware.nova.header.image
+  title=site.data.pages.hardware.nova.header.title
+  subtitle=site.data.pages.hardware.nova.header.subtitle
+  gacategory="intro"
+
+  primarytext=site.data.base.texts.playvideo
+  primarylink=site.data.pages.hardware.nova.header.video
+  primarylity=true
+  primarygaaction="playvideo"
+
+  secondarytext=site.data.base.texts.requestprice
+  secondarylink=site.data.pages.hardware.nova.header.buttonlink
+  secondarygaaction="requestprice"
+
+  herodescription=site.data.pages.hardware.nova.header.description
+%}
+
+
+{% include components/feature-loop.html features=site.data.pages.hardware.nova.features %}
+
+<section id="usecases" class="padded gray">
+  <div class="container">
+    <h1 class="text-center section-title">Usecases</h1>
+    {% include components/usecases.html %}
+  </div>
+</section>
+
+<section id="specs" class="padded">
+  <div class="container">
+    <h2>Spezifikation</h2>
+    {% include components/specs.html specs=site.data.pages.hardware.nova.specs %}
+    <br />
+    {% include components/image.html image="/img/nova-dimensions.png" %}
+    <a href="{{site.data.pages.hardware.nova.brochuere.link[page.lang]}}" download>
+      <button class="section-btn" data-event-category="hardware" data-event-action="download-brochuere">{{site.data.pages.hardware.nova.brochuere.text[page.lang]}}</button>
+    </a>
+  </div>
+</section>
+
+<section id="overview-software" class="section-a padded gray">
+  {% assign content = site.data.pages.home.software %}
+  {% include components/feature-section.html
+      title=content.title
+      subtitle=content.subtitle
+      description=content.description
+      image=content.image
+      cta=site.data.base.texts.more
+      ctalink="../software/index.html"
+
+      gacategory="software"
+      gaaction="more"
+  %}
+</div>
+
+<section id="cta" class="section-even orange verypadded">
+  <div class="container flexcontainer row middle spacebetween">
+    <div class="section-text">
+        <h1 class="h1-white">{{site.data.pages.hardware.nova.cta.headline[page.lang]}}</h1>
+        <p>{{site.data.pages.hardware.nova.cta.text[page.lang]}}</p>
+    </div>
+    <div class="section-image">
+      <a href="#contact" data-event-category="hardware" data-event-action="requstprice"><button class="btn-white cta-highlight">{{site.data.base.texts.requestprice[page.lang]}}</button></a>
+    </div>
+  </div>
+</section>
