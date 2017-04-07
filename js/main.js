@@ -186,4 +186,12 @@ $(document).ready(function() {
     }
     xhr.send(JSON.stringify(data));
   }
+
+  // handle cta highlight
+  $('.cta-highlight').click(function() {
+    $('#contact-form').addClass('highlight')
+    setTimeout(function() {
+      $('#contact-form').removeClass('highlight')
+    }, 1000)
+  })
 });

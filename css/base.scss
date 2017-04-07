@@ -887,6 +887,20 @@ footer .language-toggle {
   }
 }
 
+footer input,
+footer textarea,
+footer .selectivity-single-select,
+footer .selectivity-multiple-input-container {
+  transition: box-shadow 1s ease-in-out;
+}
+
+.highlight > input,
+.highlight > textarea,
+.highlight .selectivity-single-select,
+.highlight .selectivity-multiple-input-container {
+  box-shadow: 0 0 0px 3px $touchlay-orange;
+}
+
 #contact-name {
   width: calc(40% - 2em - 8px);
   float: left;
