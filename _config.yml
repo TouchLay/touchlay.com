@@ -1,3 +1,3 @@
 markdown: kramdown
-exclude: ["node_modules","vendor"]
+exclude: ["node_modules"]
 url: //touchlay.com

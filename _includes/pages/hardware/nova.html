@@ -40,14 +40,13 @@
 
 <section id="overview-software" class="section-a padded gray">
   {% assign content = site.data.pages.home.software %}
-  {% capture softwarePageUrl %}/{{page.lang}}/software/{% endcapture %}
   {% include components/feature-section.html
       title=content.title
       subtitle=content.subtitle
       description=content.description
       image=content.image
       cta=site.data.base.texts.more
-      ctalink=softwarePageUrl
+      ctalink="../software/index.html"
 
       gacategory="software"
       gaaction="more"

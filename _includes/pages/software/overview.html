@@ -16,15 +16,14 @@
 {% include components/newsletter.html %}
 
 <section id="overview-hardware" class="paddedTop section-a">
-  {% assign content = site.data.pages.home.hardware %}{% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
-  {% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
+  {% assign content = site.data.pages.home.hardware %}
   {% include components/feature-section.html
       title=content.title
       subtitle=content.subtitle
       description=content.description
       image=content.image
       cta=site.data.base.texts.more
-      ctalink=hardwarePageUrl
+      ctalink="../hardware/index.html"
 
       gacategory="hardware"
       gaaction="more"

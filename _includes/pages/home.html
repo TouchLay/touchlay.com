@@ -1,6 +1,3 @@
-{% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
-{% capture softwarePageUrl %}/{{page.lang}}/software/{% endcapture %}
-
 {% include components/header-skew.html
   image=site.data.pages.home.header.image
   title=site.data.pages.home.header.title
@@ -13,7 +10,7 @@
   primarygaaction="playvideo"
 
   secondarytext=site.data.base.texts.more
-  secondarylink=headerPageUrl
+  secondarylink="hardware"
   secondarygaaction="more"
 %}
 
@@ -24,7 +21,7 @@
       <p class="hero-text">{{ site.data.pages.home.vision[page.lang] }}</p>
     </div>
     <div class="flexcontainer row middle space-around">
-      <a href="/{{page.lang}}/about/"><button data-event-category="team" data-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      <a href="about/index.html"><button data-event-category="team" data-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
       {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
     </div>
   </div>
@@ -46,7 +43,7 @@
       description=content.description
       image=content.image
       cta=site.data.base.texts.more
-      ctalink=softwarePageUrl
+      ctalink="software/index.html"
 
       gacategory="software"
       gaaction="more"
@@ -61,7 +58,7 @@
       description=content.description
       image=content.image
       cta=site.data.base.texts.more
-      ctalink=hardwarePageUrl
+      ctalink="hardware/index.html"
 
       gacategory="hardware"
       gaaction="more"
