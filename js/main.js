@@ -1,23 +1,79 @@
----
----
+document.body.className = document.body.className.replace("no-js","js");
 
-document.body.className = document.body.className.replace("no-js","js") // set that we have js
-var lang = $('body').data('lang') // get current langauge
+window.lazySizesConfig = window.lazySizesConfig || {};
 
-// detect language and forwared to right language (only from /index.html)
-if (location.pathname == "/") {
-  var browserLang = window.navigator.userLanguage || window.navigator.language;
-  window.location.href = (browserLang === 'de') ? '/de/' : '/en/'
-}
+lazySizesConfig.throttle = 70;
+lazySizesConfig.expand = 500;
+lazySizesConfig.expFactor = 2;
+lazySizesConfig.loadMode = 3;
 
 $(document).ready(function() {
+
+  /**
+  * This part handles the highlighting functionality.
+  * We use the scroll functionality again, some array creation and
+  * manipulation, class adding and class removing, and conditional testing
+  */
+  var aChildren = $("#main-menu a.item"); // find the a children of the list items
+  var aArray = []; // create the empty aArray
+  for (var i = 0; i < aChildren.length; i++) {
+    var aChild = aChildren[i];
+    var ahref = $(aChild).attr('href');
+    aArray.push(ahref);
+  } // this for loop fills the aArray with attribute href values
+  $(window).scroll(function() {
+    var windowPos = $(window).scrollTop() + 86; // get the offset of the window from the top of page
+    var windowHeight = $(window).height(); // get the height of the window
+    var docHeight = $(document).height();
+    for (var i = 0; i < aArray.length; i++) {
+      var theID = aArray[i];
+      var divPos = $('#' + theID.split('#')[1]).offset().top; // get the offset of the div from the top of page
+      var divHeight = $('#' + theID.split('#')[1]).height(); // get the height of the div in question
+      if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
+        $("a[href='" + theID + "']").addClass("active");
+      } else {
+        $("a[href='" + theID + "']").removeClass("active");
+      }
+    }
+    if (windowPos + windowHeight == docHeight) {
+      if (!$("#main-menu a.item:last-child").hasClass("active")) {
+        var navActiveCurrent = $(".active").attr("href");
+        $("a[href='" + navActiveCurrent + "']").removeClass("active");
+        $("#main-menu a.item:last-child").addClass("active");
+      }
+    }
+  });
+
+  $('#main-menu').css('background', 'transparent').css('border-width', '0');
+
+  $(window).scroll(function () {
+    $('#main-menu').css('background', (((document.documentElement && document.documentElement.scrollTop) ||
+                document.body.scrollTop > 94) && ($(window).width() >= 320)) ? '#3293C7' : 'transparent')
+                .css('border-width', (((document.documentElement && document.documentElement.scrollTop) ||
+                            document.body.scrollTop > 94) && ($(window).width() >= 320)) ? '0 0 2px' : '0');
+  });
+
+  // Smooth Scrolling
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500, "swing");
+        return false;
+      }
+    }
+  });
+
   // Submit the form with an ajax/jsonp request.
   // Based on http://stackoverflow.com/a/15120409/215821
-  function submitSubscribeForm(data) {
+  function submitSubscribeForm($form) {
     $.ajax({
       type: "GET",
-      url: '//touchlay.us6.list-manage.com/subscribe/post-json?u=61192115196961388ececdeb1&amp;id=7425f66543',
-      data: data,
+      url: $form.attr("action"),
+      data: $form.serialize(),
       cache: false,
       dataType: "jsonp",
       jsonp: "c", // trigger MailChimp to return a JSONP response
@@ -31,28 +87,21 @@ $(document).ready(function() {
         $('#mc-embedded-subscribe').removeClass('loading');
         var resultMessage = data.msg || "Sorry. Unable to subscribe. Please try again later.";
 
-        var helper = $('.newsletter-response');
+        var helper = $('.msg-helper');
         if (data.result != "success") {
           if (resultMessage && resultMessage.indexOf("already subscribed") >= 0) {
-            helper.addClass('success')
-            $('#mc-embedded-subscribe-form').css('display', 'none')
-            $('.newsletter-description').css('display', 'none')
-            helper.html("You're already subscribed. Thank you.");
+            helper.html('<i class="close icon red"></i> ' + "You're already subscribed. Thank you.");
           } else {
-            helper.addClass('error')
             if (resultMessage.split('-').length >= 2) {
-              helper.html(resultMessage.split('-')[1]);
+              helper.html('<i class="close icon red"></i> ' + resultMessage.split('-')[1]);
             } else {
-              helper.html(resultMessage);
+              helper.html('<i class="close icon red"></i> ' + resultMessage);
             }
           }
         } else {
-          helper.addClass('success')
-          $('#mc-embedded-subscribe-form').css('display', 'none')
-          $('.newsletter-description').css('display', 'none')
-          helper.html('Thank you!\nYou must confirm the subscription in your inbox.');
+          helper.html('<i class="check icon green"></i> Thank you!\nYou must confirm the subscription in your inbox.');
         }
-        helper.css('display', 'block');
+        helper.fadeIn();
       }
     });
   }
@@ -60,138 +109,85 @@ $(document).ready(function() {
   $("#mc-embedded-subscribe-form").submit(function(e){
     $('#mc-embedded-subscribe').addClass('loading');
     e.preventDefault();
-    submitSubscribeForm($("#mc-embedded-subscribe-form").serialize());
+    submitSubscribeForm($("#mc-embedded-subscribe-form"));
   });
 
   $('#mc-embedded-subscribe').click(function() {
     $("#mc-embedded-subscribe-form").submit();
   });
 
-  // Handle cookie dialog
-  if ($.fn.cookie('cookie-banner-dismissed')) { $('.cookie-banner').hide(); }
-  else { $('.cookie-banner').show(); }
 
-  $('#accept-cookie').click(function() {
-    $.fn.cookie('cookie-banner-dismissed', true)
-    $('.cookie-banner').hide();
+  // Swat.io plugin
+  $('#pepper-embed-badge').click(function() {
+    $('#pepper-embed-iframe').css('right', ($('#pepper-embed-iframe').css('right') == '30px') ? '-300px' : '30px')
+    $('#pepper-embed-iframe').css('opacity', ($('#pepper-embed-iframe').css('opacity') == '0') ? '1' : '0')
   })
 
+  // Initialize dropdown
+  $('.ui.dropdown').dropdown();
 
-  // Handle autocomplete
-  var autocompleteElements = $.map({{ site.data.base.interessts | jsonify }}[lang], function(item, index) {
-    return { id: index + 1, text: item };
-  })
-  var placeholder = {{ site.data.base.interesstsplaceholder | jsonify }}[lang]
-
-  // Handle preselected interessts
-  var preInteressts = $('body').data('interessts')
-  if (preInteressts) {
-    var preselect = $.map(preInteressts.split(','), function(item){
-      return autocompleteElements[item]
-    })
+  var showModal = function() {
+    $('#quote-modal').modal('show');
+    ga('send', 'event', 'Button', 'click', 'Quote modal opened');
+    $('#pepper-embed-iframe').css('right', '-300px')
+    $('#pepper-embed-iframe').css('opacity', '0')
   }
+  $('.get-quote').click(showModal);
+  $('.get-quote-2').click(showModal);
 
-  $('#contact-interested').selectivity({
-    items: autocompleteElements,
-    multiple: true,
-    placeholder: placeholder,
-    data: preInteressts && (preselect || [])
-  });
+  $('.right.menu.open').on("click",function(e){
+   e.preventDefault();
+   $('.ui.vertical.menu').fadeToggle('fast');
+ });
 
-  var countryPlaceholder = {{ site.data.base.countryplaceholder | jsonify }}[lang]
+ $('#mobile-menu a.item.blue').click(function(e) {
+   $('.ui.vertical.menu').fadeToggle('fast');
+ });
 
-  $('#contact-country').selectivity({
-    items: {{ site.data.countries | jsonify }}[lang],
-    multiple: false,
-    placeholder: countryPlaceholder
-  });
+ $('.ui.dropdown').dropdown();
 
-  // Handle scooch carousel(s)
-  $('.m-scooch').scooch({
-    infinite: true
-  })
+ $('#send-quote').click(function() {
+   $('#quote-form').submit();
+   ga('send', 'event', 'Button', 'click', 'Quote requested');
+ });
 
-  // Validate Contact form
-  var happy = {
-    email: function (val) {
-        return /^(?:\w+\.?\+?)*\w+@(?:\w+\.)+\w+$/.test(val);
-    },
-    maxLength: function (val, length) {
-        return val.length <= length;
-    },
-  };
-  $('#contact-form').isHappy({
+ $('#quote-form').on('submit', function(e) {
+   e.preventDefault();
+ });
+
+ // Quote Form validation
+ $('#quote-form').form({
     fields: {
-      '#contact-name': {
-        required: true,
-      },
-      /*'#contact-country .selectivity-single-select-input': {
-        required: true,
-      },*/
-      '#contact-message': {
-        test: function(val) { return happy.maxLength(val, 5000) },
-        message: 'Message is too long!'
-      },
-      '#contact-email': {
-        required: true,
-        test: happy.email
-      }
+      name     : 'empty',
+      country  : 'empty',
+      email    : 'empty',
+      type     : 'empty'
     },
-    /*unHappy: function (ev) {
-      ev.preventDefault();
-
-      // set "unhappy" class on auto-complete input
-      if ($('#contact-country .selectivity-single-select-input').hasClass('unhappy')) {
-        $('#contact-country .selectivity-single-select').addClass('unhappy')
-      }
-    },*/
-    happy: function(ev) {
-      ev.preventDefault();
-
-      // add to newsletter if checkbox is checked
-      if ($('#checkbox-newsletter').prop('checked')) {
-        submitSubscribeForm('EMAIL=' + encodeURIComponent($('#contact-email').val()));
-      }
-
-      sendInquiry({
-        name: $('#contact-name').val(),
-        email: $('#contact-email').val(),
-        message: $('#contact-message').val(),
-        country: $('#contact-country').selectivity('data') && $('#contact-country').selectivity('data').text,
-        interests: $('#contact-interested').selectivity('data') && $.map($('#contact-interested').selectivity('data'), function(item) { return item.text })
-      })
+    keyboardShortcuts: false,
+    onSuccess: function() {
+      $('#send-quote').addClass('loading');
+      var el = $('#quote-form');
+      var request = $.post(el.prop('action'), el.serialize(), function(resp) {
+        if (!(resp.hasOwnProperty('error') || resp.hasOwnProperty('errors'))) {
+          // success
+          $('#send-quote').hide()
+          $('#quote-status .success').fadeIn();
+          setTimeout(function() {
+            $('#quote-modal').modal('hide');
+          }, 3000);
+        } else {
+          // error
+          console.log("Error sending Quote:", resp.error || resp.errors);
+          $('#send-quote').hide();
+          $('#quote-status .error').fadeIn();
+        }
+      });
+      request.fail(function(error) {
+        // error
+        console.log("Error sending Quote:", error);
+        $('#send-quote').hide()
+        $('#quote-status .error').fadeIn();
+      });
     }
   });
-
-  // Handle contact form request
-  function sendInquiry (data) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://inquirer.exp.touchlay.com/', true);
-    xhr.setRequestHeader('Content-type', 'application/json');
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState == 4 && xhr.status == 204) {
-        console.log('success');
-        $('#contact-checkbox').hide();
-        $('#contact-checkbox-description').hide();
-        $('#contact-submit').hide();
-        $('#contact-confirmation-success').show();
-      }
-      if (xhr.status != 204) {
-        console.log('error, status code:', xhr.status);
-        $('#contact-checkbox').hide();
-        $('#contact-checkbox-description').hide();
-        $('#contact-submit').hide();
-        $('#contact-confirmation-error').show();
-      }
-    }
-    xhr.send(JSON.stringify(data));
-  }
-
-  // handle cta highlight
-  $('.cta-highlight').click(function() {
-    $('#contact-form').addClass('highlight')
-    setTimeout(function() {
-      $('#contact-form').removeClass('highlight')
-    }, 1000)
-  })
 });

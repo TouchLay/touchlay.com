@@ -1,0 +1,65 @@
+<noscript class="ui vertical header-img" style="background: url('{{site.url}}/images/team.jpg');"></noscript>
+<div class="ui vertical header-img lazyload" data-bgset="{{site.url}}/images/team_small.jpg [(max-width: 400px)] | {{site.url}}/images/team.jpg [(min-width: 400px)]" data-sizes="auto"></div>
+<div class="ui page four column stackable grid">
+  <div class="column">
+    <div class="ui card">
+      <div class="content">
+        <div class="header">Gerhard Schelkshorn</div>
+        <div class="meta">Business Advisor</div>
+      </div>
+      <div class="extra content">
+        <a href="https://www.facebook.com/profile.php?id=100000664069963"><i class="facebook icon"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui card">
+      <div class="content">
+        <div class="header">Daniel Bugl</div>
+        <div class="meta">Co-Founder</div>
+      </div>
+      <div class="extra content">
+        <a href="https://www.facebook.com/omnidan"><i class="facebook icon"></i></a>
+        <a href="https://twitter.com/DanielBugl"><i class="twitter icon"></i></a>
+        <a href="https://github.com/omnidan"><i class="github icon"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui card">
+      <div class="content">
+        <div class="header">Thomas Andre</div>
+        <div class="meta">Business Advisor</div>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui card">
+      <div class="content">
+        <div class="header">Georg Schelkshorn</div>
+        <div class="meta">Co-Founder</div>
+      </div>
+      <div class="extra content">
+        <a href="https://www.facebook.com/georg.schelkshorn"><i class="facebook icon"></i></a>
+        <a href="https://twitter.com/GeorgSche"><i class="twitter icon"></i></a>
+        <a href="https://github.com/GeorgS"><i class="github icon"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ui page two column grid stackable very padded segment basic">
+  <div class="ten wide column">
+    {% capture stuff %}{% include {{page.lang}}/team.md %}{% endcapture %}
+    {{ stuff | markdownify }}
+  </div>
+  <div class="six wide column">
+    <div class="ui blue segment" id="contact">
+      <div class="ui one column grid">
+        <div class="column">
+          {% capture stuff %}{% include {{page.lang}}/contact.md %}{% endcapture %}
+          {{ stuff | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

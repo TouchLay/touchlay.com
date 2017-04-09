@@ -3,7 +3,7 @@
 <html lang="{{page.lang}}" data-wf-site="51fff4fae3bb0b2562000155">
 <head>
 <meta charset="utf-8">
-<title>{{page.title}} | TouchLay</title>
+<title>TouchLay</title>
 <meta name="description" content="interactive presentation and software development">
 <meta name="keywords" content="interactive,presentation,software,development,nova,touch,multitouch,touchlay">
 <meta name="theme-color" content="#3293C7">
@@ -18,15 +18,11 @@
 <meta name="twitter:description" content="impress your customers with interactive presentations on a 55 inch device">
 <meta name="twitter:image" content="https://touchlay.com/images/twitter_card.png">
 
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-
-<link rel="stylesheet" type="text/css" href="/css/base.css">
-<link rel="stylesheet" type="text/css" href="/css/lity.min.css">
-<link rel="stylesheet" type="text/css" href="/css/scooch.min.css">
-<!--<link rel="stylesheet" type="text/css" href="/css/selectivity-jquery.css">-->
+<link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="/css/page.css">
 
 <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-<link rel="apple-touch-icon" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon-144-precomposed.png">
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 ga('create', 'UA-23939953-1', 'auto');
@@ -41,27 +37,250 @@ ga('send', 'pageview');
 /* ]]> */
 </script>
 </head>
-<body data-lang="{{page.lang}}" data-interessts="{{page.interessts}}" class="no-js">
+<body class="no-js">
 <a style="display: none;" href="https://plus.google.com/109985994085811390634" rel="publisher">Google+</a>
 
-    {% include navigation.html %}
 
-		<div class="content-container">
-       {% if page.container %}<div class="container paddedTop">{% endif %}
-	      {{ content }}
-       {% if page.container %}</div>{% endif %}
+<div class="ui grid" id="nav-grid">
+  <div class="computer tablet only row">
+    <div class="ui inverted secondary pointing {% if page.type != 'sub-page' %}fixed{% else %}sub-page{%endif%} menu navbar" id="main-menu" data-size="big">
+      <div class="container">
+    		<div class="item logo">
+    			<a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}"><img src="{{site.url}}/images/touchlay_logo_horizontal_white.png" style="width: 120px;"></a>
+      </div>
+      <div class="right menu">
+    		<a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#home" class="{% if page.type != "sub-page" %}active {% endif %}item">
+    	    home
+    	  </a>
+    	  <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#nova" class="item">
+    	    nova
+    	  </a>
+    		<a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#team" class="item">
+    			team
+    		</a>
+        <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#blog" class="item">
+          blog
+        </a>
+      </div>
     </div>
+    </div>
+  </div>
+  <div class="mobile only row" id="mobile-menu">
+      <div class="ui fixed blue inverted navbar menu">
+          <a href="" class="logo item"><img src="/images/touchlay_logo_horizontal_white.png" style="width: 120px;"></a>
+          <div class="right menu open">
+              <a href="" class="menu item">
+                  <i class="content icon"></i>
+              </a>
+          </div>
+      </div>
+      <div class="ui vertical navbar menu" id="mobile-nav">
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#home" class="{% if page.type != "sub-page" %}active {% endif %}item blue">
+            home
+          </a>
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#nova" class="item blue">
+            nova
+          </a>
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#team" class="item blue">
+            team
+          </a>
+          <a href="{% if page.type == "sub-page" %}/{{page.lang}}/index.html{% endif %}#blog" class="item blue">
+            blog
+          </a>
+          <div class="item blue" style="padding: 2.5em 2em;">
+            <div style="position: absolute; bottom: 2em; left: 2em;" class="ui dropdown">
+              <span class="text">
+              <span style="pull: right;">
+              {% if page.lang == "en" %}
+                Language: &nbsp;&nbsp;&nbsp;<i class="gb flag"></i> English
+              {% elsif page.lang == "de" %}
+                Sprache: &nbsp;&nbsp;&nbsp;<i class="de flag"></i> Deutsch
+              {% else %}
+                Language
+              {% endif %}
+            </span>
+            </span>
+              <i class="angle down icon"></i>
+              <div class="menu" style="width: 100vh; left: -2.1em; border-radius:0; top: 2.5em;">
+                <a style="padding: 2em 2em;" href="/en/{{current[-1]}}" class="item"><i class="gb flag"></i> English</a>
+                <a href="/de/{{current[-1]}}" class="item"><i class="de flag"></i> German</a>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
 
-    {% include footer.html %}
 
-<script type="text/javascript" src="/js/zepto/zepto.min.js"></script>
-<script type="text/javascript" src="/js/zepto/zepto.cookie.min.js"></script>
-<script type="text/javascript" src="/js/zepto/scooch.min.js"></script>
-<script type="text/javascript" src="/js/zepto/zepto.happy.js"></script>
 
-<script type="text/javascript" src="/js/lity/lity.min.js"></script>
-<script type="text/javascript" src="/js/selectivity/selectivity-jquery.min.js"></script>
+<div class="pusher">
+	<div class="full height">
+		<div class="main">
+			{{ content }}
+      <div class="ui inverted segment full-segment footer">
+        <div class="ui stackable inverted divided page relaxed grid">
+          <div class="twelve wide column">
+            <span>&copy; TouchLay GmbH {{ 'now' | date: "%Y" }}</span>
+            <span class="menu inverted sub-pages">
+              <a href="/{{page.lang}}/press.html" class="item">
+                Press
+              </a>
+              <a href="/{{page.lang}}/imprint.html" class="item">
+                Imprint
+              </a>
+              <a href="/{{page.lang}}/jobs.html" class="item">
+                Jobs
+              </a>
+              {% if page.type != 'sub-page' %}
+              <a href="#home" class="item jump">
+                {% if page.lang == "de" %}
+                  Zum Anfang der Seite
+                {% else %}
+                  Jump to top
+                {% endif %}
+              </a>
+              {% endif %}
+            </span>
+          </div>
+          <div class="computer tablet only four wide column" style="text-align: right; box-shadow: none;">
+            <div class="ui dropdown">
+              <div class="text">
+              {% if page.lang == "en" %}
+                <i class="gb flag"></i> English
+              {% elsif page.lang == "de" %}
+                <i class="de flag"></i> Deutsch
+              {% else %}
+                Language
+              {% endif %}
+              </div>
+              <i class="angle up icon"></i>
+              <div class="menu">
+                <a href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}" class="item"><i class="gb flag"></i> English</a>
+                <a href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}" class="item"><i class="de flag"></i> German</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+		</div>
+	</div>
+</div>
+
+<div id="pepper-embed-badge">
+    <img src="//pepper.swat.io/assets/icons/widget/white/bubble.svg">
+</div>
+
+<div id="pepper-embed-iframe" class="right">
+  <div class="widget widget-right">
+      <div class="widget-body">
+
+        <div class="group social" style="display: block;">
+          <h2 class="group-title">Social Media</h2>
+          <div class="group-body">
+            <ul class="list social">
+    <li class="item is-facebook">
+      <a class="link" onclick="window.open('https://www.facebook.com/touchlay', '_top'); return false;" target="_blank">
+        <div class="icon">
+          <img src="//pepper.swat.io/assets/icons/facebook.svg" alt="facebook">
+        </div>
+        <div class="content">
+          <h3 class="title">{% if page.lang == 'en' %}Like us{% else %}Liken Sie uns{% endif %}</h3>
+          <span class="target">facebook.com/touchlay</span>
+        </div>
+      </a>
+  </li>
+    <li class="item is-messenger">
+      <a class="link" onclick="window.open('https://m.me/touchlay', '_top'); return false;" target="_blank">
+        <div class="icon">
+          <img src="//pepper.swat.io/assets/icons/messenger.svg" alt="messenger">
+        </div>
+        <div class="content">
+          <h3 class="title">{% if page.lang == 'en' %}Message us{% else %}Schreiben Sie uns{% endif %}</h3>
+          <span class="target">m.me/touchlay</span>
+        </div>
+      </a>
+  </li>
+    <li class="item is-twitter">
+      <a class="link" onclick="window.open('https://twitter.com/touchlay', '_top'); return false;" target="_blank">
+        <div class="icon">
+          <img src="//pepper.swat.io/assets/icons/twitter.svg" alt="twitter">
+        </div>
+        <div class="content">
+          <h3 class="title">{% if page.lang == 'en' %}Tweet us{% else %}Tweeten Sie uns{% endif %}</h3>
+          <span class="target">twitter.com/touchlay</span>
+        </div>
+      </a>
+  </li></ul>
+          </div>
+        </div>
+
+        <div class="group classic" style="display: block;">
+          <h2 class="group-title">{% if page.lang == 'en' %}Classic{% else %}Klassisch{% endif %}</h2>
+          <div class="group-body">
+            <ul class="list classic">
+    <li class="item is-phone">
+      <a class="link" onclick="window.open('tel:+4367688633655', '_top'); return false;" target="_blank">
+        <div class="icon">
+          <img src="//pepper.swat.io/assets/icons/phone.svg" alt="phone">
+        </div>
+        <div class="content">
+          <h3 class="title">{% if page.lang == 'en' %}Call us{% else %}Rufen Sie uns an{% endif %}</h3>
+          <span class="target">+4367688633655</span>
+        </div>
+      </a>
+  </li>
+    <li class="item is-email">
+      <a class="link" onclick="window.open('mailto:hello@touchlay.com', '_top'); return false;" target="_blank">
+        <div class="icon">
+          <img src="//pepper.swat.io/assets/icons/email.svg" alt="email">
+        </div>
+        <div class="content">
+          <h3 class="title">{% if page.lang == 'en' %}Email us{% else %}Schreiben Sie uns{% endif %}</h3>
+          <span class="target">hello@touchlay.com</span>
+        </div>
+      </a>
+  </li>
+  <li class="item is-email">
+    <a class="link get-quote-2" data-event-category="quote" data-event-action="open">
+      <div class="icon">
+        <img src="//pepper.swat.io/assets/icons/email.svg" alt="email">
+      </div>
+      <div class="content">
+        <h3 style="position: relative; top: 8px;" class="title">{% if page.lang == 'en' %}Request pricing{% else %}Preise anfragen{% endif %}</h3>
+        <span class="target">&nbsp;</span>
+      </div>
+    </a>
+  </li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+<script>
+    function loadJS(u){var r=document.getElementsByTagName("script")[0],s=document.createElement("script");s.src=u;r.parentNode.insertBefore(s,r);}
+
+    if(!window.HTMLPictureElement || !('sizes' in document.createElement('img'))){
+        loadJS("/js/lazysizes/ls.respimg.min.js");
+    }
+</script>
+<script type="text/javascript" src="/js/lazysizes/lazysizes.min.js"></script>
+<script type="text/javascript" src="/semantic/dist/semantic.min.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
+<!--<script type="text/javascript" async src='//pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiIzMjkzYzciLCJjdXN0b21Db2xvciI6dHJ1ZSwiaWNvbiI6ImJ1YmJsZSIsInByb25vdW4iOiJ1cyIsImxhbmd1YWdlIjoiZW4iLCJicmFuZGVkIjpmYWxzZSwiaW50cm9UZXh0IjoiIiwiY2hhbm5lbHMiOltbImZhY2Vib29rIiwidG91Y2hsYXkiLCJzb2NpYWwiXSxbIm1lc3NlbmdlciIsInRvdWNobGF5Iiwic29jaWFsIl0sWyJ0d2l0dGVyIiwidG91Y2hsYXkiLCJzb2NpYWwiXSxbInBob25lIiwiKzQzNjc2ODg2MzM2NTUiLCJjbGFzc2ljIl0sWyJlbWFpbCIsImhlbGxvQHRvdWNobGF5LmNvbSIsImNsYXNzaWMiXV19'></script>-->
+
+
+<script>
+var $buoop = {vs:{i:10,f:25,o:12.1,s:7},c:2, text: "Your browser (%s) is out of date. It has known security flaws and may not display all features of this and other websites. You can update to a modern browser ​<a%s>here</a>."};
+function $buo_f(){
+ var e = document.createElement("script");
+ e.src = "//browser-update.org/update.min.js";
+ document.body.appendChild(e);
+};
+try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+catch(e){window.attachEvent("onload", $buo_f)}
+</script>
 
 </body>
 </html>

@@ -1,0 +1,33 @@
+<div class="ui basic modal" id="quote-modal">
+  <i class="close icon"></i>
+  <div class="header">
+  </div>
+  <div class="content">
+    <style>
+    label {
+      color: #fff !important;
+    }
+    </style>
+    <div class="description">
+      {% include components/quote_form.html %}
+    </div>
+  </div>
+  <div class="actions">
+    <div id="quote-status">
+      <div class="success">
+        <p><i class="checkmark icon green"></i> Your message was sent, thank you.</p>
+      </div>
+      <div class="error">
+        <p><i class="close icon red"></i> There was a Problem sending this Message. Please contact us directly at <a href="mailto:hello@touchlay.com">hello@touchlay.com</a>.</p>
+      </div>
+    </div>
+    <button data-event-category="quote" data-event-action="send" class="ui green basic inverted button" id="send-quote" tabindex="0">
+      <i class="checkmark icon"></i>
+      {% if page.lang == 'de' %}
+        Preis anfragen
+      {% else %}
+        Request Pricing
+      {% endif %}
+    </button>
+  </div>
+</div>

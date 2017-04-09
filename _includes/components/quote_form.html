@@ -1,0 +1,293 @@
+<form id="quote-form" class="ui form" action="https://send.touchlay.com/mailer.php" method="POST" style="color: #fff;">
+  <div class="two fields">
+    <div class="field">
+      <label>E-Mail</label>
+      <div class="field">
+        <input type="email" name="email" placeholder="E-Mail">
+      </div>
+    </div>
+    <div class="field">
+      <label>Name</label>
+      <div class="field">
+        <input type="text" name="name" placeholder="Name">
+      </div>
+    </div>
+    <div class="field">
+      <label>{% if page.lang == 'en' %}Country{% else %}Land{% endif %}</label>
+      <div class="ui fluid search selection dropdown">
+        <input type="hidden" name="country">
+        <i class="dropdown icon"></i>
+        <div class="default text">{% if page.lang == 'en' %}Select Country{% else %}Land auswählen{% endif %}</div>
+        <div class="menu">
+                <div class="item" data-value="af"><i class="af flag"></i>{% if page.lang == 'en' %}Afghanistan{% else %}Afghanistan{% endif %}</div>
+                <div class="item" data-value="ax"><i class="ax flag"></i>{% if page.lang == 'en' %}Aland Islands{% else %}Aland Islands{% endif %}</div>
+                <div class="item" data-value="al"><i class="al flag"></i>{% if page.lang == 'en' %}Albania{% else %}Albanien{% endif %}</div>
+                <div class="item" data-value="dz"><i class="dz flag"></i>{% if page.lang == 'en' %}Algeria{% else %}Algerien{% endif %}</div>
+                <div class="item" data-value="as"><i class="as flag"></i>{% if page.lang == 'en' %}American Samoa{% else %}Amerikanischen Samoa-Inseln{% endif %}</div>
+                <div class="item" data-value="ad"><i class="ad flag"></i>{% if page.lang == 'en' %}Andorra{% else %}Andorra{% endif %}</div>
+                <div class="item" data-value="ao"><i class="ao flag"></i>{% if page.lang == 'en' %}Angola{% else %}angola{% endif %}</div>
+                <div class="item" data-value="ai"><i class="ai flag"></i>{% if page.lang == 'en' %}Anguilla{% else %}Anguilla{% endif %}</div>
+                <div class="item" data-value="ag"><i class="ag flag"></i>{% if page.lang == 'en' %}Antigua{% else %}Antigua{% endif %}</div>
+                <div class="item" data-value="ar"><i class="ar flag"></i>{% if page.lang == 'en' %}Argentina{% else %}Argentinien{% endif %}</div>
+                <div class="item" data-value="am"><i class="am flag"></i>{% if page.lang == 'en' %}Armenia{% else %}Armenien{% endif %}</div>
+                <div class="item" data-value="aw"><i class="aw flag"></i>{% if page.lang == 'en' %}Aruba{% else %}Aruba{% endif %}</div>
+                <div class="item" data-value="au"><i class="au flag"></i>{% if page.lang == 'en' %}Australia{% else %}Australien{% endif %}</div>
+                <div class="item" data-value="at"><i class="at flag"></i>{% if page.lang == 'en' %}Austria{% else %}Österreich{% endif %}</div>
+                <div class="item" data-value="az"><i class="az flag"></i>{% if page.lang == 'en' %}Azerbaijan{% else %}Aserbaidschan{% endif %}</div>
+                <div class="item" data-value="bs"><i class="bs flag"></i>{% if page.lang == 'en' %}Bahamas{% else %}Bahamas{% endif %}</div>
+                <div class="item" data-value="bh"><i class="bh flag"></i>{% if page.lang == 'en' %}Bahrain{% else %}Bahrain{% endif %}</div>
+                <div class="item" data-value="bd"><i class="bd flag"></i>{% if page.lang == 'en' %}Bangladesh{% else %}Bangladesch{% endif %}</div>
+                <div class="item" data-value="bb"><i class="bb flag"></i>{% if page.lang == 'en' %}Barbados{% else %}Barbados{% endif %}</div>
+                <div class="item" data-value="by"><i class="by flag"></i>{% if page.lang == 'en' %}Belarus{% else %}Weißrussland{% endif %}</div>
+                <div class="item" data-value="be"><i class="be flag"></i>{% if page.lang == 'en' %}Belgium{% else %}Belgien{% endif %}</div>
+                <div class="item" data-value="bz"><i class="bz flag"></i>{% if page.lang == 'en' %}Belize{% else %}Belize{% endif %}</div>
+                <div class="item" data-value="bj"><i class="bj flag"></i>{% if page.lang == 'en' %}Benin{% else %}benin{% endif %}</div>
+                <div class="item" data-value="bm"><i class="bm flag"></i>{% if page.lang == 'en' %}Bermuda{% else %}Bermuda{% endif %}</div>
+                <div class="item" data-value="bt"><i class="bt flag"></i>{% if page.lang == 'en' %}Bhutan{% else %}Bhutan{% endif %}</div>
+                <div class="item" data-value="bo"><i class="bo flag"></i>{% if page.lang == 'en' %}Bolivia{% else %}Bolivien{% endif %}</div>
+                <div class="item" data-value="ba"><i class="ba flag"></i>{% if page.lang == 'en' %}Bosnia{% else %}Bosnien{% endif %}</div>
+                <div class="item" data-value="bw"><i class="bw flag"></i>{% if page.lang == 'en' %}Botswana{% else %}Botswana{% endif %}</div>
+                <div class="item" data-value="bv"><i class="bv flag"></i>{% if page.lang == 'en' %}Bouvet Island{% else %}Bouvet Island{% endif %}</div>
+                <div class="item" data-value="br"><i class="br flag"></i>{% if page.lang == 'en' %}Brazil{% else %}Brasilien{% endif %}</div>
+                <div class="item" data-value="vg"><i class="vg flag"></i>{% if page.lang == 'en' %}British Virgin Islands{% else %}Britische Jungferninseln{% endif %}</div>
+                <div class="item" data-value="bn"><i class="bn flag"></i>{% if page.lang == 'en' %}Brunei{% else %}Brunei{% endif %}</div>
+                <div class="item" data-value="bg"><i class="bg flag"></i>{% if page.lang == 'en' %}Bulgaria{% else %}Bulgarien{% endif %}</div>
+                <div class="item" data-value="bf"><i class="bf flag"></i>{% if page.lang == 'en' %}Burkina Faso{% else %}Burkina Faso{% endif %}</div>
+                <div class="item" data-value="ar"><i class="ar flag"></i>{% if page.lang == 'en' %}Burma{% else %}Birma{% endif %}</div>
+                <div class="item" data-value="bi"><i class="bi flag"></i>{% if page.lang == 'en' %}Burundi{% else %}burundi{% endif %}</div>
+                <div class="item" data-value="tc"><i class="tc flag"></i>{% if page.lang == 'en' %}Caicos Islands{% else %}Caicos Inseln{% endif %}</div>
+                <div class="item" data-value="kh"><i class="kh flag"></i>{% if page.lang == 'en' %}Cambodia{% else %}Kambodscha{% endif %}</div>
+                <div class="item" data-value="cm"><i class="cm flag"></i>{% if page.lang == 'en' %}Cameroon{% else %}Kamerun{% endif %}</div>
+                <div class="item" data-value="ca"><i class="ca flag"></i>{% if page.lang == 'en' %}Canada{% else %}Kanada{% endif %}</div>
+                <div class="item" data-value="cv"><i class="cv flag"></i>{% if page.lang == 'en' %}Cape Verde{% else %}Kap Verde{% endif %}</div>
+                <div class="item" data-value="ky"><i class="ky flag"></i>{% if page.lang == 'en' %}Cayman Islands{% else %}Cayman Inseln{% endif %}</div>
+                <div class="item" data-value="cf"><i class="cf flag"></i>{% if page.lang == 'en' %}Central African Republic{% else %}Zentralafrikanische Republik{% endif %}</div>
+                <div class="item" data-value="td"><i class="td flag"></i>{% if page.lang == 'en' %}Chad{% else %}Tschad{% endif %}</div>
+                <div class="item" data-value="cl"><i class="cl flag"></i>{% if page.lang == 'en' %}Chile{% else %}Chile{% endif %}</div>
+                <div class="item" data-value="cn"><i class="cn flag"></i>{% if page.lang == 'en' %}China{% else %}China{% endif %}</div>
+                <div class="item" data-value="cx"><i class="cx flag"></i>{% if page.lang == 'en' %}Christmas Island{% else %}Weihnachtsinsel{% endif %}</div>
+                <div class="item" data-value="cc"><i class="cc flag"></i>{% if page.lang == 'en' %}Cocos Islands{% else %}Kokosinseln{% endif %}</div>
+                <div class="item" data-value="co"><i class="co flag"></i>{% if page.lang == 'en' %}Colombia{% else %}Kolumbien{% endif %}</div>
+                <div class="item" data-value="km"><i class="km flag"></i>{% if page.lang == 'en' %}Comoros{% else %}komoren{% endif %}</div>
+                <div class="item" data-value="cg"><i class="cg flag"></i>{% if page.lang == 'en' %}Congo Brazzaville{% else %}Kongo Brazzaville{% endif %}</div>
+                <div class="item" data-value="cd"><i class="cd flag"></i>{% if page.lang == 'en' %}Congo{% else %}Kongo{% endif %}</div>
+                <div class="item" data-value="ck"><i class="ck flag"></i>{% if page.lang == 'en' %}Cook Islands{% else %}Cookinseln{% endif %}</div>
+                <div class="item" data-value="cr"><i class="cr flag"></i>{% if page.lang == 'en' %}Costa Rica{% else %}Costa Rica{% endif %}</div>
+                <div class="item" data-value="ci"><i class="ci flag"></i>{% if page.lang == 'en' %}Cote Divoire{% else %}Elfenbeinküste{% endif %}</div>
+                <div class="item" data-value="hr"><i class="hr flag"></i>{% if page.lang == 'en' %}Croatia{% else %}Kroatien{% endif %}</div>
+                <div class="item" data-value="cu"><i class="cu flag"></i>{% if page.lang == 'en' %}Cuba{% else %}Kuba{% endif %}</div>
+                <div class="item" data-value="cy"><i class="cy flag"></i>{% if page.lang == 'en' %}Cyprus{% else %}Zypern{% endif %}</div>
+                <div class="item" data-value="cz"><i class="cz flag"></i>{% if page.lang == 'en' %}Czech Republic{% else %}Tschechien{% endif %}</div>
+                <div class="item" data-value="dk"><i class="dk flag"></i>{% if page.lang == 'en' %}Denmark{% else %}Dänemark{% endif %}</div>
+                <div class="item" data-value="dj"><i class="dj flag"></i>{% if page.lang == 'en' %}Djibouti{% else %}Dschibuti{% endif %}</div>
+                <div class="item" data-value="dm"><i class="dm flag"></i>{% if page.lang == 'en' %}Dominica{% else %}Dominica{% endif %}</div>
+                <div class="item" data-value="do"><i class="do flag"></i>{% if page.lang == 'en' %}Dominican Republic{% else %}Dominikanische Republik{% endif %}</div>
+                <div class="item" data-value="ec"><i class="ec flag"></i>{% if page.lang == 'en' %}Ecuador{% else %}Ecuador{% endif %}</div>
+                <div class="item" data-value="eg"><i class="eg flag"></i>{% if page.lang == 'en' %}Egypt{% else %}Ägypten{% endif %}</div>
+                <div class="item" data-value="sv"><i class="sv flag"></i>{% if page.lang == 'en' %}El Salvador{% else %}El Salvador{% endif %}</div>
+                <div class="item" data-value="gb"><i class="gb flag"></i>{% if page.lang == 'en' %}England{% else %}Großbritannien{% endif %}</div>
+                <div class="item" data-value="gq"><i class="gq flag"></i>{% if page.lang == 'en' %}Equatorial Guinea{% else %}Äquatorialguinea{% endif %}</div>
+                <div class="item" data-value="er"><i class="er flag"></i>{% if page.lang == 'en' %}Eritrea{% else %}Eritrea{% endif %}</div>
+                <div class="item" data-value="ee"><i class="ee flag"></i>{% if page.lang == 'en' %}Estonia{% else %}Estland{% endif %}</div>
+                <div class="item" data-value="et"><i class="et flag"></i>{% if page.lang == 'en' %}Ethiopia{% else %}Äthiopien{% endif %}</div>
+                <div class="item" data-value="eu"><i class="eu flag"></i>{% if page.lang == 'en' %}European Union{% else %}Europäische Union{% endif %}</div>
+                <div class="item" data-value="fk"><i class="fk flag"></i>{% if page.lang == 'en' %}Falkland Islands{% else %}Falkland Inseln{% endif %}</div>
+                <div class="item" data-value="fo"><i class="fo flag"></i>{% if page.lang == 'en' %}Faroe Islands{% else %}Färöer Inseln{% endif %}</div>
+                <div class="item" data-value="fj"><i class="fj flag"></i>{% if page.lang == 'en' %}Fiji{% else %}Fidschi{% endif %}</div>
+                <div class="item" data-value="fi"><i class="fi flag"></i>{% if page.lang == 'en' %}Finland{% else %}Finnland{% endif %}</div>
+                <div class="item" data-value="fr"><i class="fr flag"></i>{% if page.lang == 'en' %}France{% else %}Frankreich{% endif %}</div>
+                <div class="item" data-value="gf"><i class="gf flag"></i>{% if page.lang == 'en' %}French Guiana{% else %}Französisch-Guayana{% endif %}</div>
+                <div class="item" data-value="pf"><i class="pf flag"></i>{% if page.lang == 'en' %}French Polynesia{% else %}Französisch Polynesien{% endif %}</div>
+                <div class="item" data-value="tf"><i class="tf flag"></i>{% if page.lang == 'en' %}French Territories{% else %}Französische Territorien{% endif %}</div>
+                <div class="item" data-value="ga"><i class="ga flag"></i>{% if page.lang == 'en' %}Gabon{% else %}Gabun{% endif %}</div>
+                <div class="item" data-value="gm"><i class="gm flag"></i>{% if page.lang == 'en' %}Gambia{% else %}Gambia{% endif %}</div>
+                <div class="item" data-value="ge"><i class="ge flag"></i>{% if page.lang == 'en' %}Georgia{% else %}Georgia{% endif %}</div>
+                <div class="item" data-value="de"><i class="de flag"></i>{% if page.lang == 'en' %}Germany{% else %}Deutschland{% endif %}</div>
+                <div class="item" data-value="gh"><i class="gh flag"></i>{% if page.lang == 'en' %}Ghana{% else %}Ghana{% endif %}</div>
+                <div class="item" data-value="gi"><i class="gi flag"></i>{% if page.lang == 'en' %}Gibraltar{% else %}Gibraltar{% endif %}</div>
+                <div class="item" data-value="gr"><i class="gr flag"></i>{% if page.lang == 'en' %}Greece{% else %}Griechenland{% endif %}</div>
+                <div class="item" data-value="gl"><i class="gl flag"></i>{% if page.lang == 'en' %}Greenland{% else %}Grönland{% endif %}</div>
+                <div class="item" data-value="gd"><i class="gd flag"></i>{% if page.lang == 'en' %}Grenada{% else %}grenada{% endif %}</div>
+                <div class="item" data-value="gp"><i class="gp flag"></i>{% if page.lang == 'en' %}Guadeloupe{% else %}Guadeloupe{% endif %}</div>
+                <div class="item" data-value="gu"><i class="gu flag"></i>{% if page.lang == 'en' %}Guam{% else %}guam{% endif %}</div>
+                <div class="item" data-value="gt"><i class="gt flag"></i>{% if page.lang == 'en' %}Guatemala{% else %}Guatemala{% endif %}</div>
+                <div class="item" data-value="gw"><i class="gw flag"></i>{% if page.lang == 'en' %}Guinea-Bissau{% else %}Guinea-Bissau{% endif %}</div>
+                <div class="item" data-value="gn"><i class="gn flag"></i>{% if page.lang == 'en' %}Guinea{% else %}Guinea{% endif %}</div>
+                <div class="item" data-value="gy"><i class="gy flag"></i>{% if page.lang == 'en' %}Guyana{% else %}Guyana{% endif %}</div>
+                <div class="item" data-value="ht"><i class="ht flag"></i>{% if page.lang == 'en' %}Haiti{% else %}Haiti{% endif %}</div>
+                <div class="item" data-value="hm"><i class="hm flag"></i>{% if page.lang == 'en' %}Heard Island{% else %}Gehörte Insel{% endif %}</div>
+                <div class="item" data-value="hn"><i class="hn flag"></i>{% if page.lang == 'en' %}Honduras{% else %}Honduras{% endif %}</div>
+                <div class="item" data-value="hk"><i class="hk flag"></i>{% if page.lang == 'en' %}Hong Kong{% else %}Hongkong{% endif %}</div>
+                <div class="item" data-value="hu"><i class="hu flag"></i>{% if page.lang == 'en' %}Hungary{% else %}Ungarn{% endif %}</div>
+                <div class="item" data-value="is"><i class="is flag"></i>{% if page.lang == 'en' %}Iceland{% else %}Island{% endif %}</div>
+                <div class="item" data-value="in"><i class="in flag"></i>{% if page.lang == 'en' %}India{% else %}Indien{% endif %}</div>
+                <div class="item" data-value="io"><i class="io flag"></i>{% if page.lang == 'en' %}Indian Ocean Territory{% else %}Indisches Ozean-Territorium{% endif %}</div>
+                <div class="item" data-value="id"><i class="id flag"></i>{% if page.lang == 'en' %}Indonesia{% else %}Indonesien{% endif %}</div>
+                <div class="item" data-value="ir"><i class="ir flag"></i>{% if page.lang == 'en' %}Iran{% else %}Ich rannte{% endif %}</div>
+                <div class="item" data-value="iq"><i class="iq flag"></i>{% if page.lang == 'en' %}Iraq{% else %}Irak{% endif %}</div>
+                <div class="item" data-value="ie"><i class="ie flag"></i>{% if page.lang == 'en' %}Ireland{% else %}Irland{% endif %}</div>
+                <div class="item" data-value="il"><i class="il flag"></i>{% if page.lang == 'en' %}Israel{% else %}Israel{% endif %}</div>
+                <div class="item" data-value="it"><i class="it flag"></i>{% if page.lang == 'en' %}Italy{% else %}Italien{% endif %}</div>
+                <div class="item" data-value="jm"><i class="jm flag"></i>{% if page.lang == 'en' %}Jamaica{% else %}Jamaika{% endif %}</div>
+                <div class="item" data-value="jp"><i class="jp flag"></i>{% if page.lang == 'en' %}Japan{% else %}Japan{% endif %}</div>
+                <div class="item" data-value="jo"><i class="jo flag"></i>{% if page.lang == 'en' %}Jordan{% else %}Jordanien{% endif %}</div>
+                <div class="item" data-value="kz"><i class="kz flag"></i>{% if page.lang == 'en' %}Kazakhstan{% else %}Kasachstan{% endif %}</div>
+                <div class="item" data-value="ke"><i class="ke flag"></i>{% if page.lang == 'en' %}Kenya{% else %}Kenia{% endif %}</div>
+                <div class="item" data-value="ki"><i class="ki flag"></i>{% if page.lang == 'en' %}Kiribati{% else %}Kiribati{% endif %}</div>
+                <div class="item" data-value="kw"><i class="kw flag"></i>{% if page.lang == 'en' %}Kuwait{% else %}Kuwait{% endif %}</div>
+                <div class="item" data-value="kg"><i class="kg flag"></i>{% if page.lang == 'en' %}Kyrgyzstan{% else %}Kirgisistan{% endif %}</div>
+                <div class="item" data-value="la"><i class="la flag"></i>{% if page.lang == 'en' %}Laos{% else %}Laos{% endif %}</div>
+                <div class="item" data-value="lv"><i class="lv flag"></i>{% if page.lang == 'en' %}Latvia{% else %}Lettland{% endif %}</div>
+                <div class="item" data-value="lb"><i class="lb flag"></i>{% if page.lang == 'en' %}Lebanon{% else %}Libanon{% endif %}</div>
+                <div class="item" data-value="ls"><i class="ls flag"></i>{% if page.lang == 'en' %}Lesotho{% else %}Lesotho{% endif %}</div>
+                <div class="item" data-value="lr"><i class="lr flag"></i>{% if page.lang == 'en' %}Liberia{% else %}Liberia{% endif %}</div>
+                <div class="item" data-value="ly"><i class="ly flag"></i>{% if page.lang == 'en' %}Libya{% else %}Libyen{% endif %}</div>
+                <div class="item" data-value="li"><i class="li flag"></i>{% if page.lang == 'en' %}Liechtenstein{% else %}Liechtenstein{% endif %}</div>
+                <div class="item" data-value="lt"><i class="lt flag"></i>{% if page.lang == 'en' %}Lithuania{% else %}Litauen{% endif %}</div>
+                <div class="item" data-value="lu"><i class="lu flag"></i>{% if page.lang == 'en' %}Luxembourg{% else %}Luxemburg{% endif %}</div>
+                <div class="item" data-value="mo"><i class="mo flag"></i>{% if page.lang == 'en' %}Macau{% else %}Macau{% endif %}</div>
+                <div class="item" data-value="mk"><i class="mk flag"></i>{% if page.lang == 'en' %}Macedonia{% else %}Mazedonien{% endif %}</div>
+                <div class="item" data-value="mg"><i class="mg flag"></i>{% if page.lang == 'en' %}Madagascar{% else %}Madagaskar{% endif %}</div>
+                <div class="item" data-value="mw"><i class="mw flag"></i>{% if page.lang == 'en' %}Malawi{% else %}Malawi{% endif %}</div>
+                <div class="item" data-value="my"><i class="my flag"></i>{% if page.lang == 'en' %}Malaysia{% else %}Malaysia{% endif %}</div>
+                <div class="item" data-value="mv"><i class="mv flag"></i>{% if page.lang == 'en' %}Maldives{% else %}Malediven{% endif %}</div>
+                <div class="item" data-value="ml"><i class="ml flag"></i>{% if page.lang == 'en' %}Mali{% else %}mali{% endif %}</div>
+                <div class="item" data-value="mt"><i class="mt flag"></i>{% if page.lang == 'en' %}Malta{% else %}Malta{% endif %}</div>
+                <div class="item" data-value="mh"><i class="mh flag"></i>{% if page.lang == 'en' %}Marshall Islands{% else %}Marshallinseln{% endif %}</div>
+                <div class="item" data-value="mq"><i class="mq flag"></i>{% if page.lang == 'en' %}Martinique{% else %}Martinique{% endif %}</div>
+                <div class="item" data-value="mr"><i class="mr flag"></i>{% if page.lang == 'en' %}Mauritania{% else %}Mauretanien{% endif %}</div>
+                <div class="item" data-value="mu"><i class="mu flag"></i>{% if page.lang == 'en' %}Mauritius{% else %}Mauritius{% endif %}</div>
+                <div class="item" data-value="yt"><i class="yt flag"></i>{% if page.lang == 'en' %}Mayotte{% else %}Mayotte{% endif %}</div>
+                <div class="item" data-value="mx"><i class="mx flag"></i>{% if page.lang == 'en' %}Mexico{% else %}Mexiko{% endif %}</div>
+                <div class="item" data-value="fm"><i class="fm flag"></i>{% if page.lang == 'en' %}Micronesia{% else %}Mikronesien{% endif %}</div>
+                <div class="item" data-value="md"><i class="md flag"></i>{% if page.lang == 'en' %}Moldova{% else %}Moldawien{% endif %}</div>
+                <div class="item" data-value="mc"><i class="mc flag"></i>{% if page.lang == 'en' %}Monaco{% else %}Monaco{% endif %}</div>
+                <div class="item" data-value="mn"><i class="mn flag"></i>{% if page.lang == 'en' %}Mongolia{% else %}Mongolei{% endif %}</div>
+                <div class="item" data-value="me"><i class="me flag"></i>{% if page.lang == 'en' %}Montenegro{% else %}Montenegro{% endif %}</div>
+                <div class="item" data-value="ms"><i class="ms flag"></i>{% if page.lang == 'en' %}Montserrat{% else %}Montserrat{% endif %}</div>
+                <div class="item" data-value="ma"><i class="ma flag"></i>{% if page.lang == 'en' %}Morocco{% else %}Marokko{% endif %}</div>
+                <div class="item" data-value="mz"><i class="mz flag"></i>{% if page.lang == 'en' %}Mozambique{% else %}Mosambik{% endif %}</div>
+                <div class="item" data-value="na"><i class="na flag"></i>{% if page.lang == 'en' %}Namibia{% else %}Namibia{% endif %}</div>
+                <div class="item" data-value="nr"><i class="nr flag"></i>{% if page.lang == 'en' %}Nauru{% else %}Nauru{% endif %}</div>
+                <div class="item" data-value="np"><i class="np flag"></i>{% if page.lang == 'en' %}Nepal{% else %}Nepal{% endif %}</div>
+                <div class="item" data-value="an"><i class="an flag"></i>{% if page.lang == 'en' %}Netherlands Antilles{% else %}Niederländische Antillen{% endif %}</div>
+                <div class="item" data-value="nl"><i class="nl flag"></i>{% if page.lang == 'en' %}Netherlands{% else %}Niederlande{% endif %}</div>
+                <div class="item" data-value="nc"><i class="nc flag"></i>{% if page.lang == 'en' %}New Caledonia{% else %}Neu-Kaledonien{% endif %}</div>
+                <div class="item" data-value="pg"><i class="pg flag"></i>{% if page.lang == 'en' %}New Guinea{% else %}Neu Guinea{% endif %}</div>
+                <div class="item" data-value="nz"><i class="nz flag"></i>{% if page.lang == 'en' %}New Zealand{% else %}Neuseeland{% endif %}</div>
+                <div class="item" data-value="ni"><i class="ni flag"></i>{% if page.lang == 'en' %}Nicaragua{% else %}Nicaragua{% endif %}</div>
+                <div class="item" data-value="ne"><i class="ne flag"></i>{% if page.lang == 'en' %}Niger{% else %}Niger{% endif %}</div>
+                <div class="item" data-value="ng"><i class="ng flag"></i>{% if page.lang == 'en' %}Nigeria{% else %}Nigeria{% endif %}</div>
+                <div class="item" data-value="nu"><i class="nu flag"></i>{% if page.lang == 'en' %}Niue{% else %}Niue{% endif %}</div>
+                <div class="item" data-value="nf"><i class="nf flag"></i>{% if page.lang == 'en' %}Norfolk Island{% else %}Norfolk-Insel{% endif %}</div>
+                <div class="item" data-value="kp"><i class="kp flag"></i>{% if page.lang == 'en' %}North Korea{% else %}Nord Korea{% endif %}</div>
+                <div class="item" data-value="mp"><i class="mp flag"></i>{% if page.lang == 'en' %}Northern Mariana Islands{% else %}Nördliche Marianneninseln{% endif %}</div>
+                <div class="item" data-value="no"><i class="no flag"></i>{% if page.lang == 'en' %}Norway{% else %}Norwegen{% endif %}</div>
+                <div class="item" data-value="om"><i class="om flag"></i>{% if page.lang == 'en' %}Oman{% else %}Oman{% endif %}</div>
+                <div class="item" data-value="pk"><i class="pk flag"></i>{% if page.lang == 'en' %}Pakistan{% else %}Pakistan{% endif %}</div>
+                <div class="item" data-value="pw"><i class="pw flag"></i>{% if page.lang == 'en' %}Palau{% else %}Palau{% endif %}</div>
+                <div class="item" data-value="ps"><i class="ps flag"></i>{% if page.lang == 'en' %}Palestine{% else %}Palästina{% endif %}</div>
+                <div class="item" data-value="pa"><i class="pa flag"></i>{% if page.lang == 'en' %}Panama{% else %}Panama{% endif %}</div>
+                <div class="item" data-value="py"><i class="py flag"></i>{% if page.lang == 'en' %}Paraguay{% else %}Paraguay{% endif %}</div>
+                <div class="item" data-value="pe"><i class="pe flag"></i>{% if page.lang == 'en' %}Peru{% else %}Peru{% endif %}</div>
+                <div class="item" data-value="ph"><i class="ph flag"></i>{% if page.lang == 'en' %}Philippines{% else %}Philippinen{% endif %}</div>
+                <div class="item" data-value="pn"><i class="pn flag"></i>{% if page.lang == 'en' %}Pitcairn Islands{% else %}Pitcairn Inseln{% endif %}</div>
+                <div class="item" data-value="pl"><i class="pl flag"></i>{% if page.lang == 'en' %}Poland{% else %}Polen{% endif %}</div>
+                <div class="item" data-value="pt"><i class="pt flag"></i>{% if page.lang == 'en' %}Portugal{% else %}Portugal{% endif %}</div>
+                <div class="item" data-value="pr"><i class="pr flag"></i>{% if page.lang == 'en' %}Puerto Rico{% else %}Puerto Rico{% endif %}</div>
+                <div class="item" data-value="qa"><i class="qa flag"></i>{% if page.lang == 'en' %}Qatar{% else %}Katar{% endif %}</div>
+                <div class="item" data-value="re"><i class="re flag"></i>{% if page.lang == 'en' %}Reunion{% else %}Wiedervereinigung{% endif %}</div>
+                <div class="item" data-value="ro"><i class="ro flag"></i>{% if page.lang == 'en' %}Romania{% else %}Rumänien{% endif %}</div>
+                <div class="item" data-value="ru"><i class="ru flag"></i>{% if page.lang == 'en' %}Russia{% else %}Russland{% endif %}</div>
+                <div class="item" data-value="rw"><i class="rw flag"></i>{% if page.lang == 'en' %}Rwanda{% else %}ruanda{% endif %}</div>
+                <div class="item" data-value="sh"><i class="sh flag"></i>{% if page.lang == 'en' %}Saint Helena{% else %}Saint Helena{% endif %}</div>
+                <div class="item" data-value="kn"><i class="kn flag"></i>{% if page.lang == 'en' %}Saint Kitts and Nevis{% else %}St. Kitts und Nevis{% endif %}</div>
+                <div class="item" data-value="lc"><i class="lc flag"></i>{% if page.lang == 'en' %}Saint Lucia{% else %}Saint Lucia{% endif %}</div>
+                <div class="item" data-value="pm"><i class="pm flag"></i>{% if page.lang == 'en' %}Saint Pierre{% else %}Saint Pierre{% endif %}</div>
+                <div class="item" data-value="vc"><i class="vc flag"></i>{% if page.lang == 'en' %}Saint Vincent{% else %}Saint Vincent entfernt{% endif %}</div>
+                <div class="item" data-value="ws"><i class="ws flag"></i>{% if page.lang == 'en' %}Samoa{% else %}Samoa{% endif %}</div>
+                <div class="item" data-value="sm"><i class="sm flag"></i>{% if page.lang == 'en' %}San Marino{% else %}San Marino{% endif %}</div>
+                <div class="item" data-value="gs"><i class="gs flag"></i>{% if page.lang == 'en' %}Sandwich Islands{% else %}Sandwichinseln{% endif %}</div>
+                <div class="item" data-value="st"><i class="st flag"></i>{% if page.lang == 'en' %}Sao Tome{% else %}Sao Tome{% endif %}</div>
+                <div class="item" data-value="sa"><i class="sa flag"></i>{% if page.lang == 'en' %}Saudi Arabia{% else %}Saudi Arabien{% endif %}</div>
+                <div class="item" data-value="sn"><i class="sn flag"></i>{% if page.lang == 'en' %}Senegal{% else %}Senegal{% endif %}</div>
+                <div class="item" data-value="cs"><i class="cs flag"></i>{% if page.lang == 'en' %}Serbia{% else %}Serbien{% endif %}</div>
+                <div class="item" data-value="rs"><i class="rs flag"></i>{% if page.lang == 'en' %}Serbia{% else %}Serbien{% endif %}</div>
+                <div class="item" data-value="sc"><i class="sc flag"></i>{% if page.lang == 'en' %}Seychelles{% else %}Seychellen{% endif %}</div>
+                <div class="item" data-value="sl"><i class="sl flag"></i>{% if page.lang == 'en' %}Sierra Leone{% else %}Sierra Leone{% endif %}</div>
+                <div class="item" data-value="sg"><i class="sg flag"></i>{% if page.lang == 'en' %}Singapore{% else %}Singapur{% endif %}</div>
+                <div class="item" data-value="sk"><i class="sk flag"></i>{% if page.lang == 'en' %}Slovakia{% else %}Slowakei{% endif %}</div>
+                <div class="item" data-value="si"><i class="si flag"></i>{% if page.lang == 'en' %}Slovenia{% else %}Slowenien{% endif %}</div>
+                <div class="item" data-value="sb"><i class="sb flag"></i>{% if page.lang == 'en' %}Solomon Islands{% else %}Salomon-Inseln{% endif %}</div>
+                <div class="item" data-value="so"><i class="so flag"></i>{% if page.lang == 'en' %}Somalia{% else %}Somalia{% endif %}</div>
+                <div class="item" data-value="za"><i class="za flag"></i>{% if page.lang == 'en' %}South Africa{% else %}Südafrika{% endif %}</div>
+                <div class="item" data-value="kr"><i class="kr flag"></i>{% if page.lang == 'en' %}South Korea{% else %}Südkorea{% endif %}</div>
+                <div class="item" data-value="es"><i class="es flag"></i>{% if page.lang == 'en' %}Spain{% else %}Spanien{% endif %}</div>
+                <div class="item" data-value="lk"><i class="lk flag"></i>{% if page.lang == 'en' %}Sri Lanka{% else %}Sri Lanka{% endif %}</div>
+                <div class="item" data-value="sd"><i class="sd flag"></i>{% if page.lang == 'en' %}Sudan{% else %}sudan{% endif %}</div>
+                <div class="item" data-value="sr"><i class="sr flag"></i>{% if page.lang == 'en' %}Suriname{% else %}Surinam{% endif %}</div>
+                <div class="item" data-value="sj"><i class="sj flag"></i>{% if page.lang == 'en' %}Svalbard{% else %}Spitzhacke{% endif %}</div>
+                <div class="item" data-value="sz"><i class="sz flag"></i>{% if page.lang == 'en' %}Swaziland{% else %}Swasiland{% endif %}</div>
+                <div class="item" data-value="se"><i class="se flag"></i>{% if page.lang == 'en' %}Sweden{% else %}Schweden{% endif %}</div>
+                <div class="item" data-value="ch"><i class="ch flag"></i>{% if page.lang == 'en' %}Switzerland{% else %}Schweiz{% endif %}</div>
+                <div class="item" data-value="sy"><i class="sy flag"></i>{% if page.lang == 'en' %}Syria{% else %}Syrien{% endif %}</div>
+                <div class="item" data-value="tw"><i class="tw flag"></i>{% if page.lang == 'en' %}Taiwan{% else %}Taiwan{% endif %}</div>
+                <div class="item" data-value="tj"><i class="tj flag"></i>{% if page.lang == 'en' %}Tajikistan{% else %}Tadschikistan{% endif %}</div>
+                <div class="item" data-value="tz"><i class="tz flag"></i>{% if page.lang == 'en' %}Tanzania{% else %}Tansania{% endif %}</div>
+                <div class="item" data-value="th"><i class="th flag"></i>{% if page.lang == 'en' %}Thailand{% else %}Thailand{% endif %}</div>
+                <div class="item" data-value="tl"><i class="tl flag"></i>{% if page.lang == 'en' %}Timorleste{% else %}Timorleste{% endif %}</div>
+                <div class="item" data-value="tg"><i class="tg flag"></i>{% if page.lang == 'en' %}Togo{% else %}Gehen{% endif %}</div>
+                <div class="item" data-value="tk"><i class="tk flag"></i>{% if page.lang == 'en' %}Tokelau{% else %}Tokelau{% endif %}</div>
+                <div class="item" data-value="to"><i class="to flag"></i>{% if page.lang == 'en' %}Tonga{% else %}tonga{% endif %}</div>
+                <div class="item" data-value="tt"><i class="tt flag"></i>{% if page.lang == 'en' %}Trinidad{% else %}Trinidad{% endif %}</div>
+                <div class="item" data-value="tn"><i class="tn flag"></i>{% if page.lang == 'en' %}Tunisia{% else %}Tunesien{% endif %}</div>
+                <div class="item" data-value="tr"><i class="tr flag"></i>{% if page.lang == 'en' %}Turkey{% else %}Truthahn{% endif %}</div>
+                <div class="item" data-value="tm"><i class="tm flag"></i>{% if page.lang == 'en' %}Turkmenistan{% else %}Turkmenistan{% endif %}</div>
+                <div class="item" data-value="tv"><i class="tv flag"></i>{% if page.lang == 'en' %}Tuvalu{% else %}tuvalu{% endif %}</div>
+                <div class="item" data-value="ug"><i class="ug flag"></i>{% if page.lang == 'en' %}Uganda{% else %}Uganda{% endif %}</div>
+                <div class="item" data-value="ua"><i class="ua flag"></i>{% if page.lang == 'en' %}Ukraine{% else %}Ukraine{% endif %}</div>
+                <div class="item" data-value="ae"><i class="ae flag"></i>{% if page.lang == 'en' %}United Arab Emirates{% else %}Vereinigte Arabische Emirate{% endif %}</div>
+                <div class="item" data-value="us"><i class="us flag"></i>{% if page.lang == 'en' %}United States{% else %}Vereinigte Staaten von Amerika{% endif %}</div>
+                <div class="item" data-value="uy"><i class="uy flag"></i>{% if page.lang == 'en' %}Uruguay{% else %}Uruguay{% endif %}</div>
+                <div class="item" data-value="um"><i class="um flag"></i>{% if page.lang == 'en' %}Us Minor Islands{% else %}Uns Minor Inseln{% endif %}</div>
+                <div class="item" data-value="vi"><i class="vi flag"></i>{% if page.lang == 'en' %}Us Virgin Islands{% else %}US Jungferninseln{% endif %}</div>
+                <div class="item" data-value="uz"><i class="uz flag"></i>{% if page.lang == 'en' %}Uzbekistan{% else %}Usbekistan{% endif %}</div>
+                <div class="item" data-value="vu"><i class="vu flag"></i>{% if page.lang == 'en' %}Vanuatu{% else %}Vanuatu{% endif %}</div>
+                <div class="item" data-value="va"><i class="va flag"></i>{% if page.lang == 'en' %}Vatican City{% else %}Vatikanstadt{% endif %}</div>
+                <div class="item" data-value="ve"><i class="ve flag"></i>{% if page.lang == 'en' %}Venezuela{% else %}Venezuela{% endif %}</div>
+                <div class="item" data-value="vn"><i class="vn flag"></i>{% if page.lang == 'en' %}Vietnam{% else %}Vietnam{% endif %}</div>
+                <div class="item" data-value="wf"><i class="wf flag"></i>{% if page.lang == 'en' %}Wallis and Futuna{% else %}Wallis und Futuna{% endif %}</div>
+                <div class="item" data-value="eh"><i class="eh flag"></i>{% if page.lang == 'en' %}Western Sahara{% else %}Westsahara{% endif %}</div>
+                <div class="item" data-value="ye"><i class="ye flag"></i>{% if page.lang == 'en' %}Yemen{% else %}Jemen{% endif %}</div>
+                <div class="item" data-value="zm"><i class="zm flag"></i>{% if page.lang == 'en' %}Zambia{% else %}Sambia{% endif %}</div>
+                <div class="item" data-value="zw"><i class="zw flag"></i>{% if page.lang == 'en' %}Zimbabwe{% else %}Simbabwe{% endif %}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="field quote-additional-message">
+    <textarea name="message" placeholder="{% if page.lang == 'en' %}Additional Message{% else %}Zusätzliche Nachricht{% endif %} ..."></textarea>
+  </div>
+  <div class="field">
+    <label>{% if page.lang == 'en' %}Interested in{% else %}Interessiert an{% endif %}</label>
+    <div class="ui fluid search selection dropdown">
+      <input type="hidden" name="type">
+      <i class="dropdown icon"></i>
+      <div class="default text">{% if page.lang == 'en' %}Interested in{% else %}Interessiert an{% endif %}</div>
+      <div class="menu">
+        <div class="item" data-value="Buying">
+          {% if page.lang == 'en' %}Buying a nova{% else %}TouchLay nova kaufen{% endif %}
+        </div>
+        <div class="item" data-value="Renting">
+          {% if page.lang == 'en' %}Renting a nova{% else %}TouchLay nova mieten{% endif %}
+        </div>
+        <div class="item" data-value="Other">
+          {% if page.lang == 'en' %}Other{% else %}Anderes{% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
