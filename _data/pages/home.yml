@@ -12,8 +12,8 @@ header:
   link:
 
 vision:
-  en: We improve the interaction with <i>your</i> customers, through our <a href="software/index.html">software</a> and <a href="hardware/index.html">hardware</a> solutions.
-  de: Wir verbessern die Interaktion mit <i>Ihren</i> Kunden, durch unsere <a href="software/index.html">Software-</a> und <a href="hardware/index.html">Hardwarelösungen</a>.
+  en: We improve the interaction with <i>your</i> customers, through our <a href="software/">software</a> and <a href="hardware/">hardware</a> solutions.
+  de: Wir verbessern die Interaktion mit <i>Ihren</i> Kunden, durch unsere <a href="software/">Software-</a> und <a href="hardware/">Hardwarelösungen</a>.
 
 teammore:
   en: 'more about the team'

@@ -21,7 +21,7 @@
       <p class="hero-text">{{ site.data.pages.home.vision[page.lang] }}</p>
     </div>
     <div class="flexcontainer row middle space-around">
-      <a href="about/index.html"><button data-event-category="team" data-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      <a href="about/"><button data-event-category="team" data-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
       {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
     </div>
   </div>
@@ -43,7 +43,7 @@
       description=content.description
       image=content.image
       cta=site.data.base.texts.more
-      ctalink="software/index.html"
+      ctalink="software"
 
       gacategory="software"
       gaaction="more"
@@ -58,7 +58,7 @@
       description=content.description
       image=content.image
       cta=site.data.base.texts.more
-      ctalink="hardware/index.html"
+      ctalink="hardware"
 
       gacategory="hardware"
       gaaction="more"
