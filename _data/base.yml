@@ -95,11 +95,11 @@ texts:
     en: "request pricing"
     de: "Preise anfragen"
   contactsuccess:
-    en: '✔ Recived inquiry'
-    de: '✔ Anfrage erhalten'
+    en: '✔ Received inquiry - thank you! :)'
+    de: '✔ Anfrage erhalten - danke! :)'
   contacterror:
     en: '❌ Could not send your request, please contact us at <a href="mailto:hello@touchlay.com">hello@touchlay.com</a>.'
-    de: '❌ Wir konnte ihre Anfrage nicht senden, bitte kontaktiern Sie uns unter <a href="mailto:hello@touchlay.com">hello@touchlay.com</a>.'
+    de: '❌ Wir konnten Ihre Anfrage nicht senden, bitte kontaktieren Sie uns unter <a href="mailto:hello@touchlay.com">hello@touchlay.com</a>.'
 
 newsletter:
   headline:
