@@ -1,0 +1,16 @@
+<div class="flexcontainer centereverything">
+  {% for usecase in site.data.usecases %}
+    {% capture title %}{{usecase.title[page.lang]}}{% endcapture %}
+    {% capture description %}{{usecase.description[page.lang]}}{% endcapture %}
+    {% capture image %}{{usecase.image}}{% endcapture %}
+
+    <div class="card-wrapper">
+      {% include components/card.html
+            image=image
+            title=title
+            description=description
+            size="small"
+      %}
+    </div>
+  {% endfor %}
+</div>

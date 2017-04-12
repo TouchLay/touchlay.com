@@ -1,0 +1,46 @@
+{% include components/header-skew.html
+  image=site.data.pages.software.overview.header.image
+  title=site.data.pages.software.overview.header.title
+  subtitle=site.data.pages.software.overview.header.subtitle
+  gacategory="intro"
+
+  primarytext=site.data.pages.software.overview.header.buttontext
+  primarylink=site.data.pages.software.overview.header.buttonlink
+  primarygaaction="requestdemo"
+
+  herodescription=site.data.pages.software.overview.header.description
+%}
+
+{% include components/feature-loop.html features=site.data.pages.software.overview.features %}
+
+{% include components/newsletter.html %}
+
+<section id="overview-hardware" class="paddedTop section-a">
+  {% assign content = site.data.pages.home.hardware %}{% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
+  {% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
+  {% include components/feature-section.html
+      title=content.title
+      subtitle=content.subtitle
+      description=content.description
+      image=content.image
+      cta=site.data.base.texts.more
+      ctalink=hardwarePageUrl
+
+      gacategory="hardware"
+      gaaction="more"
+  %}
+</section>
+
+<section id="cta" class="section-even orange verypadded">
+  <div class="container flexcontainer row middle spacebetween">
+    <div class="section-text">
+        <h1 class="h1-white">{{site.data.pages.software.overview.cta.headline[page.lang]}}</h1>
+        <p>{{site.data.pages.software.overview.cta.text[page.lang]}}</p>
+    </div>
+    <div class="section-image">
+      <a href="#contact" data-event-category="software" data-event-action="requstdemo"><button class="btn-white cta-highlight">
+        {{site.data.pages.software.overview.cta.buttontext[page.lang]}}
+      </button></a>
+    </div>
+  </div>
+</section>

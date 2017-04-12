@@ -1,0 +1,81 @@
+<footer id="contact">
+  <div class="container">
+    <h1 class="h1-white">{{ site.data.base.footertitle[page.lang] }}</h1>
+
+    <div class="flexcontainer row space-between" style="margin-top: 2em;">
+      <form id="contact-form" class="contact-form">
+        <input id="contact-name" type="text" placeholder="{{ site.data.base.texts.name[page.lang] }}" />
+        <input id="contact-email" type="email" placeholder="{{ site.data.base.texts.email[page.lang] }}" />
+        <span style="clear: both;"></span>
+        <br />
+        <textarea id="contact-message" rows="6" placeholder="{{ site.data.base.texts.message[page.lang] }}"></textarea>
+        <br />
+        <div id="contact-country"></div>
+        <div id="contact-interested"></div>
+        <span style="clear: both;"></span>
+        <br />
+        <div style="float: right;">
+          <div id="contact-confirmation-success">{{ site.data.base.texts.contactsuccess[page.lang] }}</div>
+          <div id="contact-confirmation-error">{{ site.data.base.texts.contacterror[page.lang] }}</div>
+
+          <div id="contact-checkbox"><input type="checkbox" name="newsletter" id="checkbox-newsletter" value="newsletter">
+          <label for="checkbox-newsletter" id="contact-checkbox-description">{{ site.data.base.texts.requestnewsletter[page.lang] }}</label>
+        </div>
+          <button id="contact-submit" type="submit" class="btn-orange">{{ site.data.base.texts.send[page.lang] }}</button>
+        </div>
+        <span style="clear: both;"></span>
+      </form>
+
+      <div class="contact-information">
+      <address>
+        <div class="address-description">{{ site.data.base.texts.phone[page.lang] }}</div>
+        <div class="address-content"><a href="tel:+4367688633655">+43 (0) 676 88 633 655</a></div>
+        <div class="address-description">{{ site.data.base.texts.email[page.lang] }}</div>
+        <div class="address-content"><a href="mailto:hello@touchlay.com">hello@touchlay.com</a></div>
+        <div class="address-description">{{ site.data.base.texts.address[page.lang] }}</div>
+        <div class="address-content">
+          <a target="_blank" href="https://www.google.com/maps/place/Enzersdorfer+Str.+19,+2340+Mödling/@48.0881282,16.2811531,17z/data=!3m1!4b1!4m5!3m4!1s0x476daf0dad4215b7:0xab1c6f91372fe04d!8m2!3d48.0881246!4d16.2833471">TouchLay GmbH<br/>
+          Enzersdorferstraße 19,<br/>
+          2340 Mödling<br/>
+          {{ site.data.base.texts.austria[page.lang] }}</a>
+        </div>
+      </address>
+    </div>
+    </div>
+
+    <div class="social-icon-wrapper flexcontainer centereverything">
+      <div style="width: 12%; float: left;">
+        <hr>
+      </div>
+      <div class="flexcontainer centereverything" style="width:76%; float: left;">
+          <a href="https://facebook.com/TouchLay">{% include components/image.html image="/img/icon-facebook.png" class="social-icon" %}</a>
+          <a href="https://instagram.com/touchlay.gmbh">{% include components/image.html image="/img/icon-instagram.png" class="social-icon" %}</a>
+          <a href="https://youtube.com/user/touchlay">{% include components/image.html image="/img/icon-youtube.png" class="social-icon" %}</a>
+          <a href="https://twitter.com/TouchLay">{% include components/image.html image="/img/icon-twitter.png" class="social-icon" %}</a>
+          <a href="https://blog.touchlay.com">{% include components/image.html image="/img/icon-medium.png" class="social-icon" %}</a>
+          <a href="https://github.com/touchlay">{% include components/image.html image="/img/icon-github.png" class="social-icon" %}</a>
+      </div>
+      <div style="width: 12%; float: left;">
+        <hr>
+      </div>
+    </div>
+
+    <div class="footer-nav">
+      <ul>
+          <li><span>&copy; TouchLay GmbH {{ 'now' | date: "%Y" }}</span></li>
+        {% for footeritem in site.data.base.footer %}
+          <li>
+            <a href="{% if footeritem.full_url %}{{footeritem.full_url}}{% else %}/{{page.lang}}/{{footeritem.url}}{% endif %}">{{footeritem.title[page.lang]}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <span class="language-toggle hide-tablet">
+        Language:
+        <a href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">English</a>
+         |
+        <a href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">Deutsch</a>
+      </span>
+  </div>
+</div>
+</footer>

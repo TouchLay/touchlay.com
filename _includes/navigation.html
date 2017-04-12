@@ -1,0 +1,47 @@
+<nav>
+  <div class="container">
+    <div class="wrapper">
+      <img src="/img/tl-logo.png"
+      		 srcset="/img/tl-logo@2x.png 2x,
+      					 /img/tl-logo@3x.png 3x"
+      		 class="logo">
+
+      <input type="checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="label-toggle"></label>
+      </input>
+
+      <ul>
+        {% for navitem in site.data.base.navigation %}
+          {% capture pageUrl %}/{{page.lang}}/{{navitem.url}}{% endcapture %}
+
+          <li
+            {% if page.url == pageUrl %}
+            class="active"
+            {% endif %}
+          >
+            <a class="nav-text" href={{pageUrl}} >{{navitem.title}}</a>
+          </li>
+        {% endfor %}
+        <li class="language-toggle-menu">
+            <a class="nav-text" href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">English</a>
+             |
+            <a class="nav-text" href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">Deutsch</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="language-toggle">
+    <a href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">English</a>
+     |
+    <a href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">Deutsch</a>
+  </div>
+</nav>
+
+<div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cookie-banner">
+  <!--googleoff: all-->
+  <span id="cookieconsent:desc" class="cc-message">{{ site.data.base.cookie.description[page.lang] }}
+    <a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="http://cookiesandyou.com" target="_blank">{{ site.data.base.texts.more[page.lang] }}</a>
+  </span>
+  <button id="accept-cookie" aria-label="dismiss cookie message" role="button" tabindex="0">{{ site.data.base.cookie.accept[page.lang] }}</button>
+  <!--googleon: all-->
+</div>
