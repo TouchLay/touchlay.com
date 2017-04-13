@@ -28,11 +28,11 @@
   </div>
 
   <div class="m-scooch-controls m-scooch-bulleted">
-    <a href="#" data-m-slide="prev" class="carousel-prev">{% include components/image.html image="/img/chevron-left.png" %}</a>
-    <a href="#" data-m-slide="next" class="carousel-next">{% include components/image.html image="/img/chevron-right.png" %}</a>
+    <a ga-on="click" ga-event-category="customers" ga-event-action="prev" href="#" data-m-slide="prev" class="carousel-prev">{% include components/image.html image="/img/chevron-left.png" %}</a>
+    <a ga-on="click" ga-event-category="customers" ga-event-action="next" href="#" data-m-slide="next" class="carousel-next">{% include components/image.html image="/img/chevron-right.png" %}</a>
     <div class="carousel-dot-wrapper text-center">
       {% for customersection in site.data.customers %}
-        <a href="#" data-m-slide="{{forloop.index}}" class="carousel-dot {% if forloop.index == 1 %}m-active{% endif %}"></a>
+        <a ga-on="click" ga-event-category="customers" ga-event-action="dot{{forloop.index}}" href="#" data-m-slide="{{forloop.index}}" class="carousel-dot {% if forloop.index == 1 %}m-active{% endif %}"></a>
       {% endfor %}
     </div>
   </div>
