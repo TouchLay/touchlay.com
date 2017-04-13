@@ -15,6 +15,7 @@
               {% if include.primarytext %}
                 {% if include.primarylity != true %}<a href={{include.primarylink}}>{% endif %}
                   <button
+                    ga-on="click"
                     ga-event-category={{include.gacategory}}
                     ga-event-action={{include.primarygaaction}}
                     {% if include.primarylity %}
@@ -28,6 +29,7 @@
               {% if include.secondarytext %}
                 <a href={{include.secondarylink}}>
                   <button
+                    ga-on="click"
                     ga-event-category={{include.gacategory}}
                     ga-event-action={{include.secondarygaaction}}
                     class="btn-white btn-next section-btn">

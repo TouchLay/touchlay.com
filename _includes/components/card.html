@@ -4,6 +4,7 @@
   {% else %}
     href="{{include.link}}"
   {% endif %}
+  ga-on="click"
   {% if include.gacategory %}ga-event-category="{{ include.gacategory }}"{% endif %}
   {% if include.gacategory and include.gaaction %}ga-event-action="{{ include.gaaction }}"{% endif %}
   >

@@ -9,7 +9,7 @@
         <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form" target="_blank" novalidate="">
           <div class="mc-field-group">
             <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="{{ site.data.base.texts.email[page.lang] }}" />
-            <button ga-event-category="newsletter" ga-event-action="subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-blue btn-next">
+            <button ga-on="click" ga-event-category="newsletter" ga-event-action="subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-blue btn-next">
               {{site.data.base.texts.subscribe[page.lang]}}
             </button>
           </div>
