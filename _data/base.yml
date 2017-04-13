@@ -20,18 +20,22 @@ footer:
       en: 'Imprint'
       de: 'Impressum'
     url: 'imprint.html'
+    gaaction: 'imprint'
   - title:
       en: 'Press'
       de: 'Presse'
     url: 'press.html'
+    gaaction: 'press'
   - title:
       en: 'Jobs'
       de: 'Jobs'
     url: 'jobs.html'
+    gaaction: 'jobs'
   - title:
       en: 'Blog'
       de: 'Blog'
     full_url: 'https://blog.touchlay.com'
+    gaaction: 'blog'
 
 footertitle:
   en: 'Interested? Contact us!'
