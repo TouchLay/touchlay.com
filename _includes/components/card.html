@@ -4,8 +4,8 @@
   {% else %}
     href="{{include.link}}"
   {% endif %}
-  {% if include.gacategory %}data-event-category="{{ include.gacategory }}"{% endif %}
-  {% if include.gacategory and include.gaaction %}data-event-action="{{ include.gaaction }}"{% endif %}
+  {% if include.gacategory %}ga-event-category="{{ include.gacategory }}"{% endif %}
+  {% if include.gacategory and include.gaaction %}ga-event-action="{{ include.gaaction }}"{% endif %}
   >
 {% endif %}
 <div class="card {{include.size}}">

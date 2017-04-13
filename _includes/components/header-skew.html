@@ -15,8 +15,8 @@
               {% if include.primarytext %}
                 {% if include.primarylity != true %}<a href={{include.primarylink}}>{% endif %}
                   <button
-                    data-event-category={{include.gacategory}}
-                    data-event-action={{include.primarygaaction}}
+                    ga-event-category={{include.gacategory}}
+                    ga-event-action={{include.primarygaaction}}
                     {% if include.primarylity %}
                       data-lity data-lity-target={{include.primarylink[page.lang]}}
                     {% endif %}
@@ -28,8 +28,8 @@
               {% if include.secondarytext %}
                 <a href={{include.secondarylink}}>
                   <button
-                    data-event-category={{include.gacategory}}
-                    data-event-action={{include.secondarygaaction}}
+                    ga-event-category={{include.gacategory}}
+                    ga-event-action={{include.secondarygaaction}}
                     class="btn-white btn-next section-btn">
                       {{ include.secondarytext[page.lang] }}
                   </button>
