@@ -12,8 +12,8 @@ header:
   link:
 
 vision:
-  en: We improve the interaction with <i>your</i> customers, through our <a href="/en/software/">software</a> and <a href="/en/hardware/">hardware</a> solutions.
-  de: Wir verbessern die Interaktion mit <i>Ihren</i> Kunden, durch unsere <a href="/de/software/">Software-</a> und <a href="/de/hardware/">Hardwarelösungen</a>.
+  en: We improve the interaction with <i>your</i> customers, through our <a ga-on="click" ga-event-category="vision" ga-event-action="software" href="/en/software/">software</a> and <a ga-on="click" ga-event-category="vision" ga-event-action="hardware" href="/en/hardware/">hardware</a> solutions.
+  de: Wir verbessern die Interaktion mit <i>Ihren</i> Kunden, durch unsere <a ga-on="click" ga-event-category="vision" ga-event-action="software" href="/de/software/">Software-</a> und <a ga-on="click" ga-event-category="vision" ga-event-action="hardware" href="/de/hardware/">Hardwarelösungen</a>.
 
 teammore:
   en: 'more about the team'
