@@ -34,11 +34,13 @@ $(document).ready(function() {
         var helper = $('.newsletter-response');
         if (data.result != "success") {
           if (resultMessage && resultMessage.indexOf("already subscribed") >= 0) {
+            ga('send', 'event', 'newsletter', 'alreadySubscribed')
             helper.addClass('success')
             $('#mc-embedded-subscribe-form').css('display', 'none')
             $('.newsletter-description').css('display', 'none')
             helper.html("You're already subscribed. Thank you.");
           } else {
+            ga('send', 'event', 'newsletter', 'error', resultMessage)
             helper.addClass('error')
             if (resultMessage.split('-').length >= 2) {
               helper.html(resultMessage.split('-')[1]);
@@ -47,6 +49,7 @@ $(document).ready(function() {
             }
           }
         } else {
+          ga('send', 'event', 'newsletter', 'success')
           helper.addClass('success')
           $('#mc-embedded-subscribe-form').css('display', 'none')
           $('.newsletter-description').css('display', 'none')
@@ -72,6 +75,7 @@ $(document).ready(function() {
   else { $('.cookie-banner').show(); }
 
   $('#accept-cookie').click(function() {
+    ga('send', 'event', 'cookieBanner', 'dismissed')
     $.fn.cookie('cookie-banner-dismissed', true)
     $('.cookie-banner').hide();
   })
@@ -170,13 +174,15 @@ $(document).ready(function() {
     xhr.setRequestHeader('Content-type', 'application/json');
     xhr.onreadystatechange = function () {
       if (xhr.readyState == 4 && xhr.status == 204) {
-        console.log('success');
+        ga('send', 'event', 'inquiry', 'success')
+        console.log('inquiry sent :)');
         $('#contact-checkbox').hide();
         $('#contact-checkbox-description').hide();
         $('#contact-submit').hide();
         $('#contact-confirmation-success').show();
       }
       if (xhr.status != 204) {
+        ga('send', 'event', 'inquiry', 'error')
         console.log('error, status code:', xhr.status);
         $('#contact-checkbox').hide();
         $('#contact-checkbox-description').hide();

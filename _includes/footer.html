@@ -4,24 +4,24 @@
 
     <div class="flexcontainer row space-between" style="margin-top: 2em;">
       <form id="contact-form" class="contact-form">
-        <input id="contact-name" type="text" placeholder="{{ site.data.base.texts.name[page.lang] }}" />
-        <input id="contact-email" type="email" placeholder="{{ site.data.base.texts.email[page.lang] }}" />
+        <input ga-on="click" ga-event-category="inquiry" ga-event-action="name" id="contact-name" type="text" placeholder="{{ site.data.base.texts.name[page.lang] }}" />
+        <input ga-on="click" ga-event-category="inquiry" ga-event-action="email" id="contact-email" type="email" placeholder="{{ site.data.base.texts.email[page.lang] }}" />
         <span style="clear: both;"></span>
         <br />
-        <textarea id="contact-message" rows="6" placeholder="{{ site.data.base.texts.message[page.lang] }}"></textarea>
+        <textarea ga-on="click" ga-event-category="inquiry" ga-event-action="message" id="contact-message" rows="6" placeholder="{{ site.data.base.texts.message[page.lang] }}"></textarea>
         <br />
-        <div id="contact-country"></div>
-        <div id="contact-interested"></div>
+        <div ga-on="click" ga-event-category="inquiry" ga-event-action="country" id="contact-country"></div>
+        <div ga-on="click" ga-event-category="inquiry" ga-event-action="interests" id="contact-interested"></div>
         <span style="clear: both;"></span>
         <br />
         <div style="float: right;">
           <div id="contact-confirmation-success">{{ site.data.base.texts.contactsuccess[page.lang] }}</div>
           <div id="contact-confirmation-error">{{ site.data.base.texts.contacterror[page.lang] }}</div>
 
-          <div id="contact-checkbox"><input type="checkbox" name="newsletter" id="checkbox-newsletter" value="newsletter">
+          <div id="contact-checkbox"><input ga-on="click" ga-event-category="inquiry" ga-event-action="newsletter" type="checkbox" name="newsletter" id="checkbox-newsletter" value="newsletter">
           <label for="checkbox-newsletter" id="contact-checkbox-description">{{ site.data.base.texts.requestnewsletter[page.lang] }}</label>
         </div>
-          <button id="contact-submit" type="submit" class="btn-orange">{{ site.data.base.texts.send[page.lang] }}</button>
+          <button ga-on="click" ga-event-category="inquiry" ga-event-action="send" id="contact-submit" type="submit" class="btn-orange">{{ site.data.base.texts.send[page.lang] }}</button>
         </div>
         <span style="clear: both;"></span>
       </form>
