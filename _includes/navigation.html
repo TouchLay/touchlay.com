@@ -6,7 +6,7 @@
       					 /img/tl-logo@3x.png 3x"
       		 class="logo">
 
-      <input type="checkbox" id="nav-toggle">
+      <input ga-on="click" ga-event-category="nav" ga-event-action="toggle" type="checkbox" id="nav-toggle">
         <label for="nav-toggle" class="label-toggle"></label>
       </input>
 
@@ -19,21 +19,21 @@
             class="active"
             {% endif %}
           >
-            <a class="nav-text" href={{pageUrl}} >{{navitem.title}}</a>
+            <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" href={{pageUrl}} >{{navitem.title}}</a>
           </li>
         {% endfor %}
         <li class="language-toggle-menu">
-            <a class="nav-text" href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">English</a>
+            <a ga-on="click" ga-event-category="nav" ga-event-action="english" class="nav-text" href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">English</a>
              |
-            <a class="nav-text" href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">Deutsch</a>
+            <a ga-on="click" ga-event-category="nav" ga-event-action="german" class="nav-text" href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">Deutsch</a>
         </li>
       </ul>
     </div>
   </div>
   <div class="language-toggle">
-    <a href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">English</a>
+    <a ga-on="click" ga-event-category="nav" ga-event-action="english" href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">English</a>
      |
-    <a href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">Deutsch</a>
+    <a ga-on="click" ga-event-category="nav" ga-event-action="german" href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">Deutsch</a>
   </div>
 </nav>
 

@@ -1,15 +1,19 @@
 navigation:
   - title: 'Home'
     url: ''
+    gaaction: 'home'
 
   - title: 'Hardware'
     url: 'hardware/'
+    gaaction: 'hardware'
 
   - title: 'Software'
     url: 'software/'
+    gaaction: 'software'
 
   - title: 'About'
     url: 'about/'
+    gaaction: 'about'
 
 footer:
   - title:
