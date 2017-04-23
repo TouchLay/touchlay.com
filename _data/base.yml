@@ -49,6 +49,7 @@ interessts:
     - project
     - software
     - cluud
+    - leasing
   de:
     - nova
     - mieten
@@ -56,6 +57,7 @@ interessts:
     - projekt
     - software
     - cluud
+    - leasing
 
 interesstsplaceholder:
   en: 'interested in...'
