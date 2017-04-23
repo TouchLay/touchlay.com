@@ -169,6 +169,12 @@ $(document).ready(function() {
 
   // Handle contact form request
   function sendInquiry (data) {
+    console.log('sending inquiry...')
+    $('#contact-checkbox').hide();
+    $('#contact-checkbox-description').hide();
+    $('#contact-submit').hide();
+    $('#contact-confirmation-loading').show();
+
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'https://inquirer.exp.touchlay.com/', true);
     xhr.setRequestHeader('Content-type', 'application/json');
@@ -176,17 +182,13 @@ $(document).ready(function() {
       if (xhr.readyState == 4 && xhr.status == 204) {
         ga('send', 'event', 'inquiry', 'success')
         console.log('inquiry sent :)');
-        $('#contact-checkbox').hide();
-        $('#contact-checkbox-description').hide();
-        $('#contact-submit').hide();
+        $('#contact-confirmation-loading').hide();
         $('#contact-confirmation-success').show();
       }
       if (xhr.status != 204) {
         ga('send', 'event', 'inquiry', 'error')
         console.log('error, status code:', xhr.status);
-        $('#contact-checkbox').hide();
-        $('#contact-checkbox-description').hide();
-        $('#contact-submit').hide();
+        $('#contact-confirmation-loading').hide();
         $('#contact-confirmation-error').show();
       }
     }

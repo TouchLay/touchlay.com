@@ -102,6 +102,9 @@ texts:
   requestprice:
     en: "request pricing"
     de: "Preise anfragen"
+  contactloading:
+    en: 'Sending inquiry... please wait a moment'
+    de: 'Anfrage wird gesendet... bitte einen Moment warten'
   contactsuccess:
     en: '✔ Received inquiry - thank you! :)'
     de: '✔ Anfrage erhalten - danke! :)'
