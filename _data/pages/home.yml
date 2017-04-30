@@ -1,8 +1,8 @@
 header:
   image: /img/header-image.png
   title:
-    en: TouchLay Nova
-    de: TouchLay Nova
+    en: TouchLay nova
+    de: TouchLay nova
   subtitle:
     en: the people magnet
     de: Der Kundenmagnet
@@ -39,6 +39,6 @@ hardware:
     en: "elegant & precise"
     de: "Elegant & Präzise"
   description:
-    en: "Adjust the TouchLay Nova any way you want. Use it as a presentation screen, table, or even in portrait mode. Our precise multitouch sensor can detect 2-32 touch points at the same time, including objects up to 1.5mm."
-    de: "Adjustieren Sie den TouchLay Nova so wie Sie möchten. Verwenden Sie Ihn als Präsentations-Screen, Tisch oder sogar im Hochformat. Unser präziser Multitouch Sensor kann 2-32 Berührungspunkte gleichzeitig, und sogar Objekte bis 1.5mm erkennen."
+    en: "Adjust the TouchLay nova any way you want. Use it as a presentation screen, table, or even in portrait mode. Our precise multitouch sensor can detect 2-32 touch points at the same time, including objects up to 1.5mm."
+    de: "Adjustieren Sie den TouchLay nova so wie Sie möchten. Verwenden Sie Ihn als Präsentations-Screen, Tisch oder sogar im Hochformat. Unser präziser Multitouch Sensor kann 2-32 Berührungspunkte gleichzeitig, und sogar Objekte bis 1.5mm erkennen."
   image: "/img/overview-hardware.png"

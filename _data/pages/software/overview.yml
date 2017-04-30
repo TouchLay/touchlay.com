@@ -47,8 +47,8 @@ features:
       en: 4. Assign Devices
       de: 4. Geräte zuweisen
     description:
-      en: 'Finally, select a device to deploy the presentation on. Supported are the TouchLay Nova, as well as various tablets, smartphones, desktops and signage screens.'
-      de: 'Schließlich wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden sollen. Dabei werden der TouchLay Nova, aber auch jegliche Tablets, Smartphones, Desktops und Signage Screens unterstützt.'
+      en: 'Finally, select a device to deploy the presentation on. Supported are the TouchLay nova, as well as various tablets, smartphones, desktops and signage screens.'
+      de: 'Schließlich wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden sollen. Dabei werden der TouchLay nova, aber auch jegliche Tablets, Smartphones, Desktops und Signage Screens unterstützt.'
     image: /img/feature-devices.jpg
 
   - id: tracking
