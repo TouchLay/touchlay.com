@@ -1,5 +1,6 @@
 header:
   image: /img/header-image.png
+  imagelink: true
   title:
     en: TouchLay nova
     de: TouchLay nova

@@ -4,7 +4,21 @@
       {% if include.title or include.subtitle or include.primarytext or include.secondarytext %}
         <div class="header-image-wrapper">
       {% endif %}
-        {% include components/image.html image=include.image class="header-image"%}
+      {% if include.imagelink %}
+        <a
+          ga-on="click"
+          ga-event-category={{include.gacategory}}
+          ga-event-action={{include.primarygaaction}}
+          {% if include.primarylity %}
+            data-lity data-lity-target={{include.primarylink[page.lang]}}
+          {% else %}
+            href={{include.imagelink[page.lang]}}
+          {% endif %}>
+      {% endif %}
+          {% include components/image.html image=include.image class="header-image"%}
+      {% if include.imagelink %}
+        </a>
+      {% endif %}
       {% if include.title or include.subtitle or include.primarytext or include.secondarytext %}
         </div>
           <div>

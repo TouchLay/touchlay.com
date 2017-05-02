@@ -1,5 +1,6 @@
 header:
   image: /img/header-image.png
+  imagelink: true
   title:
     en: TouchLay nova
     de: TouchLay nova
@@ -9,7 +10,7 @@ header:
   video:
     en: https://www.youtube.com/watch?v=nhPHPHCceFQ
     de: https://www.youtube.com/watch?v=0DydF2SkYYQ
-  link:
+
 
 vision:
   en: We improve the interaction with your customers, through our <a ga-on="click" ga-event-category="vision" ga-event-action="software" href="/en/software/">software</a> and <a ga-on="click" ga-event-category="vision" ga-event-action="hardware" href="/en/hardware/">hardware</a> solutions.

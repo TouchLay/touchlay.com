@@ -173,6 +173,10 @@ img {
 
 a {
   color: $touchlay-blue;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 /* Navigation */
