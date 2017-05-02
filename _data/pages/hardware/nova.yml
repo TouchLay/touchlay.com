@@ -22,7 +22,7 @@ features:
       de: Flexibles Design
     description:
       en: 'Adjust the TouchLay nova any way you want. Use it as a presentation screen, table, or even in portrait mode. Optionally, any RAL color can be used.'
-      de: 'Adjustieren Sie den TouchLay nova so wie Sie möchten. Verwenden Sie Ihn als Präsentations-Screen, Tisch oder sogar im Hochformat. Optional kann auch eine andere RAL Farbe gewählt werden.'
+      de: 'Adjustieren Sie den TouchLay nova so wie Sie möchten. Verwenden Sie ihn als Präsentations-Screen, Tisch oder sogar im Hochformat. Optional kann auch eine andere RAL Farbe gewählt werden.'
     image: /img/feature-flexible.jpg
     topOnly: true
 
@@ -31,7 +31,7 @@ features:
       en: Vivid Display
       de: Lebhaftes Display
     description:
-      en: 'The TouchLay nova uses a 55 inch full HD display. We made sure that your products look as best and impressive as possible.'
+      en: 'The TouchLay nova uses a 55 inch full HD display. We made sure that your products look as good and impressive as possible.'
       de: 'Der TouchLay nova hat ein 55 Zoll Full-HD Display bei dem wir besonders darauf geachtet haben, dass Ihre Produkte so beeindruckend wie möglich, sowie von jedem Winkel, präsentiert werden können.'
     image: /img/feature-display.jpg
 
@@ -40,8 +40,8 @@ features:
       en: Precise Multitouch
       de: Präziser Multitouch
     description:
-      en: 'Our precise multitouch sensor can detect multiple touch points at once, even objects up to 1.5mm! The sensor refreshses 200 times per second to ensure fluid interaction with the nova.'
-      de: 'Unser präziser Multitouch Sensor kann mehrere Berührungspunkte gleichzeitig und sogar Objekte bis 1.5mm erkennen! Der Sensor aktualisiert 200 mal pro Sekunde, dadurch wird eine flüssige Interaktion mit dem nova gewährleistet.'
+      en: 'Our precise multitouch sensor can detect multiple touch points at once, even objects up to 1.5mm! The sensor refreshes 250 times per second to ensure fluid interaction with the nova.'
+      de: 'Unser präziser Multitouch Sensor kann mehrere Berührungspunkte gleichzeitig und sogar Objekte bis 1.5mm erkennen! Der Sensor aktualisiert 250 mal pro Sekunde, dadurch wird eine flüssige Interaktion mit dem nova gewährleistet.'
     image: /img/feature-multitouch.jpg
     topOnly: true
 
@@ -219,13 +219,13 @@ specs:
           en: 'Ports'
           de: 'Anschlüsse'
         description:
-          en: 'Audio: Mikrofon, Kopfhörer, Optisch<br />USB Port: 4 x USB 3.0, 1 x USB 2.0<br />LAN: Dual Gigabit LAN<br />Wifi: 802.11ac/b/g/n<br />Antenne: 1 x WiFI SMA connector<br />Bluetooth: Bluetooth 4.0<br />Grafikausgabe: DisplayPort, HDMI'
-          de: 'Audio: Microphone,Headphones, Optical<br />USB Port: 4 x USB 3.0, 1 x USB 2.0<br />LAN: Dual Gigabit LAN<br />Wifi: 802.11ac/b/g/n<br />Antenna: 1 x WiFI SMA connector<br />Bluetooth: Bluetooth 4.0<br />Graphic Ports: DisplayPort, HDMI'
+          en: 'Audio: Microphone, Headphones, Optical<br />USB Port: 4 x USB 3.0, 1 x USB 2.0<br />LAN: Dual Gigabit LAN<br />Wifi: 802.11ac/b/g/n<br />Antenna: 1 x WiFI SMA connector<br />Bluetooth: Bluetooth 4.0<br />Graphic Ports: DisplayPort, HDMI'
+          de: 'Audio: Mikrofon, Kopfhörer, Optisch<br />USB Port: 4 x USB 3.0, 1 x USB 2.0<br />LAN: Dual Gigabit LAN<br />Wifi: 802.11ac/b/g/n<br />Antenne: 1 x WiFI SMA connector<br />Bluetooth: Bluetooth 4.0<br />Grafikausgabe: DisplayPort, HDMI'
 
 brochuere:
   text:
     en: download folder
-    de: Brochuere herunterladen
+    de: Brochüre herunterladen
   link:
     en: '/downloads/info_nova_2017_english.pdf'
     de: '/downloads/info_nova_2017_deutsch.pdf'

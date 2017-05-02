@@ -24,7 +24,7 @@ ATU 69505948
 
 Telefon: +43 676 88633655
 
-Email: [hello@touchlay.com](mailto:hello@touchlay.com)
+E-Mail: [hello@touchlay.com](mailto:hello@touchlay.com)
 
 ## Datenschutzerklärung
 

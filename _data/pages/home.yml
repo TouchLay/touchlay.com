@@ -12,12 +12,16 @@ header:
   link:
 
 vision:
-  en: We improve the interaction with <i>your</i> customers, through our <a ga-on="click" ga-event-category="vision" ga-event-action="software" href="/en/software/">software</a> and <a ga-on="click" ga-event-category="vision" ga-event-action="hardware" href="/en/hardware/">hardware</a> solutions.
-  de: Wir verbessern die Interaktion mit <i>Ihren</i> Kunden, durch unsere <a ga-on="click" ga-event-category="vision" ga-event-action="software" href="/de/software/">Software-</a> und <a ga-on="click" ga-event-category="vision" ga-event-action="hardware" href="/de/hardware/">Hardwarelösungen</a>.
+  en: We improve the interaction with your customers, through our <a ga-on="click" ga-event-category="vision" ga-event-action="software" href="/en/software/">software</a> and <a ga-on="click" ga-event-category="vision" ga-event-action="hardware" href="/en/hardware/">hardware</a> solutions.
+  de: Wir verbessern die Interaktion mit Ihren Kunden, durch unsere <a ga-on="click" ga-event-category="vision" ga-event-action="software" href="/de/software/">Software-</a> und <a ga-on="click" ga-event-category="vision" ga-event-action="hardware" href="/de/hardware/">Hardwarelösungen</a>.
 
 teammore:
   en: 'more about the team'
   de: 'Mehr über das Team erfahren'
+
+customer:
+  en: 'Our Customers'
+  de: 'Unsere Kunden'
 
 software:
   title:
@@ -27,8 +31,8 @@ software:
     en: "impressive & interactive"
     de: "Beeindruckend & Interaktiv"
   description:
-    en: "Connect our platform with data sources (e.g. Dropbox, Website, etc). Generate your own impressive presentation in a few steps. Our device management feature allows for simple deployment and extensive tracking and statistics."
-    de: "Verbinden Sie unsere Plattform mit Datenquellen (z.B. Dropbox, Webseite, etc) und generieren Sie in ein paar Schritten Ihre eigene beeindruckende Präsentation. Unser Device-Management Feature erlaubt einfaches Deployment und ausgiebiges Tracking und Statistiken."
+    en: "Connect our platform with data sources (e.g. Dropbox, Website etc.). Generate your own impressive presentation in a few steps. Our device management feature allows for simple deployment and extensive tracking and statistics."
+    de: "Verbinden Sie unsere Plattform mit Datenquellen (z.B. Dropbox, Webseite etc.) und generieren Sie in ein paar Schritten Ihre eigene beeindruckende Präsentation. Unser Device-Management Feature erlaubt einfaches Deployment und ausgiebiges Tracking und Statistiken."
   image: "/img/overview-software.png"
 
 hardware:

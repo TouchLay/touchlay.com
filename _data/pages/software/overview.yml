@@ -11,7 +11,7 @@ header:
     de: Demo anfragen
   buttonlink: '#contact'
   description:
-    en: Connect our platform with data sources (e.g. Dropbox, Website, etc). Generate your own impressive presentation in a few steps. Our device management feature allows for simple deployment and extensive tracking and statistics.
+    en: Connect our platform with data sources (e.g. Dropbox, Website etc.). Generate your own impressive presentation in a few steps. Our device management feature allows for simple deployment and extensive tracking and statistics.
     de: Generieren Sie aus bestehenden Datenquellen in wenigen Schritten Ihre eigene interaktive Präsentation. Unser Device-Management Feature erlaubt einfaches Deployment und ausgiebige Statistiken.
 
 features:
@@ -47,7 +47,7 @@ features:
       en: 4. Assign Devices
       de: 4. Geräte zuweisen
     description:
-      en: 'Finally, select a device to deploy the presentation on. Supported are the TouchLay nova, as well as various tablets, smartphones, desktops and signage screens.'
+      en: 'Finally, select a device on which to deploy the presentation. Supported are the TouchLay nova, as well as various tablets, smartphones, desktops and signage screens.'
       de: 'Schließlich wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden sollen. Dabei werden der TouchLay nova, aber auch jegliche Tablets, Smartphones, Desktops und Signage Screens unterstützt.'
     image: /img/feature-devices.jpg
 

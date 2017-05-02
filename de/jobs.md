@@ -8,4 +8,4 @@ container: true
 # Jobs
 
 Momentan bieten wir keine Jobs an. Sind Sie interessiert mit oder für
-uns zu arbeiten? Dann [senden Sie uns eine email](mailto:hello@touchlay.com).
+uns zu arbeiten? Dann [senden Sie uns eine E-Mail](mailto:hello@touchlay.com).
