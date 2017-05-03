@@ -3,30 +3,23 @@
 <html lang="{{page.lang}}" data-wf-site="51fff4fae3bb0b2562000155">
 <head>
 <meta charset="utf-8">
-<title>{{page.title}} | TouchLay</title>
-<meta name="description" content="interactive presentation and software development">
-<meta name="keywords" content="interactive,presentation,software,development,nova,touch,multitouch,touchlay">
+
+{% seo %}
+
 <meta name="theme-color" content="#3293C7">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="google-site-verification" content="9VUnCw57X_YgwyvKB0LsvIngTMtZTCePSRw-LCYQ3Nw"/>
 <link rel="alternate" hreflang="{% if page.lang == 'en' %}de{% else %}en{% endif %}" href="{{site.url}}/{% if page.lang == 'en' %}de{% else %}en{% endif %}/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}" />
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@TouchLay">
-<meta name="twitter:title" content="TouchLay nova">
-<meta name="twitter:description" content="impress your customers with interactive presentations on a 55 inch device">
-<meta name="twitter:image" content="https://touchlay.com/img/twitter_card.png">
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="/css/base.css">
 <link rel="stylesheet" type="text/css" href="/css/lity.min.css">
 <link rel="stylesheet" type="text/css" href="/css/scooch.min.css">
-<!--<link rel="stylesheet" type="text/css" href="/css/selectivity-jquery.css">-->
 
 <link rel="icon" type="image/x-icon" href="/img/favicon.png">
 <link rel="apple-touch-icon" href="/img/apple-touch-icon-144-precomposed.png">
+
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 ga('create', 'UA-23939953-1', 'auto');

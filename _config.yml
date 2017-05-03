@@ -1,3 +1,15 @@
 markdown: kramdown
 exclude: ["node_modules","vendor"]
 url: //touchlay.com
+gems:
+  - jekyll-seo-tag
+
+title: TouchLay
+description: We improve the interaction with your customers, through our software and hardware solutions.
+url: https://touchlay.com
+twitter:
+  username: touchlay
+facebook:
+ publisher: https://www.facebook.com/TouchLay
+google_site_verification: '9VUnCw57X_YgwyvKB0LsvIngTMtZTCePSRw-LCYQ3Nw'
+lang: en_US
