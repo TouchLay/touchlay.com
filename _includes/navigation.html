@@ -1,11 +1,9 @@
 <nav>
   <div class="container">
     <div class="wrapper">
-      <img src="/img/tl-logo.png"
-      		 srcset="/img/tl-logo@2x.png 2x,
-      					 /img/tl-logo@3x.png 3x"
-      		 class="logo">
-
+      <a href="/{{page.lang}}/">
+        {% include components/image.html image="/img/tl-logo.png" class="logo"%}
+      </a>
       <input ga-on="click" ga-event-category="nav" ga-event-action="toggle" type="checkbox" id="nav-toggle">
         <label for="nav-toggle" class="label-toggle"></label>
       </input>
