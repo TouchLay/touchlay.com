@@ -6,7 +6,7 @@ header:
     de: TouchLay Wayfinder
   subtitle:
     en: The interactive Wayfinder
-    de: Der interactive Wegweiser
+    de: Der interaktive Wegweiser
   video:
     en: https://www.youtube.com/watch?v=UKmZ6LIZKaI
     de: https://www.youtube.com/watch?v=UKmZ6LIZKaI
@@ -21,8 +21,8 @@ features:
       en: Einfaches Setup
       de: Einfaches Setup
     description:
-      en: 'Setzen Sie einfach Ihren Lageplan als Hintergrund und definieren Sie das Design Ihres Wegweisers. Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.'
-      de: 'Setzen Sie einfach Ihren Lageplan als Hintergrund und definieren Sie das Design Ihres Wegweisers. Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.'
+      en: 'Setzen Sie einfach den Lageplan als Hintergrund und definieren Sie das Design Ihres Wegweisers. Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.'
+      de: 'Setzen Sie einfach den Lageplan als Hintergrund und definieren Sie das Design Ihres Wegweisers. Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.'
     image: /img/wayfinder-dashboard.png
 
   - id: content
@@ -54,11 +54,11 @@ features:
 
   - id: package
     title:
-      en: Package aus einer Hand
-      de: Package aus einer Hand
+      en: Alles aus einer Hand
+      de: Alles aus einer Hand
     description:
-      en: 'Alles aus einer Hand - Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem TouchLay nova an. Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung.'
-      de: 'Alles aus einer Hand - Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem TouchLay nova an. Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung.'
+      en: 'Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem TouchLay nova, an. Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung.'
+      de: 'Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem TouchLay nova an. Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung.'
     image: /img/feature-devices-white.jpg
 
 customers:
