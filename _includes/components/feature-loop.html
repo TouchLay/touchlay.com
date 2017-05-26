@@ -1,7 +1,8 @@
 {% for feature in include.features %}
   {% assign loopindex = forloop.index | modulo: 2 %}
+  {% if include.reverse == true %}{% assign condition = 0 %}{% else %}{% assign condition = 1 %}{% endif %}
   {% capture padding %}{% if feature.topOnly %}paddedTop{% else %}padded{% endif %}{% endcapture %}
-  {% if loopindex == 1 %}
+  {% if loopindex == condition %}
     <section id="feature-{{feature.id}}" class="{{padding}} section-a">
   {% else %}
     <section id="feature-{{feature.id}}" class="{{padding}} section-b gray">

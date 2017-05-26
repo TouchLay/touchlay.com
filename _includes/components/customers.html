@@ -6,23 +6,47 @@
               {% capture description %}{{customer.description[page.lang]}}{% endcapture %}
               {% capture image %}{{customer.image}}{% endcapture %}
               {% capture logo %}{{customer.logo}}{% endcapture %}
+              {% capture tags %}{{customer.tags}}{% endcapture %}
               {% assign media = customer.media %}
               {% capture gaaction %}click {{customer.company}}{% endcapture %}
 
-              <div class="card-wrapper m-item {% if forloop.index == 1 %}m-active{% endif %}">
-                {% include components/card.html
-                      image=image
-                      subtitle=subtitle
-                      logo=logo
-                      description=description
-                      size="small"
-                      link=media
-                      lity=true
+              {% if include.tags %}
+                {% for tag in include.tags %}
+                    {% for _tag in tags %}
+                      {% if _tag contains tag %}
+                        <div class="card-wrapper m-item {% if forloop.index == 1 %}m-active{% endif %}">
+                          {% include components/card.html
+                                image=image
+                                subtitle=subtitle
+                                logo=logo
+                                description=description
+                                size="small"
+                                link=media
+                                lity=true
 
-                      gacategory="customers"
-                      gaaction=gaaction
-                %}
-              </div>
+                                gacategory="customers"
+                                gaaction=gaaction
+                          %}
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                {% endfor %}
+              {% else %}
+                <div class="card-wrapper m-item {% if forloop.index == 1 %}m-active{% endif %}">
+                  {% include components/card.html
+                        image=image
+                        subtitle=subtitle
+                        logo=logo
+                        description=description
+                        size="small"
+                        link=media
+                        lity=true
+
+                        gacategory="customers"
+                        gaaction=gaaction
+                  %}
+                </div>
+              {% endif %}
             {% endfor %}
     </div>
   </div>
@@ -31,8 +55,20 @@
     <a ga-on="click" ga-event-category="customers" ga-event-action="prev" href="#" data-m-slide="prev" class="carousel-prev">{% include components/image.html image="/img/chevron-left.png" %}</a>
     <a ga-on="click" ga-event-category="customers" ga-event-action="next" href="#" data-m-slide="next" class="carousel-next">{% include components/image.html image="/img/chevron-right.png" %}</a>
     <div class="carousel-dot-wrapper text-center">
+      {% assign counter = 0 %}
       {% for customersection in site.data.customers %}
+      {% if include.tags %}
+        {% for tag in include.tags %}
+            {% for _tag in customersection.tags %}
+              {% if _tag contains tag %}
+                {% assign counter = counter | plus:1 %}
+                <a ga-on="click" ga-event-category="customers" ga-event-action="dot{{counter}}" href="#" data-m-slide="{{counter}}" class="carousel-dot {% if myindex == 1 %}m-active{% endif %}"></a>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+      {% else %}
         <a ga-on="click" ga-event-category="customers" ga-event-action="dot{{forloop.index}}" href="#" data-m-slide="{{forloop.index}}" class="carousel-dot {% if forloop.index == 1 %}m-active{% endif %}"></a>
+      {% endif %}
       {% endfor %}
     </div>
   </div>

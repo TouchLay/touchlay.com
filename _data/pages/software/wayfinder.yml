@@ -1,0 +1,77 @@
+header:
+  image: /img/header-wayfinder.png
+  imagelink: true
+  title:
+    en: TouchLay Wayfinder
+    de: TouchLay Wayfinder
+  subtitle:
+    en: The interactive Wayfinder
+    de: Der interactive Wegweiser
+  video:
+    en: https://www.youtube.com/watch?v=UKmZ6LIZKaI
+    de: https://www.youtube.com/watch?v=UKmZ6LIZKaI
+  buttonlink: '#contact'
+  description:
+    en: Mit dem digitalen Wegweiser können Sie Messen, Events oder Gebäude klar und verständlich darstellen. Außerdem bietet der Wayfinder eine interaktive Informations- und Werbeplattform.
+    de: Mit dem digitalen Wegweiser können Sie Messen, Events oder Gebäude klar und verständlich darstellen. Außerdem bietet der Wayfinder eine interaktive Informations- und Werbeplattform.
+
+features:
+  - id: setup
+    title:
+      en: Einfaches Setup
+      de: Einfaches Setup
+    description:
+      en: 'Setzen Sie einfach Ihren Lageplan als Hintergrund und definieren Sie das Design Ihres Wegweisers. Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.'
+      de: 'Setzen Sie einfach Ihren Lageplan als Hintergrund und definieren Sie das Design Ihres Wegweisers. Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.'
+    image: /img/wayfinder-dashboard.png
+
+  - id: content
+    title:
+      en: Interaktive Inhalte
+      de: Interaktive Inhalte
+    description:
+      en: 'Für die Aktionsflächen kann jeglicher Content eingespielt werden. Zum Beispiel kann ein Programm angezeigt werden, indem das aktive Event hervorgehoben wird.'
+      de: 'Für die Aktionsflächen kann jeglicher Content eingespielt werden. Zum Beispiel kann ein Programm angezeigt werden, indem das aktive Event hervorgehoben wird.'
+    image: /img/wayfinder-content.png
+
+  - id: ads
+    title:
+      en: Werbeintegration
+      de: Werbeintegration
+    description:
+      en: 'Integrieren Sie diverse Werbeformen, wie Logofahnen, Banner, sowie Animationen - um die Besucher auf den Wegweiser sowie bestimmte Aktionsflächen aufmerksam zu machen.'
+      de: 'Integrieren Sie diverse Werbeformen, wie Logofahnen, Banner, sowie Animationen - um die Besucher auf den Wegweiser sowie bestimmte Aktionsflächen aufmerksam zu machen.'
+    image: /img/wayfinder-flag.png
+
+  - id: stats
+    title:
+      en: Tracking und Statistiken
+      de: Tracking und Statistiken
+    description:
+      en: 'Der Wayfinder sammelt automatisch Daten über Usereingaben und generiert Statistiken, wie z.B. eine Heatmap, Eingaben in Suchfeldern, Klicks auf Aktionsflächen, und vieles mehr.'
+      de: 'Der Wayfinder sammelt automatisch Daten über Usereingaben und generiert Statistiken, wie z.B. eine Heatmap, Eingaben in Suchfeldern, Klicks auf Aktionsflächen, und vieles mehr.'
+    image: /img/feature-stats.jpg
+
+  - id: package
+    title:
+      en: Package aus einer Hand
+      de: Package aus einer Hand
+    description:
+      en: 'Alles aus einer Hand - Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem TouchLay nova an. Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung.'
+      de: 'Alles aus einer Hand - Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem TouchLay nova an. Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung.'
+    image: /img/feature-devices-white.jpg
+
+customers:
+  en: Kunden die den TouchLay Wayfinder nutzen
+  de: Kunden die den TouchLay Wayfinder nutzen
+
+cta:
+  headline:
+    en: Demo / Preise anfragen
+    de: Demo / Preise anfragen
+  text:
+    en: Sie möchten den Wayfinder für Ihre Veranstaltung, Messe oder Gebäude nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
+    de: Sie möchten den Wayfinder für Ihre Veranstaltung, Messe oder Gebäude nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
+  buttontext:
+    en: JETZT ANFRAGEN
+    de: JETZT ANFRAGEN
