@@ -1,9 +1,11 @@
 - company: "Reed Exhibitions Wien"
   image: "/img/customer-8.jpg"
   logo: "/img/customer-logo-8.png"
+  tags:
+    - wayfinder
   description:
     en: "regularly uses the TouchLay nova as digital wayfinder and timetable at exhibitions."
-    de: "setzt den TouchLay nova regelmäßig bei Messen als Digitaler Wegweiser und Zeitplan ein."
+    de: "setzt den TouchLay nova regelmäßig bei Messen als Digitalen Wegweiser und Zeitplan ein."
   media: "https://www.youtube.com/watch?v=UKmZ6LIZKaI"
 
 - company: "Österreichische Post"
@@ -23,6 +25,8 @@
 - company: "4Gamechanger Festival 2017 Puls4"
   image: "/img/customer-10.jpg"
   logo: "/img/customer-logo-10.png"
+  tags:
+    - wayfinder
   description:
     en: 'uses the TouchLay nova as interactive wayfinder and for live Graphic Recording (by <a href="http://vervievas.com">VerVieVas</a>)'
     de: 'setzt den TouchLay nova als interaktiven Wegweiser und für live Graphic Recording mit <a href="http://vervievas.com">VerVieVas</a> ein.'
@@ -53,6 +57,8 @@
 - company: "Buch Messe Wien 2016"
   image: "/img/customer-1.jpg"
   logo: "/img/customer-logo-1.png"
+  tags:
+    - wayfinder
   description:
     en: "used the TouchLay nova as digital timetable and wayfinder."
     de: "verwendete den TouchLay nova als digitaler Zeitplan und Wegweiser."
@@ -69,6 +75,8 @@
 - company: "Arbeiterkammer Niederösterreich"
   image: "/img/customer-9.jpg"
   logo: "/img/customer-logo-9.png"
+  tags:
+    - wayfinder
   description:
     en: "makes use of the TouchLay nova as interacive wayfinder and gaming platform for children."
     de: "benützt den TouchLay nova als interaktiven Wegweiser und Spieleplattform für Kinder."

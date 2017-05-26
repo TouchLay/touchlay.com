@@ -50,6 +50,7 @@ interessts:
     - software
     - cluud
     - leasing
+    - wayfinder
   de:
     - nova
     - mieten
@@ -58,6 +59,7 @@ interessts:
     - software
     - cluud
     - leasing
+    - wayfinder
 
 interesstsplaceholder:
   en: 'interested in...'

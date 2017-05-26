@@ -430,6 +430,22 @@ nav .language-toggle {
 
 .card-wrapper > a {
   color: $black;
+  text-decoration: none;
+}
+
+.card-wrapper > a > .card:hover {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2),
+              0 2px 12px 0 rgba(0, 0, 0, 0.15);
+
+  /*background: rgba($touchlay-blue, .1);*/
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 2px solid $touchlay-blue;
+}
+
+.card-wrapper > a > .card:hover .content {
+  padding-bottom: 10px;
 }
 
 .hero-wrapper {
@@ -585,6 +601,10 @@ button {
 
 .btn-next {
   margin-left: 10px;
+}
+
+.btn-small {
+  padding: 9px 15px;
 }
 
 /* Sections */
