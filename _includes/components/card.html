@@ -10,16 +10,19 @@
   >
 {% endif %}
 <div class="card {{include.size}}">
-  {% if include.image %}
-    {% include components/image.html image=include.image class="card-image" %}
-  {% endif %}
-  {% if include.logo %}
-    {% include components/image.html image=include.logo class="card-logo" %}
-  {% endif %}
+  <div style="position: relative;">
+    {% if include.image %}
+      {% include components/image.html image=include.image class="card-image" %}
+    {% endif %}
+    {% if include.logo %}
+      {% include components/image.html image=include.logo class="card-logo" %}
+    {% endif %}
+  </div>
   <div class="content">
     <span class="card-title">{{ include.title }}</span>
     <span class="card-subtitle">{{ include.subtitle }}</span>
     <p>{{ include.description }}</p>
+    {% if include.link %}<button style="width: 100%; margin-top: 5px;" class="btn btn-blue btn-small">{{include.linktext}}</button>{% endif %}
   </div>
 </div>
 {% if include.link %}</a>{% endif %}

@@ -65,8 +65,8 @@ features:
       en: Branch-specific Modules
       de: Branchenspezifische Module
     description:
-      en: 'We also develop branch specific modules for the platform. At the moment, we offer the digital Wayfinder in addition to the default presentation app.'
-      de: 'Wir entwickeln auch branchenspezifische Module für die Plattform. Momentan bieten wir zusätzlich zur Standard-Präsentationsapp, den Wayfinder (Digitaler Wegweiser) an.'
+      en: 'We also develop branch specific modules for the platform. At the moment, we offer the digital <a href="/en/software/wayfinder.html">Wayfinder</a> in addition to the default presentation app.'
+      de: 'Wir entwickeln auch branchenspezifische Module für die Plattform. Momentan bieten wir zusätzlich zur Standard-Präsentationsapp, den <a href="/de/software/wayfinder.html">Wayfinder</a> (Digitaler Wegweiser) an.'
     image: /img/feature-modules.png
 
 cta:

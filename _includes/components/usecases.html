@@ -1,8 +1,10 @@
 <div class="flexcontainer centereverything">
   {% for usecase in site.data.usecases %}
     {% capture title %}{{usecase.title[page.lang]}}{% endcapture %}
+    {% if usecase.link %}{% capture link %}/{{page.lang}}{{usecase.link}}{% endcapture %}{% else %}{% assign link = false %}{% endif %}
     {% capture description %}{{usecase.description[page.lang]}}{% endcapture %}
     {% capture image %}{{usecase.image}}{% endcapture %}
+    {% capture moretext %}{{site.data.base.texts.more[page.lang]}}{% endcapture %}
 
     <div class="card-wrapper">
       {% include components/card.html
@@ -10,6 +12,8 @@
             title=title
             description=description
             size="small"
+            link=link
+            linktext=moretext
       %}
     </div>
   {% endfor %}

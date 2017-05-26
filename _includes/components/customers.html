@@ -7,6 +7,7 @@
               {% capture image %}{{customer.image}}{% endcapture %}
               {% capture logo %}{{customer.logo}}{% endcapture %}
               {% capture tags %}{{customer.tags}}{% endcapture %}
+              {% capture playtext %}{{site.data.base.texts.playvideo[page.lang]}}{% endcapture %}
               {% assign media = customer.media %}
               {% capture gaaction %}click {{customer.company}}{% endcapture %}
 
@@ -22,6 +23,7 @@
                                 description=description
                                 size="small"
                                 link=media
+                                linktext=playtext
                                 lity=true
 
                                 gacategory="customers"
@@ -40,6 +42,7 @@
                         description=description
                         size="small"
                         link=media
+                        linktext=playtext
                         lity=true
 
                         gacategory="customers"
