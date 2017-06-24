@@ -180,7 +180,8 @@ $(document).ready(function() {
     xhr.setRequestHeader('Content-type', 'application/json');
     xhr.onreadystatechange = function () {
       if (xhr.readyState == 4 && xhr.status == 204) {
-        ga('send', 'event', 'inquiry', 'success')
+        ga('send', 'event', 'inquiry', 'success');
+        goog_report_conversion('https://touchlay.com');
         console.log('inquiry sent :)');
         $('#contact-confirmation-loading').hide();
         $('#contact-confirmation-success').show();
