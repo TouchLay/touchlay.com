@@ -192,6 +192,10 @@ nav {
 
   background: $touchlay-blue;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    min-height: 60px;
+  }
 }
 
 nav .wrapper {
@@ -206,6 +210,10 @@ nav .wrapper {
 
 nav .logo {
   display: inline-block;
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    height: 60px;
+  }
 }
 
 nav ul {
@@ -269,10 +277,10 @@ nav ul {
     cursor: pointer;
     display: block;
     float: right;
-    height: 35px;
+    height: 22px;
     margin-top: 1.5em;
-    margin-right: 1em;
-    width: 35px;
+    margin-right: .5em;
+    width: 30px;
   }
 }
 
