@@ -12,10 +12,10 @@
 <div class="card {{include.size}}">
   <div style="position: relative;">
     {% if include.image %}
-      {% include components/image.html image=include.image class="card-image" %}
+      {% include components/image.html alt=include.alt image=include.image class="card-image" %}
     {% endif %}
     {% if include.logo %}
-      {% include components/image.html image=include.logo class="card-logo" %}
+      {% include components/image.html alt=include.alt image=include.logo class="card-logo" %}
     {% endif %}
   </div>
   <div class="content">

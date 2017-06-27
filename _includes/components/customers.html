@@ -18,6 +18,7 @@
                         <div class="card-wrapper m-item {% if forloop.index == 1 %}m-active{% endif %}">
                           {% include components/card.html
                                 image=image
+                                alt=subtitle
                                 subtitle=subtitle
                                 logo=logo
                                 description=description
@@ -37,6 +38,7 @@
                 <div class="card-wrapper m-item {% if forloop.index == 1 %}m-active{% endif %}">
                   {% include components/card.html
                         image=image
+                        alt=subtitle
                         subtitle=subtitle
                         logo=logo
                         description=description
