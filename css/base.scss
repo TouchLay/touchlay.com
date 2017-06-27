@@ -426,6 +426,22 @@ nav .language-toggle {
   z-index: 1;
 
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+
+  @media screen and (max-width: 400px) {
+    top: 110px;
+  }
+
+  @media screen and (max-width: 365px) {
+    top: 100px;
+  }
+
+  @media screen and (max-width: 340px) {
+    top: 85px;
+  }
+
+  @media screen and (max-width: 320px) {
+    top: 70px;
+  }
 }
 
 .card-wrapper {
