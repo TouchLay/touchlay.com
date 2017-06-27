@@ -863,12 +863,18 @@ input, textarea,
 .selectivity-single-select {
   cursor: text;
   border-radius: 3px;
-	background-color: $white-two;
+	background: $white-two;
 	border: solid 2px $dark-gray;
   padding: 1em;
   font-size: 14px;
   margin-bottom: .5em;
-  resize:none;
+  resize: none;
+}
+
+.selectivity-multiple-input-container,
+.selectivity-single-select  {
+  background: $white-two !important;
+  font-family: Roboto, system-ui !important;
 }
 
 input.unhappy, textarea.unhappy,
