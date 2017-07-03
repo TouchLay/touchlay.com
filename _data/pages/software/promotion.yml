@@ -1,0 +1,59 @@
+header:
+  image: /img/header-promotion.png
+  imagelink: true
+  title:
+    en: Messen, Events<br/>und Promotions
+    de: Messen, Events<br/>und Promotions
+  subtitle:
+    en: Begeistern Sie die Besucher
+    de: Begeistern Sie die Besucher
+  video:
+    en: https://www.youtube.com/watch?v=-D9gWWacPKw
+    de: https://www.youtube.com/watch?v=uqmbjX4ii28
+  buttonlink: '#contact'
+  description:
+    en: Ihr Auftritt ist bei Messen, Events und Promotions besonders wichtig. Wir helfen Ihnen, Ihren Auftritt interaktiv zu gestalten und die Besucher zu begeistern.
+    de: Ihr Auftritt ist bei Messen, Events und Promotions besonders wichtig. Wir helfen Ihnen, Ihren Auftritt interaktiv zu gestalten und die Besucher zu begeistern.
+
+features:
+  - id: handling
+    title:
+      en: Einfacher Ablauf
+      de: Einfacher Ablauf
+    description:
+      en: 'Gemeinsam mit Ihnen erarbeiten wir Einsatzmöglichkeiten und bieten ein gesamtes Package - sowohl Hardware als auch Software an.'
+      de: 'Gemeinsam mit Ihnen erarbeiten wir Einsatzmöglichkeiten und bieten ein gesamtes Package - sowohl Hardware als auch Software an.'
+    image: /img/wunschhaus-nova.jpg
+
+  - id: reach
+    title:
+      en: Erreichen Sie Ihre Kunden
+      de: Erreichen Sie Ihre Kunden
+    description:
+      en: 'Unser Ziel ist es, Besucher auf Ihre Marke/Produkt aufmerksam zu machen und sie über interaktive Lösungen in die Präsentation einzubinden.'
+      de: 'Unser Ziel ist es, Besucher auf Ihre Marke/Produkt aufmerksam zu machen und sie über interaktive Lösungen in die Präsentation einzubinden.'
+    image: /img/wunschhaus-booth.jpg
+
+curt:
+  title:
+    en: Ihr Digitales Glücksrad
+    de: Ihr Digitales Glücksrad
+  subtitle:
+    en: Für mehr Kontakte auf Messen, Promotions und Events
+    de: Für mehr Kontakte auf Messen, Promotions und Events
+  description:
+    en: Wir bieten Ihnen maßgeschneiderte Gewinnspiele auf unsere interaktiven Hardware. Zusammen mit unserem Kooperationspartner CURT passen wir diese Ihren Wünschen und Vorgaben an. Mit CURT Glücksrädern erzielen Sie überdurchschnittlich viele qualifizierte Kontakte und begeistern Ihre Kunden und Besucher.
+    de: Wir bieten Ihnen maßgeschneiderte Gewinnspiele auf unsere interaktiven Hardware. Zusammen mit unserem Kooperationspartner CURT passen wir diese Ihren Wünschen und Vorgaben an. Mit CURT Glücksrädern erzielen Sie überdurchschnittlich viele qualifizierte Kontakte und begeistern Ihre Kunden und Besucher.
+  image: "/img/curt-nova.jpg"
+  link: http://get-curt.com/?source=touchlay
+
+cta:
+  headline:
+    en: Preise anfragen / Reservieren
+    de: Preise anfragen / Reservieren
+  text:
+    en: Sie möchten den TouchLay nova bzw. unsere Services für Ihre Veranstaltung, Messe oder Promotion nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
+    de: Sie möchten den TouchLay nova bzw. unsere Services für Ihre Veranstaltung, Messe oder Promotion nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
+  buttontext:
+    en: REQUEST NOW
+    de: JETZT ANFRAGEN
