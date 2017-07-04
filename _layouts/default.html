@@ -1,4 +1,5 @@
-{% assign current = page.url | downcase | split: "/" + page.lang + "/" %}
+{% assign currentDE = page.url | downcase | replace_first: '/en/','/de/' %}
+{% assign currentEN = page.url | downcase | replace_first: '/de/','/en/' %}
 <!DOCTYPE html>
 <html lang="{{page.lang}}" data-wf-site="51fff4fae3bb0b2562000155">
 <head>
@@ -9,7 +10,7 @@
 <meta name="theme-color" content="#3293C7">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="mobile-web-app-capable" content="yes">
-<link rel="alternate" hreflang="{% if page.lang == 'en' %}de{% else %}en{% endif %}" href="{{site.url}}/{% if page.lang == 'en' %}de{% else %}en{% endif %}/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}" />
+<link rel="alternate" hreflang="{% if page.lang == 'en' %}de{% else %}en{% endif %}" href="{% if page.lang == 'en' %}{{currentDE}}{% else %}{{currentEN}}{% endif %}" />
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 

@@ -21,17 +21,17 @@
           </li>
         {% endfor %}
         <li class="language-toggle-menu">
-            <a ga-on="click" ga-event-category="nav" ga-event-action="english" class="nav-text" href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">English</a>
+            <a ga-on="click" ga-event-category="nav" ga-event-action="english" class="nav-text" href="{{currentEN}}">English</a>
              |
-            <a ga-on="click" ga-event-category="nav" ga-event-action="german" class="nav-text" href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">Deutsch</a>
+            <a ga-on="click" ga-event-category="nav" ga-event-action="german" class="nav-text" href="{{currentDE}}">Deutsch</a>
         </li>
       </ul>
     </div>
   </div>
   <div class="language-toggle">
-    <a ga-on="click" ga-event-category="nav" ga-event-action="english" href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">English</a>
+    <a ga-on="click" ga-event-category="nav" ga-event-action="english" href="{{currentEN}}">English</a>
      |
-    <a ga-on="click" ga-event-category="nav" ga-event-action="german" href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">Deutsch</a>
+    <a ga-on="click" ga-event-category="nav" ga-event-action="german" href="{{currentDE}}">Deutsch</a>
   </div>
 </nav>
 
