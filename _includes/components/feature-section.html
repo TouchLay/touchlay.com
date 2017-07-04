@@ -6,7 +6,7 @@
     </h1>
     <p class="section-description {% if include.paddedTopFix %}section-description-paddedTop-fix{% endif %}">{{ include.description[page.lang] }}</p>
     {% if include.cta %}
-      <a href="{{include.ctalink}}">
+      <a href="{{include.ctalink}}" target="{% if include.newpage %}_blank{% endif %}">
         <button
           ga-on="click"
           {% if include.gacategory %}ga-event-category="{{ include.gacategory }}"{% endif %}

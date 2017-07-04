@@ -1,0 +1,67 @@
+{% include components/header-skew.html
+  image=site.data.pages.software.promotion.header.image
+  imagelink=site.data.pages.software.promotion.header.imagelink
+  title=site.data.pages.software.promotion.header.title
+  subtitle=site.data.pages.software.promotion.header.subtitle
+  gacategory="promotionIntro"
+
+  primarytext=site.data.base.texts.playvideo
+  primarylink=site.data.pages.software.promotion.header.video
+  primarylity=true
+  primarygaaction="playVideo"
+
+  secondarytext=site.data.base.texts.requestprice
+  secondarylink=site.data.pages.software.promotion.header.buttonlink
+  secondarygaaction="requestPrice"
+
+  herodescription=site.data.pages.software.promotion.header.description
+%}
+
+{% include components/feature-loop.html features=site.data.pages.software.promotion.features %}
+
+<section id="overview-hardware" class="padded section-a">
+  {% assign content = site.data.pages.software.promotion.curt %}
+  {% include components/feature-section.html
+      title=content.title
+      subtitle=content.subtitle
+      description=content.description
+      image=content.image
+      cta=site.data.base.texts.more
+      ctalink=content.link
+      newpage=true
+
+      gacategory="curt"
+      gaaction="more"
+  %}
+</section>
+
+<!--{% include components/newsletter.html %}-->
+
+<section id="overview-hardware" class="paddedTop section-b gray">
+  {% assign content = site.data.pages.home.hardware %}
+  {% include components/feature-section.html
+      title=content.title
+      subtitle=content.subtitle
+      description=content.description
+      image=content.image
+      cta=site.data.base.texts.more
+      ctalink=hardwarePageUrl
+
+      gacategory="hardware"
+      gaaction="more"
+  %}
+</section>
+
+<section id="cta" class="section-even orange verypadded">
+  <div class="container flexcontainer row middle spacebetween">
+    <div class="section-text">
+        <h1 class="h1-white">{{site.data.pages.software.promotion.cta.headline[page.lang]}}</h1>
+        <p>{{site.data.pages.software.promotion.cta.text[page.lang]}}</p>
+    </div>
+    <div class="section-image">
+      <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-white cta-highlight">
+        {{site.data.pages.software.promotion.cta.buttontext[page.lang]}}
+      </button></a>
+    </div>
+  </div>
+</section>

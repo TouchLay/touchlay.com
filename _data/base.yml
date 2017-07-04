@@ -51,6 +51,9 @@ interessts:
     - cluud
     - leasing
     - wayfinder
+    - exhibition
+    - event
+    - promotion
   de:
     - nova
     - mieten
@@ -60,6 +63,9 @@ interessts:
     - cluud
     - leasing
     - wayfinder
+    - messe
+    - event
+    - promotion
 
 interesstsplaceholder:
   en: 'interested in...'
