@@ -30,9 +30,9 @@
       <div class="contact-information">
       <address>
         <div class="address-description">{{ site.data.base.texts.phone[page.lang] }}</div>
-        <div class="address-content"><a ga-on="click" ga-event-category="footer" ga-event-action="phone" href="tel:+4367688633655">+43 (0) 676 88 633 655</a></div>
+        <div class="address-content"><a ga-on="click" ga-event-category="footer" ga-event-action="phone" href="tel:+4367688633655" onclick="goog_report_conversion(this.href);">+43 (0) 676 88 633 655</a></div>
         <div class="address-description">{{ site.data.base.texts.email[page.lang] }}</div>
-        <div class="address-content"><a ga-on="click" ga-event-category="footer" ga-event-action="email" href="mailto:hello@touchlay.com">hello@touchlay.com</a></div>
+        <div class="address-content"><a ga-on="click" ga-event-category="footer" ga-event-action="email" href="mailto:hello@touchlay.com" onclick="goog_report_conversion(this.href + ' footer');">hello@touchlay.com</a></div>
         <div class="address-description">{{ site.data.base.texts.address[page.lang] }}</div>
         <div class="address-content">
           <a target="_blank" ga-on="click" ga-event-category="footer" ga-event-action="address" href="https://www.google.com/maps/place/Enzersdorfer+Str.+19,+2340+Mödling/@48.0881282,16.2811531,17z/data=!3m1!4b1!4m5!3m4!1s0x476daf0dad4215b7:0xab1c6f91372fe04d!8m2!3d48.0881246!4d16.2833471">TouchLay GmbH<br/>
@@ -73,9 +73,9 @@
 
       <span class="language-toggle hide-tablet">
         Language:
-        <a ga-on="click" ga-event-category="footer" ga-event-action="english" href="{{currentEN}}">English</a>
+        <a ga-on="click" ga-event-category="footer" ga-event-action="english" href="/en/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">English</a>
          |
-        <a ga-on="click" ga-event-category="footer" ga-event-action="german" href="{{currentDE}}">Deutsch</a>
+        <a ga-on="click" ga-event-category="footer" ga-event-action="german" href="/de/{% if current[-1] != 'de' and current[-1] != 'en' %}{{current[-1]}}{% endif %}">Deutsch</a>
       </span>
   </div>
 </div>
