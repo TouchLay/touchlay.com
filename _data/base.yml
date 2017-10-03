@@ -119,8 +119,8 @@ texts:
     en: '✔ Received inquiry - thank you!'
     de: '✔ Anfrage erhalten - danke!'
   contacterror:
-    en: '❌ Could not send your request, please contact us at <a href="mailto:hello@touchlay.com" onclick="goog_report_conversion(this.href + ' error');">hello@touchlay.com</a>.'
-    de: '❌ Wir konnten Ihre Anfrage nicht senden, bitte kontaktieren Sie uns unter <a href="mailto:hello@touchlay.com" onclick="goog_report_conversion(this.href + ' error');">hello@touchlay.com</a>.'
+    en: '❌ Could not send your request, please contact us at <a href="mailto:hello@touchlay.com" onclick="goog_report_conversion(this.href + \' error\');">hello@touchlay.com</a>.'
+    de: '❌ Wir konnten Ihre Anfrage nicht senden, bitte kontaktieren Sie uns unter <a href="mailto:hello@touchlay.com" onclick="goog_report_conversion(this.href + \' error\');">hello@touchlay.com</a>.'
   specification:
     en: 'Specification'
     de: 'Spezifikation'
