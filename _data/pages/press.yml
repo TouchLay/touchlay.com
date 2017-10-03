@@ -3,8 +3,8 @@ text:
     en: Press
     de: Presse
   welcome:
-    en: Hello, thanks for your interest in us!<br />Below you can find resources for a blogpost or article and our guidelines on branding.<br />If you need more information don't hesitate to contact use at <a href="mailto:hello@touchlay.com" onclick="goog_report_conversion(this.href + \' press\');">hello@touchlay.com</a>.
-    de: Vielen Dank für Ihr Interesse!<br />Hier finden Sie Ressourcen für einen Blogpost oder Artikel, sowie unsere Branding Richtlinien.<br />Wenn Sie weitere Informationen benötigen, zögern Sie nicht uns unter <a href="mailto:hello@touchlay.com" onclick="goog_report_conversion(this.href + \' press\');">hallo@touchlay.com</a> zu kontaktieren.
+    en: Hello, thanks for your interest in us!<br />Below you can find resources for a blogpost or article and our guidelines on branding.<br />If you need more information don't hesitate to contact use at <a href="mailto:hello@touchlay.com" onclick="goog_report_conversion(this.href + ' press');">hello@touchlay.com</a>.
+    de: Vielen Dank für Ihr Interesse!<br />Hier finden Sie Ressourcen für einen Blogpost oder Artikel, sowie unsere Branding Richtlinien.<br />Wenn Sie weitere Informationen benötigen, zögern Sie nicht uns unter <a href="mailto:hello@touchlay.com" onclick="goog_report_conversion(this.href + ' press');">hallo@touchlay.com</a> zu kontaktieren.
   headlinearticles:
     en: Articles about us
     de: Artikel über uns
