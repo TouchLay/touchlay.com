@@ -16,15 +16,6 @@ header:
     de: Ihr Auftritt ist bei Messen, Events und Promotions besonders wichtig. Wir helfen Ihnen, Ihren Auftritt interaktiv zu gestalten und die Besucher zu begeistern.
 
 features:
-  - id: handling
-    title:
-      en: Simple Process
-      de: Einfacher Ablauf
-    description:
-      en: 'Together with you we are going to find your use case and offer you a complete package - hardware and software.'
-      de: 'Gemeinsam mit Ihnen erarbeiten wir Einsatzmöglichkeiten und bieten ein gesamtes Package - sowohl Hardware als auch Software an.'
-    image: /img/wunschhaus-nova.jpg
-
   - id: reach
     title:
       en: Reach Your Customers
@@ -33,6 +24,73 @@ features:
       en: Our goal is getting attendees' attention to your brand/product and include them into your presentation through interactive solutions.
       de: 'Unser Ziel ist es, Besucher auf Ihre Marke/Produkt aufmerksam zu machen und sie über interaktive Lösungen in die Präsentation einzubinden.'
     image: /img/wunschhaus-booth.jpg
+
+  - id: contentoptions
+    title:
+      en: Various Content Options
+      de: Diverse Content Optionen
+    list:
+      - title:
+          en: Website
+          de: Webseite
+        icon: /img/icons/website.svg
+        description:
+          en: include your company website
+          de: Binden Sie Ihre Firmenwebseite ein.
+      - title:
+          en: Android
+          de: Android
+        icon: /img/icons/android.svg
+        description:
+          en: present your mobile application
+          de: Präsentieren Sie Ihre Mobile Applikation.
+      - title:
+          en: Interactive Map
+          de: Interaktive Karte
+        icon: /img/icons/map.svg
+        description:
+          en: help visitors navigate your building or event
+          de: Helfen Sie Ihren Besuchern bei der Navigation.
+      - title:
+          en: Promotions
+          de: Gewinnspiele
+        icon: /img/icons/game.svg
+        description:
+          en: playfully generate leads
+          de: Generieren Sie spielerisch Kundenkontakte.
+      - title:
+          en: Product Presentation
+          de: Produktpräsentation
+        icon: /img/icons/lightbulb.svg
+        description:
+          en: present all your products
+          de: Präsentieren Sie Ihre gesamte Produktpallete.
+      - title:
+          en: Customized Applications
+          de: Individuelle Applikationen
+        icon: /img/icons/star.svg
+        description:
+          en: we also develop custom interactive applications
+          de: Gemeinsam erarbeiten wir interaktive Lösungen.
+
+  - id: customermagnet
+    title:
+      en: Attract Visitors
+      de: Fallen Sie Auf
+    description:
+      en: 'The elegant and modern design of the TouchLay nova turns your booth into a customer magnet. Impress potential customers with an interactive presentation!'
+      de: 'Durch das elegante und moderne Design des TouchLay nova wird Ihr Messestand zum Kundenmagnet. Begeistern Sie Ihre potentiellen Kunden über interaktive Präsentationen!'
+    image: /img/wunschhaus-nova.jpg
+
+  - id: handling
+    title:
+      en: Simple Process
+      de: Einfacher Ablauf
+    description:
+      en: 'We offer a complete package and provide hardware, software as well as service and support. Together we are going to find your use case and develop an interactive presentation.'
+      de: 'Wir bieten Ihnen ein Komplettpaket: Hardware, Software und Abwicklung aus einer Hand. Senden Sie uns eine Anfrage und in wenigen Schritten erarbeiten wir für Sie ein individuelles Konzept.'
+    image: /img/wunschhaus-nova.jpg
+
 
 curt:
   title:
