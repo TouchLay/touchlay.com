@@ -23,7 +23,7 @@ features:
     description:
       en: Our goal is getting attendees' attention to your brand/product and include them into your presentation through interactive solutions.
       de: 'Unser Ziel ist es, Besucher auf Ihre Marke/Produkt aufmerksam zu machen und sie über interaktive Lösungen in die Präsentation einzubinden.'
-    image: /img/wunschhaus-booth.jpg
+    image: /img/nova-group.jpg
 
   - id: contentoptions
     title:
@@ -80,7 +80,7 @@ features:
     description:
       en: 'The elegant and modern design of the TouchLay nova turns your booth into a customer magnet. Impress potential customers with an interactive presentation!'
       de: 'Durch das elegante und moderne Design des TouchLay nova wird Ihr Messestand zum Kundenmagnet. Begeistern Sie Ihre potentiellen Kunden über interaktive Präsentationen!'
-    image: /img/wunschhaus-nova.jpg
+    image: /img/nova-arts.jpg
 
   - id: handling
     title:
@@ -89,7 +89,7 @@ features:
     description:
       en: 'We offer a complete package and provide hardware, software as well as service and support. Together we are going to find your use case and develop an interactive presentation.'
       de: 'Wir bieten Ihnen ein Komplettpaket: Hardware, Software und Abwicklung aus einer Hand. Senden Sie uns eine Anfrage und in wenigen Schritten erarbeiten wir für Sie ein individuelles Konzept.'
-    image: /img/wunschhaus-nova.jpg
+    image: /img/team-image-large.jpg
 
 
 curt:
@@ -104,6 +104,10 @@ curt:
     de: Wir bieten Ihnen maßgeschneiderte Gewinnspiele auf unsere interaktiven Hardware. Zusammen mit unserem Kooperationspartner CURT passen wir diese Ihren Wünschen und Vorgaben an. Mit CURT Glücksrädern erzielen Sie überdurchschnittlich viele qualifizierte Kontakte und begeistern Ihre Kunden und Besucher.
   image: "/img/curt-nova.jpg"
   link: http://get-curt.com/?utm_source=touchlay-web
+
+customers:
+  en: Customers that use the TouchLay nova
+  de: Kunden die den TouchLay nova nutzen
 
 cta:
   headline:

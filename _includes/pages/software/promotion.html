@@ -1,3 +1,5 @@
+{% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
+
 {% include components/header-skew.html
   image=site.data.pages.software.promotion.header.image
   imagelink=site.data.pages.software.promotion.header.imagelink
@@ -35,9 +37,18 @@
   %}
 </section>
 
+<section id="customers" class="gray padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{ site.data.pages.software.promotion.customers[page.lang] }}</h1>
+    {%
+      include components/customers.html
+    %}
+  </div>
+</section>
+
 <!--{% include components/newsletter.html %}-->
 
-<section id="overview-hardware" class="paddedTop section-b gray">
+<section id="overview-hardware" class="paddedTop section-b">
   {% assign content = site.data.pages.home.hardware %}
   {% include components/feature-section.html
       title=content.title
