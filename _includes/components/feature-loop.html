@@ -7,12 +7,20 @@
   {% else %}
     <section id="feature-{{feature.id}}" class="{{padding}} section-b gray">
   {% endif %}
-  {% include components/feature-section.html
-      title=feature.title
-      subtitle=feature.subtitle
-      description=feature.description
-      image=feature.image
-      cta=feature.cta
-  %}
+  {% if feature.list %}
+    {% include components/feature-list-section.html
+        title=feature.title
+        subtitle=feature.subtitle
+        list=feature.list
+    %}
+  {% else %}
+    {% include components/feature-section.html
+        title=feature.title
+        subtitle=feature.subtitle
+        description=feature.description
+        image=feature.image
+        cta=feature.cta
+    %}
+  {% endif %}
   </section>
 {% endfor %}
