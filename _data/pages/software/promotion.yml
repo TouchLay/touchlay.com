@@ -12,8 +12,8 @@ header:
     de: https://www.youtube.com/watch?v=0DydF2SkYYQ
   buttonlink: '#contact'
   description:
-    en: Your presentation is extremely important at Exhibitions, Events and Promotions. We help you design your presentation in an interactive way and impress the attendees.
-    de: Ihr Auftritt ist bei Messen, Events und Promotions besonders wichtig. Wir helfen Ihnen, Ihren Auftritt interaktiv zu gestalten und die Besucher zu begeistern.
+    en: Your presentation is extremely important at exhibitions, events and promotions. We design your presentation in an interactive way and impress the attendees.
+    de: Ihr Auftritt ist bei Messen, Events und Promotions besonders wichtig. Mit unserem einzigartigen Multitouch Präsentations Modul gestalten wir Ihren Auftritt interaktiv und begeistern die Besucher.
 
 features:
   - id: reach
@@ -22,7 +22,7 @@ features:
       de: Erreichen Sie Ihre Kunden
     description:
       en: Our goal is getting attendees' attention to your brand/product and include them into your presentation through interactive solutions.
-      de: 'Unser Ziel ist es, Besucher auf Ihre Marke/Produkt aufmerksam zu machen und sie über interaktive Lösungen in die Präsentation einzubinden.'
+      de: 'Unser Ziel ist es, Besucher auf Ihre Marke/Produkte aufmerksam zu machen und sie über interaktive Lösungen in die Präsentation einzubinden.'
     image: /img/nova-group.jpg
 
   - id: contentoptions
