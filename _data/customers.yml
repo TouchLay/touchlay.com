@@ -1,4 +1,4 @@
-- company: "Reed Exhibitions Wien"
+- company: "Reed Exhibitions Wien/Salzburg"
   image: "/img/customer-8.jpg"
   logo: "/img/customer-logo-8.png"
   tags:
@@ -22,14 +22,44 @@
     en: "uses the TouchLay nova at various events to present their apps."
     de: "setzt den TouchLay nova bei diversen Events ein, um verschiedene Apps zu präsentieren."
 
+- company: "Messe Frankfurt"
+  image: "/img/customer-11.jpg"
+  logo: "/img/customer-logo-11.png"
+  tags:
+    - wayfinder
+  description:
+    en: 'uses the TouchLay nova as interactive wayfinder for the largest book fair (Frankfurt Book Fair).'
+    de: 'setzt den TouchLay nova als interaktiven Wegweiser für die größte Buchmesse ein (Frankfurter Buchmesse).'
+
+- company: "KPMG Austria"
+  image: "/img/customer-13.jpg"
+  logo: "/img/customer-logo-13.png"
+  description:
+    en: "used 5 TouchLay nova to present their research on digital transformation to their clients."
+    de: "nutzte 5 TouchLay nova um Ihre Erkenntnisse zum Thema Digitale Transformation zu präsentieren."
+
 - company: "4Gamechanger Festival 2017 Puls4"
   image: "/img/customer-10.jpg"
   logo: "/img/customer-logo-10.png"
   tags:
     - wayfinder
   description:
-    en: 'uses the TouchLay nova as interactive wayfinder and for live Graphic Recording (by <a href="http://vervievas.com">VerVieVas</a>)'
+    en: 'uses the TouchLay nova as interactive wayfinder and for live Graphic Recording (by <a href="http://vervievas.com">VerVieVas</a>).'
     de: 'setzt den TouchLay nova als interaktiven Wegweiser und für live Graphic Recording mit <a href="http://vervievas.com">VerVieVas</a> ein.'
+
+- company: "Otto Immobilien"
+  image: "/img/customer-7.jpg"
+  logo: "/img/customer-logo-7.png"
+  description:
+    en: "utilises the TouchLay nova to present their real estate portfolio."
+    de: "nutzt den TouchLay nova, um ihr Immobilienportfolio zu präsentieren."
+
+- company: "Wirtschaftskammer Wien"
+  image: "/img/customer-6.jpg"
+  logo: "/img/customer-logo-6.png"
+  description:
+    en: "uses the TouchLay nova at various events to present their apps."
+    de: "verwendet den TouchLay nova bei diversen Events, um verschiedene Apps zu präsentieren."
 
 - company: "Wunschhaus"
   image: "/img/customer-4.jpg"
@@ -44,15 +74,8 @@
   image: "/img/customer-5.jpg"
   logo: "/img/customer-logo-5.png"
   description:
-    en: "positions the TouchLay nova in their meeting room for customer presentations in an interactive way."
+    en: "positions the TouchLay nova in their meeting room for interactive customer presentations."
     de: "positioniert den TouchLay nova im Besprechungsraum, um Kunden interaktiv Informationen zu präsentieren."
-
-- company: "Wirtschaftskammer Wien"
-  image: "/img/customer-6.jpg"
-  logo: "/img/customer-logo-6.png"
-  description:
-    en: "uses the TouchLay nova at various events to present their apps."
-    de: "verwendet den TouchLay nova bei diversen Events, um verschiedene Apps zu präsentieren."
 
 - company: "Buch Messe Wien 2016"
   image: "/img/customer-1.jpg"
@@ -61,16 +84,9 @@
     - wayfinder
   description:
     en: "used the TouchLay nova as digital timetable and wayfinder."
-    de: "verwendete den TouchLay nova als digitaler Zeitplan und Wegweiser."
+    de: "verwendete den TouchLay nova als digitalen Zeitplan und Wegweiser."
   lity: true
   media: "https://www.youtube.com/watch?v=L5oxUTE3bh4"
-
-- company: "Otto Immobilien"
-  image: "/img/customer-7.jpg"
-  logo: "/img/customer-logo-7.png"
-  description:
-    en: "utilises the TouchLay nova to present their real estate portfolio."
-    de: "nutzt den TouchLay nova, um ihr Immobilienportfolio zu präsentieren."
 
 - company: "Arbeiterkammer Niederösterreich"
   image: "/img/customer-9.jpg"
@@ -78,6 +94,13 @@
   tags:
     - wayfinder
   description:
-    en: "makes use of the TouchLay nova as interacive wayfinder and gaming platform for children."
+    en: "makes use of the TouchLay nova as interactive wayfinder and gaming platform for children."
     de: "benützt den TouchLay nova als interaktiven Wegweiser und Spieleplattform für Kinder."
   media: "https://www.youtube.com/watch?v=eWPOVO3SEXs"
+
+- company: "HR Inside Summit 2017"
+  image: "/img/customer-12.jpg"
+  logo: "/img/customer-logo-12.png"
+  description:
+    en: "used the TouchLay nova to display information about the event and their award."
+    de: "verwendete den TouchLay nova um Informationen über das Event und den dazugehörigen Award anzuzeigen."
