@@ -28,8 +28,15 @@
   tags:
     - wayfinder
   description:
-    en: 'uses the TouchLay nova as interactive wayfinder for the largest book fair (Frankfurt Book Fair)'
-    de: 'setzt den TouchLay nova als interaktiven Wegweiser für die größte Buchmesse ein (Frankfurter Buchmesse)'
+    en: 'uses the TouchLay nova as interactive wayfinder for the largest book fair (Frankfurt Book Fair).'
+    de: 'setzt den TouchLay nova als interaktiven Wegweiser für die größte Buchmesse ein (Frankfurter Buchmesse).'
+
+- company: "KPMG Austria"
+  image: "/img/customer-13.jpg"
+  logo: "/img/customer-logo-13.png"
+  description:
+    en: "used 5 TouchLay nova to present their research on digital transformation to their clients."
+    de: "nutzte 5 TouchLay nova um Ihre Erkenntnisse zum Thema Digitale Transformation zu präsentieren."
 
 - company: "4Gamechanger Festival 2017 Puls4"
   image: "/img/customer-10.jpg"
@@ -37,7 +44,7 @@
   tags:
     - wayfinder
   description:
-    en: 'uses the TouchLay nova as interactive wayfinder and for live Graphic Recording (by <a href="http://vervievas.com">VerVieVas</a>)'
+    en: 'uses the TouchLay nova as interactive wayfinder and for live Graphic Recording (by <a href="http://vervievas.com">VerVieVas</a>).'
     de: 'setzt den TouchLay nova als interaktiven Wegweiser und für live Graphic Recording mit <a href="http://vervievas.com">VerVieVas</a> ein.'
 
 - company: "Otto Immobilien"
@@ -46,13 +53,6 @@
   description:
     en: "utilises the TouchLay nova to present their real estate portfolio."
     de: "nutzt den TouchLay nova, um ihr Immobilienportfolio zu präsentieren."
-
-- company: "KPMG Austria"
-  image: "/img/customer-13.jpg"
-  logo: "/img/customer-logo-13.png"
-  description:
-    en: "..."
-    de: "..."
 
 - company: "Wirtschaftskammer Wien"
   image: "/img/customer-6.jpg"
