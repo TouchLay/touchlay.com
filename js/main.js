@@ -1,6 +1,15 @@
 ---
 ---
 
+{% include_relative zepto/zepto.min.js %}
+{% include_relative zepto/zepto.cookie.min.js %}
+{% include_relative zepto/scooch.min.js %}
+{% include_relative zepto/zepto.happy.js %}
+
+{% include_relative lazysizes/lazysizes.min.js %}
+{% include_relative lity/lity.min.js %}
+{% include_relative selectivity/selectivity-jquery.min.js %}
+
 document.body.className = document.body.className.replace("no-js","js") // set that we have js
 var lang = $('body').data('lang') // get current langauge
 
@@ -112,7 +121,8 @@ $(document).ready(function() {
 
   // Handle scooch carousel(s)
   $('.m-scooch').scooch({
-    infinite: true
+    infinite: true,
+    autoplay: {interval: 5000, cancelOnInteraction: true}
   })
 
   // Validate Contact form
