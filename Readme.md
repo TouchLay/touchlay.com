@@ -11,6 +11,7 @@
  * Make sure you have Ruby gems installed.
  * Get jekyll: `gem install jekyll`
  * Get bundle: `gem install bundle`
+ * Install dependencies: `bundle install`
  * Build and serve website: `bundle exec jekyll serve`
 
 
