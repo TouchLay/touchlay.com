@@ -608,6 +608,7 @@ nav .language-toggle {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .customer-logo-wrapper {
@@ -621,6 +622,7 @@ nav .language-toggle {
 
 .customer .banner button {
   height: 80px;
+  width: 120px;
   border: none;
   border-radius: 0 2px 2px 0;
 }
@@ -629,7 +631,6 @@ nav .language-toggle {
   margin-left: 15px;
   margin-right: 15px;
 }
-
 
 .customer-logo {
   max-width: 150px;
