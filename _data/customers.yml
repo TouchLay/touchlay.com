@@ -152,6 +152,8 @@
 - company: "Fifteen Seconds Festival"
   logo: "/img/customer-logo-23.png"
   image: "/img/customer-23.jpg"
+  tags:
+    - wayfinder
   description:
     en: "setzt auf den interaktiven Wayfinder um den besuchern den bestmöglichen Überblick zu geben."
     de: "..."
