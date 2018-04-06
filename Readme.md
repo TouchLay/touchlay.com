@@ -5,13 +5,13 @@
 * German texts: [_includes/de](https://github.com/TouchLay/touchlay.com/tree/gh-pages/_includes/de)
 * English texts: [_includes/en](https://github.com/TouchLay/touchlay.com/tree/gh-pages/_includes/en)
 
+
 ## Setup / Running
 
  * Make sure you have Ruby gems installed.
  * Get jekyll: `gem install jekyll`
- * Get dependencies: `npm install -g bower-installer`, then run `bower-installer`
-
-Now you can run the website in development mode: `./dev.sh`
+ * Get bundle: `gem install bundle`
+ * Build and serve website: `bundle exec jekyll serve`
 
 
 ## Structure
