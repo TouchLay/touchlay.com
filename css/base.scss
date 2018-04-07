@@ -638,6 +638,8 @@ nav .language-toggle {
 
   @media screen and (max-width: $breakpoint-mobile) {
     padding-bottom: 20px;
+    width: 102px;
+    height: 50px;
   }
 }
 
@@ -662,6 +664,11 @@ nav .language-toggle {
 .customer-logo {
   max-width: 150px;
   max-height: 80px;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    max-width: 75px;
+    max-height: 40px;
+  }
 }
 
 /* Buttons */
