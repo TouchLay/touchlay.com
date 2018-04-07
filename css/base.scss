@@ -591,6 +591,10 @@ nav .language-toggle {
 .customer .card-image {
   box-shadow: 0 2px 20px 0 rgba(0,0,0,0.10), 0 2px 15px 0 rgba(0,0,0,0.30);
   margin-bottom: 50px;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    margin-bottom: 110px;
+  }
 }
 
 .customer .banner {
@@ -609,6 +613,19 @@ nav .language-toggle {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    width: 90%;
+    left: 5%;
+  }
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 0px;
+    flex-direction: column;
+  }
 }
 
 .customer-logo-wrapper {
@@ -618,6 +635,10 @@ nav .language-toggle {
   align-items: center;
   justify-content: center;
   padding-bottom: 40px;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding-bottom: 20px;
+  }
 }
 
 .customer .banner button {
@@ -625,6 +646,12 @@ nav .language-toggle {
   width: 120px;
   border: none;
   border-radius: 0 2px 2px 0;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 .customer .banner .content {
