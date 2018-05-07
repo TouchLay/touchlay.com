@@ -407,6 +407,8 @@ nav .language-toggle {
   position: relative; /* required to position logo absolute */
   border-radius: 2px;
 
+  text-align: justify;
+
   background: $white-two;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 0 8px 0 rgba(0, 0, 0, 0.12);
@@ -481,7 +483,7 @@ nav .language-toggle {
 
 .hero-wrapper {
   text-align: center;
-  padding: 10% 10% 5% 10%;;
+  padding: 10%;
 
   @media screen and (max-width: $breakpoint-mobile) {
     padding: 25% 0 10% 0;
@@ -911,6 +913,10 @@ section.verypaddedTop {
       width: 100%;
     }
   }
+}
+
+.newsletter-description {
+  max-width: 50%;
 }
 
 .newsletter-description {
@@ -1474,4 +1480,17 @@ input[type='text'].selectivity-multiple-input {
 
 #customers .section-title {
   margin-top: 1em;
+}
+
+.section-text {
+  text-align: justify;
+}
+
+.section-text p {
+  margin-bottom: 1em;
+}
+
+section.contentoptions {
+  padding-top: 3em;
+  margin-top: -1px;
 }

@@ -2,8 +2,8 @@ header:
   image: /img/header-wayfinder.png
   imagelink: true
   title:
-    en: TouchLay Wayfinder
-    de: TouchLay Wayfinder
+    en: TouchLay <i>wayfinder</i>
+    de: TouchLay <i>wayfinder</i>
   subtitle:
     en: the interactive map
     de: Der interaktive Wegweiser
@@ -12,7 +12,7 @@ header:
     de: https://www.youtube.com/watch?v=uqmbjX4ii28
   buttonlink: '#contact'
   description:
-    en: Visualize exhibitions, events or buildings with the interactive TouchLay Wayfinder - a digital map with an integrated information and advertisement platform.
+    en: Visualize exhibitions, events or buildings with the interactive TouchLay <i>wayfinder</i> - a digital map with an integrated information and advertisement platform.
     de: Mit dem digitalen Wegweiser können Sie Messen, Events oder Gebäude klar und verständlich darstellen. Außerdem bietet der Wayfinder eine interaktive Informations- und Werbeplattform.
 
 features:
@@ -57,13 +57,13 @@ features:
       en: Everything from One Source
       de: Alles aus einer Hand
     description:
-      en: 'In addition to the Wayfinder, we also provide fitting hardware, like the TouchLay nova. We also provide maintenance and setup of the software.'
-      de: 'Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem TouchLay nova an. Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung.'
+      en: 'In addition to the Wayfinder, we also provide fitting hardware, like the TouchLay <i>nova</i>. We also provide maintenance and setup of the software.'
+      de: 'Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem TouchLay <i>nova</i> an. Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung.'
     image: /img/feature-devices-white.jpg
 
 customers:
-  en: Customers that use the TouchLay Wayfinder
-  de: Kunden die den TouchLay Wayfinder nutzen
+  en: Customers that use the TouchLay <i>wayfinder</i>
+  de: Kunden die den TouchLay <i>wayfinder</i> nutzen
 
 cta:
   headline:

@@ -48,7 +48,7 @@ interessts:
     - buy
     - project
     - software
-    - cluud
+    - cloud
     - leasing
     - wayfinder
     - exhibition
@@ -60,7 +60,7 @@ interessts:
     - kaufen
     - projekt
     - software
-    - cluud
+    - cloud
     - leasing
     - wayfinder
     - messe
@@ -131,7 +131,7 @@ newsletter:
     de: Bleiben Sie am letzten Stand
   description:
     en: 'Receive special offers, information about new products, <br />and tips and tricks to impress your customers.'
-    de: 'Erhalten Sie Information über Sonderangebote, neue Produkte, <br />sowie Tips und Tricks um Ihre Kunden zu begeistern.'
+    de: 'Es gibt immer wieder neue Wege der Präsentation.<br />Erhalten Sie Informationen über Sonderangebote, neue Produkte, sowie Tipps und Tricks um Ihre Kunden zu begeistern.'
 
 cookie:
   description:

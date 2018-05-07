@@ -1,8 +1,8 @@
 header:
   image: /img/header-software.png
   title:
-    en: CLUUD platform
-    de: CLUUD Plattform
+    en: TouchLay <i>cloud</i>
+    de: TouchLay <i>cloud</i>
   subtitle:
     en: impressive & interactive
     de: Beeindruckend & Interaktiv
@@ -47,8 +47,8 @@ features:
       en: 4. Assign Devices
       de: 4. Geräte zuweisen
     description:
-      en: 'Finally, select a device on which to deploy the presentation. Supported are the TouchLay nova, as well as various tablets, smartphones, desktops and signage screens.'
-      de: 'Schließlich wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden sollen. Dabei werden der TouchLay nova, aber auch jegliche Tablets, Smartphones, Desktops und Signage Screens unterstützt.'
+      en: 'Finally, select a device on which to deploy the presentation. Supported are the TouchLay <i>nova</i>, as well as various tablets, smartphones, desktops and signage screens.'
+      de: 'Schließlich wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden sollen. Dabei werden der TouchLay <i>nova</i>, aber auch jegliche Tablets, Smartphones, Desktops und Signage Screens unterstützt.'
     image: /img/feature-devices.jpg
 
   - id: tracking
@@ -74,8 +74,8 @@ cta:
     en: Request Demo Now
     de: Jetzt Demo anfragen
   text:
-    en: At the moment, the CLUUD platform is in pre-alpha stage and still being actively developed. If you are interested, we can provide you demo access.
-    de: Momentan befindet sich die CLUUD Plattform in der Pre-Alpha Phase und wird noch aktiv entwickelt. Wenn Sie daran interessiert sind, können wir Ihnen gerne einen Demo-Zugang bereitstellen.
+    en: At the moment, the TouchLay <i>cloud</i> is in pre-alpha stage and still being actively developed. If you are interested, we can provide you demo access.
+    de: Momentan befindet sich die TouchLay <i>cloud</i> in der Pre-Alpha Phase und wird noch aktiv entwickelt. Wenn Sie daran interessiert sind, können wir Ihnen gerne einen Demo-Zugang bereitstellen.
   buttontext:
     en: Request software demo
     de: Software Demo anfragen

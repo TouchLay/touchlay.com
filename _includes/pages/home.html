@@ -18,15 +18,10 @@
   secondarygaaction="more"
 %}
 
-
 <section id="about">
   <div class="container">
     <div class="hero-wrapper">
       <p class="hero-text">{{ site.data.pages.home.vision[page.lang] }}</p>
-    </div>
-    <div class="flexcontainer row middle space-around">
-      <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
-      {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
     </div>
   </div>
 </section>
@@ -38,6 +33,15 @@
     <!--<button ga-event-category="usecases" ga-event-action="more" class="block-center section-btn">weitere usecases</button>-->
   </div>
 </section>
+
+{% assign contentoptions = "" | split: "" %}
+{% for f in site.data.pages.software.promotion.features %}
+  {% if f.id contains 'contentoptions' %}
+    {% assign contentoptions = contentoptions | push: f %}
+  {% endif %}
+{% endfor %}
+
+{% include components/feature-loop.html class='gray contentoptions' features=contentoptions %}
 
 <section id="overview-software" class="padded section-a">
   {% assign content = site.data.pages.home.software %}
@@ -75,5 +79,14 @@
   <div class="container">
     <h1 class="text-center section-title">{{ site.data.pages.home.customers[page.lang] }}</h1>
     {% include components/customers.html %}
+  </div>
+</section>
+
+<section id="team">
+  <div class="container">
+    <div class="flexcontainer row middle space-around">
+      <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
+    </div>
   </div>
 </section>
