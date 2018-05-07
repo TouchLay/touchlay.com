@@ -481,11 +481,15 @@ nav .language-toggle {
 
 .hero-wrapper {
   text-align: center;
-  padding: 10%;
+  padding: 10% 10% 0 10%;
 
   @media screen and (max-width: $breakpoint-mobile) {
     padding: 25% 0 10% 0;
   }
+}
+
+section#about .hero-wrapper {
+  padding: 10%;
 }
 
 .popout {
