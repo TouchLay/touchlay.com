@@ -27,8 +27,8 @@ features:
 
   - id: contentoptions
     title:
-      en: Various Content Options
-      de: Diverse Content Optionen
+      en: Various Presentation Options
+      de: Diverse Präsentations-Möglichkeiten
     list:
       - title:
           en: Website
@@ -50,7 +50,7 @@ features:
         icon: /img/icons/map.svg
         description:
           en: help visitors navigate your building or event
-          de: Helfen Sie Ihren Besuchern bei der Navigation.
+          de: Stellen Sie Ihre Standorte o.Ä. dar.
       - title:
           en: Promotions
           de: Gewinnspiele
@@ -64,14 +64,14 @@ features:
         icon: /img/icons/lightbulb.svg
         description:
           en: present all your products
-          de: Präsentieren Sie Ihre gesamte Produktpallete.
+          de: Präsentieren Sie Ihre gesamte Produktpalette.
       - title:
           en: Customized Applications
           de: Individuelle Applikationen
         icon: /img/icons/star.svg
         description:
           en: we also develop custom interactive applications
-          de: Gemeinsam erarbeiten wir interaktive Lösungen.
+          de: Wir entwickeln auch maßgeschneiderte Lösungen.
 
   - id: customermagnet
     title:
