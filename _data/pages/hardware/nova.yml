@@ -52,7 +52,7 @@ features:
       de: Bekannte Systeme
     description:
       en: 'We made sure that you do not need to learn anything new to be able to use the TouchLay <i>nova</i>. You can use Windows 10, Android 6.0 or a custom solution.'
-      de: '<p>Wir haben darauf geachtet, dass Sie nichts Neues lernen müssen, um den TouchLay nova verwenden zu können.</p><p>Sie können Windows 10, Android 6.0 oder Ihre eigene Lösung verwenden.</p>'
+      de: '<p>Wir haben darauf geachtet, dass Sie nichts Neues lernen müssen, um den TouchLay<i>nova</i>verwenden zu können.</p><p>Sie können Windows 10, Android 6.0 oder Ihre eigene Lösung verwenden.</p>'
     image: /img/feature-os.png
 
   - id: quality
@@ -61,7 +61,7 @@ features:
       de: Exzellente Qualität
     description:
       en: 'Quality is very important to us, that is why we produce the TouchLay <i>nova</i> in beautiful Austria.'
-      de: '<p>Uns ist Qualität sehr wichtig, deshalb fertigen wir den TouchLay nova im wunderschönen Österreich.</p><p>Bei der Produktion achten wir auf jedes Detail, sodass Sie Ihre Produkte und Dienstleistungen problemlos präsentieren können.</p>'
+      de: '<p>Uns ist Qualität sehr wichtig, deshalb fertigen wir den TouchLay<i>nova</i>im wunderschönen Österreich.</p><p>Bei der Produktion achten wir auf jedes Detail, sodass Sie Ihre Produkte und Dienstleistungen problemlos präsentieren können.</p>'
     image: /img/feature-map.jpg
 
 specs:
@@ -238,3 +238,7 @@ cta:
   text:
     en: You can buy or rent the TouchLay <i>nova</i>. We also offer leasing. If you are interested, send us an inquiry! We will get back to you as soon as possible.
     de: <p>Sie können den TouchLay <i>nova</i> kaufen, leasen oder mieten.</p><p>Wenn Sie interessiert sind, senden Sie uns eine Anfrage! Wir melden uns daraufhin in Kürze bei Ihnen.</p>
+
+customers:
+  en: Customers that use the TouchLay <i>nova</i>
+  de: Kunden die den TouchLay <i>nova</i> nutzen

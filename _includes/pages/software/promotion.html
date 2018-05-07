@@ -21,31 +21,6 @@
 
 {% include components/feature-loop.html features=site.data.pages.software.promotion.features %}
 
-<section id="overview-hardware" class="padded section-a">
-  {% assign content = site.data.pages.software.promotion.curt %}
-  {% include components/feature-section.html
-      title=content.title
-      subtitle=content.subtitle
-      description=content.description
-      image=content.image
-      cta=site.data.base.texts.more
-      ctalink=content.link
-      newpage=true
-
-      gacategory="curt"
-      gaaction="more"
-  %}
-</section>
-
-<section id="customers" class="gray padded">
-  <div class="container">
-    <h1 class="text-center section-title">{{ site.data.pages.software.promotion.customers[page.lang] }}</h1>
-    {%
-      include components/customers.html
-    %}
-  </div>
-</section>
-
 <!--{% include components/newsletter.html %}-->
 
 <section id="overview-hardware" class="paddedTop section-a">
@@ -74,5 +49,14 @@
         {{site.data.pages.software.promotion.cta.buttontext[page.lang]}}
       </button></a>
     </div>
+  </div>
+</section>
+
+<section id="customers" class="gray padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{ site.data.pages.software.promotion.customers[page.lang] }}</h1>
+    {%
+      include components/customers.html
+    %}
   </div>
 </section>
