@@ -12,7 +12,7 @@ header:
   buttonlink: '#contact'
   description:
     en: Connect our platform with data sources (e.g. Dropbox, Website etc.). Generate your own impressive presentation in a few steps. Our device management feature allows for simple deployment and extensive tracking and statistics.
-    de: Generieren Sie aus bestehenden Datenquellen in wenigen Schritten Ihre eigene interaktive Präsentation. Unser Device-Management Feature erlaubt einfaches Deployment und ausgiebige Statistiken.
+    de: Generieren Sie aus bestehenden Datenquellen in wenigen Schritten Ihre eigene interaktive Präsentation und sammeln Sie ausgiebige Statistiken über die Effektivität der Präsentationen.
 
 features:
   - id: sources
@@ -21,16 +21,16 @@ features:
       de: 1. Datenquellen verbinden
     description:
       en: 'Import existing data into our platform through various services. On request, we also implement new data sources or process information from an existing website.'
-      de: 'Importieren Sie bestehende Daten in unsere Plattform. Diverse Services sind bereits integriert. Auf Wunsch implementieren wir auch neue Schnittstellen oder bereiten Daten von einer existierenden Webseite auf.'
+      de: '<p>Importieren Sie bestehende Daten in die TouchLay <i>cloud</i>.</p><p>Diverse Dienste sind bereits integriert. Auf Wunsch implementieren wir auch neue Schnittstellen oder bereiten Daten von einer existierenden Webseite auf.</p>'
     image: /img/feature-sources.jpg
 
   - id: layout
     title:
       en: 2. Choose Layout
-      de: 2. Layout anpassen
+      de: 2. Präsentation auswählen
     description:
       en: 'Pick a layout that presents your data in the best way. You can see a preview with the imported data.'
-      de: 'Wählen Sie ein passendes Layout aus, das Ihre Daten am besten präsentiert. Sie sehen bereits eine Vorschau mit den importierten Daten.'
+      de: '<p>Wählen Sie eine passende Präsentations-Anwendung aus unserem Katalog aus, die Ihre Daten am besten präsentiert.</p><p>Wir bieten auch die Entwicklung von speziellen Anwendungen, die auf Ihre Bedürfnisse und Daten maßgeschneidert sind an.</p>'
     image: /img/feature-layout.png
 
   - id: style
@@ -39,7 +39,7 @@ features:
       de: 3. Aussehen definieren
     description:
       en: 'Upload your company logo and adjust the colors to your corporate identity.'
-      de: 'Nun laden Sie Ihr Firmenlogo hoch und passen die Farben an Ihre Corporate-Identity an.'
+      de: 'Laden Sie Ihr Firmenlogo hoch und passen Sie die Farben an Ihre Firmen-Identität an.'
     image: /img/feature-style.png
 
   - id: devices
@@ -48,7 +48,7 @@ features:
       de: 4. Geräte zuweisen
     description:
       en: 'Finally, select a device on which to deploy the presentation. Supported are the TouchLay <i>nova</i>, as well as various tablets, smartphones, desktops and signage screens.'
-      de: 'Schließlich wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden sollen. Dabei werden der TouchLay <i>nova</i>, aber auch jegliche Tablets, Smartphones, Desktops und Signage Screens unterstützt.'
+      de: '<p>Abschließend wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden soll.</p><p>Dabei werden der TouchLay <i>nova</i>, aber auch jegliche Tablets, Smartphones, Laptops und Desktops unterstützt.</p>'
     image: /img/feature-devices.jpg
 
   - id: tracking
@@ -57,7 +57,7 @@ features:
       de: Tracking und Statistiken
     description:
       en: 'User input will be automatically collected and statistics generated, e.g. heatmap, input in search fields, clicks on certain data sets.'
-      de: 'Es werden automatisch Daten über Usereingaben gesammelt und Statistiken generiert, z.B. Heatmap, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze.'
+      de: 'Es werden automatisch Daten über Benutzereingaben gesammelt und Statistiken generiert, z.B. Heatmap über Maus/Touchverhalten, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze, und vieles mehr.'
     image: /img/feature-stats.jpg
 
   - id: tracking
@@ -66,7 +66,7 @@ features:
       de: Branchenspezifische Module
     description:
       en: 'We also develop branch specific modules for the platform. At the moment, we offer the digital <a href="/en/software/wayfinder.html">Wayfinder</a> in addition to the default presentation app.'
-      de: 'Wir entwickeln auch branchenspezifische Module für die Plattform. Momentan bieten wir zusätzlich zur Standard-Präsentationsapp, den <a href="/de/software/wayfinder.html">Wayfinder</a> (Digitaler Wegweiser) an.'
+      de: '<p>Wir entwickeln auch branchenspezifische Module für die TouchLay <i>cloud</i>.</p><p>Momentan bieten wir zusätzlich zu Standard-Präsentationsanwendungen den <a href="/de/software/wayfinder.html">Wayfinder</a> (Digitaler Wegweiser) an.</p>'
     image: /img/feature-modules.png
 
 cta:
@@ -75,7 +75,7 @@ cta:
     de: Jetzt Demo anfragen
   text:
     en: At the moment, the TouchLay <i>cloud</i> is in pre-alpha stage and still being actively developed. If you are interested, we can provide you demo access.
-    de: Momentan befindet sich die TouchLay <i>cloud</i> in der Pre-Alpha Phase und wird noch aktiv entwickelt. Wenn Sie daran interessiert sind, können wir Ihnen gerne einen Demo-Zugang bereitstellen.
+    de: <p>Momentan befindet sich die TouchLay <i>cloud</i> in der Testphase und wir geben ihr noch den letzten Feinschliff.</p><p>Wenn Sie daran interessiert sind, können wir Ihnen gerne einen Demo-Zugang bereitstellen.</p>
   buttontext:
     en: Request software demo
     de: Software Demo anfragen
