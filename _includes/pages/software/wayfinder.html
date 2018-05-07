@@ -21,16 +21,6 @@
 
 {% include components/newsletter.html %}
 
-<section id="customers" class="padded">
-  <div class="container">
-    <h1 class="text-center section-title">{{ site.data.pages.software.wayfinder.customers[page.lang] }}</h1>
-    {%
-      include components/customers.html
-      tags='wayfinder'
-    %}
-  </div>
-</section>
-
 <section id="cta" class="section-even orange verypadded">
   <div class="container flexcontainer row middle spacebetween">
     <div class="section-text">
@@ -42,5 +32,15 @@
         {{site.data.pages.software.wayfinder.cta.buttontext[page.lang]}}
       </button></a>
     </div>
+  </div>
+</section>
+
+<section id="customers" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{ site.data.pages.software.wayfinder.customers[page.lang] }}</h1>
+    {%
+      include components/customers.html
+      tags='wayfinder'
+    %}
   </div>
 </section>
