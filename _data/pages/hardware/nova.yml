@@ -12,7 +12,7 @@ header:
     de: https://www.youtube.com/watch?v=0DydF2SkYYQ
   buttonlink: '#contact'
   description:
-    en: The TouchLay <i>nova</i> is a 55 inch multitouch screen that can be rotated on the horizontal axis, and mounted in portrait and landscape mode on the vertical axis.
+    en: The TouchLay <i>nova</i> is a 55 inch multitouch presentation tool with adjustable height & tilt in landscape and portait mode
     de: Der TouchLay <i>nova</i> ist ein 55 Zoll Multitouch-Präsentationstool mit verstellbarer Höhe & Neigung im Hoch- und Querformat
 
 customers:
@@ -25,8 +25,8 @@ features:
       en: Flexible Design
       de: Flexibles Design
     description:
-      en: 'Adjust the TouchLay <i>nova</i> any way you want. Use it as a presentation screen, table, or even in portrait mode. Optionally, any RAL color can be used.'
-      de: '<p>Der TouchLay <i>nova</i> passt sich an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihn als Präsentations-Bildschirm, Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Beim Kauf können Komponenten aufgerüstet, sowie eine eigene RAL Farbe gewählt werden.</p>'
+      en: '<p>The TouchLay <i>nova</i> adjusts perfectly to your needs.</p><p>Use your <i>nova</i> as presentation screen, table, or even as a "big smartphone" in portrait mode.</p><p>When purchasing your <i>nova</i>, components can be upgraded and a custom RAL color can be selected.</p>'
+      de: '<p>Der TouchLay <i>nova</i> passt sich perfekt an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihren <i>nova</i> als Präsentations-Bildschirm, Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Beim Kauf können Komponenten aufgerüstet, sowie eine eigene RAL Farbe gewählt werden.</p>'
     image: /img/feature-flexible.jpg
     topOnly: true
 
@@ -35,7 +35,7 @@ features:
       en: Vivid Display
       de: Lebhaftes Display
     description:
-      en: 'The TouchLay <i>nova</i> uses a 55 inch full HD display. We made sure that your products look as good and impressive as possible.'
+      en: 'The TouchLay <i>nova</i> uses a 55 inch full HD 24/7 industrial display. We personally made sure that your products look as good and impressive as possible from any angle.'
       de: 'Der TouchLay <i>nova</i> hat ein 55 Zoll Full-HD 24/7 Industrie-Display, bei dem wir besonders darauf geachtet haben, dass Ihre Produkte so beeindruckend wie möglich, sowie von jedem Winkel, präsentiert werden können.'
     image: /img/feature-display.jpg
 
@@ -44,8 +44,8 @@ features:
       en: Precise Multitouch
       de: Präziser Multitouch
     description:
-      en: 'Our precise multitouch sensor can detect multiple touch points at once, even objects up to 1.5mm! The sensor refreshes 250 times per second to ensure fluid interaction with the <i>nova</i>.'
-      de: '<p>Unser präziser Multitouch Sensor kann mehrere Berührungspunkte gleichzeitig und sogar Objekte bis 1.5mm erkennen.</p><p>Der Sensor aktualisiert 200 mal pro Sekunde, dadurch wird eine flüssige Interaktion mit dem TouchLay <i>nova</i> gewährleistet.</p>'
+      en: '<p>Our precise multitouch sensor can detect multiple touch points at once, and even objects up to 1.5mm!</p><p>The sensor refreshes 250 times per second to ensure fluid interaction with your TouchLay <i>nova</i>.'
+      de: '<p>Unser präziser Multitouch Sensor kann mehrere Berührungspunkte gleichzeitig und sogar Objekte bis 1,5mm erkennen!</p><p>Der Sensor aktualisiert 250 mal pro Sekunde, dadurch wird eine flüssige Interaktion mit Ihrem TouchLay <i>nova</i> gewährleistet.</p>'
     image: /img/feature-multitouch.jpg
     topOnly: true
 
@@ -54,8 +54,8 @@ features:
       en: Known Systems
       de: Bekannte Systeme
     description:
-      en: 'We made sure that you do not need to learn anything new to be able to use the TouchLay <i>nova</i>. You can use Windows 10, Android 6.0 or a custom solution.'
-      de: '<p>Wir haben darauf geachtet, dass Sie nichts Neues lernen müssen, um den TouchLay <i>nova</i> verwenden zu können.</p><p>Sie können Windows 10, Android 6.0 oder Ihre eigene Lösung verwenden.</p>'
+      en: 'We made sure that you do not need to learn anything new to be able to use your TouchLay <i>nova</i>. You can use Windows 10, Android 6.0 or a custom solution.'
+      de: '<p>Wir haben darauf geachtet, dass Sie nichts Neues lernen müssen, um Ihren TouchLay <i>nova</i> verwenden zu können.</p><p>Sie können Windows 10, Android 6.0 oder Ihre eigene Lösung verwenden.</p>'
     image: /img/feature-os.png
 
   - id: quality
@@ -63,8 +63,8 @@ features:
       en: Excellent Quality
       de: Exzellente Qualität
     description:
-      en: 'Quality is very important to us, that is why we produce the TouchLay <i>nova</i> in beautiful Austria.'
-      de: '<p>Uns ist Qualität sehr wichtig, deshalb fertigen wir den TouchLay <i>nova</i> im wunderschönen Österreich.</p><p>Bei der Produktion achten wir auf jedes Detail, sodass Sie Ihre Produkte und Dienstleistungen problemlos präsentieren können.</p>'
+      en: '<p>Quality is very important to us, which is why we produce every TouchLay <i>nova</i> in our home country, beautiful Austria.</p><p>We pay attention to detail during the production to ensure that your products and services can be presented without any troubles.</p><p>Additionally, we also provide services for content creation and support during events - we are always here to help!</p>'
+      de: '<p>Uns ist Qualität sehr wichtig, deshalb fertigen wir jeden TouchLay <i>nova</i> im wunderschönen Österreich.</p><p>Bei der Produktion achten wir auf jedes Detail, sodass Sie Ihre Produkte und Dienstleistungen problemlos präsentieren können.</p><p>Darüber hinaus unterstützen wir Sie auch gerne bei der Aufbereitung von Inhalten und während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
     image: /img/feature-map.jpg
 
 specs:
@@ -73,7 +73,7 @@ specs:
       de: 'Multitouch'
     properties:
       - title:
-          en: 'Touchpoints'
+          en: 'Touch points'
           de: 'Berührungspunkte'
         description:
           en: '2 — 32'
@@ -85,7 +85,7 @@ specs:
           en: 'Finger and Objects from 1.5 mm'
           de: 'Finger und Objekte ab 1.5 mm'
       - title:
-          en: 'Touch refreshrate'
+          en: 'Touch refresh rate'
           de: 'Touch-Aktualisierungsrate'
         description:
           en: '250 fps'
@@ -103,13 +103,13 @@ specs:
     properties:
       - title:
           en: 'Usage'
-          de: 'Bildschirmlaufzeit'
+          de: 'Laufzeit'
         description:
           en: '24 / 7'
           de: '24 / 7 Betrieb'
       - title:
           en: 'Diagonal'
-          de: 'Bildschirmdiagonale'
+          de: 'Diagonale'
         description:
           en: '139,7 cm (55 Inch)'
           de: '139,7 cm (55 Zoll)'
@@ -158,16 +158,16 @@ specs:
           en: 'Color'
           de: 'Farbe'
         description:
-          en: 'white (default) Other RAL colors upon request'
-          de: 'Weiß (Standard) Andere RAL Farben auf Anfrage'
+          en: 'nova white (default) - Other RAL colors upon request'
+          de: 'nova weiß (Standard) - Andere RAL Farben auf Anfrage'
       - title:
-          en: 'Dimensions'
-          de: 'Abmessungen Fuß (ohne Display)'
+          en: 'Dimensions Framework (without display)'
+          de: 'Abmessungen Unterkonstruktion (ohne Display)'
         description:
           en: '126 x 40 x 93 cm (L x W x H)'
           de: '125 x 40 x 93 cm (L x B x H)'
       - title:
-          en: 'Lock'
+          en: 'Lockable'
           de: 'Verschließbar'
         description:
           en: 'Yes'
@@ -208,13 +208,13 @@ specs:
           en: 'Intel HD Graphics 5500 (or higher)'
           de: 'Intel HD Graphics 5500 (oder höher)'
       - title:
-          en: 'Cardreader'
+          en: 'Card reader'
           de: 'Kartenleser'
         description:
           en: 'SD/SDHC/SDXC'
           de: 'SD/SDHC/SDXC'
       - title:
-          en: 'Harddrive'
+          en: 'Storage'
           de: 'Speicherplatz'
         description:
           en: '60 / 128 / 256 GB SSD'
@@ -239,9 +239,5 @@ cta:
     en: Buy, Rent or Lease
     de: Kauf, Miete oder Leasing
   text:
-    en: You can buy or rent the TouchLay <i>nova</i>. We also offer leasing. If you are interested, send us an inquiry! We will get back to you as soon as possible.
+    en: <p>You can buy, lease or rent the TouchLay <i>nova</i>.</p><p>If you are interested, send us an inquiry! We will get back to you as soon as possible.</p>
     de: <p>Sie können den TouchLay <i>nova</i> kaufen, leasen oder mieten.</p><p>Wenn Sie interessiert sind, senden Sie uns eine Anfrage! Wir melden uns daraufhin in Kürze bei Ihnen.</p>
-
-customers:
-  en: Customers that use the TouchLay <i>nova</i>
-  de: Kunden die den TouchLay <i>nova</i> nutzen
