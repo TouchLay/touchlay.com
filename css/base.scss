@@ -1529,6 +1529,7 @@ section.contentoptions {
   border-radius: 50px;
   line-height: 100px;
   margin: 0.5em 1em;
+  min-width: 100px;
 }
 
 #process .item .text {
@@ -1538,4 +1539,25 @@ section.contentoptions {
 
 #process .container {
   padding: 2em;
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+  #process .item .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+    font-size: 30px;
+    min-width: 50px;
+  }
+
+  #process .item .text {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  #process .item .text {
+    flex-grow: 1;
+  }
 }
