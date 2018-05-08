@@ -24,7 +24,7 @@ features:
       en: 1. Connect Data Sources
       de: 1. Datenquellen verbinden
     description:
-      en: '<p>Import existing data into the TouchLay <i>cloud</i>.</p><p>Various services are already integrated. On request we also implement new services or use data from an existing website.</p>'
+      en: '<p>Import existing data into the TouchLay <i>cloud</i>.</p><p>Various services are already integrated. On request we also implement new services or import data from an existing website.</p>'
       de: '<p>Importieren Sie bestehende Daten in die TouchLay <i>cloud</i>.</p><p>Diverse Dienste sind bereits integriert. Auf Wunsch implementieren wir auch neue Schnittstellen oder bereiten Daten von einer existierenden Webseite auf.</p>'
     image: /img/feature-sources.jpg
 
