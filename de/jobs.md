@@ -3,6 +3,7 @@ layout: default
 lang: de
 title: Jobs
 container: true
+description: "TouchLay Jobs - Begeistern und informieren Sie Ihre Kunden mit interaktiven Präsentationen!"
 ---
 
 # Jobs
