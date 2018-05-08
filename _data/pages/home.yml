@@ -16,6 +16,17 @@ vision:
   en: <b>Amaze</b> & <b>inform</b> your customers<br />with interactive presentations
   de: <b>Begeistern</b> und <b>Informieren</b> Sie Ihre Kunden<br />mit interaktiven Präsentationen
 
+process:
+  first:
+    en: You tell us about your products
+    de: Sie erzählen uns über Ihre Produkte
+  second:
+    en: We figure out the best ways to present your products
+    de: Wir erarbeiten die besten Präsentationsmöglichkeiten
+  third:
+    en: We offer custom tailored or standardized solutions
+    de: Wir bieten maßgeschneiderte oder vorgefertigte Lösungen
+
 teammore:
   en: 'more about the team'
   de: 'Mehr über das Team erfahren'
