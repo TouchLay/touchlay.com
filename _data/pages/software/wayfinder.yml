@@ -12,8 +12,8 @@ header:
     de: https://www.youtube.com/watch?v=uqmbjX4ii28
   buttonlink: '#contact'
   description:
-    en: Visualize exhibitions, events or buildings with the interactive TouchLay <i>wayfinder</i> - a digital map with an integrated information and advertisement platform.
-    de: Mit dem TouchLay <i>wayfinder</i> können Sie Messen, Events<br />oder Gebäude klar und verständlich darstellen
+    en: Easily visualize exhibitions, events or buildings with the interactive TouchLay <i>wayfinder</i>
+    de: Stellen Sie Messen, Events oder Gebäude einfach, klar und verständlich mit dem TouchLay <i>wayfinder</i> dar
 
 features:
   - id: setup
@@ -21,8 +21,8 @@ features:
       en: Simple Setup
       de: Einfaches Setup
     description:
-      en: 'Simply set the site plan as the background and define the design of your Wayfinder. The action areas can be imported from existing data or defined through our editor.'
-      de: '<p>Laden Sie einfach Ihren Lageplan hoch und definieren Sie die das Design Ihres Wegweisers über Logos und Farben.</p><p>Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.</p>'
+      en: '<p>Simply upload the site plan and adjust the design to your corporate identity via logos and colors.</p><p>Action areas can be imported from existing data or defined through our editor.</p>'
+      de: '<p>Laden Sie einfach Ihren Lageplan hoch und passen Sie das Design an Ihre Firmen-Identität über Logos und Farben an.</p><p>Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.</p>'
     image: /img/wayfinder-dashboard.png
 
   - id: content
@@ -30,8 +30,8 @@ features:
       en: Interactive Content
       de: Interaktive Inhalte
     description:
-      en: 'Any (interactive) content can be assigned to the action areas. For example, you could display a timetable that marks the currently active event.'
-      de: '<p>An Aktionsflächen kann jeglicher Content verknüpft werden.</p><p>Zum Beispiel kann das Programm einer Bühne angezeigt werden, bei dem das aktive Event hervorgehoben wird.</p>'
+      en: '<p>Any (interactive) content can be assigned to action areas.</p><p>For example, you could display the timetable for a stage, which highlights the currently active event.</p>'
+      de: '<p>An Aktionsflächen kann jeglicher (interaktiver) Content verknüpft werden.</p><p>Zum Beispiel kann das Programm einer Bühne angezeigt werden, bei dem das aktive Event hervorgehoben wird.</p>'
     image: /img/wayfinder-content.png
 
   - id: ads
@@ -39,7 +39,7 @@ features:
       en: Advertisement Integration
       de: Werbeintegration
     description:
-      en: 'Integrate various forms of advertisement, like logo highlights, banners and animations - to attract the attention of your visitors to the Wayfinder as well as certain action areas.'
+      en: 'Integrate various forms of advertisement, like logo highlights, banners and animations - to attract the attention of your visitors to the <i>wayfinder</i> as well as certain action areas.'
       de: 'Integrieren Sie diverse Werbeformen, wie Logofahnen, Banner, sowie Animationen - um die Besucher auf den <i>wayfinder</i>, sowie bestimmte Aktionsflächen aufmerksam zu machen.'
     image: /img/wayfinder-flag.png
 
@@ -48,8 +48,8 @@ features:
       en: Tracking and Statistics
       de: Tracking und Statistiken
     description:
-      en: 'The Wayfinder automatically collects user input data and generates statistics, like a heatmap, input in search fields, clicks on action areas & advertisements, and much more.'
-      de: '<p>Der <i>wayfinder</i> sammelt automatisch Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Heatmap über Maus/Touchverhalten, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze, und vieles mehr.</p>'
+      en: '<p>The <i>wayfinder</i> automatically collects user input data and generates statistics.</p><p>For example: Heatmap of touch behavior, input in search fields, clicks on action areas & advertisements, and much more.</p>'
+      de: '<p>Der <i>wayfinder</i> sammelt automatisch Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Heatmap über Touchverhalten, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze, und vieles mehr.</p>'
     image: /img/feature-stats.jpg
 
   - id: package
@@ -57,7 +57,7 @@ features:
       en: Everything from One Source
       de: Alles aus einer Hand
     description:
-      en: 'In addition to the Wayfinder, we also provide fitting hardware, like the TouchLay <i>nova</i>. We also provide maintenance and setup of the software.'
+      en: '<p>We also offer the <i>wayfinder</i> as part of a complete package with fitting hardware, like the TouchLay <i>nova</i>.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
       de: '<p>Wir bieten den <i>wayfinder</i> auch als Komplettlösung mit passender Hardware, wie dem TouchLay <i>nova</i> an.</p><p>Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung sowie während der Veranstaltung - wir lassen Sie nie im Stich!</p>'
     image: /img/feature-devices-white.jpg
 
@@ -67,10 +67,10 @@ customers:
 
 cta:
   headline:
-    en: Request demo / pricing
+    en: Request Demo / Pricing
     de: Demo / Preise anfragen
   text:
-    en: Do you want to use the Wayfinder for your exhibition, event or building? Send us an inquiry and we will get back to you as soon as possible.
+    en: Want to use the <i>wayfinder</i> for your exhibition, event or building? Send us an inquiry and we will get back to you as soon as possible.
     de: Sie möchten den <i>wayfinder</i> für Ihre Veranstaltung, Messe oder Gebäude nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
   buttontext:
     en: REQUEST NOW
