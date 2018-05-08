@@ -1513,6 +1513,7 @@ section.contentoptions {
 #process .item {
   display: flex;
   align-items: center;
+  margin: 2em 0;
 }
 
 #process .item .circle {
@@ -1523,7 +1524,7 @@ section.contentoptions {
   height: 100px;
   border-radius: 50px;
   line-height: 100px;
-  margin: 0.5em 1em;
+  margin: 0 1em;
   min-width: 100px;
 }
 
