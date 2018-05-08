@@ -898,6 +898,10 @@ section.verypaddedTop {
 
 /* Newsletter */
 
+#newsletter {
+  padding: 3em 0 5em;
+}
+
 .newsletter-form {
   margin-left: 1em;
 
@@ -1498,4 +1502,9 @@ section.contentoptions {
   font-size: 1.5em;
   line-height: 1.5em;
   text-align: justify;
+}
+
+#cta i {
+  padding-left: 0.2em;
+  padding-right: 0.4em;
 }

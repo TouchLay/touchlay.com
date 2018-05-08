@@ -73,14 +73,14 @@
   %}
 </section>
 
-{% include components/newsletter.html %}
-
 <section id="customers" class="padded">
   <div class="container">
     <h1 class="text-center section-title">{{ site.data.pages.home.customers[page.lang] }}</h1>
     {% include components/customers.html %}
   </div>
 </section>
+
+{% include components/newsletter.html %}
 
 <section id="team">
   <div class="container">
