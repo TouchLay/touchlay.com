@@ -15,7 +15,7 @@
     <h2>{{ site.data.pages.press.text.headlinephotos[page.lang] }}</h2>
     <ul>
       {% for photo in site.data.press.photos %}
-        <li><a href="{{photo.link}}">{{photo.title}}</a></li>
+        <li><a href="{{photo.link}}" ga-on="click" ga-event-category="press" ga-event-action="{{photo.title}}">{{photo.title}}</a></li>
       {% endfor %}
     </ul>
     <br />

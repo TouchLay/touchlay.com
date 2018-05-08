@@ -12,7 +12,11 @@ header:
   buttonlink: '#contact'
   description:
     en: Connect our platform with data sources (e.g. Dropbox, Website etc.). Generate your own impressive presentation in a few steps. Our device management feature allows for simple deployment and extensive tracking and statistics.
-    de: Generieren Sie aus bestehenden Datenquellen in wenigen Schritten Ihre eigene interaktive Präsentation und sammeln Sie ausgiebige Statistiken über die Effektivität der Präsentationen.
+    de: Generieren Sie aus bestehenden Datenquellen in wenigen Schritten Ihre eigene interaktive Präsentation und sammeln Sie ausgiebige Statistiken über die Effektivität der Präsentationen
+
+customers:
+  en: Customers who use TouchLay software
+  de: Kunden, die TouchLay Software nutzen
 
 features:
   - id: sources
@@ -66,7 +70,7 @@ features:
       de: Branchenspezifische Module
     description:
       en: 'We also develop branch specific modules for the platform. At the moment, we offer the digital <a href="/en/software/wayfinder.html">Wayfinder</a> in addition to the default presentation app.'
-      de: '<p>Wir entwickeln auch branchenspezifische Module für die TouchLay <i>cloud</i>.</p><p>Momentan bieten wir zusätzlich zu Standard-Präsentationsanwendungen den <a href="/de/software/wayfinder.html">Wayfinder</a> (Digitaler Wegweiser) an.</p>'
+      de: '<p>Wir entwickeln auch branchenspezifische Module für die TouchLay <i>cloud</i>.</p><p>Momentan bieten wir zusätzlich zu Standard-Präsentationsanwendungen den TouchLay <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="overview" ga-event-action="wayfinder"><i>wayfinder</i></a> (interaktives Wegeleitsystem) an.</p>'
     image: /img/feature-modules.png
 
 cta:

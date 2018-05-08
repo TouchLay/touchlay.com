@@ -13,7 +13,7 @@ header:
   buttonlink: '#contact'
   description:
     en: Visualize exhibitions, events or buildings with the interactive TouchLay <i>wayfinder</i> - a digital map with an integrated information and advertisement platform.
-    de: Mit dem TouchLay <i>wayfinder</i> können Sie Messen, Events oder Gebäude klar und verständlich darstellen. Weiters bietet der Wayfinder eine interaktive Informations- und Werbeplattform.
+    de: Mit dem TouchLay <i>wayfinder</i> können Sie Messen, Events<br />oder Gebäude klar und verständlich darstellen
 
 features:
   - id: setup
@@ -62,8 +62,8 @@ features:
     image: /img/feature-devices-white.jpg
 
 customers:
-  en: Customers that use the TouchLay <i>wayfinder</i>
-  de: Kunden die den TouchLay <i>wayfinder</i> nutzen
+  en: Customers who use the TouchLay <i>wayfinder</i>
+  de: Kunden, die den TouchLay <i>wayfinder</i> nutzen
 
 cta:
   headline:
@@ -71,7 +71,7 @@ cta:
     de: Demo / Preise anfragen
   text:
     en: Do you want to use the Wayfinder for your exhibition, event or building? Send us an inquiry and we will get back to you as soon as possible.
-    de: Sie möchten den Wayfinder für Ihre Veranstaltung, Messe oder Gebäude nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
+    de: Sie möchten den <i>wayfinder</i> für Ihre Veranstaltung, Messe oder Gebäude nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
   buttontext:
     en: REQUEST NOW
     de: JETZT ANFRAGEN

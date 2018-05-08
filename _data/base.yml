@@ -79,6 +79,9 @@ texts:
   more:
     en: 'learn more'
     de: 'mehr erfahren'
+  sendrequest:
+    en: 'send request'
+    de: 'Anfrage senden'
   playvideo:
     en: 'play video'
     de: 'Video abspielen'
