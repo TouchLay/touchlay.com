@@ -130,10 +130,10 @@ texts:
 
 newsletter:
   headline:
-    en: Stay up to date
+    en: Stay up-to-date
     de: Bleiben Sie am letzten Stand
   description:
-    en: 'Receive special offers, information about new products, <br />and tips and tricks to impress your customers.'
+    en: 'We are constantly finding new ways to present products.<br />Receive special offers, information about new products, and tips and tricks to impress your customers.'
     de: 'Es gibt immer wieder neue Wege der Präsentation.<br />Erhalten Sie Informationen über Sonderangebote, neue Produkte, sowie Tipps und Tricks um Ihre Kunden zu begeistern.'
 
 cookie:
@@ -142,7 +142,7 @@ cookie:
     de: "Diese Webseite verwendet Cookies. Durch das Nutzen dieser Seite sind Sie mit der Verwendung von Cookies einverstanden."
   more:
     en: "Learn more"
-    de: "Mehr Information"
+    de: "Mehr erfahren"
   accept:
     en: "got it!"
     de: "ok!"

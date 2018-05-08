@@ -1,9 +1,9 @@
 text:
   title:
-    en: Press
-    de: Presse
+    en: Press area
+    de: Pressebereich
   welcome:
-    en: Hello, thanks for your interest in us!<br />Below you can find resources for a blogpost or article and our guidelines on branding.<br />If you need more information don't hesitate to contact use at <a href="mailto:hello@touchlay.com" ga-on="click" ga-event-category="press" ga-event-action="email">hello@touchlay.com</a>.
+    en: Hello, thanks for your interest in us!<br />Below you can find resources for a blog post or article, and our guidelines on branding.<br />If you need more information don't hesitate to contact us at <a href="mailto:hello@touchlay.com" ga-on="click" ga-event-category="press" ga-event-action="email">hello@touchlay.com</a>.
     de: Vielen Dank für Ihr Interesse!<br />Hier finden Sie Ressourcen für einen Blogpost oder Artikel, sowie unsere Branding Richtlinien.<br />Wenn Sie weitere Informationen benötigen, zögern Sie nicht uns unter <a href="mailto:hello@touchlay.com" ga-on="click" ga-event-category="press" ga-event-action="email">hallo@touchlay.com</a> zu kontaktieren.
   headlinearticles:
     en: Articles about us

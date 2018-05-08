@@ -13,7 +13,7 @@ header:
 
 
 vision:
-  en: <b>Amaze</b> & <b>inform</b> your customers with our<br />interactive <a ga-on="click" ga-event-category="vision" ga-event-action="software" href="/en/software/">software</a> and <a ga-on="click" ga-event-category="vision" ga-event-action="hardware" href="/en/hardware/">hardware</a> solutions.
+  en: <b>Amaze</b> & <b>inform</b> your customers<br />with interactive presentations
   de: <b>Begeistern</b> und <b>Informieren</b> Sie Ihre Kunden<br />mit interaktiven Präsentationen
 
 teammore:
@@ -32,8 +32,8 @@ software:
     en: "interactive & always up-to-date!"
     de: "interaktiv & immer up-to-date!"
   description:
-    en: "Connect our platform with data sources (e.g. Dropbox, Website etc.). Generate your own impressive presentation in a few steps. Our device management feature allows for simple deployment and extensive tracking and statistics."
-    de: "<p>Es ist schwierig, Daten zu verwalten und immer am aktuellen Stand zu halten.</p><p>Verbinden Sie unsere TouchLay <i>cloud</i> einfach mit existierenden Datenquellen (z.B. Dropbox, Webseite, etc) und halten Sie Ihre interaktive Präsentation immer auf dem letzten Stand.</p><p>Weiters macht es die <i>cloud</i> einfach, Präsentationen auf mehreren Geräten zu verwalten und sammelt ausgiebige Statistiken über jegliche Interaktionen mit der Präsentation.</p>"
+    en: "<p>Managing data and keeping it up-to-date is hard.</p><p>Simply connect our TouchLay <i>cloud</i> with existing data sources (e.g. Dropbox, Website, etc) and automatically keep your interactive presentations up-to-date.</p><p>Additionally, the <i>cloud</i> makes it simple to manage presentations on multiple devices and automatically collects extensive statistics on every interaction with the presentations.</p>"
+    de: "<p>Es ist schwierig, Daten zu verwalten und immer am aktuellen Stand zu halten.</p><p>Verbinden Sie unsere TouchLay <i>cloud</i> einfach mit existierenden Datenquellen (z.B. Dropbox, Webseite, etc) und halten Sie Ihre interaktive Präsentation automatisch immer auf dem letzten Stand.</p><p>Weiters macht es die <i>cloud</i> einfach, Präsentationen auf mehreren Geräten zu verwalten und sammelt ausgiebige Statistiken über jegliche Interaktionen mit den Präsentationen.</p>"
   image: "/img/overview-software.png"
 
 hardware:
@@ -44,6 +44,6 @@ hardware:
     en: "elegant & precise"
     de: "Elegant & Präzise"
   description:
-    en: "Adjust the TouchLay <i>nova</i> any way you want. Use it as a presentation screen, table, or even in portrait mode. Our precise multitouch sensor can detect 2-32 touch points at the same time, including objects up to 1.5mm."
-    de: "<p>Der TouchLay <i>nova</i> passt sich perfekt an Ihre Bedürfnisse an.</p><p>Sie können den <i>nova</i> als Präsentations-Screen, Besprechungs-Tisch oder sogar im Hochformat als “großes Smartphone” einsetzen.</p><p>Unser präziser Multitouch Sensor kann 2 - 32 Berührungspunkte gleichzeitig und sogar Objekte bis 1,5mm erkennen.</p>"
+    en: '<p>The TouchLay <i>nova</i> adjusts perfectly to your needs.</p><p>Use your <i>nova</i> as presentation screen, table, or even as a "big smartphone" in portrait mode.</p><p>Our precise multitouch sensor can detect 2 - 32 touch points at the same time, including objects up to 1.5mm.</p>'
+    de: '<p>Der TouchLay <i>nova</i> passt sich perfekt an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihren <i>nova</i> als Präsentations-Bildschirm, Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Unser präziser Multitouch Sensor kann 2 - 32 Berührungspunkte gleichzeitig und sogar Objekte bis 1,5mm erkennen.</p>'
   image: "/img/overview-hardware.png"

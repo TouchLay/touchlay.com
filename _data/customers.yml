@@ -16,7 +16,7 @@
     - software
     - wayfinder
   description:
-    en: 'regularly uses the TouchLay <i>nova</i> as <a href=\"https://wayfinder.touchlay.com\">digital Wayfinder</a> and timetable at exhibitions.'
+    en: 'regularly uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and timetable at exhibitions.'
     de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> regelmäßig bei Messen als interaktive Karte und Zeitplan ein.'
   media: "https://www.youtube.com/watch?v=UKmZ6LIZKaI"
 
@@ -47,7 +47,7 @@
     - hardware
     - pos
   description:
-    en: 'uses the TouchLay <i>nova</i> to support sales of telecom products in post offices via "Guided Selling".'
+    en: 'uses the TouchLay <i>nova</i> to support sales of telecom products in post offices via Guided Selling.'
     de: 'nutzt den TouchLay <i>nova</i>, um den Verkauf von Telekomprodukten in Postfilialen über Guided Selling zu unterstützen.'
 
 - company: "Messe Frankfurt"
@@ -58,8 +58,8 @@
     - software
     - wayfinder
   description:
-    en: 'uses the TouchLay <i>nova</i> as <a href="https://wayfinder.touchlay.com">interactive Wayfinder</a> for the largest book fair worldwide (Frankfurt Book Fair).'
-    de: 'setzt den TouchLay <i>nova</i> und den <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte für die größte Buchmesse der Welt ein (Frankfurter Buchmesse).'
+    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map for the largest book fair worldwide (Frankfurt Book Fair).'
+    de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte für die größte Buchmesse der Welt ein (Frankfurter Buchmesse).'
 
 - company: "4Gamechanger Festival 2017 Puls4"
   image: "/img/customer-10.jpg"
@@ -70,8 +70,8 @@
     - wayfinder
     - promotion
   description:
-    en: 'uses the TouchLay <i>nova</i> as <a href="https://wayfinder.touchlay.com">interactive Wayfinder</a> and for live Graphic Recording (by <a href="http://vervievas.com">VerVieVas</a>).'
-    de: 'setzt den TouchLay <i>nova</i> und den <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und für live Graphic Recording mit <a href="http://vervievas.com">VerVieVas</a> ein.'
+    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and for live Graphic Recording (by <a href="http://vervievas.com">VerVieVas</a>).'
+    de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und für live Graphic Recording mit <a href="http://vervievas.com">VerVieVas</a> ein.'
 
 - company: "Verbund"
   image: "/img/customer-18.jpg"
@@ -111,6 +111,7 @@
     - hardware
     - software
     - promotion
+    - pos
   description:
     en: 'utilises the TouchLay <i>nova</i> in combination with a video wall at events, for planning and discussions, and in their foyer.'
     de: 'benützt den TouchLay <i>nova</i> im Zusammenspiel mit einer Videowall bei Events, sowie bei Planungsgesprächen und im Foyer.'
@@ -136,8 +137,8 @@
     - software
     - wayfinder
   description:
-    en: 'used the TouchLay <i>nova</i> as <a href=\"https://wayfinder.touchlay.com\">digital timetable and Wayfinder</a>.'
-    de: 'verwendete den TouchLay <i>nova</i> und den <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und Zeitplan.'
+    en: 'used the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and timetable.'
+    de: 'verwendete den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und Zeitplan.'
   lity: true
   media: "https://www.youtube.com/watch?v=L5oxUTE3bh4"
 
@@ -150,8 +151,8 @@
     - wayfinder
     - promotion
   description:
-    en: 'makes use of the TouchLay <i>nova</i> as <a href=\"https://wayfinder.touchlay.com\">interactive Wayfinder</a> and gaming platform for children.'
-    de: 'benützt den TouchLay <i>nova</i> und den <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und Spieleplattform für Kinder.'
+    en: 'makes use of the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and gaming platform for children.'
+    de: 'benützt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und Spieleplattform für Kinder.'
   media: "https://www.youtube.com/watch?v=eWPOVO3SEXs"
 
 - company: "HR Inside Summit 2017"
@@ -168,7 +169,7 @@
     - cloud
     - promotion
   description:
-    en: 'presents an interactive map of their partners on the TouchLay <i>nova</i>.'
+    en: 'presents an interactive map of their partners with the TouchLay <i>cloud</i> and on the <i>nova</i>.'
     de: 'präsentiert über die TouchLay <i>cloud</i> und den <i>nova</i> eine interaktive Karte ihrer Partner.'
 
 - company: "Tourismus Marketing Niedersachsen"
@@ -188,7 +189,7 @@
     - hardware
     - promotion
   description:
-    en: 'uses the TouchLay <i>nova</i> for graphic recording at events of an Austrian political party.'
+    en: 'uses the TouchLay <i>nova</i> for Graphic Recording at events of an Austrian political party.'
     de: 'nutzt den TouchLay <i>nova</i> für Graphic Recording einer Auftaktveranstaltung einer österreichischen Partei.'
 
 - company: "Energy Agency Austria"
@@ -222,5 +223,5 @@
     - software
     - wayfinder
   description:
-    en: 'uses the <a href=\"https://wayfinder.touchlay.com\">interactive Wayfinder</a> to give their visitors the best possible overview of the event.'
+    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> to give their visitors the best possible overview of the event.'
     de: 'setzt auf den TouchLay <i>nova</i> und den <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a>, um ihren Besuchern den bestmöglichen Überblick über das Event zu geben.'

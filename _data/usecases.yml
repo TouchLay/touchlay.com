@@ -3,16 +3,16 @@
     de: Messen und Events
   image: /img/usecase-1.jpg
   description:
-    en: "Attracting your customers' attention is the essential goal at exhibitions and events. With the TouchLay <i>nova</i> you can attract potential customers."
-    de: "Die Aufmerksamkeit von Besuchern auf sich zu ziehen ist der essentiellste Teil von Messen und Events. Mit dem <i>nova</i> ziehen Sie Kunden magnetisch an."
+    en: "Attracting attendees' attention is the essential goal at exhibitions and events. With the TouchLay <i>nova</i> you can attract potential customers like a magnet."
+    de: "Die Aufmerksamkeit von Besuchern auf sich zu ziehen ist das essentiellste Ziel von Messen und Events. Mit dem <i>nova</i> ziehen Sie Kunden magnetisch an."
   link: '/software/promotion'
 
 - title:
     en: Point of Sale
-    de: Point of Sale
+    de: Im Verkaufsgespräch
   image: /img/usecase-2.jpg
   description:
-    en: "Through support from the TouchLay <i>nova</i> and our software you can make your sales process interactive."
+    en: "Explaining your products can be hard. Include your customer directly though interactive presentations and effortlessly increase sales."
     de: "Oft ist es schwierig, Produkte zu erklären. Durch interaktive Präsentation können Sie Kunden direkt in das Verkaufsgespräch einbinden und so spielend leicht die Abschlussrate steigern."
 
 - title:
@@ -20,6 +20,6 @@
     de: Wayfinder
   image: /img/usecase-3.jpg
   description:
-    en: "The TouchLay <i>nova</i> as digital wayfinder helps people get around. Improve frequency in certain areas through tracking and advertisements."
-    de: "Der <i>wayfinder</i> hält Daten immer up-to-date und bietet Besuchern Überblick über Events und Gebäude. Tracking und Werbeflächen steigern die Frequenz."
+    en: "The <i>wayfinder</i> always keeps data up-to-date and offers visitors an overview over events and buildings. Tracking and advertisements increase the frequency."
+    de: "Der <i>wayfinder</i> hält Daten immer am letzten Stand und bietet Besuchern Überblick über Events und Gebäude. Tracking und Werbeflächen steigern die Frequenz."
   link: '/software/wayfinder'
