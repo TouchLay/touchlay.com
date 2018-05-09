@@ -21,33 +21,6 @@
 
 {% include components/feature-loop.html features=site.data.pages.software.promotion.features %}
 
-<section id="overview-hardware" class="padded section-a">
-  {% assign content = site.data.pages.software.promotion.curt %}
-  {% include components/feature-section.html
-      title=content.title
-      subtitle=content.subtitle
-      description=content.description
-      image=content.image
-      cta=site.data.base.texts.more
-      ctalink=content.link
-      newpage=true
-
-      gacategory="curt"
-      gaaction="more"
-  %}
-</section>
-
-<section id="customers" class="gray padded">
-  <div class="container">
-    <h1 class="text-center section-title">{{ site.data.pages.software.promotion.customers[page.lang] }}</h1>
-    {%
-      include components/customers.html
-    %}
-  </div>
-</section>
-
-<!--{% include components/newsletter.html %}-->
-
 <section id="overview-hardware" class="paddedTop section-a">
   {% assign content = site.data.pages.home.hardware %}
   {% include components/feature-section.html
@@ -73,6 +46,28 @@
       <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-white cta-highlight">
         {{site.data.pages.software.promotion.cta.buttontext[page.lang]}}
       </button></a>
+    </div>
+  </div>
+</section>
+
+
+<section id="customers" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{ site.data.pages.software.promotion.customers[page.lang] }}</h1>
+    {%
+      include components/customers.html
+      tags='promotion'
+    %}
+  </div>
+</section>
+
+{% include components/newsletter.html %}
+
+<section id="team">
+  <div class="container">
+    <div class="flexcontainer row middle space-around">
+      <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
     </div>
   </div>
 </section>

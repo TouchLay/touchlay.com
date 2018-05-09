@@ -3,19 +3,10 @@
 <p>{{ site.data.pages.press.text.welcome[page.lang] }}</p>
 <section id="press" class="ui page one column grid stackable very padded segment basic">
   <div class="column">
-    <h2>{{ site.data.pages.press.text.headlinearticles[page.lang] }}</h2>
-    <ul>
-      {% for article in site.data.press.articles %}
-        <li>{{article.date}} / <a href="{{article.link}}">{{article.title}}</a></li>
-      {% endfor %}
-    </ul>
-
-    <br/>
-
     <h2>{{ site.data.pages.press.text.headlinephotos[page.lang] }}</h2>
     <ul>
       {% for photo in site.data.press.photos %}
-        <li><a href="{{photo.link}}">{{photo.title}}</a></li>
+        <li><a href="{{photo.link}}" ga-on="click" ga-event-category="press" ga-event-action="{{photo.title}}">{{photo.title}}</a></li>
       {% endfor %}
     </ul>
     <br />

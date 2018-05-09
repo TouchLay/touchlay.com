@@ -21,24 +21,3 @@
 </section>
 
 {% include components/newsletter.html alone=true %}
-
-<section id="articles" class="gray padded">
-  <div class="container text-center">
-    <h1>{{site.data.pages.about.team.articleheadline[page.lang]}}</h1>
-    <br />
-    <script async src="https://static.medium.com/embed.js"></script>
-    <div>
-      <a class="m-story" data-border="true" data-width="100%" data-collapsed="true"
-      href="{{site.data.blogposts.featured1.url}}">
-      {{site.data.blogposts.featured1.title}}
-      </a>
-    </div>
-    <br />
-    <div>
-      <a class="m-story" data-border="true" data-width="100%" data-collapsed="true"
-      href="{{site.data.blogposts.featured2.url}}">
-      {{site.data.blogposts.featured2.title}}
-    </a>
-    </div>
-  </div>
-</section>

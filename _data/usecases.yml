@@ -3,23 +3,23 @@
     de: Messen und Events
   image: /img/usecase-1.jpg
   description:
-    en: "Attracting your customers' attention is the essential goal at exhibitions and events. With the TouchLay nova you can attract potential customers."
-    de: "Die Aufmerksamkeit der Besucher auf sich zu ziehen ist ein essentieller Teil von Messen und Events. Mit dem nova ziehen Sie die Besucher an."
+    en: "Attracting attendees' attention is the essential goal at exhibitions and events. With the TouchLay <i>nova</i> you can attract potential customers like a magnet."
+    de: "Die Aufmerksamkeit von Besuchern auf sich zu ziehen ist das essentiellste Ziel von Messen und Events. Mit dem <i>nova</i> ziehen Sie Kunden magnetisch an."
   link: '/software/promotion'
 
 - title:
     en: Point of Sale
-    de: Point of Sale
+    de: Im Verkaufsgespräch
   image: /img/usecase-2.jpg
   description:
-    en: "Through support from the TouchLay nova and our software you can make your sales process interactive."
-    de: "Durch Unterstützung vom TouchLay nova können Sie den Verkaufsprozess interaktiv gestalten und dabei von der Software unterstützt werden."
+    en: "Explaining your products can be hard. Include your customer directly though interactive presentations and effortlessly increase sales."
+    de: "Oft ist es schwierig, Produkte zu erklären. Durch interaktive Präsentation können Sie Kunden direkt in das Verkaufsgespräch einbinden und so spielend leicht die Abschlussrate steigern."
 
 - title:
     en: Wayfinder
     de: Wayfinder
   image: /img/usecase-3.jpg
   description:
-    en: "The TouchLay nova as digital wayfinder helps people get around. Improve frequency in certain areas through tracking and advertisements."
-    de: "Der TouchLay nova als digitaler Wegweiser hilft Personen den Weg zu finden. Mit Tracking und Werbeflächen können Sie die Frequenz steigern."
+    en: "The <i>wayfinder</i> always keeps data up-to-date and offers visitors an overview over events and buildings. Tracking and advertisements increase the frequency."
+    de: "Der <i>wayfinder</i> hält Daten immer am letzten Stand und bietet Besuchern Überblick über Events und Gebäude. Tracking und Werbeflächen steigern die Frequenz."
   link: '/software/wayfinder'

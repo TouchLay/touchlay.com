@@ -19,7 +19,19 @@
 
 {% include components/feature-loop.html features=site.data.pages.software.wayfinder.features %}
 
-{% include components/newsletter.html %}
+<section id="cta" class="section-even orange verypadded">
+  <div class="container flexcontainer row middle spacebetween">
+    <div class="section-text">
+        <h1 class="h1-white">{{site.data.pages.software.wayfinder.cta.headline[page.lang]}}</h1>
+        <p>{{site.data.pages.software.wayfinder.cta.text[page.lang]}}</p>
+    </div>
+    <div class="section-image">
+      <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-white cta-highlight">
+        {{site.data.pages.software.wayfinder.cta.buttontext[page.lang]}}
+      </button></a>
+    </div>
+  </div>
+</section>
 
 <section id="customers" class="padded">
   <div class="container">
@@ -31,16 +43,13 @@
   </div>
 </section>
 
-<section id="cta" class="section-even orange verypadded">
-  <div class="container flexcontainer row middle spacebetween">
-    <div class="section-text">
-        <h1 class="h1-white">{{site.data.pages.software.wayfinder.cta.headline[page.lang]}}</h1>
-        <p>{{site.data.pages.software.wayfinder.cta.text[page.lang]}}</p>
-    </div>
-    <div class="section-image">
-      <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-white cta-highlight">
-        {{site.data.pages.software.wayfinder.cta.buttontext[page.lang]}}
-      </button></a>
+{% include components/newsletter.html %}
+
+<section id="team">
+  <div class="container">
+    <div class="flexcontainer row middle space-around">
+      <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
     </div>
   </div>
 </section>

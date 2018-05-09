@@ -3,6 +3,7 @@ layout: default
 lang: de
 container: true
 title: Impressum
+description: "TouchLay GmbH Impressum - Begeistern und informieren Sie Ihre Kunden mit interaktiven Präsentationen!"
 ---
 
 # Impressum

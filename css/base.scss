@@ -146,6 +146,7 @@ body {
 
 i {
   font-style: italic;
+  padding-right: 0.2em;
 }
 
 /* Basic Elements */
@@ -481,11 +482,15 @@ nav .language-toggle {
 
 .hero-wrapper {
   text-align: center;
-  padding: 10% 10% 5% 10%;;
+  padding: 10% 10% 0 10%;
 
   @media screen and (max-width: $breakpoint-mobile) {
     padding: 25% 0 10% 0;
   }
+}
+
+section#about .hero-wrapper {
+  padding: 10%;
 }
 
 .popout {
@@ -893,6 +898,10 @@ section.verypaddedTop {
 
 /* Newsletter */
 
+#newsletter {
+  padding: 3em 0 5em;
+}
+
 .newsletter-form {
   margin-left: 1em;
 
@@ -914,6 +923,10 @@ section.verypaddedTop {
 }
 
 .newsletter-description {
+  max-width: 50%;
+}
+
+.newsletter-description {
   h1 {
     @media screen and (max-width: $breakpoint-mobile) {
       font-size: 25px;
@@ -930,6 +943,7 @@ section.verypaddedTop {
 @media screen and (max-width: 992px) { /* width where the form breaks */
   .newsletter-description {
     text-align: center;
+    max-width: 100%;
   }
 
   .newsletter-form {
@@ -948,7 +962,7 @@ section.verypaddedTop {
   color: #fff;
   padding: 1em;
   border-radius: 3px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   text-align: center;
 }
@@ -1474,4 +1488,82 @@ input[type='text'].selectivity-multiple-input {
 
 #customers .section-title {
   margin-top: 1em;
+}
+
+.section-text p {
+  margin-bottom: 1em;
+}
+
+section.contentoptions {
+  padding-top: 3em;
+  margin-top: -1px;
+}
+
+#team-description {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+#process {
+  background-color: #3393c7;
+  text-align: center;
+  font-weight: 300;
+}
+
+#process .item {
+  display: flex;
+  align-items: center;
+  margin: 2em 0;
+}
+
+#process .item .circle {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #3393c7;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  line-height: 100px;
+  margin: 0 1em;
+  min-width: 100px;
+}
+
+#process .item .text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 30px;
+}
+
+#process .container {
+  padding: 2em;
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+  #process .item .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+    font-size: 30px;
+    min-width: 50px;
+  }
+
+  #process .item .text {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  #process .item .text {
+    flex-grow: 1;
+  }
+}
+
+#process .cta {
+  padding: 1.5em 0 2em;
+}
+
+#process .cta button {
+  padding: 24px 40px;
+  font-size: 22px;
 }

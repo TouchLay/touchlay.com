@@ -1,104 +1,144 @@
+- company: "Erste Bank"
+  image: "/img/customer-3.jpg"
+  logo: "/img/customer-logo-3.png"
+  tags:
+    - hardware
+    - promotion
+  description:
+    en: 'uses the TouchLay <i>nova</i> at various events to present their apps.'
+    de: 'setzt den TouchLay <i>nova</i> bei diversen Events ein, um Ihre Apps zu präsentieren.'
+
 - company: "Reed Exhibitions Wien/Salzburg"
   image: "/img/customer-8.jpg"
   logo: "/img/customer-logo-8.png"
   tags:
+    - hardware
+    - software
     - wayfinder
   description:
-    en: "regularly uses the TouchLay nova as <a href=\"https://wayfinder.touchlay.com\">digital Wayfinder</a> and timetable at exhibitions."
-    de: "setzt den TouchLay nova regelmäßig bei Messen als <a href=\"https://wayfinder.touchlay.com\">Digitalen Wegweiser</a> und Zeitplan ein."
+    en: 'regularly uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and timetable at exhibitions.'
+    de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> regelmäßig bei Messen als interaktive Karte und Zeitplan ein.'
   media: "https://www.youtube.com/watch?v=UKmZ6LIZKaI"
 
 - company: "Russian Railways"
   image: "/img/customer-16.jpg"
   logo: "/img/customer-logo-16.png"
+  tags:
+    - hardware
+    - promotion
   description:
-    en: "uses 3 TouchLay nova on their booth at the International Railway Forum."
-    de: "setzt 3 TouchLay nova beim International Railway Forum am Messestand ein."
-
-- company: "Erste Bank"
-  image: "/img/customer-3.jpg"
-  logo: "/img/customer-logo-3.png"
-  description:
-    en: "uses the TouchLay nova at various events to present their apps."
-    de: "setzt den TouchLay nova bei diversen Events ein, um verschiedene Apps zu präsentieren."
+    en: 'uses 3 TouchLay <i>nova</i> on their booth at the International Railway Forum.'
+    de: 'setzt 3 TouchLay <i>nova</i> beim International Railway Forum am Messestand ein.'
 
 - company: "KPMG Austria"
   image: "/img/customer-13.jpg"
   logo: "/img/customer-logo-13.png"
+  tags:
+    - hardware
+    - promotion
   description:
-    en: "uses 5 TouchLay nova to present their research on digital transformation to their clients."
-    de: "nutzt 5 TouchLay nova um Ihre Erkenntnisse zum Thema Digitale Transformation zu präsentieren."
+    en: 'uses 5 TouchLay <i>nova</i> to present their research on digital transformation to their clients.'
+    de: 'nutzt 5 TouchLay <i>nova</i> um Ihre Erkenntnisse zum Thema Digitale Transformation zu präsentieren.'
 
 - company: "Österreichische Post"
   image: "/img/customer-2.jpg"
   logo: "/img/customer-logo-2.png"
+  tags:
+    - hardware
+    - pos
   description:
-    en: 'uses the TouchLay nova to support sales of telecom products in post offices via "Guided Selling".'
-    de: 'nutzt den TouchLay nova, um den Verkauf von Telekomprodukten in Postfilialen über "Guided Selling" zu unterstützen.'
+    en: 'uses the TouchLay <i>nova</i> to support sales of telecom products in post offices via Guided Selling.'
+    de: 'nutzt den TouchLay <i>nova</i>, um den Verkauf von Telekomprodukten in Postfilialen über Guided Selling zu unterstützen.'
 
 - company: "Messe Frankfurt"
   image: "/img/customer-11.jpg"
   logo: "/img/customer-logo-11.png"
   tags:
+    - hardware
+    - software
     - wayfinder
   description:
-    en: 'uses the TouchLay nova as <a href="https://wayfinder.touchlay.com">interactive Wayfinder</a> for the largest book fair worldwide (Frankfurt Book Fair).'
-    de: 'setzt den TouchLay nova als <a href="https://wayfinder.touchlay.com">interaktiven Wegweiser</a> für die größte Buchmesse der Welt ein (Frankfurter Buchmesse).'
+    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map for the largest book fair worldwide (Frankfurt Book Fair).'
+    de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte für die größte Buchmesse der Welt ein (Frankfurter Buchmesse).'
 
 - company: "4Gamechanger Festival 2017 Puls4"
   image: "/img/customer-10.jpg"
   logo: "/img/customer-logo-10.png"
   tags:
+    - hardware
+    - software
     - wayfinder
+    - promotion
   description:
-    en: 'uses the TouchLay nova as <a href="https://wayfinder.touchlay.com">interactive Wayfinder</a> and for live Graphic Recording (by <a href="http://vervievas.com">VerVieVas</a>).'
-    de: 'setzt den TouchLay nova als <a href="https://wayfinder.touchlay.com">interaktiven Wegweiser</a> und für live Graphic Recording mit <a href="http://vervievas.com">VerVieVas</a> ein.'
+    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and for live Graphic Recording (by <a href="http://vervievas.com">VerVieVas</a>).'
+    de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und für live Graphic Recording mit <a href="http://vervievas.com">VerVieVas</a> ein.'
 
 - company: "Verbund"
   image: "/img/customer-18.jpg"
   logo: "/img/customer-logo-18.png"
+  tags:
+    - hardware
+    - promotion
   description:
-    en: "uses the TouchLay nova to present a Smart Home solution."
-    de: "nutzt den TouchLay nova um eine Smart Home Lösung zu präsentieren."
+    en: 'uses the TouchLay <i>nova</i> to present a Smart Home solution.'
+    de: 'nutzt den TouchLay <i>nova</i> um eine Smart Home Lösung zu präsentieren.'
 
 - company: "Otto Immobilien"
   image: "/img/customer-7.jpg"
   logo: "/img/customer-logo-7.png"
+  tags:
+    - hardware
+    - software
+    - promotion
   description:
-    en: "uses the TouchLay nova to present their real estate portfolio."
-    de: "nutzt den TouchLay nova, um ihr Immobilienportfolio zu präsentieren."
+    en: 'uses the TouchLay <i>nova</i> to present their real estate portfolio.'
+    de: 'nutzt den TouchLay <i>nova</i>, um ihr Immobilienportfolio zu präsentieren.'
 
 - company: "Wirtschaftskammer Wien"
   image: "/img/customer-6.jpg"
   logo: "/img/customer-logo-6.png"
+  tags:
+    - hardware
+    - promotion
   description:
-    en: "uses the TouchLay nova at various events to present their apps."
-    de: "verwendet den TouchLay nova bei diversen Events, um verschiedene Apps zu präsentieren."
+    en: 'uses the TouchLay <i>nova</i> at various events to present their apps.'
+    de: 'verwendet den TouchLay <i>nova</i> bei diversen Events, um verschiedene Apps zu präsentieren.'
 
 - company: "Wunschhaus"
   image: "/img/customer-4.jpg"
   logo: "/img/customer-logo-4.png"
+  tags:
+    - hardware
+    - software
+    - promotion
+    - pos
   description:
-    en: "utilises the TouchLay nova in combination with a video wall at events, for planning and discussions, and in their foyer."
-    de: "benützt den TouchLay nova im Zusammenspiel mit einer Videowall bei Events, sowie bei Planungsgesprächen und im Foyer."
+    en: 'utilises the TouchLay <i>nova</i> in combination with a video wall at events, for planning and discussions, and in their foyer.'
+    de: 'benützt den TouchLay <i>nova</i> im Zusammenspiel mit einer Videowall bei Events, sowie bei Planungsgesprächen und im Foyer.'
   lity: true
   media: "https://www.youtube.com/watch?v=NANhuQXJYD0"
 
 - company: "Internorm"
   image: "/img/customer-5.jpg"
   logo: "/img/customer-logo-5.png"
+  tags:
+    - hardware
+    - software
+    - pos
   description:
-    en: "positions the TouchLay nova in their meeting room for interactive customer presentations."
-    de: "positioniert den TouchLay nova im Besprechungsraum, um Kunden interaktiv Informationen zu präsentieren."
+    en: 'positions the TouchLay <i>nova</i> in their meeting room for interactive customer presentations.'
+    de: 'positioniert den TouchLay <i>nova</i> im Besprechungsraum, um Kunden interaktiv Informationen zu präsentieren.'
 
 - company: "Buch Messe Wien 2016"
   image: "/img/customer-1.jpg"
   logo: "/img/customer-logo-1.png"
   tags:
+    - hardware
+    - software
     - wayfinder
   description:
-    en: "used the TouchLay nova as <a href=\"https://wayfinder.touchlay.com\">digital timetable and Wayfinder</a>."
-    de: "verwendete den TouchLay nova als <a href=\"https://wayfinder.touchlay.com\">digitalen Zeitplan und Wegweiser</a>."
+    en: 'used the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and timetable.'
+    de: 'verwendete den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und Zeitplan.'
   lity: true
   media: "https://www.youtube.com/watch?v=L5oxUTE3bh4"
 
@@ -106,54 +146,82 @@
   image: "/img/customer-9.jpg"
   logo: "/img/customer-logo-9.png"
   tags:
+    - hardware
+    - software
     - wayfinder
+    - promotion
   description:
-    en: "makes use of the TouchLay nova as <a href=\"https://wayfinder.touchlay.com\">interactive Wayfinder</a> and gaming platform for children."
-    de: "benützt den TouchLay nova als <a href=\"https://wayfinder.touchlay.com\">interaktiven Wegweiser</a> und Spieleplattform für Kinder."
+    en: 'makes use of the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and gaming platform for children.'
+    de: 'benützt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und Spieleplattform für Kinder.'
   media: "https://www.youtube.com/watch?v=eWPOVO3SEXs"
 
 - company: "HR Inside Summit 2017"
   logo: "/img/customer-logo-12.png"
+  tags:
+    - hardware
 
 - company: "LEC, TU Graz"
   image: "/img/customer-14.jpg"
   logo: "/img/customer-logo-14.png"
+  tags:
+    - hardware
+    - software
+    - cloud
+    - promotion
   description:
-    en: "presents an interactive map of their partners on the TouchLay nova."
-    de: "präsentiert eine interaktive Karte ihrer Partner auf dem TouchLay nova."
+    en: 'presents an interactive map of their partners with the TouchLay <i>cloud</i> and on the <i>nova</i>.'
+    de: 'präsentiert über die TouchLay <i>cloud</i> und den <i>nova</i> eine interaktive Karte ihrer Partner.'
 
 - company: "Tourismus Marketing Niedersachsen"
   image: "/img/customer-15.jpg"
   logo: "/img/customer-logo-15.png"
+  tags:
+    - hardware
+    - promotion
   description:
-    en: "uses the TouchLay nova to present their new website at ITB in Berlin."
-    de: "setzt den TouchLay nova zur Präsentation ihrer neuen Webseite auf der ITB in Berlin ein."
+    en: 'uses the TouchLay <i>nova</i> to present their new website at ITB in Berlin.'
+    de: 'setzt den TouchLay <i>nova</i> zur Präsentation ihrer neuen Webseite auf der ITB in Berlin ein.'
 
 - company: "VerVieVas"
   image: "/img/customer-17.jpg"
   logo: "/img/customer-logo-17.png"
+  tags:
+    - hardware
+    - promotion
   description:
-    en: "uses the TouchLay nova for graphic recording at events of an Austrian political party."
-    de: "nutzt den TouchLay nova für graphic recording einer Auftaktveranstaltung einer österreichischen Partei."
-
+    en: 'uses the TouchLay <i>nova</i> for Graphic Recording at events of an Austrian political party.'
+    de: 'nutzt den TouchLay <i>nova</i> für Graphic Recording einer Auftaktveranstaltung einer österreichischen Partei.'
 
 - company: "Energy Agency Austria"
   logo: "/img/customer-logo-19.png"
+  tags:
+    - hardware
+    - software
 
 - company: "Antiquariat Moser"
   logo: "/img/customer-logo-20.png"
+  tags:
+    - hardware
 
 - company: "Lexis Nexis"
   logo: "/img/customer-logo-21.png"
+  tags:
+    - hardware
+    - software
 
 - company: "PFI Platform Innovation"
   logo: "/img/customer-logo-22.png"
+  tags:
+    - hardware
+    - software
 
 - company: "Fifteen Seconds Festival"
   logo: "/img/customer-logo-23.png"
   image: "/img/customer-23.jpg"
   tags:
+    - hardware
+    - software
     - wayfinder
   description:
-    en: "uses the <a href=\"https://wayfinder.touchlay.com\">interactive Wayfinder</a> to give their visitors the best possible overview of the event."
-    de: "setzt auf den <a href=\"https://wayfinder.touchlay.com\">interaktiven Wayfinder</a>, um ihren Besuchern den bestmöglichen Überblick über das Event zu geben."
+    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> to give their visitors the best possible overview of the event.'
+    de: 'setzt auf den TouchLay <i>nova</i> und den <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a>, um ihren Besuchern den bestmöglichen Überblick über das Event zu geben.'

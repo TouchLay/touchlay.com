@@ -12,8 +12,12 @@ header:
     de: https://www.youtube.com/watch?v=0DydF2SkYYQ
   buttonlink: '#contact'
   description:
-    en: Your presentation is extremely important at exhibitions, events and promotions. We design your presentation in an interactive way and impress the attendees.
-    de: Ihr Auftritt ist bei Messen, Events und Promotions besonders wichtig. Mit unserem einzigartigen Multitouch Präsentations Modul gestalten wir Ihren Auftritt interaktiv und begeistern die Besucher.
+    en: Your presentation is extremely important at exhibitions, events and promotions:<br />With our unique multitouch presentation modules you can design your presentation in an interactive way and impress your customers
+    de: 'Ihr Auftritt ist bei Messen, Events und Promotions besonders wichtig:<br />Mit unseren einzigartigen Multitouch Präsentations Modulen gestalten wir Ihren Auftritt interaktiv und begeistern Ihre Kunden'
+
+customers:
+  en: Customers who use TouchLay products at exhibitions & events
+  de: Kunden, die TouchLay Produkte auf Messen & Events einsetzen
 
 features:
   - id: reach
@@ -21,21 +25,21 @@ features:
       en: Reach Your Customers
       de: Erreichen Sie Ihre Kunden
     description:
-      en: Our goal is getting attendees' attention to your brand/product and include them into your presentation through interactive solutions.
-      de: 'Unser Ziel ist es, Besucher auf Ihre Marke/Produkte aufmerksam zu machen und sie über interaktive Lösungen in die Präsentation einzubinden.'
+      en: Our goal is getting attendees' attention to your brand and include them into your presentation through interactive multitouch solutions.
+      de: 'Unser Ziel ist es, Besucher auf Ihre Marke aufmerksam zu machen und sie über interaktive Multitouch-Lösungen direkt in die Präsentation einzubinden.'
     image: /img/nova-group.jpg
 
   - id: contentoptions
     title:
-      en: Various Content Options
-      de: Diverse Content Optionen
+      en: Various Presentation Options
+      de: Diverse Präsentations-Möglichkeiten
     list:
       - title:
           en: Website
           de: Webseite
         icon: /img/icons/website.svg
         description:
-          en: include your company website
+          en: show your company website
           de: Binden Sie Ihre Firmenwebseite ein.
       - title:
           en: Android
@@ -49,8 +53,8 @@ features:
           de: Interaktive Karte
         icon: /img/icons/map.svg
         description:
-          en: help visitors navigate your building or event
-          de: Helfen Sie Ihren Besuchern bei der Navigation.
+          en: visualize your locations
+          de: Stellen Sie Ihre Standorte o.Ä. dar.
       - title:
           en: Promotions
           de: Gewinnspiele
@@ -64,22 +68,22 @@ features:
         icon: /img/icons/lightbulb.svg
         description:
           en: present all your products
-          de: Präsentieren Sie Ihre gesamte Produktpallete.
+          de: Präsentieren Sie Ihre gesamte Produktpalette.
       - title:
           en: Customized Applications
           de: Individuelle Applikationen
         icon: /img/icons/star.svg
         description:
           en: we also develop custom interactive applications
-          de: Gemeinsam erarbeiten wir interaktive Lösungen.
+          de: Wir entwickeln auch maßgeschneiderte Lösungen.
 
   - id: customermagnet
     title:
-      en: Attract Visitors
+      en: Attract Customers
       de: Fallen Sie Auf
     description:
-      en: 'The elegant and modern design of the TouchLay nova turns your booth into a customer magnet. Impress potential customers with an interactive presentation!'
-      de: 'Durch das elegante und moderne Design des TouchLay nova wird Ihr Messestand zum Kundenmagnet. Begeistern Sie Ihre potentiellen Kunden über interaktive Präsentationen!'
+      en: '<p>The first impression is really important at exhibitions and events.</p><p>The elegant and modern design of the TouchLay <i>nova</i> turns your booth into a customer magnet.</p><p>Impress potential and existing customers with interactive presentations!</p>'
+      de: '<p>Auf Messen und Events zählt der erste Eindruck.</p><p>Durch das elegante und moderne Design des TouchLay <i>nova</i> wird Ihr Messestand zum Kundenmagnet. Doch nicht nur die Form, sondern auch die Funktionalität überzeugt.</p><p>Begeistern Sie Ihre potentiellen und existierenden Kunden über interaktive Präsentationen!</p>'
     image: /img/nova-arts.jpg
 
   - id: handling
@@ -87,35 +91,17 @@ features:
       en: Simple Process
       de: Einfacher Ablauf
     description:
-      en: 'We offer a complete package and provide hardware, software as well as service and support. Together we are going to find your use case and develop an interactive presentation.'
-      de: 'Wir bieten Ihnen ein Komplettpaket: Hardware, Software und Abwicklung aus einer Hand. Senden Sie uns eine Anfrage und in wenigen Schritten erarbeiten wir für Sie ein individuelles Konzept.'
+      en: '<p>We offer a complete package and provide hardware, software, service and support. We come up with the perfect interactive presentation for you.</p><p>We figure out transportation and even support you during the event - we are always here to help!</p>'
+      de: '<p>Wir bieten Ihnen Hardware, Software und Abwicklung aus einer Hand. In wenigen Schritten erarbeiten wir für Sie ein individuelles Konzept.</p><p>Lieferung, sowie Auf- und Abbau erfolgt termingerecht und unkompliziert. Wir unterstützen Sie bei der Aufbereitung und auch während der Veranstaltung - wir lassen Sie nie im Stich!</p>'
     image: /img/team-image-large.jpg
-
-
-curt:
-  title:
-    en: Your Digital Wheel of Fortune
-    de: Ihr Digitales Glücksrad
-  subtitle:
-    en: For more contacts at Exhibitions, Promotions and Events
-    de: Für mehr Kontakte auf Messen, Promotions und Events
-  description:
-    en: We offer custom-made prize games on our interactive hardware. Together with our software partner CURT we can adjust them to your wishes and specifications. With CURT wheels of fortune you can get above average qualified contacts and impress your customers and the attendees.
-    de: Wir bieten Ihnen maßgeschneiderte Gewinnspiele auf unsere interaktiven Hardware. Zusammen mit unserem Kooperationspartner CURT passen wir diese Ihren Wünschen und Vorgaben an. Mit CURT Glücksrädern erzielen Sie überdurchschnittlich viele qualifizierte Kontakte und begeistern Ihre Kunden und Besucher.
-  image: "/img/curt-nova.jpg"
-  link: http://get-curt.com/?utm_source=touchlay-web
-
-customers:
-  en: Customers that use the TouchLay nova
-  de: Kunden die den TouchLay nova nutzen
 
 cta:
   headline:
-    en: Request price / Book now
+    en: Request Price / Book Now
     de: Preise anfragen / Reservieren
   text:
-    en: Do you want to use the TouchLay nova or our services for your event, exhibition or promotion? Send us an inquiry and we will get back to you as soon as possible.
-    de: Sie möchten den TouchLay nova bzw. unsere Services für Ihre Veranstaltung, Messe oder Promotion nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
+    en: <p>Do you want to use our services or the TouchLay <i>nova</i> for an event, exhibition or promotion?</p><p>Send us an inquiry and we will get back to you as soon as possible.</p>
+    de: <p>Sie möchten unser Service oder den TouchLay <i>nova</i> für eine Veranstaltung, Messe oder Promotion nutzen?</p><p>Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.</p>
   buttontext:
     en: REQUEST NOW
     de: JETZT ANFRAGEN

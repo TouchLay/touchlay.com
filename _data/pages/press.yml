@@ -1,9 +1,9 @@
 text:
   title:
-    en: Press
-    de: Presse
+    en: Press area
+    de: Pressebereich
   welcome:
-    en: Hello, thanks for your interest in us!<br />Below you can find resources for a blogpost or article and our guidelines on branding.<br />If you need more information don't hesitate to contact use at <a href="mailto:hello@touchlay.com" ga-on="click" ga-event-category="press" ga-event-action="email">hello@touchlay.com</a>.
+    en: Hello, thanks for your interest in us!<br />Below you can find resources for a blog post or article, and our guidelines on branding.<br />If you need more information don't hesitate to contact us at <a href="mailto:hello@touchlay.com" ga-on="click" ga-event-category="press" ga-event-action="email">hello@touchlay.com</a>.
     de: Vielen Dank für Ihr Interesse!<br />Hier finden Sie Ressourcen für einen Blogpost oder Artikel, sowie unsere Branding Richtlinien.<br />Wenn Sie weitere Informationen benötigen, zögern Sie nicht uns unter <a href="mailto:hello@touchlay.com" ga-on="click" ga-event-category="press" ga-event-action="email">hallo@touchlay.com</a> zu kontaktieren.
   headlinearticles:
     en: Articles about us
@@ -15,5 +15,5 @@ text:
     en: Colors
     de: Farben
   naming:
-    en: 'Always write "TouchLay" with the capital T and L. When you want to use "nova", always use lower case (example: TouchLay nova). For all other product names, use an upper case letter (example: TouchLay Wayfinder).'
-    de: 'Schreiben Sie "TouchLay" bitte immer mit großem T und L. Wenn Sie den Namen "nova" verwenden möchten, bitte immer klein schreiben (Beispiel: TouchLay nova). Alle anderen Produktnamen bitte groß schreiben (Beispiel: TouchLay Wayfinder).'
+    en: 'Always write "TouchLay" with capital T and L. Product names are lowercase (example: TouchLay <i>nova</i>).'
+    de: 'Schreiben Sie "TouchLay" bitte immer mit großem T und L. Produktnamen werden immer klein geschrieben (Beispiel: TouchLay <i>nova</i>).'
