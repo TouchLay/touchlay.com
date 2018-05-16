@@ -8,6 +8,8 @@ description: "TouchLay GmbH Impressum - Begeistern und informieren Sie Ihre Kund
 
 # Impressum
 
+<br />
+
 ## Firma
 TouchLay GmbH
 
@@ -21,11 +23,17 @@ FN 427427w
 
 ATU 69505948
 
+<br />
+<br />
+
 ## Kontakt
 
 Telefon: +43 676 88633655
 
 E-Mail: [hello@touchlay.com](mailto:hello@touchlay.com)
+
+<br />
+<br />
 
 ## Datenschutzerklärung
 
@@ -38,6 +46,9 @@ Pseudonyms erstellt. Auch hierbei erfolgt keine Verbindung zwischen der hinter
 dem Pseudonym stehenden Person mit den erhobenen Nutzungsdaten. Zur
 Datenerhebung und Speicherung setzen wir auch cookies ein. Auch diese erheben
 Daten nur in anonymisierte oder pseudonomisierter Form.
+
+<br />
+<br />
 
 ## Credits
 

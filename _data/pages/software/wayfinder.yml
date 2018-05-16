@@ -12,8 +12,8 @@ header:
     de: https://www.youtube.com/watch?v=uqmbjX4ii28
   buttonlink: '#contact'
   description:
-    en: Easily visualize exhibitions, events or buildings with the interactive TouchLay <i>wayfinder</i>
-    de: Stellen Sie Messen, Events oder Gebäude einfach, klar und verständlich mit dem TouchLay <i>wayfinder</i> dar
+    en: Easily visualize exhibitions, events or buildings<br />with the interactive TouchLay <i>wayfinder</i>
+    de: Stellen Sie Messen, Events oder Gebäude einfach, klar und verständlich<br />mit dem TouchLay <i>wayfinder</i> dar
 
 features:
   - id: setup
