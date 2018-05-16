@@ -8,5 +8,5 @@ description: "TouchLay Jobs - Begeistern und informieren Sie Ihre Kunden mit int
 
 # Jobs
 
-Momentan bieten wir keine Jobs an. Sind Sie interessiert mit oder für
+Momentan suchen wir nach freiberuflichen Entwicklern sowie Teilzeit-Verkaufsmitarbeitern. Sind Sie interessiert mit oder für
 uns zu arbeiten? Dann [senden Sie uns eine E-Mail](mailto:hello@touchlay.com).
