@@ -10,13 +10,25 @@
         list=feature.list
     %}
   {% else %}
-    {% include components/feature-section.html
-        title=feature.title
-        subtitle=feature.subtitle
-        description=feature.description
-        image=feature.image
-        cta=feature.cta
-    %}
+    {% if feature.link %}
+      {% capture link %}/{{page.lang}}{{feature.link}}{% endcapture %}
+      {% include components/feature-section.html
+          title=feature.title
+          subtitle=feature.subtitle
+          description=feature.description
+          image=feature.image
+          cta=site.data.base.texts.more
+          ctalink=link
+      %}
+    {% else %}
+      {% include components/feature-section.html
+          title=feature.title
+          subtitle=feature.subtitle
+          description=feature.description
+          image=feature.image
+          cta=feature.cta
+      %}
+    {% endif %}
   {% endif %}
   </section>
 {% endfor %}

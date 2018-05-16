@@ -1,7 +1,7 @@
 <nav>
   <div class="container">
     <div class="wrapper">
-      <a href="/{{page.lang}}/">
+      <a href="/{{page.lang}}/" ga-on="click" ga-event-category="nav" ga-event-action="home">
         {% include components/image.html image="/img/tl-logo.png" class="logo"%}
       </a>
       <input ga-on="click" ga-event-category="nav" ga-event-action="toggle" type="checkbox" id="nav-toggle">

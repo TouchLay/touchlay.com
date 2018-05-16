@@ -6,6 +6,9 @@
     en: "Attracting attendees' attention is the essential goal at exhibitions and events. With the TouchLay <i>nova</i> you magnetically attract customers."
     de: "Die Aufmerksamkeit von Besuchern auf sich zu ziehen ist das essentiellste Ziel von Messen und Events. Mit dem <i>nova</i> ziehen Sie Kunden magnetisch an."
   link: '/software/promotion'
+  gacategory: 'usecases'
+  gaaction: 'promotion'
+  main: true
 
 - title:
     en: Point of Sale
@@ -14,6 +17,7 @@
   description:
     en: "Explaining your products can be hard. Include your customer directly though interactive presentations and effortlessly increase sales."
     de: "Oft ist es schwierig, Produkte zu erklären. Durch interaktive Präsentation können Sie Kunden direkt in das Verkaufsgespräch einbinden und so spielend leicht die Abschlussrate steigern."
+  main: true
 
 - title:
     en: Wayfinder
@@ -23,3 +27,17 @@
     en: "The <i>wayfinder</i> always keeps data up-to-date and offers visitors an overview over events and buildings. Tracking and advertisements increase the frequency."
     de: "Der <i>wayfinder</i> hält Daten immer am letzten Stand und bietet Besuchern Überblick über Events und Gebäude. Tracking und Werbeflächen steigern die Frequenz."
   link: '/software/wayfinder'
+  gacategory: 'usecases'
+  gaaction: 'wayfinder'
+  main: true
+
+- title:
+    en: Website
+    de: Webseite
+  image: /img/icons/website.svg
+  description:
+    en: interactively present your company website on the TouchLay <i>nova</i>
+    de: präsentieren Sie Ihre Firmenwebseite interaktiv mit dem TouchLay <i>nova</i>
+  link: '/hardware/'
+  gacategory: 'usecases'
+  gaaction: 'website'

@@ -1,7 +1,7 @@
 navigation:
-  - title: 'Home'
-    url: ''
-    gaaction: 'home'
+  - title: 'Usecases'
+    url: 'usecases/'
+    gaaction: 'usecases'
 
   - title: 'Hardware'
     url: 'hardware/'
