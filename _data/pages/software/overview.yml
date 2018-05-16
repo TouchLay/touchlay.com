@@ -11,8 +11,8 @@ header:
     de: Demo anfragen
   buttonlink: '#contact'
   description:
-    en: Generate your own interactive presentation from existing data and automatically collect extensive statistics
-    de: Generieren Sie aus bestehenden Daten Ihre eigene interaktive Präsentation und sammeln Sie automatisch ausgiebige Statistiken
+    en: Generate your own interactive presentation from existing data<br />and automatically collect extensive statistics
+    de: Generieren Sie aus bestehenden Daten Ihre eigene interaktive Präsentation<br />und sammeln Sie automatisch ausgiebige Statistiken
 
 customers:
   en: Customers who use TouchLay software
