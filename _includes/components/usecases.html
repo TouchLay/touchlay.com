@@ -4,7 +4,7 @@
       {% capture title %}{{usecase.title[page.lang]}}{% endcapture %}
       {% if usecase.link %}{% capture link %}/{{page.lang}}{{usecase.link}}{% endcapture %}{% else %}{% assign link = false %}{% endif %}
       {% capture description %}{{usecase.description[page.lang]}}{% endcapture %}
-      {% capture image %}{{usecase.image}}{% endcapture %}
+      {% capture image %}{{usecase.cardimage}}{% endcapture %}
       {% capture moretext %}{{site.data.base.texts.more[page.lang]}}{% endcapture %}
 
       <div class="card-wrapper">
