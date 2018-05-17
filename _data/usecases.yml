@@ -41,3 +41,58 @@
   link: '/hardware/'
   gacategory: 'usecases'
   gaaction: 'website'
+
+- title:
+    en: Android
+    de: Android
+  image: /img/icons/android.svg
+  description:
+    en: present your mobile application with the TouchLay <i>nova</i> as a gigantic smartphone
+    de: Präsentieren Sie Ihre Mobile Applikation mit dem TouchLay <i>nova</i> als gigantisches Smartphone.
+  link: '/hardware/'
+  gacategory: 'usecases'
+  gaaction: 'android'
+
+- title:
+    en: Interactive Map
+    de: Interaktive Karte
+  image: /img/icons/map.svg
+  description:
+    en: visualize your locations on a map of the world
+    de: präsentieren Sie Ihre Firmenstandorte auf einer Weltkarte.
+  link: '/software/'
+  gacategory: 'usecases'
+  gaaction: 'map'
+
+- title:
+    en: Promotions
+    de: Gewinnspiele
+  image: /img/icons/game.svg
+  description:
+    en: playfully generate leads with the TouchLay <i>nova</i>
+    de: Generieren Sie spielerisch Kundenkontakte mit dem TouchLay <i>nova</i>.
+  link: '/hardware/'
+  gacategory: 'usecases'
+  gaaction: 'promotions'
+
+- title:
+    en: Product Presentation
+    de: Produktpräsentation
+  image: /img/icons/lightbulb.svg
+  description:
+    en: present your products and services interactively and amaze & inform your customers!
+    de: präsentieren Sie Ihre Produkte und Dienstleistungen auf interaktive Weise und begeistern & informieren Sie Ihre Kunden!
+  link: '/software/'
+  gacategory: 'usecases'
+  gaaction: 'presentation'
+
+- title:
+    en: Customized Applications
+    de: Individuelle Applikationen
+  image: /img/icons/star.svg
+  description:
+    en: we also develop custom interactive applications
+    de: Wir entwickeln auch maßgeschneiderte Lösungen.
+  link: '/software/'
+  gacategory: 'usecases'
+  gaaction: 'custom'
