@@ -99,6 +99,6 @@
   description:
     en: we also develop custom interactive solutions, perfectly tailored to your needs.
     de: Wir entwickeln auch maßgeschneiderte interaktive Lösungen, perfekt an Ihre Bedürfnisse angepasst.
-  link: '#contact'
+  link: '/usecases/#contact'
   gacategory: 'usecases'
   gaaction: 'custom'
