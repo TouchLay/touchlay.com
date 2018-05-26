@@ -2,7 +2,7 @@
   {% assign loopindex = forloop.index | modulo: 2 %}
   {% if include.reverse == true %}{% assign condition = 0 %}{% else %}{% assign condition = 1 %}{% endif %}
   {% capture padding %}{% if feature.topOnly %}paddedTop{% else %}padded{% endif %}{% endcapture %}
-  <section id="feature-{{feature.id}}" class="{{padding}} section-{% unless loopindex == condition %}b gray{% else %}a{% endunless %}{% if include.class %} {{include.class}}{% endif %}">
+  <section id="feature-{{feature.id}}" class="{{include.class}} {{padding}} section-{% unless loopindex == condition %}b gray{% else %}a{% endunless %}{% if include.class %} {{include.class}}{% endif %}">
   {% if feature.list %}
     {% include components/feature-list-section.html
         title=feature.title
@@ -10,13 +10,25 @@
         list=feature.list
     %}
   {% else %}
-    {% include components/feature-section.html
-        title=feature.title
-        subtitle=feature.subtitle
-        description=feature.description
-        image=feature.image
-        cta=feature.cta
-    %}
+    {% if feature.link %}
+      {% capture link %}/{{page.lang}}{{feature.link}}{% endcapture %}
+      {% include components/feature-section.html
+          title=feature.title
+          subtitle=feature.subtitle
+          description=feature.description
+          image=feature.image
+          cta=site.data.base.texts.more
+          ctalink=link
+      %}
+    {% else %}
+      {% include components/feature-section.html
+          title=feature.title
+          subtitle=feature.subtitle
+          description=feature.description
+          image=feature.image
+          cta=feature.cta
+      %}
+    {% endif %}
   {% endif %}
   </section>
 {% endfor %}
