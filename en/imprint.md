@@ -44,8 +44,9 @@ widersprechen. Dies erfolgt anonymisiert, ohne den Benutzer der Seite
 persönlich zu identifizieren. Ggf. werden Nutzerprofile mittels eines
 Pseudonyms erstellt. Auch hierbei erfolgt keine Verbindung zwischen der hinter
 dem Pseudonym stehenden Person mit den erhobenen Nutzungsdaten. Zur
-Datenerhebung und Speicherung setzen wir auch cookies ein. Auch diese erheben
-Daten nur in anonymisierte oder pseudonomisierter Form.
+Datenerhebung und Speicherung setzen wir auch Cookies ein. Auch diese erheben
+Daten nur in anonymisierte oder pseudonomisierter Form. Diese Daten werden über
+Google Analytics und Google Adwords weiterverarbeitet.
 
 <br />
 <br />
