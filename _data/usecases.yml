@@ -19,6 +19,9 @@
   description:
     en: "Explaining your products can be hard. Include your customer directly though interactive presentations and effortlessly increase sales."
     de: "Oft ist es schwierig, Produkte zu erklären. Durch interaktive Präsentation können Sie Kunden direkt in das Verkaufsgespräch einbinden und so spielend leicht die Abschlussrate steigern."
+  link: '/software/'
+  gacategory: 'usecases'
+  gaaction: 'pos'
   main: true
 
 - title:
@@ -39,8 +42,8 @@
     de: Webseite
   image: /img/icons/website.svg
   description:
-    en: interactively present your company website on the TouchLay <i>nova</i>
-    de: präsentieren Sie Ihre Firmenwebseite interaktiv mit dem TouchLay <i>nova</i>
+    en: interactively present your company website on the TouchLay <i>nova</i>.
+    de: Präsentieren Sie Ihre Firmenwebseite interaktiv mit dem TouchLay <i>nova</i>
   link: '/hardware/'
   gacategory: 'usecases'
   gaaction: 'website'
@@ -50,7 +53,7 @@
     de: Android
   image: /img/icons/android.svg
   description:
-    en: present your mobile application with the TouchLay <i>nova</i> as a gigantic smartphone
+    en: present your mobile application with the TouchLay <i>nova</i> as a gigantic smartphone.
     de: Präsentieren Sie Ihre Mobile Applikation mit dem TouchLay <i>nova</i> als gigantisches Smartphone.
   link: '/hardware/'
   gacategory: 'usecases'
@@ -61,8 +64,8 @@
     de: Interaktive Karte
   image: /img/icons/map.svg
   description:
-    en: visualize your locations on a map of the world
-    de: präsentieren Sie Ihre Firmenstandorte auf einer Weltkarte.
+    en: visualize your locations (offices, partner, etc) on a map of the world.
+    de: präsentieren Sie Ihre Standorte (Firmenstandorte, Partner, etc) auf einer Weltkarte.
   link: '/software/'
   gacategory: 'usecases'
   gaaction: 'map'
@@ -72,7 +75,7 @@
     de: Gewinnspiele
   image: /img/icons/game.svg
   description:
-    en: playfully generate leads with the TouchLay <i>nova</i>
+    en: playfully generate leads with the TouchLay <i>nova</i>.
     de: Generieren Sie spielerisch Kundenkontakte mit dem TouchLay <i>nova</i>.
   link: '/hardware/'
   gacategory: 'usecases'
@@ -90,12 +93,12 @@
   gaaction: 'presentation'
 
 - title:
-    en: Customized Applications
-    de: Individuelle Applikationen
+    en: Custom Solutions
+    de: Individuelle Lösungen
   image: /img/icons/star.svg
   description:
-    en: we also develop custom interactive applications
-    de: Wir entwickeln auch maßgeschneiderte Lösungen.
-  link: '/software/'
+    en: we also develop custom interactive solutions, perfectly tailored to your needs.
+    de: Wir entwickeln auch maßgeschneiderte interaktive Lösungen, perfekt an Ihre Bedürfnisse angepasst.
+  link: '#contact'
   gacategory: 'usecases'
   gaaction: 'custom'
