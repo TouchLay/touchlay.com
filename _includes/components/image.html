@@ -1,7 +1,11 @@
 {% assign imgParts = include.image | split:"." %}
 
+{% if include.image contains 'svg' %}
+<img src="{{ include.image }}" class="{{ include.class }}" alt="{{ include.alt }}" />
+{% else %}
 <img src="{{ include.image }}"
      srcset="{{imgParts[0]}}@2x.{{imgParts[1]}} 2x,
              {{imgParts[0]}}@3x.{{imgParts[1]}} 3x"
      class="{{ include.class }}"
      alt="{{ include.alt }}" />
+{% endif %}
