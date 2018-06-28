@@ -134,6 +134,7 @@ $(document).ready(function() {
         return val.length <= length;
     },
   };
+  var EMAIL_REGEX = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
   $('#contact-form').isHappy({
     fields: {
       '#contact-name': {
@@ -148,7 +149,7 @@ $(document).ready(function() {
       },
       '#contact-email': {
         required: true,
-        test: happy.email
+        test: function(val) { return EMAIL_REGEX.test(val) }
       }
     },
     /*unHappy: function (ev) {
