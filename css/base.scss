@@ -207,7 +207,7 @@ img {
 }
 
 .usecases img {
-  max-width: 50%;
+  max-width: 68%;
 }
 
 a {
@@ -705,6 +705,31 @@ section#about .hero-wrapper {
 .customer .banner .content {
   margin-left: 15px;
   margin-right: 15px;
+  padding-bottom: 5px;
+}
+
+#customerlogos, #specs {
+  margin-top: 2em;
+}
+
+#specs .container {
+  position: relative;
+}
+
+.nova-dimensions-space {
+  height: 210px;
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  .nova-dimensions-space {
+    height: 120px;
+  }
+}
+
+.nova-dimensions {
+  z-index: -100;
+  position: absolute;
+  bottom: 50px;
 }
 
 .customer-logo {
@@ -1551,8 +1576,21 @@ p {
 }
 
 section.contentoptions {
-  padding-top: 3em;
+  padding-top: 2em;
   margin-top: -1px;
+}
+
+#overview-hardware {
+  padding-bottom: 0;
+}
+
+#feature-quality {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#usecases {
+  padding-bottom: 4em;
 }
 
 #team-description {

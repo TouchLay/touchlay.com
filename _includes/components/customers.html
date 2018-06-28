@@ -64,7 +64,7 @@
   </div>
 </div>
 
-<div class="container flexcontainer centereverything">
+<div id="customerlogos" class="container flexcontainer centereverything">
   {% for customer in site.data.customers %}
     {% capture tags %}{{customer.tags}}{% endcapture %}
     {% if include.tags %}

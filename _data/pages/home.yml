@@ -32,8 +32,8 @@ teammore:
   de: 'Mehr über das Team erfahren'
 
 customers:
-  en: 'Our Customers'
-  de: 'Unsere Kunden'
+  en: <b>Our Customers</b>
+  de: <b>Unsere Kunden</b>
 
 software:
   title:
