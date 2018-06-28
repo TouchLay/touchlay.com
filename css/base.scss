@@ -172,6 +172,10 @@ i {
   padding-right: 0.2em;
 }
 
+h1 i {
+  padding-right: 0.1em;
+}
+
 /* Basic Elements */
 
 html, body {
@@ -711,6 +715,14 @@ section#about .hero-wrapper {
     max-width: 75px;
     max-height: 40px;
   }
+}
+
+#customers h1 {
+  font-weight: normal;
+}
+
+#customers h1 b {
+  font-weight: bold;
 }
 
 /* Buttons */

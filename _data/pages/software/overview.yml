@@ -15,8 +15,8 @@ header:
     de: Generieren Sie aus bestehenden Daten Ihre eigene interaktive Präsentation<br />und sammeln Sie automatisch ausgiebige Statistiken
 
 customers:
-  en: Customers who use TouchLay software
-  de: Kunden, die TouchLay Software nutzen
+  en: Customers who use <b>TouchLay software</b>
+  de: Kunden, die <b>TouchLay Software</b> nutzen
 
 features:
   - id: sources
