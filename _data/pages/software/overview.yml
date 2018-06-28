@@ -57,8 +57,8 @@ features:
 
   - id: tracking
     title:
-      en: Tracking and Statistics
-      de: Tracking und Statistiken
+      en: Tracking & Statistics
+      de: Tracking & Statistiken
     description:
       en: 'User input will be automatically collected and statistics generated, e.g. heatmap, input in search fields, clicks on certain data sets, and much more!'
       de: 'Es werden automatisch Daten über Benutzereingaben gesammelt und Statistiken generiert, z.B. Heatmap über Maus/Touchverhalten, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze, und vieles mehr!'
