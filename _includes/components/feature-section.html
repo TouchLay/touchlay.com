@@ -1,9 +1,9 @@
 <div class="container flexcontainer centereverything">
   <div class="section-text">
-    <h1 {% if include.subtitle %}class="has-sub"{% endif %}>
+    <h2 {% if include.subtitle %}class="has-sub"{% endif %}>
       {{ include.title[page.lang] }}<br/>
       <span class="h1-sub">{{ include.subtitle[page.lang] }}</span>
-    </h1>
+    </h2>
     <p class="section-description {% if include.paddedTopFix %}section-description-paddedTop-fix{% endif %}">{{ include.description[page.lang] }}</p>
     {% if include.cta %}
       <a href="{{include.ctalink}}" target="{% if include.newpage %}_blank{% endif %}">

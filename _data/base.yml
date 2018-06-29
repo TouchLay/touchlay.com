@@ -1,17 +1,25 @@
 navigation:
-  - title: 'Usecases'
+  - title:
+      en: 'Usecases'
+      de: 'Usecases'
     url: 'usecases/'
     gaaction: 'usecases'
 
-  - title: 'Hardware'
+  - title:
+      en: 'Hardware'
+      de: 'Software'
     url: 'hardware/'
     gaaction: 'hardware'
 
-  - title: 'Software'
+  - title:
+      en: 'Software'
+      de: 'Software'
     url: 'software/'
     gaaction: 'software'
 
-  - title: 'About'
+  - title:
+      en: 'About Us'
+      de: 'Über Uns'
     url: 'about/'
     gaaction: 'about'
 

@@ -31,8 +31,8 @@
   <div class="container">
     <h2>{{ site.data.base.texts.specification[page.lang] }}</h2>
     {% include components/specs.html specs=site.data.pages.hardware.nova.specs %}
-    <br />
-    {% include components/image.html image="/img/nova-dimensions.png" %}
+    <div class="nova-dimensions-space"></div>
+    {% include components/image.html class="nova-dimensions" image="/img/nova-dimensions.png" %}
     <a href="{{site.data.pages.hardware.nova.brochuere.link[page.lang]}}" download>
       <button class="section-btn" ga-on="click" ga-event-category="hardware" ga-event-action="download-brochuere">{{site.data.pages.hardware.nova.brochuere.text[page.lang]}}</button>
     </a>

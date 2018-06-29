@@ -16,8 +16,8 @@ header:
     de: 'Ihr Auftritt ist bei Messen, Events und Promotions besonders wichtig:<br />Mit unseren einzigartigen Multitouch Präsentations Modulen<br />gestalten wir Ihren Auftritt interaktiv und begeistern Ihre Kunden'
 
 customers:
-  en: Customers who use TouchLay products at exhibitions & events
-  de: Kunden, die TouchLay Produkte auf Messen & Events einsetzen
+  en: Customers who use <b>TouchLay products</b> at exhibitions & events
+  de: Kunden, die <b>TouchLay Produkte</b> auf Messen & Events einsetzen
 
 features:
   - id: reach

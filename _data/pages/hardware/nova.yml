@@ -2,8 +2,8 @@ header:
   image: /img/header-image.png
   imagelink: true
   title:
-    en: TouchLay <i>nova</i>
-    de: TouchLay <i>nova</i>
+    en: TouchLay nova
+    de: TouchLay nova
   subtitle:
     en: the people magnet
     de: Der Kundenmagnet
@@ -16,8 +16,8 @@ header:
     de: Der TouchLay <i>nova</i> ist ein 55 Zoll Multitouch-Präsentationstool<br />mit verstellbarer Höhe & Neigung im Hoch- und Querformat
 
 customers:
-  en: Customers who use the TouchLay <i>nova</i>
-  de: Kunden, die den TouchLay <i>nova</i> nutzen
+  en: Customers who use the <b>TouchLay <i>nova</i></b>
+  de: Kunden, die den <b>TouchLay <i>nova</i></b> nutzen
 
 features:
   - id: flexible

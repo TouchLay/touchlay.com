@@ -2,8 +2,8 @@ header:
   image: /img/header-wayfinder.png
   imagelink: true
   title:
-    en: TouchLay <i>wayfinder</i>
-    de: TouchLay <i>wayfinder</i>
+    en: TouchLay wayfinder
+    de: TouchLay wayfinder
   subtitle:
     en: interactive & always up-to-date!
     de: interaktiv & immer up-to-date!
@@ -62,8 +62,8 @@ features:
     image: /img/feature-devices-white.jpg
 
 customers:
-  en: Customers who use the TouchLay <i>wayfinder</i>
-  de: Kunden, die den TouchLay <i>wayfinder</i> nutzen
+  en: Customers who use the <b>TouchLay <i>wayfinder</i></b>
+  de: Kunden, die den <b>TouchLay <i>wayfinder</i></b> nutzen
 
 cta:
   headline:

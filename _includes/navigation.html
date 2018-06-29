@@ -17,7 +17,7 @@
             class="active"
             {% endif %}
           >
-            <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" href={{pageUrl}} >{{navitem.title}}</a>
+            <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" href={{pageUrl}} >{{navitem.title[page.lang]}}</a>
           </li>
         {% endfor %}
         <li class="language-toggle-menu">
