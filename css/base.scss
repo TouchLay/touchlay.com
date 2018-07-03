@@ -295,6 +295,9 @@ nav ul {
     padding-bottom: 5px;
     border-bottom: 2px solid rgba(255, 255, 255, .7);
   }
+  li.active.sub > a {
+    border-bottom: 2px dashed rgba(255, 255, 255, .7);
+  }
 
   li.active {
     @media screen and (max-width: $breakpoint-tablet) {

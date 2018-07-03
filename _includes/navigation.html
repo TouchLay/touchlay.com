@@ -15,6 +15,8 @@
           <li
             {% if page.url == pageUrl %}
             class="active"
+            {% elsif page.url contains pageUrl %}
+            class="active sub"
             {% endif %}
           >
             <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" href={{pageUrl}} >{{navitem.title[page.lang]}}</a>
