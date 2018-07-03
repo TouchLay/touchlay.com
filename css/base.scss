@@ -533,15 +533,28 @@ nav .language-toggle {
 
 .hero-wrapper {
   text-align: center;
-  padding: 10% 10% 0 10%;
+  padding: 10% 10% 0% 10%;
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    padding-top: 10%;
+  }
 
   @media screen and (max-width: $breakpoint-mobile) {
-    padding: 25% 0 10% 0;
+    padding-top: 20%;
   }
 }
 
-section#about .hero-wrapper {
-  padding: 10%;
+.hero-wrapper.main {
+  padding-top: 7%;
+  padding-bottom: 10%;
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    padding-top: 10%;
+  }
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding-top: 15%;
+  }
 }
 
 .popout {
