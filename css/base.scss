@@ -1076,6 +1076,74 @@ input.unhappy, textarea.unhappy,
   padding: .5em;
 }
 
+/* normal list */
+
+ul {
+  font-size: 20px;
+}
+
+li {
+  padding: 8px 0;
+}
+
+.list-container-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-container {
+  flex: 1;
+}
+
+.list-container.second {
+  margin-left: 64px;
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+  .list-container {
+    flex-basis: 100%;
+  }
+
+  .list-container h1 {
+    text-align: center;
+  }
+
+  .list-container ul {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .list-container.second {
+    margin-left: 0;
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 932px) {
+  .list-container ul {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .list-container ul {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .list-container ul {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .list-container ul {
+    width: 90%;
+  }
+}
+
 /* Footer */
 footer {
   background: $black;
