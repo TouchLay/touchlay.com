@@ -7,7 +7,7 @@ navigation:
 
   - title:
       en: 'Hardware'
-      de: 'Software'
+      de: 'Hardware'
     url: 'hardware/'
     gaaction: 'hardware'
 
