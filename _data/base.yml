@@ -62,6 +62,7 @@ interessts:
     - exhibition
     - event
     - promotion
+    - pos
   de:
     - nova
     - mieten
@@ -74,6 +75,7 @@ interessts:
     - messe
     - event
     - promotion
+    - pos
 
 interesstsplaceholder:
   en: 'interested in...'

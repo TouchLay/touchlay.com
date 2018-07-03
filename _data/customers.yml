@@ -79,6 +79,7 @@
   tags:
     - hardware
     - promotion
+    - pos
   description:
     en: 'uses the TouchLay <i>nova</i> to present a Smart Home solution.'
     de: 'nutzt den TouchLay <i>nova</i> um eine Smart Home Lösung zu präsentieren.'
@@ -90,6 +91,7 @@
     - hardware
     - software
     - promotion
+    - pos
   description:
     en: 'uses the TouchLay <i>nova</i> to present their real estate portfolio.'
     de: 'nutzt den TouchLay <i>nova</i>, um ihr Immobilienportfolio zu präsentieren.'
