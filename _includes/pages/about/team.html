@@ -20,4 +20,26 @@
   </div>
 </section>
 
+<section id="solutions-and-values" class="padded">
+  <div class="container">
+    <div class="list-container-container">
+      <div class="list-container">
+        <h1>{{site.data.pages.about.team.solutions.headline[page.lang]}}</h1>
+        <ul style="padding-left: 3px; padding-top: 4px;">
+          {% for item in site.data.pages.about.team.solutions.list %}
+          <li>{{item[page.lang]}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="list-container second">
+        <h1>{{site.data.pages.about.team.values.headline[page.lang]}}</h1>
+        <ul style="padding-left: 3px; padding-top: 4px;">
+          {% for item in site.data.pages.about.team.values.list %}
+          <li>{{item[page.lang]}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+  </div>
+</section>
+
 {% include components/newsletter.html alone=true %}
