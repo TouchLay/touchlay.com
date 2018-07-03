@@ -99,7 +99,7 @@ $(document).ready(function() {
   // Handle preselected interessts
   var preInteressts = $('body').data('interessts')
   if (preInteressts) {
-    var preselect = $.map(preInteressts.split(','), function(item){
+    var preselect = $.map(String(preInteressts).split(','), function(item){
       return autocompleteElements[item]
     })
   }
