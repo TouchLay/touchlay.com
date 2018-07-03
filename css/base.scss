@@ -147,6 +147,20 @@ h3 {
   }
 }
 
+@media screen and (max-width: $breakpoint-tablet) {
+  .usecases .section-text {
+    text-align: center;
+  }
+}
+
+#customers.grey {
+  background-color: #f1f1f1
+}
+
+#customers.grey #customerlogos {
+  padding-bottom: 4em;
+}
+
 .btn-text-white {
 	font-size: 14px;
 	font-weight: 500;
@@ -973,6 +987,11 @@ section.verypaddedTop {
 
 #newsletter {
   padding: 3em 0 5em;
+}
+
+#newsletter.grey {
+  padding-top: 6em;
+  margin-top: -6em;
 }
 
 .newsletter-form {
