@@ -85,7 +85,7 @@ $(document).ready(function() {
 
   $('#accept-cookie').click(function() {
     ga('send', 'event', 'cookieBanner', 'dismissed')
-    $.fn.cookie('cookie-banner-dismissed', true)
+    $.fn.cookie('cookie-banner-dismissed', true, { expires: 365 })
     $('.cookie-banner').hide();
   })
 
