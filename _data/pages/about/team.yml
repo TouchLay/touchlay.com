@@ -9,3 +9,31 @@ description:
 articleheadline:
   en: 'Latest Articles'
   de: 'Aktuelle Artikel'
+
+solutions:
+  headline:
+    en: 'Our Solutions'
+    de: 'Unsere Leistungen'
+  list:
+    - en: rental & sale of touchscreens
+      de: Vermietung & Verkauf von Touchscreens
+    - en: standardized software solutions (e.g. <a href="/{{page.lang}}/software/wayfinder">Wayfinder</a>)
+      de: Vorgefertigte Softwarelösungen (z.B. <a href="/{{page.lang}}/software/wayfinder">Wayfinder</a>)
+    - en: custom tailored hardware & software solutions
+      de: Maßgeschneiderte Hardware- & Softwarelösungen
+    - en: reliable support anytime
+      de: Jederzeit zuverlässige Betreuung
+
+values:
+  headline:
+    en: 'Our Values'
+    de: 'Unsere Werte'
+  list:
+    - en: focus on perfect design & user experience
+      de: Fokus auf perfektes Design & User Experience
+    - en: always work in a customer-focused way
+      de: Immer kundenzentriert arbeiten
+    - en: be uncomplicated and flexible
+      de: Unkompliziert und flexibel sein
+    - en: act as a team
+      de: Als Team agieren
