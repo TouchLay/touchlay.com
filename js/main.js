@@ -85,7 +85,7 @@ $(document).ready(function() {
 
   $('#accept-cookie').click(function() {
     ga('send', 'event', 'cookieBanner', 'dismissed')
-    $.fn.cookie('cookie-banner-dismissed', true)
+    $.fn.cookie('cookie-banner-dismissed', true, { expires: 365 })
     $('.cookie-banner').hide();
   })
 
@@ -99,7 +99,7 @@ $(document).ready(function() {
   // Handle preselected interessts
   var preInteressts = $('body').data('interessts')
   if (preInteressts) {
-    var preselect = $.map(preInteressts.split(','), function(item){
+    var preselect = $.map(String(preInteressts).split(','), function(item){
       return autocompleteElements[item]
     })
   }

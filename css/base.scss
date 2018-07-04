@@ -147,6 +147,20 @@ h3 {
   }
 }
 
+@media screen and (max-width: $breakpoint-tablet) {
+  .usecases .section-text {
+    text-align: center;
+  }
+}
+
+#customers.grey {
+  background-color: #f1f1f1
+}
+
+#customers.grey #customerlogos {
+  padding-bottom: 4em;
+}
+
 .btn-text-white {
 	font-size: 14px;
 	font-weight: 500;
@@ -294,6 +308,9 @@ nav ul {
   li.active > a {
     padding-bottom: 5px;
     border-bottom: 2px solid rgba(255, 255, 255, .7);
+  }
+  li.active.sub > a {
+    border-bottom: 2px dashed rgba(255, 255, 255, .7);
   }
 
   li.active {
@@ -516,15 +533,28 @@ nav .language-toggle {
 
 .hero-wrapper {
   text-align: center;
-  padding: 10% 10% 0 10%;
+  padding: 10% 10% 0% 10%;
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    padding-top: 10%;
+  }
 
   @media screen and (max-width: $breakpoint-mobile) {
-    padding: 25% 0 10% 0;
+    padding-top: 20%;
   }
 }
 
-section#about .hero-wrapper {
-  padding: 10%;
+.hero-wrapper.main {
+  padding-top: 7%;
+  padding-bottom: 10%;
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    padding-top: 10%;
+  }
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    padding-top: 15%;
+  }
 }
 
 .popout {
@@ -970,6 +1000,11 @@ section.verypaddedTop {
 
 #newsletter {
   padding: 3em 0 5em;
+}
+
+#newsletter.grey {
+  padding-top: 6em;
+  margin-top: -6em;
 }
 
 .newsletter-form {
@@ -1646,7 +1681,7 @@ section.contentoptions {
   margin-top: -1px;
 }
 
-#overview-hardware {
+#overview-hardware, #feature-handling {
   padding-bottom: 0;
 }
 

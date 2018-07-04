@@ -1,13 +1,13 @@
 {% include components/feature-loop.html class="usecases" features=site.data.usecases %}
 
-<section id="customers" class="padded">
+<section id="customers" class="padded grey">
   <div class="container">
     <h1 class="text-center section-title">{{ site.data.pages.home.customers[page.lang] }}</h1>
     {% include components/customers.html %}
   </div>
 </section>
 
-{% include components/newsletter.html %}
+{% include components/newsletter.html class="grey" %}
 
 <section id="team">
   <div class="container">
