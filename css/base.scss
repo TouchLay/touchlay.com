@@ -181,6 +181,9 @@ body {
 
 i {
   font-style: italic;
+}
+
+p i {
   padding-right: 0.2em;
 }
 
@@ -1222,8 +1225,15 @@ footer ul {
   }
 }
 
+.footer-nav {
+  font-family: Sawasdee;
+  font-weight: bold;
+}
+
 footer .language-toggle {
   float: right;
+  font-size: 18px;
+  padding-top: 9px;
 }
 
 .contact-form {
