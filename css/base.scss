@@ -6,7 +6,7 @@
 
 /* Breakpoints */
 $breakpoint-mobile: 480px;
-$breakpoint-tablet: 768px;
+$breakpoint-tablet: 771px;
 $breakpoint-desktop: 1024px;
 
 /* Color palette */
@@ -181,6 +181,9 @@ body {
 
 i {
   font-style: italic;
+}
+
+p i {
   padding-right: 0.2em;
 }
 
@@ -202,6 +205,10 @@ html, body {
   margin-top: 80px;
   min-height: 100%; /* fallback for browser that don't support calc */
   min-height: calc(100% + 81px);
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    margin-top: 65px;
+  }
 }
 
 .container {
@@ -778,6 +785,16 @@ nav .language-toggle {
   font-weight: bold;
 }
 
+.softwarePage .header-image-wrapper {
+  margin-right: 4%;
+}
+
+@media screen and (min-width: 921px) {
+  .softwarePage .header-title-wrapper {
+    padding-top: 2em;
+  }
+}
+
 /* Buttons */
 button {
   border-radius: 3px;
@@ -790,7 +807,7 @@ button {
   font-weight: 500;
   text-transform: uppercase;
 
-  transition: color 0.2s;
+  transition: all 0.2s;
 
   &:hover {
     background: $touchlay-blue;
@@ -951,6 +968,13 @@ section.verypaddedTop {
 
 .section-title {
   margin-bottom: 1em;
+}
+
+/* resize height while keeping aspect ratio */
+.teamImage {
+  display: block;
+  height: auto;
+  object-fit: cover;
 }
 
 /* Flexbox */
@@ -1193,6 +1217,7 @@ footer ul {
 footer a {
   color: $white-two;
   opacity: .7;
+  transition: opacity 0.2s;
 
   &:hover {
     opacity: 1;
@@ -1222,8 +1247,15 @@ footer ul {
   }
 }
 
+.footer-nav {
+  font-family: Sawasdee;
+  font-weight: bold;
+}
+
 footer .language-toggle {
   float: right;
+  font-size: 18px;
+  padding-top: 9px;
 }
 
 .contact-form {
@@ -1292,13 +1324,20 @@ footer .selectivity-multiple-input-container {
 
 #contact-checkbox {
   padding-top: 9px;
-  padding-right: 1em;
+  padding-right: 2em;
   float: left;
 }
 
 #contact-checkbox-description {
-  top: -12px;
   position: relative;
+  top: -14px;
+  left: 2px;
+}
+
+@-moz-document url-prefix() {
+  #contact-checkbox-description {
+    top: 0;
+  }
 }
 
 #contact-confirmation-loading,
@@ -1387,7 +1426,7 @@ footer input[type="checkbox"]:checked:active {
 }
 
 footer input[type="checkbox"]:checked:after {
-	content: '\2714';
+	content: '\2714\fe0e';
 	font-size: 14px;
 	position: absolute;
 	top: 0px;
@@ -1508,6 +1547,11 @@ footer input[type="checkbox"]:checked:after {
 
 .selectivity-placeholder {
   color: #999;
+  font-family: Roboto;
+}
+
+textarea {
+  font-family: Roboto;
 }
 
 /* Multi-selection input */
@@ -1526,6 +1570,7 @@ input[type='text'].selectivity-multiple-input {
   max-width: 100%;
   outline: 0;
   padding: 0;
+  padding-left: 6px;
   margin-bottom: 0; }
   .selectivity-multiple-input:focus,
   input[type='text'].selectivity-multiple-input:focus {

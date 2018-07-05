@@ -16,8 +16,8 @@ header:
     de: Der TouchLay <i>nova</i> ist ein 55 Zoll Multitouch-Präsentationstool<br />mit verstellbarer Höhe & Neigung im Hoch- und Querformat
 
 customers:
-  en: Customers who use the <b>TouchLay <i>nova</i></b>
-  de: Kunden, die den <b>TouchLay <i>nova</i></b> nutzen
+  en: Customers who use the <b>TouchLay nova</b>
+  de: Kunden, die den <b>TouchLay nova</b> nutzen
 
 features:
   - id: flexible
@@ -76,8 +76,8 @@ specs:
           en: 'Touch points'
           de: 'Berührungspunkte'
         description:
-          en: '2 — 32'
-          de: '2 — 32'
+          en: '2 — 32 (base model: 6)'
+          de: '2 — 32 (Standardmodell: 6)'
       - title:
           en: 'Touch detection'
           de: 'Toucherkennung'

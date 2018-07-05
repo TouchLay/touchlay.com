@@ -6,7 +6,7 @@ header:
     de: TouchLay wayfinder
   subtitle:
     en: interactive & always up-to-date!
-    de: interaktiv & immer up-to-date!
+    de: Interaktiv & immer up-to-date!
   video:
     en: https://www.youtube.com/watch?v=-D9gWWacPKw
     de: https://www.youtube.com/watch?v=uqmbjX4ii28
@@ -62,8 +62,8 @@ features:
     image: /img/feature-devices-white.jpg
 
 customers:
-  en: Customers who use the <b>TouchLay <i>wayfinder</i></b>
-  de: Kunden, die den <b>TouchLay <i>wayfinder</i></b> nutzen
+  en: Customers who use the <b>TouchLay wayfinder</b>
+  de: Kunden, die den <b>TouchLay wayfinder</b> nutzen
 
 cta:
   headline:
