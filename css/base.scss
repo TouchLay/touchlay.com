@@ -970,6 +970,13 @@ section.verypaddedTop {
   margin-bottom: 1em;
 }
 
+/* resize height while keeping aspect ratio */
+.teamImage {
+  display: block;
+  height: auto;
+  object-fit: cover;
+}
+
 /* Flexbox */
 .flexcontainer {
   display: -webkit-flex;
