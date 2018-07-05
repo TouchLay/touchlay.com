@@ -62,8 +62,8 @@ features:
     image: /img/feature-devices-white.jpg
 
 customers:
-  en: Customers who use the <b>TouchLay <i>wayfinder</i></b>
-  de: Kunden, die den <b>TouchLay <i>wayfinder</i></b> nutzen
+  en: Customers who use the <b>TouchLay wayfinder</b>
+  de: Kunden, die den <b>TouchLay wayfinder</b> nutzen
 
 cta:
   headline:
