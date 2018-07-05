@@ -76,8 +76,8 @@ specs:
           en: 'Touch points'
           de: 'Berührungspunkte'
         description:
-          en: '2 — 32'
-          de: '2 — 32'
+          en: '2 — 32 (base model: 6)'
+          de: '2 — 32 (Standardmodell: 6)'
       - title:
           en: 'Touch detection'
           de: 'Toucherkennung'
