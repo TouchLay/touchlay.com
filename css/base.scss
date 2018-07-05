@@ -205,6 +205,10 @@ html, body {
   margin-top: 80px;
   min-height: 100%; /* fallback for browser that don't support calc */
   min-height: calc(100% + 81px);
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    margin-top: 65px;
+  }
 }
 
 .container {
