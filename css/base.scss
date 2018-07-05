@@ -781,6 +781,16 @@ nav .language-toggle {
   font-weight: bold;
 }
 
+.softwarePage .header-image-wrapper {
+  margin-right: 4%;
+}
+
+@media screen and (min-width: 921px) {
+  .softwarePage .header-title-wrapper {
+    padding-top: 2em;
+  }
+}
+
 /* Buttons */
 button {
   border-radius: 3px;

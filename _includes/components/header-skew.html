@@ -1,4 +1,4 @@
-<header id="intro-header" class="header-skew-wrapper">
+<header id="intro-header" class="header-skew-wrapper {{include.class}}">
   <div class="header-skew">
     <div class="container content flexcontainer row center">
       {% if include.title or include.subtitle or include.primarytext or include.secondarytext %}
@@ -21,7 +21,7 @@
       {% endif %}
       {% if include.title or include.subtitle or include.primarytext or include.secondarytext %}
         </div>
-          <div>
+          <div class="header-title-wrapper">
               <h1 class="h1-white {% if include.subtitle %}has-sub{% endif %}">
                 {{ include.title[page.lang] }}<br/>
                 {% if include.subtitle %}<span class="h1-white-sub">{{ include.subtitle[page.lang] }}</span>{% endif %}
