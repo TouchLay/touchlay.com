@@ -1302,13 +1302,20 @@ footer .selectivity-multiple-input-container {
 
 #contact-checkbox {
   padding-top: 9px;
-  padding-right: 1em;
+  padding-right: 2em;
   float: left;
 }
 
 #contact-checkbox-description {
-  top: -12px;
   position: relative;
+  top: -14px;
+  left: 2px;
+}
+
+@-moz-document url-prefix() {
+  #contact-checkbox-description {
+    top: 0;
+  }
 }
 
 #contact-confirmation-loading,
