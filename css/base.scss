@@ -793,7 +793,7 @@ button {
   font-weight: 500;
   text-transform: uppercase;
 
-  transition: color 0.2s;
+  transition: all 0.2s;
 
   &:hover {
     background: $touchlay-blue;
@@ -1196,6 +1196,7 @@ footer ul {
 footer a {
   color: $white-two;
   opacity: .7;
+  transition: opacity 0.2s;
 
   &:hover {
     opacity: 1;
@@ -1404,7 +1405,7 @@ footer input[type="checkbox"]:checked:active {
 }
 
 footer input[type="checkbox"]:checked:after {
-	content: '\2714';
+	content: '\2714\fe0e';
 	font-size: 14px;
 	position: absolute;
 	top: 0px;
