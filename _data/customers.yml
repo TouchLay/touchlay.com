@@ -50,6 +50,15 @@
     en: 'uses the TouchLay <i>nova</i> to support sales of telecom products in post offices via Guided Selling.'
     de: 'nutzt den TouchLay <i>nova</i>, um den Verkauf von Telekomprodukten in Postfilialen über Guided Selling zu unterstützen.'
 
+- company: "ABB"
+  image: "/img/customer-10.jpg"
+  logo: "/img/customer-logo-12.png"
+  tags:
+    - hardware
+  description:
+    en: 'uses the TouchLay <i>nova</i> at various events to present their software solutions.'
+    de: 'setzt den TouchLay <i>nova</i> bei diversen Events ein, um Ihre Software Lösungen zu präsentieren.'
+
 - company: "Messe Frankfurt"
   image: "/img/customer-11.jpg"
   logo: "/img/customer-logo-11.png"
@@ -62,16 +71,12 @@
     de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte für die größte Buchmesse der Welt ein (Frankfurter Buchmesse).'
 
 - company: "4Gamechanger Festival 2017 Puls4"
-  image: "/img/customer-10.jpg"
   logo: "/img/customer-logo-10.png"
   tags:
     - hardware
     - software
     - wayfinder
     - promotion
-  description:
-    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and for live Graphic Recording (by <a href="http://vervievas.com">VerVieVas</a>).'
-    de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und für live Graphic Recording mit <a href="http://vervievas.com">VerVieVas</a> ein.'
 
 - company: "Verbund"
   image: "/img/customer-18.jpg"
@@ -105,6 +110,17 @@
   description:
     en: 'uses the TouchLay <i>nova</i> at various events to present their apps.'
     de: 'verwendet den TouchLay <i>nova</i> bei diversen Events, um verschiedene Apps zu präsentieren.'
+
+- company: "Fifteen Seconds Festival"
+  logo: "/img/customer-logo-23.png"
+  image: "/img/customer-23.jpg"
+  tags:
+    - hardware
+    - software
+    - wayfinder
+  description:
+    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> to give their visitors the best possible overview of the event.'
+    de: 'setzt auf den TouchLay <i>nova</i> und den <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a>, um ihren Besuchern den bestmöglichen Überblick über das Event zu geben.'
 
 - company: "Wunschhaus"
   image: "/img/customer-4.jpg"
@@ -157,11 +173,6 @@
     de: 'benützt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und Spieleplattform für Kinder.'
   media: "https://www.youtube.com/watch?v=eWPOVO3SEXs"
 
-- company: "HR Inside Summit 2017"
-  logo: "/img/customer-logo-12.png"
-  tags:
-    - hardware
-
 - company: "LEC, TU Graz"
   image: "/img/customer-14.jpg"
   logo: "/img/customer-logo-14.png"
@@ -184,6 +195,12 @@
     en: 'uses the TouchLay <i>nova</i> to present their new website at ITB in Berlin.'
     de: 'setzt den TouchLay <i>nova</i> zur Präsentation ihrer neuen Webseite auf der ITB in Berlin ein.'
 
+- company: "Bundesrechenzentrum Österreich"
+  logo: "/img/customer-logo-20.png"
+  tags:
+    - hardware
+    - promotion
+
 - company: "VerVieVas"
   image: "/img/customer-17.jpg"
   logo: "/img/customer-logo-17.png"
@@ -200,11 +217,6 @@
     - hardware
     - software
 
-- company: "Antiquariat Moser"
-  logo: "/img/customer-logo-20.png"
-  tags:
-    - hardware
-
 - company: "Lexis Nexis"
   logo: "/img/customer-logo-21.png"
   tags:
@@ -216,14 +228,3 @@
   tags:
     - hardware
     - software
-
-- company: "Fifteen Seconds Festival"
-  logo: "/img/customer-logo-23.png"
-  image: "/img/customer-23.jpg"
-  tags:
-    - hardware
-    - software
-    - wayfinder
-  description:
-    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> to give their visitors the best possible overview of the event.'
-    de: 'setzt auf den TouchLay <i>nova</i> und den <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a>, um ihren Besuchern den bestmöglichen Überblick über das Event zu geben.'
