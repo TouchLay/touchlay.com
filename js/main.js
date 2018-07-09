@@ -187,7 +187,7 @@ $(document).ready(function() {
     $('#contact-confirmation-loading').show();
 
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://inquirer.exp.touchlay.com/', true);
+    xhr.open('POST', 'https://inquirer.touchlay.com/', true);
     xhr.setRequestHeader('Content-type', 'application/json');
     xhr.onreadystatechange = function () {
       if (xhr.readyState == 4 && xhr.status == 204) {
