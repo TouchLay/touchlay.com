@@ -55,6 +55,6 @@ hardware:
     en: "elegant & precise"
     de: "elegant & präzise"
   description:
-    en: '<p>The TouchLay <i>nova</i> adjusts perfectly to your needs.</p><p>Use your <i>nova</i> as presentation screen, table, or even as a "big smartphone" in portrait mode.</p><p>Our precise multitouch sensor can detect 2 - 32 touch points at the same time, including objects up to 1.5mm.</p>'
-    de: '<p>Der TouchLay <i>nova</i> passt sich perfekt an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihren <i>nova</i> als Präsentations-Bildschirm, Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Unser präziser Multitouch Sensor kann 2 - 32 Berührungspunkte gleichzeitig und sogar Objekte bis 1,5mm erkennen.</p>'
+    en: '<p>The TouchLay <i>nova</i> adjusts perfectly to your needs.</p><p>Use your <i>nova</i> as presentation screen, multitouch table, or even as a "big smartphone" in portrait mode.</p><p>Our precise multitouch sensor can detect 2 - 32 touch points at the same time, including objects up to 1.5mm.</p>'
+    de: '<p>Der TouchLay <i>nova</i> passt sich perfekt an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihren <i>nova</i> als Präsentations-Bildschirm, Multitouch-Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Unser präziser Multitouch Sensor kann 2 - 32 Berührungspunkte gleichzeitig und sogar Objekte bis 1,5mm erkennen.</p>'
   image: "/img/overview-hardware.png"
