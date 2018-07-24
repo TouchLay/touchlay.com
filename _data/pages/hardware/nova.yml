@@ -26,7 +26,7 @@ features:
       de: Flexibles Design
     description:
       en: '<p>The TouchLay <i>nova</i> adjusts perfectly to your needs.</p><p>Use your <i>nova</i> as presentation screen, touch table, or even as a "big smartphone" in portrait mode.</p><p>When purchasing your <i>nova</i>, components can be upgraded and a custom RAL color can be selected.</p>'
-      de: '<p>Der TouchLay <i>nova</i> passt sich perfekt an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihren <i>nova</i> als Präsentations-Bildschirm, Touch-Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Beim Kauf können Komponenten aufgerüstet, sowie eine eigene RAL Farbe gewählt werden.</p>'
+      de: '<p>Der TouchLay <i>nova</i> passt sich perfekt an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihren <i>nova</i> als Präsentationsbildschirm, Touch-Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Beim Kauf können Komponenten aufgerüstet, sowie eine eigene RAL Farbe gewählt werden.</p>'
     image: /img/feature-flexible.jpg
     topOnly: true
 
@@ -35,8 +35,8 @@ features:
       en: Vivid Display
       de: Lebhaftes Display
     description:
-      en: 'The TouchLay <i>nova</i> multitouch table uses a 55 inch full HD 24/7 industrial display. We personally made sure that your products look as good and impressive as possible from any angle.'
-      de: 'Der TouchLay <i>nova</i> Multitouch-Tisch hat ein 55 Zoll Full-HD 24/7 Industrie-Display, bei dem wir besonders darauf geachtet haben, dass Ihre Produkte so beeindruckend wie möglich, sowie von jedem Winkel, präsentiert werden können.'
+      en: 'The TouchLay <i>nova</i> multitouch presentation screen uses a 55 inch full HD 24/7 industrial display. We personally made sure that your products look as good and impressive as possible from any angle.'
+      de: 'Der TouchLay <i>nova</i> Multitouch Präsentationsbildschirm hat ein 55 Zoll Full-HD 24/7 Industrie-Display, bei dem wir besonders darauf geachtet haben, dass Ihre Produkte so beeindruckend wie möglich, sowie von jedem Winkel, präsentiert werden können.'
     image: /img/feature-display.jpg
 
   - id: Multitouch
