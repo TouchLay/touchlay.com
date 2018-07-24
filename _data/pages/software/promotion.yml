@@ -86,15 +86,6 @@ features:
       de: '<p>Auf Messen und Events zählt der erste Eindruck.</p><p>Durch das elegante und moderne Design des TouchLay <i>nova</i> wird Ihr Messestand zum Kundenmagnet. Doch nicht nur die Form, sondern auch die Funktionalität überzeugt.</p><p>Begeistern Sie Ihre potentiellen und existierenden Kunden über interaktive Präsentationen!</p>'
     image: /img/nova-arts.jpg
 
-  - id: interactivebooth
-    title:
-      en: Interactive Booth
-      de: Interaktiver Messestand
-    description:
-      en: '<p>Through TouchLay software and touchscreens you upgrade to an interactive booth and stand out compared to the other booths.</p><p>Turn your booth into a customer magnet through interactive presentations via multitouch screens!</p>'
-      de: '<p>Über TouchLay Software sowie Touchscreens rüsten Sie zum interaktiven Messestand auf und heben sich dadurch von den anderen Ständen ab.</p><p>Durch interaktive Präsentationen über Multitouch-Bildschirme wird Ihr Messestand zum Kundenmagnet!</p>'
-    image: /img/nova-arts.jpg
-
   - id: handling
     title:
       en: Simple Process
@@ -103,6 +94,15 @@ features:
       en: '<p>We offer a complete package and provide hardware, software, service and support. We come up with the perfect interactive presentation for you.</p><p>We figure out transportation and even support you during the event - we are always here to help!</p>'
       de: '<p>Wir bieten Ihnen Hardware, Software und Abwicklung aus einer Hand. In wenigen Schritten erarbeiten wir für Sie ein individuelles Konzept.</p><p>Lieferung, sowie Auf- und Abbau erfolgt termingerecht und unkompliziert. Wir unterstützen Sie bei der Aufbereitung und auch während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
     image: /img/team-image-large.jpg
+
+  - id: interactivebooth
+    title:
+      en: Interactive Booth
+      de: Interaktiver Messestand
+    description:
+      en: '<p>Through TouchLay software and touchscreens you upgrade to an interactive booth and stand out compared to the other booths.</p><p>Turn your booth into a customer magnet through interactive presentations via multitouch screens!</p>'
+      de: '<p>Über TouchLay Software sowie Touchscreens rüsten Sie zum interaktiven Messestand auf und heben sich dadurch von den anderen Ständen ab.</p><p>Durch interaktive Präsentationen über Multitouch-Bildschirme wird Ihr Messestand zum Kundenmagnet!</p>'
+    image: /img/nova-arts.jpg
 
 cta:
   headline:
