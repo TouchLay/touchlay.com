@@ -6,14 +6,14 @@ header:
     de: TouchLay wayfinder
   subtitle:
     en: interactive & always up-to-date!
-    de: digitales Wegeleitsystem
+    de: Digitales Wegeleitsystem
   video:
     en: https://www.youtube.com/watch?v=-D9gWWacPKw
     de: https://www.youtube.com/watch?v=uqmbjX4ii28
   buttonlink: '#contact'
   description:
     en: Easily visualize exhibitions, events or buildings<br />with the interactive TouchLay <i>wayfinder</i>
-    de: Stellen Sie Messen, Events oder Gebäude einfach, klar und verständlich dar<br />mit dem digitalen Wegweiser
+    de: Stellen Sie Messen, Events oder Gebäude einfach, klar und verständlich dar<br />mit dem digitalen Wegweiser TouchLay <i>wayfinder</i>
 
 features:
   - id: setup
