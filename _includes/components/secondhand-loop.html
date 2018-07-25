@@ -27,7 +27,16 @@
               <span>{{ site.data.base.texts.price[page.lang] }}</span>
               <b>{{ feature.price }}</b>
             </p>
-            <a style="flex: 1; padding-top: 11px" href="#contact"><!-- TODO: prefill article number when clicking -->
+            {% capture prefillText %}
+              var e = document.getElementById('contact-message'); if (!e.value) { e.value =
+              {% if page.lang == 'de' %}
+                'Artikel: {{ feature.id }}\n\nNachricht:\n'
+              {% else %}
+                'Item: {{ feature.id }}\n\nMessage:\n'
+              {% endif %}
+              }
+            {% endcapture %}
+            <a style="flex: 1; padding-top: 11px" href="#contact" onClick="{{ prefillText }}">
               <button
                 ga-on="click"
                 ga-event-category="secondhand"
