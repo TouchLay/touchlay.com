@@ -2,7 +2,7 @@
   {% assign loopindex = forloop.index | modulo: 2 %}
   {% assign condition = 0 %}
   {% capture padding %}{% if feature.topOnly %}paddedTop{% else %}padded{% endif %}{% endcapture %}
-  <section id="feature-{{feature.id}}" class="secondhand-device {{padding}} section-{% unless loopindex == condition %}b gray{% else %}a{% endunless %}{% if include.class %} {{include.class}}{% endif %}">
+  <section id="feature-{{feature.id}}" class="secondhand-device {{padding}} section-{% unless loopindex == condition %}b gray{% else %}b{% endunless %}{% if include.class %} {{include.class}}{% endif %}">
     <div class="container flexcontainer centereverything">
         <div class="section-text">
           <h2 class="has-sub">
