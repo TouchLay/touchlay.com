@@ -6,6 +6,9 @@
   color:
     de: nova weiß
     en: nova white
+  specs:
+    de: 128 GB Speicher
+    en: 128 GB storage
   price: € 4.250,--
   image: /img/interactive-booth.jpg
 
@@ -17,6 +20,9 @@
   color:
     de: nova weiß
     en: nova white
+  specs:
+    de: 128 GB Speicher
+    en: 128 GB storage
   price: € 4.620,--
   image: /img/interactive-booth.jpg
 
@@ -28,5 +34,8 @@
   color:
     de: glänzend weiß
     en: glossy white
+  specs:
+    de: 128 GB Speicher
+    en: 128 GB storage
   price: € 6.250,--
   image: /img/interactive-booth.jpg
