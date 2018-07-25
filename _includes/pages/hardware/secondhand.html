@@ -14,17 +14,17 @@
   %}
 
   <div class="secondhand cta">
-    <a href="/{{page.lang}}/hardware/" ga-on="click" ga-event-category="secondhand" ga-event-action="moreinfo">
-        <button class="btn cta-highlight">mehr informationen</button>
+    <a href="/{{page.lang}}/hardware/" ga-on="click" ga-event-category="secondhand" ga-event-action="more">
+        <button class="btn cta-highlight">{{ site.data.base.texts.more[page.lang] }}</button>
     </a>
   </div>
   
   <section id="devicesList" class="padded gray">
     <div class="container">
-      <h1 class="text-center section-title">Gebrauchte Multitouch-Tische</h1>
+      <h1 class="text-center section-title">{{ site.data.base.texts.secondhandTitle[page.lang] }}</h1>
     </div>
   </section>
-  
+
   {% include components/secondhand-loop.html features=site.data.secondhand %}
   
   <section id="customers" class="padded">

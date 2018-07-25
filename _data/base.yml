@@ -157,6 +157,9 @@ texts:
   specs:
     en: 'Specs'
     de: 'Ausstattung'
+  secondhandTitle:
+    en: 'Second-Hand Multitouch Tables'
+    de: 'Gebrauchte Multitouch-Tische'
 
 newsletter:
   headline:
