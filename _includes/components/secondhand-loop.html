@@ -1,0 +1,38 @@
+{% for feature in include.features %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% if include.reverse == true %}{% assign condition = 0 %}{% else %}{% assign condition = 1 %}{% endif %}
+  {% capture padding %}{% if feature.topOnly %}paddedTop{% else %}padded{% endif %}{% endcapture %}
+  <section id="feature-{{feature.id}}" class="secondhand-device {{padding}} section-{% unless loopindex == condition %}b gray{% else %}a{% endunless %}{% if include.class %} {{include.class}}{% endif %}">
+    <div class="container flexcontainer centereverything">
+        <div class="section-text">
+          <h2 class="has-sub">
+            TouchLay nova {{ feature.year }}<br/>
+            <span class="h1-sub">{{ feature.id }}</span>
+          </h2>
+          <p class="section-description">
+            <ul>
+              <li>
+                <b>{{ site.data.base.texts.status[page.lang] }}:</b> {{ feature.status[page.lang] }}
+              </li>
+            </ul>
+          </p>
+          <p class="price">
+            <span>{{ site.data.base.texts.price[page.lang] }}</span>
+            <b>{{ feature.price }}</b>
+          </p>
+          <a href="#contact"><!-- TODO: prefill article number when clicking -->
+            <button
+              ga-on="click"
+              ga-event-category="secondhand"
+              ga-event-action="buy-{{feature.id}}"
+              class="section-btn">
+                {{ site.data.base.texts.buynow[page.lang] }}
+            </button>
+          </a>
+        </div>
+        <div class="section-image">
+          {% include components/image.html image=feature.image %}
+        </div>
+      </div>
+  </section>
+{% endfor %}
