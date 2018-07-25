@@ -1,0 +1,32 @@
+- id: SHP-1
+  year: 2016
+  status:
+    de: Prototyp, kleine Abnützungsspuren
+    en: Prototype, light wear
+  color:
+    de: nova weiß
+    en: nova white
+  price: € 4.250,--
+  image: /img/interactive-booth.jpg
+
+- id: SHP-2
+  year: 2016
+  status:
+    de: Prototyp, kleine Abnützungsspuren
+    en: Prototype, light wear
+  color:
+    de: nova weiß
+    en: nova white
+  price: € 4.620,--
+  image: /img/interactive-booth.jpg
+
+- id: SH-3
+  year: 2017
+  status:
+    de: guter Zustand, war wenig in Verwendung
+    en: good condition, was not used much
+  color:
+    de: glänzend weiß
+    en: glossy white
+  price: € 6.250,--
+  image: /img/interactive-booth.jpg
