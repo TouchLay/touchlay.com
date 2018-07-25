@@ -12,8 +12,8 @@ header:
     de: https://www.youtube.com/watch?v=0DydF2SkYYQ
   buttonlink: '#contact'
   description:
-    en: Explaining your products can be hard. Include your customer directly through interactive presentations and effortlessly increase sales
-    de: 'Oft ist es schwierig, Produkte zu erklären. Durch interaktive Präsentation können Sie Kunden direkt in das Verkaufsgespräch einbinden und so spielend leicht die Abschlussrate steigern'
+    en: Explaining your products can be hard. Include your customer directly through interactive presentations at the point of sale and effortlessly increase sales
+    de: 'Oft ist es schwierig, Produkte zu erklären. Durch interaktive Präsentation am Point of Sale können Sie Kunden direkt in das Verkaufsgespräch einbinden und so spielend leicht die Abschlussrate steigern'
 
 customers:
   en: Customers who use <b>TouchLay products</b><br />at the point of sale
@@ -26,7 +26,7 @@ features:
       de: Erreichen Sie Ihre Kunden
     description:
       en: Our goal is including the customer into your presentation through interactive multitouch solutions. Interactive presentations allow visualizations of your products & services and make them more tangible for your customers.
-      de: 'Unser Ziel ist es, Besucher über interaktive Multitouch-Lösungen direkt in die Präsentation einzubinden. Über interaktive Präsentationen können Sie Ihre Produkte visualisieren und für Ihre Kunden greifbar machen.'
+      de: 'Unser Ziel ist es, Besucher über interaktive Multitouch-Lösungen am Point of Sale direkt in die Präsentation einzubinden. Über interaktive Präsentationen können Sie Ihre Produkte visualisieren und für Ihre Kunden greifbar machen.'
     image: /img/nova-group.jpg
 
   - id: contentoptions
@@ -82,8 +82,8 @@ features:
       en: Attract Customers
       de: Fallen Sie Auf
     description:
-      en: '<p>The first impression is really important at the point of sale.</p><p>The elegant and modern design of the TouchLay <i>nova</i> turns every salesperson into a customer magnet.</p><p>Impress potential and existing customers with interactive presentations!</p>'
-      de: '<p>Im Verkaufsgespräch zählt der erste Eindruck.</p><p>Durch das elegante und moderne Design des TouchLay <i>nova</i> wird jeder Verkäufer zum Kundenmagnet. Doch nicht nur die Form, sondern auch die Funktionalität überzeugt.</p><p>Begeistern Sie Ihre potentiellen und existierenden Kunden über interaktive Präsentationen!</p>'
+      en: '<p>The first impression is really important at the point of sale.</p><p>The elegant and modern design of the TouchLay <i>nova</i> turns every salesperson into a customer magnet.</p><p>Impress potential and existing customers with interactive presentations at the POS!</p>'
+      de: '<p>Im Verkaufsgespräch zählt der erste Eindruck.</p><p>Durch das elegante und moderne Design des TouchLay <i>nova</i> wird jeder Verkäufer zum Kundenmagnet. Doch nicht nur die Form, sondern auch die Funktionalität überzeugt.</p><p>Begeistern Sie Ihre potentiellen und existierenden Kunden über interaktive Präsentationen am POS!</p>'
     image: /img/nova-arts.jpg
 
   - id: handling
