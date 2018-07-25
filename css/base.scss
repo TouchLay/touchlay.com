@@ -1819,6 +1819,18 @@ section.contentoptions {
   font-size: 22px;
 }
 
+#devicesList .section-title {
+  margin-bottom: 0;
+}
+
+section#devicesList.padded {
+  padding-bottom: 0;
+}
+
+section.secondhand-device.padded {
+  padding-top: 3em;
+}
+
 .secondhand-device ul {
   list-style-type: none;
 }

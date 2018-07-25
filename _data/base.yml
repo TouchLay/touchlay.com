@@ -151,6 +151,12 @@ texts:
   price:
     en: 'Price'
     de: 'Preis'
+  color:
+    en: 'Color'
+    de: 'Farbe'
+  specs:
+    en: 'Specs'
+    de: 'Ausstattung'
 
 newsletter:
   headline:
