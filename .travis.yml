@@ -4,7 +4,7 @@ rvm:
 sudo: required
 dist: xenial
 before_install:
-  - sudo apt-get install -y advancecomp gifsicle jhead jpegoptim libjpeg-progs optipng pngcrush pngquant
+  - sudo apt-get install -y advancecomp gifsicle optipng pngcrush pngquant
   - gem install image_optim
   - image_optim --no-svgo -r img/*.png
 script: "bundle exec jekyll build"
