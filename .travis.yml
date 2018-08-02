@@ -1,6 +1,10 @@
 language: ruby
 rvm:
 - 2.5
+before_install:
+  - sudo apt-get install -y advancecomp gifsicle jhead jpegoptim libjpeg-progs optipng pngcrush pngquant
+  - gem install image_optim
+  - image_optim -r img/*.png
 script: "bundle exec jekyll build"
 branches:
   only:
