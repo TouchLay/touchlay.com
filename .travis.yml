@@ -6,7 +6,7 @@ dist: xenial
 before_install:
   - sudo apt-get install -y advancecomp gifsicle optipng pngcrush pngquant
   - gem install image_optim
-  - image_optim --no-svgo -r img/*.png
+  - image_optim --no-svgo --no-pngout --no-jhead --no-jpegoptim --no-jpegtran -r img/*.png
 script: "bundle exec jekyll build"
 branches:
   only:
