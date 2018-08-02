@@ -8,4 +8,10 @@ before_install:
 script: "bundle exec jekyll build"
 branches:
   only:
-  - gh-pages
+  - master
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
