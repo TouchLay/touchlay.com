@@ -18,6 +18,25 @@ $white-two: #ffffff;
 $gray: #f1f1f1;
 $black: #1b1b1b;
 
+/* Sawasdee font */
+@font-face {
+  font-family: 'Sawasdee';
+  src: url('Sawasdee.woff2') format('woff2'),
+      url('Sawasdee.woff') format('woff'),
+      url('Sawasdee.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sawasdee';
+  src: url('Sawasdee-Bold.woff2') format('woff2'),
+      url('Sawasdee-Bold.woff') format('woff'),
+      url('Sawasdee-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* Reset defaults */
 
 html, body, div, span, applet, object, iframe,
