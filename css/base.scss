@@ -75,7 +75,7 @@ summary, time, mark, audio, video {
 }
 
 #team-members {
-  font-family: Sawasdee;
+  font-family: Sawasdee, sans-serif;
   font-weight: bold;
 }
 
@@ -123,15 +123,15 @@ h1.has-sub, h2.has-sub { /* remove distance to subtitle if present */
 }
 
 h2 {
-	font-size: 32px;
-  font-family: Sawasdee;
+  font-size: 32px;
+  font-family: Sawasdee, sans-serif;
   font-weight: bold;
 	color: $black;
 }
 
 h3 {
 	font-size: 24px;
-  font-family: Sawasdee;
+  font-family: Sawasdee, sans-serif;
 	color: $black;
 }
 
@@ -267,7 +267,7 @@ nav {
   left: 0;
   z-index: 10;
 
-  font-family: Sawasdee;
+  font-family: Sawasdee, sans-serif;
   font-weight: bold;
 
   background: $touchlay-blue;
@@ -1267,7 +1267,7 @@ footer ul {
 }
 
 .footer-nav {
-  font-family: Sawasdee;
+  font-family: Sawasdee, sans-serif;
   font-weight: bold;
 }
 
