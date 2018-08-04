@@ -61,35 +61,41 @@
       </div>
     </div>
 
-    <div class="footer-sitemap">
-      {% for section in site.data.base.footersitemap %}
-      <div class="section">
-        <h3>{{ section.title[page.lang] }}</h3>
+  </div>
+  <div class="end">
+    <div class="container">
+
+      <div class="footer-sitemap">
+        {% for section in site.data.base.footersitemap %}
+        <div class="section">
+          <h3>{{ section.title[page.lang] }}</h3>
+          <ul>
+            {% for item in section.items %}
+            <li><a ga-on="click" ga-event-category="footer-sitemap" ga-event-action="{{item.gaaction}}" href="{% if item.full_url %}{{item.full_url}}{% else %}/{{page.lang}}/{{item.url}}{% endif %}">{{item.title[page.lang]}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="footer-nav">
         <ul>
-          {% for item in section.items %}
-          <li><a ga-on="click" ga-event-category="footer-sitemap" ga-event-action="{{item.gaaction}}" href="{% if item.full_url %}{{item.full_url}}{% else %}/{{page.lang}}/{{item.url}}{% endif %}">{{item.title[page.lang]}}</a></li>
+            <li><span>&copy; TouchLay GmbH {{ 'now' | date: "%Y" }}</span></li>
+          {% for footeritem in site.data.base.footer %}
+            <li>
+              <a ga-on="click" ga-event-category="footer" ga-event-action="{{footeritem.gaaction}}" href="{% if footeritem.full_url %}{{footeritem.full_url}}{% else %}/{{page.lang}}/{{footeritem.url}}{% endif %}">{{footeritem.title[page.lang]}}</a>
+            </li>
           {% endfor %}
         </ul>
+
+        <span class="language-toggle hide-tablet">
+          Language:
+          <a ga-on="click" ga-event-category="footer" ga-event-action="english" href="{{currentEN}}">English</a>
+          |
+          <a ga-on="click" ga-event-category="footer" ga-event-action="german" href="{{currentDE}}">Deutsch</a>
+        </span>
       </div>
-      {% endfor %}
+
     </div>
-
-    <div class="footer-nav">
-      <ul>
-          <li><span>&copy; TouchLay GmbH {{ 'now' | date: "%Y" }}</span></li>
-        {% for footeritem in site.data.base.footer %}
-          <li>
-            <a ga-on="click" ga-event-category="footer" ga-event-action="{{footeritem.gaaction}}" href="{% if footeritem.full_url %}{{footeritem.full_url}}{% else %}/{{page.lang}}/{{footeritem.url}}{% endif %}">{{footeritem.title[page.lang]}}</a>
-          </li>
-        {% endfor %}
-      </ul>
-
-      <span class="language-toggle hide-tablet">
-        Language:
-        <a ga-on="click" ga-event-category="footer" ga-event-action="english" href="{{currentEN}}">English</a>
-         |
-        <a ga-on="click" ga-event-category="footer" ga-event-action="german" href="{{currentDE}}">Deutsch</a>
-      </span>
   </div>
-</div>
 </footer>
