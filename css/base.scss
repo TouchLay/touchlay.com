@@ -260,7 +260,7 @@ a {
 
 nav {
   min-width: 100%;
-  min-height: 80px;
+  min-height: 84px;
   position: fixed;
   display: block;
   top: 0;
@@ -290,6 +290,7 @@ nav .wrapper {
 
 nav .logo {
   display: inline-block;
+  height: 84px;
 
   @media screen and (max-width: $breakpoint-tablet) {
     height: 60px;
