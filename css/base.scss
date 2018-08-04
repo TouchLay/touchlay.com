@@ -453,10 +453,12 @@ nav .language-toggle {
 .header-image {
   max-width: 100%;
   min-height: 354px;
+  min-width: 461px;
 
   @media screen and (max-width: $breakpoint-tablet) {
     max-width: 80%;
     min-height: 228px;
+    min-width: 297px;
   }
 }
 
