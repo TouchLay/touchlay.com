@@ -32,7 +32,11 @@ ga('require', 'GTM-5Q7GXHG');
 ga('send', 'pageview');
 </script>
 </head>
+<!--#if expr="$HTTP_COOKIE=/font\-loaded\=true/" -->
+<body data-lang="{{page.lang}}" data-interessts="{{page.interessts}}" class="no-js font-loaded">
+<!--#else -->
 <body data-lang="{{page.lang}}" data-interessts="{{page.interessts}}" class="no-js">
+<!--#endif -->
   <a style="display: none;" href="https://plus.google.com/109985994085811390634" rel="publisher">Google+</a>
 
     {% include navigation.html %}
@@ -45,6 +49,7 @@ ga('send', 'pageview');
 
     {% include footer.html %}
 
+<script type="text/javascript" src="/js/fontfaceobserver.standalone.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
 
 <script type="text/javascript">

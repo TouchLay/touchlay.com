@@ -75,6 +75,10 @@ summary, time, mark, audio, video {
 }
 
 #team-members {
+  font-family: sans-serif;
+}
+
+.font-loaded #team-members {
   font-family: Sawasdee, sans-serif;
   font-weight: bold;
 }
@@ -88,17 +92,25 @@ summary, time, mark, audio, video {
 }
 
 .h1-white {
-  font-family: Sawasdee, sans-serif;
 	font-size: 30px;
+  color: $white-two;
+  font-family: sans-serif;
+}
+
+.font-loaded .h1-white {
+  font-family: Sawasdee, sans-serif;
 	font-weight: bold;
-	color: $white-two;
 }
 
 h1 {
 	font-size: 42px;
+	color: $black;
+  font-family: sans-serif;
+}
+
+.font-loaded h1 {
   font-family: Sawasdee, sans-serif;
   font-weight: bold;
-	color: $black;
 }
 
 #usecases {
@@ -124,22 +136,34 @@ h1.has-sub, h2.has-sub { /* remove distance to subtitle if present */
 
 h2 {
   font-size: 32px;
+	color: $black;
+  font-family: sans-serif;
+}
+
+.font-loaded h2 {
   font-family: Sawasdee, sans-serif;
   font-weight: bold;
-	color: $black;
 }
 
 h3 {
 	font-size: 24px;
-  font-family: Sawasdee, sans-serif;
 	color: $black;
+  font-family: sans-serif;
+}
+
+.font-loaded h3 {
+  font-family: Sawasdee, sans-serif;
 }
 
 .card-title {
 	font-size: 22px;
+	color: #151515;
+  font-family: sans-serif;
+}
+
+.font-loaded .card-title {
   font-family: Sawasdee, sans-serif;
 	font-weight: bold;
-	color: #151515;
 }
 
 .card-subtitle {
@@ -150,6 +174,10 @@ h3 {
 
 .customer .banner .card-subtitle {
   font-size: 24px;
+  font-family: sans-serif;
+}
+
+.font-loaded .customer .banner .card-subtitle {
   font-family: Sawasdee, sans-serif;
 }
 
@@ -267,8 +295,7 @@ nav {
   left: 0;
   z-index: 10;
 
-  font-family: Sawasdee, sans-serif;
-  font-weight: bold;
+  font-family: sans-serif;
 
   background: $touchlay-blue;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
@@ -276,6 +303,11 @@ nav {
   @media screen and (max-width: $breakpoint-tablet) {
     min-height: 60px;
   }
+}
+
+.font-loaded nav {
+  font-family: Sawasdee, sans-serif;
+  font-weight: bold;
 }
 
 nav .wrapper {
@@ -1272,6 +1304,10 @@ footer ul {
 }
 
 .footer-nav {
+  font-family: sans-serif;
+}
+
+.font-loaded .footer-nav {
   font-family: Sawasdee, sans-serif;
   font-weight: bold;
 }
@@ -1707,9 +1743,13 @@ input[type='text'].selectivity-multiple-input {
 
 .section-item .title {
   font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.font-loaded .section-item .title {
   font-family: Sawasdee, sans-serif;
   font-weight: bold;
-  text-align: center;
 }
 
 .section-item .description {

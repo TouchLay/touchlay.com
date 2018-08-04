@@ -13,6 +13,14 @@
 document.body.className = document.body.className.replace("no-js","js") // set that we have js
 var lang = $('body').data('lang') // get current langauge
 
+var font = new FontFaceObserver('Sawasdee')
+font.load(null, 5000).then(function () {
+  if (document.body.className.indexOf('font-loaded') === -1) {
+    document.body.className += ' font-loaded'
+  }
+  $.fn.cookie('font-loaded', true)
+})
+
 // detect language and forwared to right language (only from /index.html)
 if (location.pathname == "/") {
   var browserLang = window.navigator.userLanguage || window.navigator.language;
