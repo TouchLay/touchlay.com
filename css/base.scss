@@ -404,6 +404,34 @@ nav .language-toggle {
   }
 }
 
+/* Intro / Mood Video */
+.intro-skew {
+  position: relative;
+  display: table;
+  width: 100vw;
+  height: 90vh;
+}
+
+.intro-skew .overlay {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 100;
+  font-family: Sawasdee, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: $white-two;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.intro-skew .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
 /* Header */
 
 .header-skew-wrapper {

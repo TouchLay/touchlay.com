@@ -1,16 +1,5 @@
 header:
-  image: /img/header-image.png
-  imagelink: true
-  title:
-    en: TouchLay nova
-    de: TouchLay nova
-  subtitle:
-    en: the people magnet
-    de: Der Kundenmagnet
-  video:
-    en: https://www.youtube.com/watch?v=nhPHPHCceFQ
-    de: https://www.youtube.com/watch?v=0DydF2SkYYQ
-
+  video: /img/moodvideo.mp4
 
 vision:
   en: <b>Amaze</b> & <b>inform</b> your customers<br />with interactive presentations
