@@ -25,19 +25,24 @@ navigation:
 
 footer:
   - title:
+      en: 'About Us'
+      de: 'Über Uns'
+    url: 'about/'
+    gaaction: 'about'
+  - title:
       en: 'Imprint'
       de: 'Impressum'
-    url: 'imprint.html'
+    url: 'imprint/'
     gaaction: 'imprint'
   - title:
       en: 'Press'
       de: 'Presse'
-    url: 'press.html'
+    url: 'press/'
     gaaction: 'press'
   - title:
       en: 'Jobs'
       de: 'Jobs'
-    url: 'jobs.html'
+    url: 'jobs/'
     gaaction: 'jobs'
   - title:
       en: 'Blog'
