@@ -1831,3 +1831,48 @@ section.contentoptions {
   padding: 24px 40px;
   font-size: 22px;
 }
+
+.secondhand.cta {
+  padding: 1.5em 0 2em;
+  text-align: center;
+  margin-top: -3em;
+}
+
+.secondhand.cta button {
+  padding: 24px 40px;
+  font-size: 22px;
+}
+
+#devicesList .section-title {
+  margin-bottom: 0;
+}
+
+section#devicesList.padded {
+  padding-bottom: 0;
+}
+
+section.secondhand-device.padded {
+  padding-top: 3em;
+}
+
+.secondhand-device ul {
+  list-style-type: none;
+}
+
+.secondhand-device ul li b {
+  font-weight: bold;
+}
+
+.secondhand-device .price {
+  font-family: Sawasdee;
+  font-size: 24px;
+}
+
+.secondhand-device .price span {
+  display: block;
+}
+
+.secondhand-device .price b {
+  font-weight: bold;
+  font-size: 32px;
+}
