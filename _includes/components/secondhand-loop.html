@@ -46,9 +46,11 @@
             </a>
           </div>
         </div>
+        {% if feature.image %}
         <div class="section-image">
           {% include components/image.html image=feature.image %}
         </div>
+        {% endif %}
       </div>
   </section>
 {% endfor %}
