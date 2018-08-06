@@ -1,5 +1,6 @@
 - id: SHP-1
   year: 2016
+  image: /img/shp-1.jpg
   status:
     de: Prototyp, kleine Abnützungsspuren
     en: Prototype, light wear
@@ -13,6 +14,7 @@
 
 - id: SHP-2
   year: 2016
+  image: /img/shp-2.jpg
   status:
     de: Prototyp, kleine Abnützungsspuren
     en: Prototype, light wear
@@ -26,6 +28,7 @@
 
 - id: SH-3
   year: 2017
+  image: /img/sh-3.jpg
   status:
     de: guter Zustand, war wenig in Verwendung
     en: good condition, was not used much
