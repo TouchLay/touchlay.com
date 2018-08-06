@@ -53,8 +53,8 @@ footersitemap:
         url: 'hardware/'
         gaaction: 'hardware-nova'
       - title:
-          en: Gebrauchte Touchtische
-          de: Second-Hand Touchtables
+          en: Second-Hand Touchtables
+          de: Gebrauchte Touchtische
         url: 'hardware/secondhand'
         gaaction: 'hardware-secondhand'
       # - title:
