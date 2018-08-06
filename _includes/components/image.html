@@ -6,6 +6,6 @@
 <img src="{{ include.image }}"
      srcset="{{imgParts[0]}}@2x.{{imgParts[1]}} 2x,
              {{imgParts[0]}}@3x.{{imgParts[1]}} 3x"
-     class="lazyload {{ include.class }}"
+     class="{% if include.nolazy %}{% else %}lazyload {% endif %}{{ include.class }}"
      alt="{{ include.alt }}" />
 {% endif %}

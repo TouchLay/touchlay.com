@@ -1,9 +1,9 @@
 ---
 layout: default
 lang: en
-title: Jobs
+title: TouchLay jobs
+description: We are currently looking for freelance developers and part-time sales employees.
 container: true
-description: "TouchLay Jobs - Amaze & inform your customers with interactive presentations!"
 ---
 
 # Jobs
