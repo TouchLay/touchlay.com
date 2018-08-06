@@ -30,9 +30,9 @@
             {% capture prefillText %}
               var e = document.getElementById('contact-message'); if (!e.value) { e.value =
               {% if page.lang == 'de' %}
-                'Artikel: {{ feature.id }}\n\nNachricht:\n'
+                'Artikel: {{ feature.id }}\n\nNachricht (optional):\n'
               {% else %}
-                'Item: {{ feature.id }}\n\nMessage:\n'
+                'Item: {{ feature.id }}\n\nMessage (optional):\n'
               {% endif %}
               }
             {% endcapture %}
@@ -46,9 +46,11 @@
             </a>
           </div>
         </div>
+        {% if feature.image %}
         <div class="section-image">
           {% include components/image.html image=feature.image %}
         </div>
+        {% endif %}
       </div>
   </section>
 {% endfor %}
