@@ -8,8 +8,8 @@
     de: nova weiß
     en: nova white
   specs:
-    de: 60 GB Speicher (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD Display 16/7 Gebrauch,<br />6 Touchpunkte
-    en: 60 GB storage (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD display 16/7 usage,<br />6 touchpoints
+    de: 60 GB Speicher (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD Display 16/7 Gebrauch, 6 Touchpunkte
+    en: 60 GB storage (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD display 16/7 usage, 6 touchpoints
   price: € 4.250,--
 
 - id: SHP-2
@@ -22,8 +22,8 @@
     de: nova weiß
     en: nova white
   specs:
-    de: 120 GB Speicher (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD Display 16/7 Gebrauch,<br />6 Touchpunkte
-    en: 120 GB storage (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD display 16/7 usage,<br />6 touchpoints
+    de: 120 GB Speicher (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD Display 16/7 Gebrauch, 6 Touchpunkte
+    en: 120 GB storage (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD display 16/7 usage, 6 touchpoints
   price: € 4.620,--
 
 - id: SH-3
@@ -36,6 +36,6 @@
     de: glänzend weiß
     en: glossy white
   specs:
-    de: 120 GB Speicher (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD Display 24/7 Gebrauch,<br />6 Touchpunkte
-    en: 120 GB storage (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD display 24/7 usage,<br />6 touchpoints
+    de: 120 GB Speicher (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD Display 24/7 Gebrauch, 6 Touchpunkte
+    en: 120 GB storage (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD display 24/7 usage, 6 touchpoints
   price: € 6.250,--
