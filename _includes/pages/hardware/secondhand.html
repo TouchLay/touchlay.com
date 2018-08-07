@@ -1,0 +1,60 @@
+{% include components/header-skew.html
+    image=site.data.pages.hardware.nova.header.image
+    imagelink=site.data.pages.hardware.nova.header.imagelink
+    title=site.data.pages.hardware.nova.header.title
+    subtitle=site.data.pages.hardware.nova.header.subtitle
+    gacategory="hardwareIntro"
+  
+    primarytext=site.data.base.texts.playvideo
+    primarylink=site.data.pages.hardware.nova.header.video
+    primarylity=true
+    primarygaaction="playVideo"
+  
+    herodescription=site.data.pages.hardware.nova.header.description
+  %}
+  
+  <section id="devicesList" class="padded gray">
+    <div class="container">
+      <h1 class="text-center section-title">{{ site.data.base.texts.secondhandTitle[page.lang] }}</h1>
+    </div>
+  </section>
+
+  {% include components/secondhand-loop.html features=site.data.secondhand %}
+  
+  <section id="overview-hardware" class="paddedTop section-a">
+    {% assign content = site.data.pages.home.hardware %}
+    {% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
+    {% include components/feature-section.html
+        title=content.title
+        subtitle=content.subtitle
+        description=content.description
+        image=content.image
+        cta=site.data.base.texts.more
+        ctalink=hardwarePageUrl
+  
+        gacategory="hardware"
+        gaaction="more"
+    %}
+  </section>
+
+  <section id="customers" class="padded grey">
+    <div class="container">
+      <h1 class="text-center section-title">{{ site.data.pages.hardware.nova.customers[page.lang] }}</h1>
+      {%
+        include components/customers.html
+        tags='hardware'
+      %}
+    </div>
+  </section>
+  
+  {% include components/newsletter.html class="grey" %}
+  
+  <section id="team">
+    <div class="container">
+      <div class="flexcontainer row middle space-around">
+        <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+        {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
+      </div>
+    </div>
+  </section>
+  

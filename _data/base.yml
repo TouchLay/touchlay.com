@@ -128,6 +128,7 @@ interessts:
     - event
     - promotion
     - pos
+    - secondhand
   de:
     - nova
     - mieten
@@ -141,6 +142,7 @@ interessts:
     - event
     - promotion
     - pos
+    - gebraucht
 
 interesstsplaceholder:
   en: 'interested in...'
@@ -157,6 +159,12 @@ texts:
   sendrequest:
     en: 'send request'
     de: 'Anfrage senden'
+  secondhand:
+    en: 'buy second-hand'
+    de: 'gebraucht kaufen'
+  buynow:
+    en: 'buy now'
+    de: 'jetzt kaufen'
   playvideo:
     en: 'play video'
     de: 'Video abspielen'
@@ -202,6 +210,21 @@ texts:
   specification:
     en: 'Specification'
     de: 'Spezifikation'
+  status:
+    en: 'Status'
+    de: 'Zustand'
+  price:
+    en: 'Price'
+    de: 'Preis'
+  color:
+    en: 'Color'
+    de: 'Farbe'
+  specs:
+    en: 'Specs'
+    de: 'Ausstattung'
+  secondhandTitle:
+    en: 'Second-Hand Multitouch Tables'
+    de: 'Gebrauchte Multitouch-Tische'
 
 newsletter:
   headline:

@@ -1,0 +1,56 @@
+{% for feature in include.features %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% assign condition = 0 %}
+  {% capture padding %}{% if feature.topOnly %}paddedTop{% else %}padded{% endif %}{% endcapture %}
+  <section id="feature-{{feature.id}}" class="secondhand-device {{padding}} section-{% unless loopindex == condition %}b gray{% else %}b{% endunless %}{% if include.class %} {{include.class}}{% endif %}">
+    <div class="container flexcontainer centereverything">
+        <div class="section-text">
+          <h2 class="has-sub">
+            nova {{ feature.year }}<br/>
+            <span class="h1-sub">{{ feature.id }}</span>
+          </h2>
+          <p class="section-description">
+            <ul>
+              <li>
+                <b>{{ site.data.base.texts.status[page.lang] }}:</b> {{ feature.status[page.lang] }}
+              </li>
+              <li>
+                <b>{{ site.data.base.texts.color[page.lang] }}:</b> {{ feature.color[page.lang] }}
+              </li>
+              <li>
+                <b>{{ site.data.base.texts.specs[page.lang] }}:</b> {{ feature.specs[page.lang] }}
+              </li>
+            </ul>
+          </p>
+          <div style="display: flex">
+            <p style="flex: 1" class="price">
+              <span>{{ site.data.base.texts.price[page.lang] }}</span>
+              <b>{{ feature.price }}</b>
+            </p>
+            {% capture prefillText %}
+              var e = document.getElementById('contact-message'); if (!e.value) { e.value =
+              {% if page.lang == 'de' %}
+                'Artikel: {{ feature.id }}\n\nNachricht (optional):\n'
+              {% else %}
+                'Item: {{ feature.id }}\n\nMessage (optional):\n'
+              {% endif %}
+              }
+            {% endcapture %}
+            <a style="flex: 1; padding-top: 11px" href="#contact" onClick="{{ prefillText }}">
+              <button
+                ga-on="click"
+                ga-event-category="secondhand"
+                ga-event-action="buy-{{feature.id}}">
+                  {{ site.data.base.texts.buynow[page.lang] }}
+              </button>
+            </a>
+          </div>
+        </div>
+        {% if feature.image %}
+        <div class="section-image">
+          {% include components/image.html image=feature.image %}
+        </div>
+        {% endif %}
+      </div>
+  </section>
+{% endfor %}
