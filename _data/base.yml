@@ -71,11 +71,11 @@ footersitemap:
           de: Multitouch Tische
         url: 'hardware/'
         gaaction: 'hardware-nova'
-      # - title:
-      #     en: Second-Hand Touchtables
-      #     de: Gebrauchte Touchtische
-      #   url: 'hardware/secondhand'
-      #   gaaction: 'hardware-secondhand'
+      - title:
+          en: Second-Hand Touchtables
+          de: Gebrauchte Touchtische
+        url: 'hardware/secondhand'
+        gaaction: 'hardware-secondhand'
       # - title:
       #     en: Custom Hardware
       #     de: Maßgeschneiderte Hardware
