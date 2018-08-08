@@ -434,15 +434,44 @@ nav .language-toggle {
 }
 
 /* Intro / Mood Video */
+#moodvideo {
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .intro-skew {
   position: relative;
   display: table;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    height: 90vh;
+  }
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    height: 70vh;
+  }
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    height: 60vh;
+  }
+}
+
+.intro-skew .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .intro-skew .overlay {
   position: relative;
+  top: 0;
+  left: 0;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -451,14 +480,6 @@ nav .language-toggle {
   font-weight: bold;
   color: $white-two;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  background-color: rgba(0,0,0,0.15);
-}
-
-.intro-skew .background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -100;
 }
 
 /* Header */
