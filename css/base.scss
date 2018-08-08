@@ -6,7 +6,7 @@
 
 /* Breakpoints */
 $breakpoint-mobile: 480px;
-$breakpoint-tablet: 771px;
+$breakpoint-tablet: 782px;
 $breakpoint-desktop: 1024px;
 
 /* Color palette */
@@ -442,19 +442,17 @@ nav .language-toggle {
 .intro-skew {
   position: relative;
   display: table;
+  width: 100%;
+  height: 100%;
   width: 100vw;
   height: 100vh;
 
-  @media screen and (max-width: $breakpoint-desktop) {
+  @media screen and (max-width: $breakpoint-tablet) and (orientation: portrait) {
     height: 90vh;
   }
 
-  @media screen and (max-width: $breakpoint-tablet) {
-    height: 70vh;
-  }
-
-  @media screen and (max-width: $breakpoint-mobile) {
-    height: 60vh;
+  @media screen and (max-width: $breakpoint-mobile) and (orientation: portrait) {
+    height: 80vh;
   }
 }
 
@@ -476,10 +474,23 @@ nav .language-toggle {
   vertical-align: middle;
   text-align: center;
   font-family: Sawasdee, sans-serif;
-  font-size: 64px;
   font-weight: bold;
   color: $white-two;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+  font-size: 32px;
+
+  @media screen and (min-width: 1023px), screen and (min-height: 1366px) {
+    font-size: 64px;
+  }
+
+  @media screen and (min-width: 1023px) and (min-height: 1023px)  {
+    font-size: 96px;
+  }
+
+  @media screen and (min-width: 1919px) and (min-height: 1023px) {
+    font-size: 128px;
+  }
 }
 
 /* Header */
@@ -1848,10 +1859,15 @@ section.contentoptions {
 }
 
 #process {
-  margin-top: -50px; /* fix for video being too high */
   background-color: #3393c7;
   text-align: center;
   font-weight: 300;
+
+  margin-top: -50px; /* fix for video being too high */
+
+  @media screen and (min-width: 1920px) {
+    margin-top: -70px;
+  }
 }
 
 #process .item {
