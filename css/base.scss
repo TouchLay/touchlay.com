@@ -440,7 +440,7 @@ nav .language-toggle {
   min-width: 100%;
   height: 100%;
   
-  @media screen and (max-width: $breakpoint-desktop) {
+  @media screen and (max-width: $breakpoint-desktop) and (orientation: portrait) {
     margin-left: -50%;
   }
 }
