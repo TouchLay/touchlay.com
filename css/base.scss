@@ -523,9 +523,13 @@ nav .language-toggle {
   transform: rotate(180deg);
   font-size: 250%;
   position: absolute;
-  margin: 0 auto;
   width: 100%;
   animation: caret 1.2s infinite ease-in-out;
+  margin: 0 auto;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    margin-top: -25px;
+  }
 }
 
 /* Header */
