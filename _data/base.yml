@@ -23,21 +23,86 @@ navigation:
     url: 'about/'
     gaaction: 'about'
 
+footersitemap:
+  - title:
+      en: Usecases
+      de: Usecases
+    items:
+      - title:
+          en: Exhibitions & Events
+          de: Messen & Events
+        url: 'software/promotion'
+        gaaction: 'usecase-promotion'
+      - title:
+          en: Point of Sale
+          de: Im Verkaufsgespräch
+        url: 'hardware/point-of-sale'
+        gaaction: 'usecase-pos'
+      - title:
+          en: Interactive Wayfinder
+          de: Digitales Wegeleitsystem
+        url: 'software/wayfinder'
+        gaaction: 'usecase-wayfinder'
+  - title:
+      en: Software
+      de: Software
+    items:
+      - title:
+          en: Interactive Maps
+          de: Interaktive Karten
+        url: 'software/wayfinder'
+        gaaction: 'software-wayfinder'
+      - title:
+          en: Product Presentation
+          de: Produktpräsentation
+        url: 'software/'
+        gaaction: 'software-presentation'
+      # - title:
+      #     en: Custom Software
+      #     de: Maßgeschneiderte Software
+      #   url: 'custom/'
+      #   gaaction: 'software-custom'
+  - title:
+      en: Hardware
+      de: Hardware
+    items:
+      - title:
+          en: Multitouch Tables
+          de: Multitouch Tische
+        url: 'hardware/'
+        gaaction: 'hardware-nova'
+      - title:
+          en: Second-Hand Touchtables
+          de: Gebrauchte Touchtische
+        url: 'hardware/secondhand'
+        gaaction: 'hardware-secondhand'
+      # - title:
+      #     en: Custom Hardware
+      #     de: Maßgeschneiderte Hardware
+      #   url: 'custom/'
+      #   gaaction: 'hardware-custom'
+
+
 footer:
+  - title:
+      en: 'About Us'
+      de: 'Über Uns'
+    url: 'about/'
+    gaaction: 'about'
   - title:
       en: 'Imprint'
       de: 'Impressum'
-    url: 'imprint.html'
+    url: 'imprint/'
     gaaction: 'imprint'
   - title:
       en: 'Press'
       de: 'Presse'
-    url: 'press.html'
+    url: 'press/'
     gaaction: 'press'
   - title:
       en: 'Jobs'
       de: 'Jobs'
-    url: 'jobs.html'
+    url: 'jobs/'
     gaaction: 'jobs'
   - title:
       en: 'Blog'

@@ -1,8 +1,9 @@
 markdown: kramdown
 exclude: ["node_modules","vendor"]
-url: //touchlay.com
-gems:
+url: https://touchlay.com
+plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 title: TouchLay
 description: Amaze & inform your customers with our interactive software and hardware solutions.

@@ -12,12 +12,6 @@
   
     herodescription=site.data.pages.hardware.nova.header.description
   %}
-
-  <div class="secondhand cta">
-    <a href="/{{page.lang}}/hardware/" ga-on="click" ga-event-category="secondhand" ga-event-action="more">
-        <button class="btn cta-highlight">{{ site.data.base.texts.more[page.lang] }}</button>
-    </a>
-  </div>
   
   <section id="devicesList" class="padded gray">
     <div class="container">
@@ -27,7 +21,23 @@
 
   {% include components/secondhand-loop.html features=site.data.secondhand %}
   
-  <section id="customers" class="padded">
+  <section id="overview-hardware" class="paddedTop section-a">
+    {% assign content = site.data.pages.home.hardware %}
+    {% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
+    {% include components/feature-section.html
+        title=content.title
+        subtitle=content.subtitle
+        description=content.description
+        image=content.image
+        cta=site.data.base.texts.more
+        ctalink=hardwarePageUrl
+  
+        gacategory="hardware"
+        gaaction="more"
+    %}
+  </section>
+
+  <section id="customers" class="padded grey">
     <div class="container">
       <h1 class="text-center section-title">{{ site.data.pages.hardware.nova.customers[page.lang] }}</h1>
       {%
@@ -37,7 +47,7 @@
     </div>
   </section>
   
-  {% include components/newsletter.html %}
+  {% include components/newsletter.html class="grey" %}
   
   <section id="team">
     <div class="container">

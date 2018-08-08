@@ -1,9 +1,9 @@
 ---
 layout: default
 lang: de
-title: Jobs
+title: TouchLay jobs
 container: true
-description: "TouchLay Jobs - Begeistern und informieren Sie Ihre Kunden mit interaktiven Präsentationen!"
+description: Momentan suchen wir nach freiberuflichen Entwicklern sowie Teilzeit-Verkaufsmitarbeitern.
 ---
 
 # Jobs

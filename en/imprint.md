@@ -1,9 +1,9 @@
 ---
 layout: default
 lang: en
-title: Imprint
+title: TouchLay imprint
 container: true
-description: "TouchLay GmbH Imprint - Amaze & inform your customers with interactive presentations!"
+description: "TouchLay GmbH Imprint"
 ---
 
 # Imprint
