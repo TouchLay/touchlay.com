@@ -1,0 +1,14 @@
+<header id="intro-header" class="header-skew-wrapper {{include.class}}">
+    <div class="intro-skew">
+      <div class="background">
+        <video muted autoplay loop id="moodvideo">
+          <source src="{{ include.video }}" type="video/mp4">
+        </video>
+      </div>
+      <section class="overlay">
+        {{ site.data.pages.home.vision[page.lang] }}
+        <div class="caret">&#8248;</div>
+      </section>
+    </div>
+  </header>
+  

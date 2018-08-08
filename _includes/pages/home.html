@@ -1,30 +1,10 @@
 {% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
 {% capture softwarePageUrl %}/{{page.lang}}/software/{% endcapture %}
 
-{% include components/header-skew.html
-  image=site.data.pages.home.header.image
-  imagelink=site.data.pages.home.header.imagelink
-  title=site.data.pages.home.header.title
-  subtitle=site.data.pages.home.header.subtitle
-  gacategory="mainIntro"
-
-  primarytext=site.data.base.texts.playvideo
-  primarylink=site.data.pages.home.header.video
-  primarylity=true
-  primarygaaction="playVideo"
-
-  secondarytext=site.data.base.texts.more
-  secondarylink=hardwarePageUrl
-  secondarygaaction="more"
+{% include components/intro-skew.html
+  video=site.data.pages.home.header.video
+  headline=site.data.pages.home.vision
 %}
-
-<section id="about">
-  <div class="container">
-    <div class="hero-wrapper main">
-      <p class="hero-text">{{ site.data.pages.home.vision[page.lang] }}</p>
-    </div>
-  </div>
-</section>
 
 <section id="process">
   <div class="container">

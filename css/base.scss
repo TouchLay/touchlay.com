@@ -6,7 +6,7 @@
 
 /* Breakpoints */
 $breakpoint-mobile: 480px;
-$breakpoint-tablet: 926px;
+$breakpoint-tablet: 782px;
 $breakpoint-desktop: 1024px;
 
 /* Color palette */
@@ -223,14 +223,23 @@ html, body {
 }
 
 .content-container {
-  margin-top: 80px;
   min-height: 100%; /* fallback for browser that don't support calc */
   min-height: calc(100% + 81px);
+  margin-top: 80px;
 
   @media screen and (max-width: $breakpoint-tablet) {
     margin-top: 65px;
   }
 }
+
+.transparentHeader .content-container {
+  margin-top: 0;
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    margin-top: 0;
+  }
+}
+
 
 .container {
   max-width: 1024px;
@@ -269,15 +278,35 @@ nav {
   left: 0;
   z-index: 10;
 
+  background-color: $touchlay-blue;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+
   font-family: Sawasdee, sans-serif;
   font-weight: bold;
-
-  background: $touchlay-blue;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 
   @media screen and (max-width: $breakpoint-tablet) {
     min-height: 60px;
   }
+}
+
+.transparentHeader nav {
+  background-color: rgba(0,0,0,0.3);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: background-color 420ms ease-in-out;
+  -moz-transition: background-color 420ms ease-in-out;
+  -o-transition: background-color 420ms ease-in-out;
+  -ms-transition: background-color 420ms ease-in-out;
+  transition: background-color 420ms ease-in-out;
+}
+
+.transparentHeader.no-js nav {
+  background-color: rgba(0,0,0,0.6);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.transparentHeader.scrolled nav {
+  background-color: $touchlay-blue;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 nav .wrapper {
@@ -406,6 +435,103 @@ nav .language-toggle {
   }
 }
 
+/* Intro / Mood Video */
+#moodvideo {
+  min-width: 100%;
+  height: 100%;
+  
+  @media screen and (max-width: $breakpoint-desktop) and (orientation: portrait) {
+    margin-left: -50%;
+  }
+}
+
+.intro-skew {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100%;
+  width: 100vw;
+  height: 100vh;
+
+  @media screen and (max-width: $breakpoint-tablet) and (orientation: portrait) {
+    height: 90vh;
+  }
+
+  @media screen and (max-width: $breakpoint-mobile) and (orientation: portrait) {
+    height: 80vh;
+  }
+}
+
+.intro-skew .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+
+.intro-skew .overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-family: Sawasdee, sans-serif;
+  font-weight: bold;
+  color: $white-two;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+  font-size: 32px;
+
+  @media screen and (min-width: 1023px), screen and (min-height: 1366px) {
+    font-size: 64px;
+  }
+
+  @media screen and (min-width: 1023px) and (min-height: 1023px)  {
+    font-size: 96px;
+  }
+
+  @media screen and (min-width: 1919px) and (min-height: 1023px) {
+    font-size: 128px;
+  }
+}
+
+@keyframes caret {
+  0% {
+    opacity: 0.6;
+    bottom: 0px;
+  }
+
+  30% {
+    opacity: 1.0;
+    bottom: -20px;
+  }
+  
+  90%, 100% {
+    opacity: 0.6;
+    bottom: 0px;
+  }
+}
+
+.intro-skew .caret {
+  font-family: Sawasdee, Roboto, Arial;
+  font-stretch: expanded;
+  transform: rotate(180deg);
+  font-size: 250%;
+  position: absolute;
+  width: 100%;
+  animation: caret 1.2s infinite ease-in-out;
+  margin: 0 auto;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    margin-top: -25px;
+  }
+}
+
 /* Header */
 
 .header-skew-wrapper {
@@ -414,7 +540,7 @@ nav .language-toggle {
 
 .header-skew {
   background: $black;
-  padding: 80px 0;
+  padding: 160px 0 80px;
   transform: skew(0deg, -3deg);
   margin-top: -100px;
 
@@ -1820,6 +1946,12 @@ section.contentoptions {
   background-color: #3393c7;
   text-align: center;
   font-weight: 300;
+
+  margin-top: -50px; /* fix for video being too high */
+
+  @media screen and (min-width: 1920px) {
+    margin-top: -70px;
+  }
 }
 
 #process .item {
@@ -1843,6 +1975,7 @@ section.contentoptions {
 #process .item .text {
   color: rgba(255, 255, 255, 0.9);
   font-size: 30px;
+  text-align: left;
 }
 
 #process .container {

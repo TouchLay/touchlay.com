@@ -13,6 +13,15 @@
 document.body.className = document.body.className.replace("no-js","js") // set that we have js
 var lang = $('body').data('lang') // get current langauge
 
+function checkScroll (firstTime) {
+  document.body.classList[
+    window.scrollY > 20 ? 'add' : 'remove'
+  ]('scrolled')
+}
+
+checkScroll()
+window.addEventListener('scroll', checkScroll)
+
 // detect language and forwared to right language (only from /index.html)
 if (location.pathname == "/") {
   var browserLang = window.navigator.userLanguage || window.navigator.language;
