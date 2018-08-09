@@ -13,6 +13,13 @@
 document.body.className = document.body.className.replace("no-js","js") // set that we have js
 var lang = $('body').data('lang') // get current langauge
 
+// detect language and forwared to right language (only from /index.html)
+if (location.pathname == "/") {
+  var browserLang = window.navigator.userLanguage || window.navigator.language;
+  window.location.href = (browserLang === 'de') ? '/de/' : '/en/'
+}
+
+// turns the navigation bar blue when the user scrolls
 function checkScroll (firstTime) {
   document.body.classList[
     window.scrollY > 20 ? 'add' : 'remove'
@@ -22,10 +29,23 @@ function checkScroll (firstTime) {
 checkScroll()
 window.addEventListener('scroll', checkScroll)
 
-// detect language and forwared to right language (only from /index.html)
-if (location.pathname == "/") {
-  var browserLang = window.navigator.userLanguage || window.navigator.language;
-  window.location.href = (browserLang === 'de') ? '/de/' : '/en/'
+// show gif fallback if video cannot autoplay
+var video = document.getElementById('moodvideo')
+
+function gifFallback () {
+  var img = video.querySelector('img')
+  video.parentNode.replaceChild(img, video)
+  img.id = 'moodvideo'
+}
+
+// detect if autoplay fails
+if (this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2) { // check if video is not playing
+  var promise = video.play()
+  if (promise !== undefined) {
+    promise.then(() => {}).catch(gifFallback)
+  } else {
+    gifFallback()
+  }
 }
 
 $(document).ready(function() {

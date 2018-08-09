@@ -1,8 +1,9 @@
 <header id="intro-header" class="header-skew-wrapper {{include.class}}">
     <div class="intro-skew">
       <div class="background">
-        <video muted autoplay loop id="moodvideo">
-          <source src="{{ include.video }}" type="video/mp4">
+        <video muted autoplay loop playsinline id="moodvideo">
+          <source src="{{ include.video }}.mp4" type="video/mp4">
+          <img src="{{ include.video }}.gif">
         </video>
       </div>
       <section class="overlay">
