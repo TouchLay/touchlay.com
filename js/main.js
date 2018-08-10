@@ -41,14 +41,16 @@ function imgFallback () {
 
 $(document).ready(function() {
   // detect if autoplay fails
-  if (!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2)) { // check if video is not playing
-    var promise = video.play()
-    if (promise !== undefined) {
-      promise.then(() => {}).catch(imgFallback)
-    } else {
-      imgFallback()
+  setTimeout(function () {
+    if (!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2)) { // check if video is not playing
+      var promise = video.play()
+      if (promise !== undefined) {
+        promise.then(() => {}).catch(imgFallback)
+      } else {
+        imgFallback()
+      }
     }
-  }
+  }, 100)
 
   // Submit the form with an ajax/jsonp request.
   // Based on http://stackoverflow.com/a/15120409/215821
