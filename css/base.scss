@@ -439,6 +439,7 @@ nav .language-toggle {
 #moodvideo {
   min-width: 100%;
   height: 100%;
+  object-fit: cover;
   
   @media screen and (max-width: $breakpoint-desktop) and (orientation: portrait) {
     margin-left: -50%;
@@ -513,33 +514,40 @@ nav .language-toggle {
 @keyframes caret {
   0% {
     opacity: 0.6;
-    bottom: 0px;
+    padding-bottom: 20px;
   }
 
   30% {
     opacity: 1.0;
-    bottom: -20px;
+    padding-bottom: 0px;
   }
   
   90%, 100% {
     opacity: 0.6;
-    bottom: 0px;
+    padding-bottom: 20px;
   }
 }
 
 .intro-skew .caret {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  display: table;
+  bottom: 0;
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    margin-bottom: -150px;
+  }
+}
+
+.intro-skew .caret .character {
+  display: table-cell;
+  vertical-align: bottom;
   font-family: Sawasdee, Roboto, Arial;
   font-stretch: expanded;
   transform: rotate(180deg);
   font-size: 250%;
-  position: absolute;
-  width: 100%;
   animation: caret 1.2s infinite ease-in-out;
-  margin: 0 auto;
-
-  @media screen and (max-width: $breakpoint-mobile) {
-    margin-top: -25px;
-  }
 }
 
 /* Header */
@@ -1959,7 +1967,7 @@ section.contentoptions {
 
   margin-top: -50px; /* fix for video being too high */
 
-  @media screen and (min-width: 1920px) {
+  @media screen and (min-width: 1921px) {
     margin-top: -70px;
   }
 }
