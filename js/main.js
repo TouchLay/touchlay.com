@@ -32,25 +32,26 @@ window.addEventListener('scroll', checkScroll)
 // show image fallback if video cannot autoplay
 var video = document.getElementById('moodvideo')
 
-function imgFallback () {
-  var img = document.createElement('img')
-  img.src = '/img/moodvideo-fallback.png'
-  video.parentNode.replaceChild(img, video)
-  img.id = 'moodvideo'
+function videoReady () {
+  video.style = ''
+  var img = document.getElementById('moodvideo-fallback')
+  img.style = 'display: none'
 }
 
 $(document).ready(function() {
   // detect if autoplay fails
-  setTimeout(function () {
-    if (!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2)) { // check if video is not playing
-      var promise = video.play()
-      if (promise !== undefined) {
-        promise.then(() => {}).catch(imgFallback)
-      } else {
-        imgFallback()
-      }
+  if (!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2)) { // check if video is not playing
+    var promise = video.play()
+    if (promise !== undefined) {
+      promise
+        .then(videoReady) // replace img with video
+        .catch(err => console.error('autoplay failed:', err))
+    } else {
+      console.error('autoplay failed')
     }
-  }, 100)
+  } else { // video is already autoplaying
+    videoReady()
+  }
 
   // Submit the form with an ajax/jsonp request.
   // Based on http://stackoverflow.com/a/15120409/215821
