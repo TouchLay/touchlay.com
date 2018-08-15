@@ -514,39 +514,26 @@ nav .language-toggle {
 @keyframes caret {
   0% {
     opacity: 0.6;
-    padding-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   30% {
     opacity: 1.0;
-    padding-bottom: 0px;
+    margin-bottom: 20px;
   }
   
   90%, 100% {
     opacity: 0.6;
-    padding-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
 
 .intro-skew .caret {
   position: absolute;
-  width: 100%;
-  margin: 0 auto;
-  display: table;
   bottom: 0;
-
-  @media screen and (max-width: $breakpoint-desktop) {
-    margin-bottom: -150px;
-  }
-}
-
-.intro-skew .caret .character {
-  display: table-cell;
-  vertical-align: bottom;
+  width: 100%;
   font-family: Sawasdee, Roboto, Arial;
-  font-stretch: expanded;
-  transform: rotate(180deg);
-  font-size: 250%;
+  font-size: 200%;
   animation: caret 1.2s infinite ease-in-out;
 }
 
