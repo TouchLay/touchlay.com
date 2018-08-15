@@ -1,7 +1,8 @@
 <header id="intro-header" class="header-skew-wrapper {{include.class}}">
     <div class="intro-skew">
       <div class="background">
-        <video muted autoplay loop playsinline id="moodvideo">
+        <div id="moodvideo-fallback" style="background-image: url({{ include.img }})"></div>
+        <video muted autoplay loop playsinline id="moodvideo" style="display: none">
           <source src="{{ include.video }}" type="video/mp4">
         </video>
       </div>
