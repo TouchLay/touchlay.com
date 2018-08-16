@@ -40,7 +40,7 @@ function videoReady () {
 
 $(document).ready(function() {
   // detect if autoplay fails
-  if (!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2)) { // check if video is not playing
+  if (!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2)) { // check if video is not playing
     var promise = video.play()
     if (promise !== undefined) {
       promise
@@ -52,6 +52,15 @@ $(document).ready(function() {
   } else { // video is already autoplaying
     videoReady()
   }
+
+  // on tab focus, restart video if it was paused by the browser
+  $(window).focus(function () {
+    if (video.paused || video.ended || video.readyState <= 2) {
+      video.pause()
+      video.currentTime = 0
+      video.play()
+    }
+  })
 
   // Submit the form with an ajax/jsonp request.
   // Based on http://stackoverflow.com/a/15120409/215821
