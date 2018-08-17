@@ -87,22 +87,22 @@ footer:
   - title:
       en: 'About Us'
       de: 'Über Uns'
-    url: 'about/'
+    url: 'about'
     gaaction: 'about'
   - title:
       en: 'Imprint'
       de: 'Impressum'
-    url: 'imprint/'
+    url: 'imprint'
     gaaction: 'imprint'
   - title:
       en: 'Press'
       de: 'Presse'
-    url: 'press/'
+    url: 'press'
     gaaction: 'press'
   - title:
       en: 'Jobs'
       de: 'Jobs'
-    url: 'jobs/'
+    url: 'jobs'
     gaaction: 'jobs'
   - title:
       en: 'Blog'
