@@ -40,17 +40,19 @@ function videoReady () {
 
 $(document).ready(function() {
   // detect if autoplay fails
-  if (!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2)) { // check if video is not playing
-    var promise = video.play()
-    if (promise !== undefined) {
-      promise
-        .then(videoReady) // replace img with video
-        .catch(err => console.error('autoplay failed:', err))
-    } else {
-      console.error('autoplay failed')
+  if (video) {
+    if (!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2)) { // check if video is not playing
+      var promise = video.play()
+      if (promise !== undefined) {
+        promise
+          .then(videoReady) // replace img with video
+          .catch(err => console.error('autoplay failed:', err))
+      } else {
+        console.error('autoplay failed')
+      }
+    } else { // video is already autoplaying
+      videoReady()
     }
-  } else { // video is already autoplaying
-    videoReady()
   }
 
   // on tab focus, restart video if it was paused by the browser
