@@ -216,6 +216,7 @@ $(document).ready(function() {
         name: $('#contact-name').val(),
         email: $('#contact-email').val(),
         message: $('#contact-message').val(),
+        from: window.location.pathname,
         country: $('#contact-country').selectivity('data') && $('#contact-country').selectivity('data').text,
         interests: $('#contact-interested').selectivity('data') && $.map($('#contact-interested').selectivity('data'), function(item) { return item.text })
       })
