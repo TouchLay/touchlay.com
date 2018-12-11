@@ -40,6 +40,13 @@
     en: 'uses 5 TouchLay <i>nova</i> to present their research on digital transformation to their clients.'
     de: 'nutzt 5 TouchLay <i>nova</i> um Ihre Erkenntnisse zum Thema Digitale Transformation zu präsentieren.'
 
+- company: "Procter & Gamble"
+  image: "/img/customer-1.jpg"
+  logo: "/img/customer-logo-1.png"
+  tags:
+    - hardware
+    - promotion
+
 - company: "Österreichische Post"
   image: "/img/customer-2.jpg"
   logo: "/img/customer-logo-2.png"
@@ -50,14 +57,12 @@
     en: 'uses the TouchLay <i>nova</i> to support sales of telecom products in post offices via Guided Selling.'
     de: 'nutzt den TouchLay <i>nova</i>, um den Verkauf von Telekomprodukten in Postfilialen über Guided Selling zu unterstützen.'
 
-- company: "ABB"
-  image: "/img/customer-10.jpg"
-  logo: "/img/customer-logo-12.png"
+- company: "OPEC"
+  image: "/img/customer-17.jpg"
+  logo: "/img/customer-logo-17.png"
   tags:
     - hardware
-  description:
-    en: 'uses the TouchLay <i>nova</i> at various events to present their software solutions.'
-    de: 'setzt den TouchLay <i>nova</i> bei diversen Events ein, um Ihre Software Lösungen zu präsentieren.'
+    - promotion
 
 - company: "Messe Frankfurt"
   image: "/img/customer-11.jpg"
@@ -69,6 +74,21 @@
   description:
     en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map for the largest book fair worldwide (Frankfurt Book Fair).'
     de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte für die größte Buchmesse der Welt ein (Frankfurter Buchmesse).'
+
+- company: "d&b Audiotechnik"
+  logo: "/img/customer-logo-22.png"
+  tags:
+    - hardware
+    - promotion
+
+- company: "ABB"
+  image: "/img/customer-10.jpg"
+  logo: "/img/customer-logo-12.png"
+  tags:
+    - hardware
+  description:
+    en: 'uses the TouchLay <i>nova</i> at various events to present their software solutions.'
+    de: 'setzt den TouchLay <i>nova</i> bei diversen Events ein, um Ihre Software Lösungen zu präsentieren.'
 
 - company: "4Gamechanger Festival 2017 Puls4"
   logo: "/img/customer-logo-10.png"
@@ -147,19 +167,6 @@
     en: 'positions the TouchLay <i>nova</i> in their meeting room for interactive customer presentations.'
     de: 'positioniert den TouchLay <i>nova</i> im Besprechungsraum, um Kunden interaktiv Informationen zu präsentieren.'
 
-- company: "Buch Messe Wien 2016"
-  image: "/img/customer-1.jpg"
-  logo: "/img/customer-logo-1.png"
-  tags:
-    - hardware
-    - software
-    - wayfinder
-  description:
-    en: 'used the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and timetable.'
-    de: 'verwendete den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und Zeitplan.'
-  lity: true
-  media: "https://www.youtube.com/watch?v=L5oxUTE3bh4"
-
 - company: "Arbeiterkammer Niederösterreich"
   image: "/img/customer-9.jpg"
   logo: "/img/customer-logo-9.png"
@@ -185,6 +192,12 @@
     en: 'presents an interactive map of their partners with the TouchLay <i>cloud</i> and on the <i>nova</i>.'
     de: 'präsentiert über die TouchLay <i>cloud</i> und den <i>nova</i> eine interaktive Karte ihrer Partner.'
 
+- company: "Bundesrechenzentrum Österreich"
+  logo: "/img/customer-logo-20.png"
+  tags:
+    - hardware
+    - promotion
+
 - company: "Tourismus Marketing Niedersachsen"
   image: "/img/customer-15.jpg"
   logo: "/img/customer-logo-15.png"
@@ -195,22 +208,6 @@
     en: 'uses the TouchLay <i>nova</i> to present their new website at ITB in Berlin.'
     de: 'setzt den TouchLay <i>nova</i> zur Präsentation ihrer neuen Webseite auf der ITB in Berlin ein.'
 
-- company: "Bundesrechenzentrum Österreich"
-  logo: "/img/customer-logo-20.png"
-  tags:
-    - hardware
-    - promotion
-
-- company: "VerVieVas"
-  image: "/img/customer-17.jpg"
-  logo: "/img/customer-logo-17.png"
-  tags:
-    - hardware
-    - promotion
-  description:
-    en: 'uses the TouchLay <i>nova</i> for Graphic Recording at events of an Austrian political party.'
-    de: 'nutzt den TouchLay <i>nova</i> für Graphic Recording einer Auftaktveranstaltung einer österreichischen Partei.'
-
 - company: "Energy Agency Austria"
   logo: "/img/customer-logo-19.png"
   tags:
@@ -219,12 +216,6 @@
 
 - company: "Lexis Nexis"
   logo: "/img/customer-logo-21.png"
-  tags:
-    - hardware
-    - software
-
-- company: "PFI Platform Innovation"
-  logo: "/img/customer-logo-22.png"
   tags:
     - hardware
     - software
