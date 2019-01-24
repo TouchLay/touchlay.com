@@ -214,8 +214,8 @@ texts:
     en: 'Status'
     de: 'Zustand'
   price:
-    en: 'Price'
-    de: 'Preis'
+    en: 'Price (excl. Tax)'
+    de: 'Preis (exkl. USt)'
   color:
     en: 'Color'
     de: 'Farbe'
