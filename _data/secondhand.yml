@@ -1,17 +1,3 @@
-- id: SHP-1
-  year: 2016
-  image: /img/shp-1.jpg
-  status:
-    de: Prototyp, kleine Abnützungsspuren
-    en: Prototype, light wear
-  color:
-    de: nova weiß
-    en: nova white
-  specs:
-    de: 60 GB Speicher (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD Display 16/7 Gebrauch, 6 Touchpunkte
-    en: 60 GB storage (SSD), Intel i5-5200U, 8GB DDR3L RAM, HD display 16/7 usage, 6 touchpoints
-  price: € 4.250,--
-
 - id: SHP-2
   year: 2016
   image: /img/shp-2.jpg
