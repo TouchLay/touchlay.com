@@ -201,18 +201,11 @@
     en: 'positions the TouchLay <i>nova</i> in their meeting room for interactive customer presentations.'
     de: 'positioniert den TouchLay <i>nova</i> im Besprechungsraum, um Kunden interaktiv Informationen zu präsentieren.'
 
-- company: "Arbeiterkammer Niederösterreich"
-  image: "/img/customer-9.jpg"
-  logo: "/img/customer-logo-9.png"
+- company: "Austrian Energy Agency"
+  logo: "/img/customer-logo-19.png"
   tags:
     - hardware
-    - software
-    - wayfinder
     - promotion
-  description:
-    en: 'makes use of the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and gaming platform for children.'
-    de: 'benützt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte und Spieleplattform für Kinder.'
-  media: "https://www.youtube.com/watch?v=eWPOVO3SEXs"
 
 - company: "Bundesrechenzentrum Österreich"
   logo: "/img/customer-logo-20.png"
