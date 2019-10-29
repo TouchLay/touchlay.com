@@ -23,6 +23,14 @@ navigation:
     url: 'about/'
     gaaction: 'about'
 
+  - title:
+      en: 'Contact'
+      de: 'Kontakt'
+    url: '#contact'
+    gaaction: 'contact-nav'
+    invert: true
+    append: true
+
 footersitemap:
   - title:
       en: Usecases

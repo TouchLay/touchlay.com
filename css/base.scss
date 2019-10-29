@@ -59,6 +59,9 @@ summary, time, mark, audio, video {
     vertical-align: baseline;
 }
 
+html {
+}
+
 /* Text styles */
 
 .hero-text {
@@ -166,6 +169,14 @@ h3 {
   @media screen and (max-width: $breakpoint-tablet) {
     color: $touchlay-blue; /* invert color for mobile menu */
   }
+}
+
+.nav-item.invert {
+  background: $white-two;
+}
+
+.nav-item.invert .nav-text {
+  color: $touchlay-blue;
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
