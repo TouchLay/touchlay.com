@@ -66,21 +66,23 @@
 
 <div id="customerlogos" class="container flexcontainer centereverything">
   {% for customer in site.data.customers %}
-    {% capture tags %}{{customer.tags}}{% endcapture %}
-    {% if include.tags %}
-      {% for tag in include.tags %}
-          {% for _tag in tags %}
-            {% if _tag contains tag %}
-              <div class="customer-logo-wrapper">
-                {% include components/lazyImage.html alt=customer.company image=customer.logo class="customer-logo" %}
-              </div>
-            {% endif %}
-          {% endfor %}
-      {% endfor %}
-    {% else %}
-      <div class="customer-logo-wrapper">
-        {% include components/image.html alt=customer.company image=customer.logo class="customer-logo" %}
-      </div>
+    {% if customer.logo %}
+      {% capture tags %}{{customer.tags}}{% endcapture %}
+      {% if include.tags %}
+        {% for tag in include.tags %}
+            {% for _tag in tags %}
+              {% if _tag contains tag %}
+                <div class="customer-logo-wrapper">
+                  {% include components/lazyImage.html alt=customer.company image=customer.logo class="customer-logo" %}
+                </div>
+              {% endif %}
+            {% endfor %}
+        {% endfor %}
+      {% else %}
+        <div class="customer-logo-wrapper">
+          {% include components/image.html alt=customer.company image=customer.logo class="customer-logo" %}
+        </div>
+      {% endif %}
     {% endif %}
   {% endfor %}
 </div>
