@@ -23,7 +23,7 @@
             class="nav-item active sub"
             {% endif %}
             {% if navitem.invert %}
-            class="nav-item invert"
+            class="nav-item invert cta-highlight"
             {% endif %}
           >
             <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" href={{pageUrl}} >{{navitem.title[page.lang]}}</a>
