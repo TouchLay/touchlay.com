@@ -1,8 +1,8 @@
 header:
   image: /img/header-software.png
   title:
-    en: TouchLay cloud
-    de: TouchLay cloud
+    en: TouchLay Software
+    de: TouchLay Software
   subtitle:
     en: interactive & always up-to-date!
     de: Interaktiv & immer up-to-date!
@@ -12,7 +12,7 @@ header:
   buttonlink: '#contact'
   description:
     en: Generate your own interactive presentation from existing data<br />and automatically collect extensive statistics
-    de: Generieren Sie aus bestehenden Daten Ihre eigene interaktive Präsentation<br />und sammeln Sie automatisch ausgiebige Statistiken
+    de: Wir schaffen leistungsfähige & interaktive Markenerlebnisse.<br />Beigeistern Sie jetzt Ihre Kunden mit unseren innovativen Digtallösungen!
 
 customers:
   en: Customers who use <b>TouchLay software</b>
@@ -22,47 +22,47 @@ features:
   - id: sources
     title:
       en: 1. Connect Data Sources
-      de: 1. Datenquellen verbinden
+      de: Außergewöhnliches Design
     description:
       en: '<p>Import existing data into the TouchLay <i>cloud</i>.</p><p>Various services are already integrated. On request we also implement new services or import data from an existing website.</p>'
-      de: '<p>Importieren Sie bestehende Daten in die TouchLay <i>cloud</i>.</p><p>Diverse Dienste sind bereits integriert. Auf Wunsch implementieren wir auch neue Schnittstellen oder bereiten Daten von einer existierenden Webseite auf.</p>'
-    image: /img/feature-sources.jpg
+      de: '<p>Wir fertigen individuelle Digitallösungen für Sie an, die sich perfekt an Ihre Firmen-Identität anpassen und Ihre Produkte und Dienstleistungen bestmöglich präsentieren. Interaktive Präsentationen begeistern und integrieren Ihren Kunden in das Verkaufsgespräch!</p>'
+    image: /img/feature-style.png
 
   - id: layout
     title:
       en: 2. Choose Presentation
-      de: 2. Präsentation auswählen
+      de: Einfaches Update
     description:
       en: '<p>Pick a presentation app from our catalog that best fits the data you want to present.</p><p>We also offer development of custom applications, specifically tailored to your data and needs.</p>'
-      de: '<p>Wählen Sie eine passende Präsentations-Anwendung aus unserem Katalog aus, die Ihre Daten am besten präsentiert.</p><p>Wir bieten auch die Entwicklung von speziellen Anwendungen, die auf Ihre Bedürfnisse und Daten maßgeschneidert sind an.</p>'
-    image: /img/feature-layout.png
+      de: '<p>Durch unser speziell entwickeltes System können Sie unsere Digitallösungen mit Ihren bestehenden Daten verbinden und jederzeit selbst aktualisieren. Die Anwendungen können flexibel auf verschiedenen Geräten ausgespielt werden, darunter Smartphones, Tablets, Digital Signage Screens, und natürlich dem TouchLay nova!</p>'
+    image: /img/feature-sources.jpg
 
   - id: style
     title:
       en: 3. Define Style
-      de: 3. Aussehen definieren
+      de: Detaillierte Analyse
     description:
       en: 'Upload your company logo and adjust the colors to your corporate identity.'
-      de: 'Laden Sie Ihr Firmenlogo hoch und passen Sie die Farben an Ihre Firmen-Identität an.'
-    image: /img/feature-style.png
+      de: '<p>Wir sammeln automatisch DSGVO-konforme Nutzungsstatistiken und generieren Statistiken für Sie. Durch diese detaillierte Analyse haben Sie ständig einen Überblick über Kundeninteressen und potenzielle Kunden. Dadurch können Sie Ihre Präsentation perfekt an die Kundeninteressen anpasen!</p>'
+    image: /img/feature-stats.jpg
 
   - id: devices
     title:
       en: 4. Assign Devices
-      de: 4. Geräte zuweisen
+      de: Vielfältige Inhalte
     description:
       en: '<p>Finally, select a device to deploy the presentation on.</p><p>Supported are the TouchLay <i>nova</i>, as well as various tablets, smartphones, desktops and signage screens.</p>'
-      de: '<p>Abschließend wählen Sie ein Gerät aus, auf dem die Präsentation verwendet werden soll.</p><p>Dabei werden der TouchLay <i>nova</i>, aber auch jegliche Tablets, Smartphones, Laptops und Desktops unterstützt.</p>'
+      de: '<p>Unsere Software ist vollständig kompatibel mit allen gängigen Inhalten, beispielsweise Videos, Fotos, 3D Modelle, auch die Integration von bestehenden Webseiten ist möglich. Unsere Digitallösungen können sowohl in einer App, als auch auf einer Webseite ausgespielt werden.</p>'
     image: /img/feature-devices.jpg
 
   - id: tracking
     title:
       en: Tracking & Statistics
-      de: Tracking & Statistiken
+      de: Digitale Prospekte
     description:
       en: 'User input will be automatically collected and statistics generated, e.g. heatmap, input in search fields, clicks on certain data sets, and much more!'
-      de: 'Es werden automatisch Daten über Benutzereingaben gesammelt und Statistiken generiert, z.B. Heatmap über Maus/Touchverhalten, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze, und vieles mehr!'
-    image: /img/feature-stats.jpg
+      de: '<p>Wir orientieren uns immer an Benutzerfreundlichkeit und Nachhaltigkeit. Mit unseren Digitallösungen können Sie einfach digitale Prospekte an Ihre Kunden verteilen. Die Inhalte, die das Kundeninteresse während einer Präsentation geweckt haben, können zusätzlich über E-Mail oder per QR-Code direkt an den Kunden verschickt werden!</p>'
+    image: /img/feature-layout.png
 
   - id: tracking
     title:
@@ -70,16 +70,16 @@ features:
       de: Branchenspezifische Module
     description:
       en: '<p>We also develop branch specific modules for the TouchLay <i>cloud</i>.</p><p>At the moment, in addition to standardized presentation apps, we offer the TouchLay <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="overview" ga-event-action="wayfinder"><i>wayfinder</i></a> (interactive map).</p>'
-      de: '<p>Wir entwickeln auch branchenspezifische Module für die TouchLay <i>cloud</i>.</p><p>Momentan bieten wir zusätzlich zu Standard-Präsentationsanwendungen den TouchLay <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="overview" ga-event-action="wayfinder"><i>wayfinder</i></a> (interaktives Wegeleitsystem) an.</p>'
+      de: '<p>Wir entwickeln auch maßgeschneiderte, branchenspezifische Module.</p><p>Momentan bieten wir neben der interaktiven Produktpräsentation den TouchLay <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="overview" ga-event-action="wayfinder"><i>wayfinder</i></a> (interaktives Wegeleitsystem) an.</p>'
     image: /img/feature-modules.png
 
 cta:
   headline:
     en: Request Demo Now
-    de: Jetzt Demo anfragen
+    de: Haben wir Ihr Interesse geweckt?
   text:
     en: <p>At the moment, the TouchLay <i>cloud</i> is in testing stage and we are still giving it the final touch.</p><p>If you are interested, we can provide you demo access. Just contact us!</p>
-    de: <p>Momentan befindet sich die TouchLay <i>cloud</i> in der Testphase und wir geben ihr noch den letzten Feinschliff.</p><p>Wenn Sie daran interessiert sind, können wir Ihnen gerne einen Demo-Zugang bereitstellen. Kontaktieren Sie uns einfach!</p>
+    de: <p>Kontaktieren Sie uns jetzt und wir erstellen unverbindlich ein erstes Konzept für Sie!</p>
   buttontext:
     en: Request software demo
-    de: Software Demo anfragen
+    de: Jetzt kontaktieren
