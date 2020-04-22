@@ -1999,6 +1999,21 @@ section.contentoptions {
   line-height: 1.5;
   font-size: 20px;
   padding-bottom: 24px;
+  display: block;
+}
+
+#process .item a {
+  padding: 4px;
+  margin-left: -2px;
+  margin-right: -2px;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+#process .item a:hover {
+  color: #3393c7;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 #process .item .circle {
