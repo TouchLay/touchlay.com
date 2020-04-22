@@ -9,19 +9,19 @@
 
 <div id="aftercaret"></div>
 
-<section id="process">
+<section id="process" class="home">
   <div class="container">
     <div class="item">
       <div class="circle">1</div>
-      <div class="text">{{ site.data.pages.home.process.first[page.lang] }}</div>
+      <div class="title">{{ site.data.pages.home.process.first[page.lang] }}</div>
     </div>
     <div class="item">
       <div class="circle">2</div>
-      <div class="text">{{ site.data.pages.home.process.second[page.lang] }}</div>
+      <div class="title">{{ site.data.pages.home.process.second[page.lang] }}</div>
     </div>
     <div class="item">
       <div class="circle">3</div>
-      <div class="text">{{ site.data.pages.home.process.third[page.lang] }}</div>
+      <div class="title">{{ site.data.pages.home.process.third[page.lang] }}</div>
     </div>
     <div class="cta">
       <a href="#contact" ga-on="click" ga-event-category="home" ga-event-action="request"><button class="btn-white cta-highlight">{{site.data.base.texts.sendrequest[page.lang]}}</button></a>
@@ -75,6 +75,8 @@
       gaaction="more"
   %}
 </section>
+
+{% include components/process.html %}
 
 <section id="customers" class="padded">
   <div class="container">

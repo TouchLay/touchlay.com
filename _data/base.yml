@@ -56,15 +56,20 @@ footersitemap:
       de: Software
     items:
       - title:
+          en: Our Solutions
+          de: Unsere Digitallösungen
+        url: 'software/'
+        gaaction: 'software-main'
+      - title:
+          en: Product Presentation
+          de: Produktpräsentation
+        url: 'software/presentation'
+        gaaction: 'software-presentation'
+      - title:
           en: Interactive Maps
           de: Interaktive Karten
         url: 'software/wayfinder'
         gaaction: 'software-wayfinder'
-      - title:
-          en: Product Presentation
-          de: Produktpräsentation
-        url: 'software/'
-        gaaction: 'software-presentation'
       # - title:
       #     en: Custom Software
       #     de: Maßgeschneiderte Software

@@ -1967,9 +1967,12 @@ section.contentoptions {
 
 #process {
   background-color: #3393c7;
+  color: rgba(255,255,255,0.9);
   text-align: center;
   font-weight: 300;
+}
 
+#process.home {
   margin-top: -50px; /* fix for video being too high */
 
   @media screen and (min-width: 1921px) {
@@ -1977,10 +1980,25 @@ section.contentoptions {
   }
 }
 
+#process .section-title {
+  color: rgba(255,255,255,0.9);
+}
+
+#process .item .title {
+  text-align: left;
+  font-size: 30px;
+}
+
 #process .item {
   display: flex;
   align-items: center;
   margin: 2em 0;
+}
+
+#process .item.intro {
+  line-height: 1.5;
+  font-size: 20px;
+  padding-bottom: 24px;
 }
 
 #process .item .circle {
@@ -1993,12 +2011,26 @@ section.contentoptions {
   line-height: 100px;
   margin: 0 1em;
   min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#process .item .circle svg {
+  width: 50px;
+  height: 100%;
+}
+
+#process .item .circle path {
+  fill: #3393c7;
 }
 
 #process .item .text {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 30px;
   text-align: left;
+  padding-top: 8px;
+  font-weight: 400;
+  max-width: 700px;
+  line-height: 1.3;
 }
 
 #process .container {
@@ -2007,21 +2039,26 @@ section.contentoptions {
 
 @media screen and (max-width: $breakpoint-desktop) {
   #process .item .circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    line-height: 50px;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    line-height: 75px;
     font-size: 30px;
-    min-width: 50px;
+    min-width: 75px;
   }
 
-  #process .item .text {
+  #process .item .title {
     font-size: 23px;
+  }
+
+  #process .item .circle svg {
+    width: 35px;
+    height: 100%;
   }
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-  #process .item .text {
+  #process .item .title {
     flex-grow: 1;
   }
 }
