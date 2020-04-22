@@ -19,17 +19,22 @@
 %}
 
 
-<section id="intro" class="padded">
+<section id="intro" class="padded gray">
   <div class="container">
     <h1 class="text-center section-title">Ihre eigene Präsentation</h1>
-    Wählen Sie einfach eine oder kombinieren Sie mehrere Funktionen um
-    einfach zu Ihrer individuellen Präsentation zu kommen. Wir unterstützen Sie
+    Wählen Sie einfach eine oder kombinieren Sie mehrere Funktionen, um
+    blitzschnell zu Ihrer individuellen Präsentation zu kommen. Wir unterstützen Sie
     bei der Aufbereitung und Anpassung, anschließend können Sie, wenn Sie möchten, die Daten
     auch selbstständig aktualisieren.
   </div>
 </section>
 
+
+<h1 class="text-center section-title">Mögliche Funktionen</h1>
+
 {% include components/feature-loop.html features=site.data.pages.software.presentation.features %}
+
+{% include components/process.html %}
 
 <section id="cta" class="section-even orange verypadded">
   <div class="container flexcontainer row middle spacebetween">
@@ -44,8 +49,6 @@
     </div>
   </div>
 </section>
-
-{% include components/process.html %}
 
 <section id="customers" class="padded">
   <div class="container">
