@@ -60,6 +60,12 @@ summary, time, mark, audio, video {
 }
 
 html {
+  scroll-behavior: smooth;
+}
+
+#aftercaret {
+  position: relative;
+  top: -140px;
 }
 
 /* Text styles */
@@ -194,20 +200,20 @@ h3 {
 }
 
 .btn-text-white {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 500;
 	color: $white-two;
 }
 
 .btn-text-blue {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 500;
 	color: $touchlay-blue;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	color: $black;
 }
 
@@ -546,6 +552,7 @@ nav .language-toggle {
   font-family: Sawasdee, Roboto, Arial;
   font-size: 200%;
   animation: caret 1.2s infinite ease-in-out;
+  color: white;
 }
 
 /* Header */
@@ -1927,7 +1934,7 @@ input[type='text'].selectivity-multiple-input {
 }
 
 p {
-  line-height: 1.3em;
+  line-height: 1.5em;
 }
 
 .card .content p {

@@ -8,7 +8,7 @@ header:
     de: Interaktiv & immer up-to-date!
   buttontext:
     en: request demo
-    de: Demo anfragen
+    de: Jetzt kontaktieren
   buttonlink: '#contact'
   description:
     en: Generate your own interactive presentation from existing data<br />and automatically collect extensive statistics
@@ -25,7 +25,7 @@ features:
       de: Außergewöhnliches Design
     description:
       en: '<p>Import existing data into the TouchLay <i>cloud</i>.</p><p>Various services are already integrated. On request we also implement new services or import data from an existing website.</p>'
-      de: '<p>Wir fertigen individuelle Digitallösungen für Sie an, die sich perfekt an Ihre Firmen-Identität anpassen und Ihre Produkte und Dienstleistungen bestmöglich präsentieren. Interaktive Präsentationen begeistern und integrieren Ihren Kunden in das Verkaufsgespräch!</p>'
+      de: '<p>Wir fertigen individuelle Digitallösungen für Sie an, die sich perfekt an Ihre Firmen-Identität anpassen und Ihre Produkte und Dienstleistungen bestmöglich präsentieren.</p><p>Interaktive Präsentationen begeistern und integrieren Ihren Kunden in das Verkaufsgespräch!</p>'
     image: /img/feature-style.png
 
   - id: layout
@@ -34,7 +34,7 @@ features:
       de: Einfaches Update
     description:
       en: '<p>Pick a presentation app from our catalog that best fits the data you want to present.</p><p>We also offer development of custom applications, specifically tailored to your data and needs.</p>'
-      de: '<p>Durch unser speziell entwickeltes System können Sie unsere Digitallösungen mit Ihren bestehenden Daten verbinden und jederzeit selbst aktualisieren. Die Anwendungen können flexibel auf verschiedenen Geräten ausgespielt werden, darunter Smartphones, Tablets, Digital Signage Screens, und natürlich dem TouchLay nova!</p>'
+      de: '<p>Durch unser speziell entwickeltes System können Sie unsere Digitallösungen mit Ihren bestehenden Daten verbinden und jederzeit selbst aktualisieren.</p><p>Die Anwendungen können flexibel auf verschiedenen Geräten ausgespielt werden, darunter Smartphones, Tablets, Digital Signage Screens, und natürlich dem TouchLay nova!</p>'
     image: /img/feature-sources.jpg
 
   - id: style
@@ -43,7 +43,7 @@ features:
       de: Detaillierte Analyse
     description:
       en: 'Upload your company logo and adjust the colors to your corporate identity.'
-      de: '<p>Wir sammeln automatisch DSGVO-konforme Nutzungsstatistiken und generieren Statistiken für Sie. Durch diese detaillierte Analyse haben Sie ständig einen Überblick über Kundeninteressen und potenzielle Kunden. Dadurch können Sie Ihre Präsentation perfekt an die Kundeninteressen anpasen!</p>'
+      de: '<p>Wir sammeln automatisch DSGVO-konforme Nutzungsstatistiken und generieren Statistiken für Sie. Durch diese detaillierte Analyse haben Sie ständig einen Überblick über Kundeninteressen und potenzielle Kunden.</p><p>Dadurch können Sie Ihre Präsentation perfekt an die Kundeninteressen anpasen!</p>'
     image: /img/feature-stats.jpg
 
   - id: devices
@@ -52,7 +52,7 @@ features:
       de: Vielfältige Inhalte
     description:
       en: '<p>Finally, select a device to deploy the presentation on.</p><p>Supported are the TouchLay <i>nova</i>, as well as various tablets, smartphones, desktops and signage screens.</p>'
-      de: '<p>Unsere Software ist vollständig kompatibel mit allen gängigen Inhalten, beispielsweise Videos, Fotos, 3D Modelle, auch die Integration von bestehenden Webseiten ist möglich. Unsere Digitallösungen können sowohl in einer App, als auch auf einer Webseite ausgespielt werden.</p>'
+      de: '<p>Unsere Software ist vollständig kompatibel mit allen gängigen Inhalten, beispielsweise Videos, Fotos, 3D Modelle, auch die Integration von bestehenden Webseiten ist möglich.</p><p>Unsere Digitallösungen können sowohl in einer App, als auch auf einer Webseite ausgespielt werden.</p>'
     image: /img/feature-devices.jpg
 
   - id: tracking
@@ -61,7 +61,7 @@ features:
       de: Digitale Prospekte
     description:
       en: 'User input will be automatically collected and statistics generated, e.g. heatmap, input in search fields, clicks on certain data sets, and much more!'
-      de: '<p>Wir orientieren uns immer an Benutzerfreundlichkeit und Nachhaltigkeit. Mit unseren Digitallösungen können Sie einfach digitale Prospekte an Ihre Kunden verteilen. Die Inhalte, die das Kundeninteresse während einer Präsentation geweckt haben, können zusätzlich über E-Mail oder per QR-Code direkt an den Kunden verschickt werden!</p>'
+      de: '<p>Wir orientieren uns immer an Benutzerfreundlichkeit und Nachhaltigkeit. Mit unseren Digitallösungen können Sie einfach digitale Prospekte an Ihre Kunden verteilen.</p><p>Die Inhalte, die das Kundeninteresse während einer Präsentation geweckt haben, können zusätzlich über E-Mail oder per QR-Code direkt an den Kunden verschickt werden!</p>'
     image: /img/feature-layout.png
 
   - id: tracking
