@@ -31,7 +31,7 @@
   cardimage: /img/usecase-3.jpg
   description:
     en: "The <i>wayfinder</i> always keeps data up-to-date and offers visitors an overview over events and buildings. Tracking and advertisements increase the frequency."
-    de: "Der <i>wayfinder</i> hält Daten immer am letzten Stand und bietet Besuchern Überblick über Events und Gebäude. Tracking und Werbeflächen steigern die Frequenz."
+    de: "Der <i>wayfinder</i> hält Daten immer am letzten Stand und bietet Besuchern den perfekten Überblick über Events und Gebäude. Tracking und Werbeflächen steigern die Frequenz."
   link: '/software/wayfinder'
   gacategory: 'usecases'
   gaaction: 'wayfinder'

@@ -13,57 +13,66 @@ header:
   buttonlink: '#contact'
   description:
     en: Easily visualize exhibitions, events or buildings<br />with the interactive TouchLay <i>wayfinder</i>
-    de: Stellen Sie Messen, Events oder Gebäude einfach, klar und verständlich dar<br />mit dem digitalen Wegweiser TouchLay <i>wayfinder</i>
+    de: Mithilfe von unseren maßgeschneiderten und einzigartigen Präsentationen schaffen Sie den effektiven Mehrwert für Ihre Produkte
 
 features:
-  - id: setup
+  - id: catalog
     title:
       en: Simple Setup
-      de: Einfaches Setup
+      de: Interaktiver Produktkatalog
     description:
       en: '<p>Simply upload the site plan and adjust the design to your corporate identity via logos and colors.</p><p>Action areas can be imported from existing data or defined through our editor.</p>'
-      de: '<p>Laden Sie einfach Ihren Lageplan hoch und passen Sie das Design an Ihre Firmen-Identität über Logos und Farben an.</p><p>Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.</p>'
+      de: '<p>Stellen Sie diverse Produktgruppen dar, damit Ihre Kunden schnell die gewünschten Artikel finden. Dadurch behalten Ihre Kunden den Überblick und können gleichzeitig auch Details nachlesen.</p>'
     image: /img/wayfinder-dashboard.png
 
   - id: content
     title:
       en: Interactive Content
-      de: Interaktive Inhalte
+      de: Interaktive Grafik
     description:
       en: '<p>Any (interactive) content can be assigned to action areas.</p><p>For example, you could display the timetable for a stage, which highlights the currently active event.</p>'
-      de: '<p>An Aktionsflächen kann jeglicher (interaktiver) Content verknüpft werden.</p><p>Zum Beispiel kann das Programm einer Bühne angezeigt werden, bei dem das aktive Event hervorgehoben wird.</p>'
+      de: '<p>Eine ausführliche Bild-Beschreibung erlaubt die visuelle Darstellung Ihrer Produkte. Sie können Punkte in der Grafik markieren und auf weitere Informationen verlinken.</p>'
     image: /img/wayfinder-content.png
 
   - id: ads
     title:
       en: Advertisement Integration
-      de: Werbeintegration
+      de: Die Weltkarte
     description:
       en: 'Integrate various forms of advertisement, like logo highlights, banners and animations - to attract the attention of your visitors to the <i>wayfinder</i> as well as certain action areas.'
-      de: 'Integrieren Sie diverse Werbeformen, wie Logofahnen, Banner, sowie Animationen - um die Besucher auf den <i>wayfinder</i>, sowie bestimmte Aktionsflächen aufmerksam zu machen.'
+      de: 'Zeigen Sie Ihre Marktstärke und stellen Sie Ihre Standorte, Kunden oder Partner auf einer interaktiven Weltkarte dar.'
     image: /img/wayfinder-flag.png
 
   - id: stats
     title:
       en: Tracking and Statistics
-      de: Tracking und Statistiken
+      de: Das Formular
     description:
       en: '<p>The <i>wayfinder</i> automatically collects user input data and generates statistics.</p><p>For example: Heatmap of touch behavior, input in search fields, clicks on action areas & advertisements, and much more.</p>'
-      de: '<p>Der <i>wayfinder</i> sammelt automatisch Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Heatmap über Touchverhalten, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze, und vieles mehr.</p>'
+      de: 'Ermöglicht die Eingabe von Kontaktdaten oder sogar der Bestellung direkt über die Präsentation im Verkaufsgespräch.'
     image: /img/feature-stats.jpg
 
   - id: package
     title:
       en: Everything from One Source
-      de: Alles aus einer Hand
+      de: Gewinnspiele
     description:
       en: '<p>We also offer the <i>wayfinder</i> as part of a complete package with fitting hardware, like the TouchLay <i>nova</i>.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
-      de: '<p>Wir bieten den <i>wayfinder</i> auch als Komplettlösung mit passender Hardware, wie dem TouchLay <i>nova</i> an.</p><p>Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung sowie während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
+      de: 'Generieren Sie spielerisch Kundenkontakte oder bringen Sie dem Kunden Ihr Unternehmen und Ihre Produkte näher durch Memory, Quiz oder andere Gewinnspiele.'
+    image: /img/feature-devices-white.jpg
+
+  - id: more
+    title:
+      en: Everything from One Source
+      de: Weitere Funktionen
+    description:
+      en: '<p>We also offer the <i>wayfinder</i> as part of a complete package with fitting hardware, like the TouchLay <i>nova</i>.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
+      de: 'Wollen Sie noch weitere oder maßgeschneiderte Funktionen in Ihrer Präsentation darstellen? Kontaktieren Sie uns jetzt und wir erstellen Ihnen gerne ein unverbindliches Konzept!'
     image: /img/feature-devices-white.jpg
 
 customers:
   en: Customers who use the <b>TouchLay wayfinder</b>
-  de: Kunden, die den <b>TouchLay wayfinder</b> nutzen
+  de: Kunden, die <b>TouchLay Präsentationen</b> nutzen
 
 cta:
   headline:

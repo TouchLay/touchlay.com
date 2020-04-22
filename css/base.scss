@@ -168,6 +168,10 @@ h3 {
   font-size: 24px;
 }
 
+.newsletter-description p {
+  font-size: 14px;
+}
+
 .nav-text {
 	font-size: 22px;
 	color: $white-two;
@@ -1125,8 +1129,13 @@ section.verypaddedTop {
   vertical-align: bottom;
 }
 
+.section-text a {
+  margin-bottom: 1.5em;
+}
+
 .section-description {
   margin-top: 1.5em;
+  margin-bottom: -1.5em;
 }
 
 .section-description-paddedTop-fix {
@@ -1939,6 +1948,7 @@ p {
 
 .card .content p {
   margin: 0.5em 0;
+  font-size: 0.8em;
 }
 
 section.contentoptions {
@@ -1948,6 +1958,10 @@ section.contentoptions {
 
 #overview-hardware, #feature-handling {
   padding-bottom: 0;
+}
+
+#overview-hardware .section-text {
+  margin-bottom: 1.5em;
 }
 
 #feature-quality {
@@ -1997,7 +2011,7 @@ section.contentoptions {
 
 #process .item.intro {
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 22px;
   padding-bottom: 24px;
   display: block;
 }
