@@ -1943,7 +1943,7 @@ input[type='text'].selectivity-multiple-input {
 }
 
 p {
-  line-height: 1.5em;
+  line-height: 1.7em;
 }
 
 .card .content p {
@@ -1975,8 +1975,13 @@ section.contentoptions {
 
 #team-description {
   font-size: 1.5em;
-  line-height: 1.5em;
+  line-height: 1.7em;
   text-align: justify;
+}
+
+#modules-header {
+  padding-bottom: 0;
+  margin-bottom: -2em;
 }
 
 #process {

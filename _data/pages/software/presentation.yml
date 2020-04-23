@@ -7,9 +7,6 @@ header:
   subtitle:
     en: interactive & always up-to-date!
     de: einzigartig & interaktiv
-  video:
-    en: https://www.youtube.com/watch?v=-D9gWWacPKw
-    de: https://www.youtube.com/watch?v=uqmbjX4ii28
   buttonlink: '#contact'
   description:
     en: Easily visualize exhibitions, events or buildings<br />with the interactive TouchLay <i>wayfinder</i>
@@ -64,10 +61,10 @@ features:
   - id: more
     title:
       en: Everything from One Source
-      de: Weitere Funktionen
+      de: Weitere Module
     description:
       en: '<p>We also offer the <i>wayfinder</i> as part of a complete package with fitting hardware, like the TouchLay <i>nova</i>.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
-      de: 'Wollen Sie noch weitere oder maßgeschneiderte Funktionen in Ihrer Präsentation darstellen? Kontaktieren Sie uns jetzt und wir erstellen Ihnen gerne ein unverbindliches Konzept!'
+      de: 'Wollen Sie noch weitere oder maßgeschneiderte Module in Ihrer Präsentation darstellen? Kontaktieren Sie uns jetzt und wir erstellen Ihnen gerne ein unverbindliches Konzept!'
     image: /img/feature-devices-white.jpg
 
 customers:
@@ -76,11 +73,11 @@ customers:
 
 cta:
   headline:
-    en: Request Demo / Pricing
-    de: Demo / Preise anfragen
+    en: Request Demo Now
+    de: Haben wir Ihr Interesse geweckt?
   text:
-    en: Want to use the <i>wayfinder</i> for your exhibition, event or building? Send us an inquiry and we will get back to you as soon as possible.
-    de: Sie möchten den <i>wayfinder</i> für Ihre Veranstaltung, Messe oder Gebäude nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
+    en: <p>At the moment, the TouchLay <i>cloud</i> is in testing stage and we are still giving it the final touch.</p><p>If you are interested, we can provide you demo access. Just contact us!</p>
+    de: <p>Kontaktieren Sie uns jetzt und wir erstellen unverbindlich ein Konzept für Sie!</p>
   buttontext:
-    en: REQUEST NOW
-    de: JETZT ANFRAGEN
+    en: Request software demo
+    de: Jetzt kontaktieren

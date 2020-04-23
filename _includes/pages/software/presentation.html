@@ -6,14 +6,9 @@
   gacategory="presentationIntro"
   class="softwarePage"
 
-  primarytext=site.data.base.texts.playvideo
-  primarylink=site.data.pages.software.presentation.header.video
-  primarylity=true
-  primarygaaction="playVideo"
-
-  secondarytext=site.data.base.texts.requestprice
-  secondarylink=site.data.pages.software.presentation.header.buttonlink
-  secondarygaaction="requestPrice"
+  primarytext=site.data.pages.software.overview.header.buttontext
+  primarylink=site.data.pages.software.overview.header.buttonlink
+  primarygaaction="requestDemo"
 
   herodescription=site.data.pages.software.presentation.header.description
 %}
@@ -22,15 +17,18 @@
 <section id="intro" class="padded gray">
   <div class="container">
     <h1 class="text-center section-title">Ihre eigene Präsentation</h1>
-    Wählen Sie einfach eine oder kombinieren Sie mehrere Funktionen, um
+    <p class="text-center">Wählen Sie einfach ein Modul, oder kombinieren Sie mehrere Module, um
     blitzschnell zu Ihrer individuellen Präsentation zu kommen. Wir unterstützen Sie
     bei der Aufbereitung und Anpassung, anschließend können Sie, wenn Sie möchten, die Daten
-    auch selbstständig aktualisieren.
+    auch selbstständig aktualisieren.</p>
   </div>
 </section>
 
-
-<h1 class="text-center section-title">Mögliche Funktionen</h1>
+<section id="modules-header" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">Mögliche Module</h1>
+  </div>
+</section>
 
 {% include components/feature-loop.html features=site.data.pages.software.presentation.features %}
 
