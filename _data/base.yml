@@ -8,17 +8,17 @@ navigation:
       - title:
           en: Exhibitions & Events
           de: Messen & Events
-        url: 'software/promotion'
+        url: 'usecases/promotion'
         gaaction: 'usecase-promotion'
       - title:
           en: Point of Sale
           de: Im Verkaufsgespräch
-        url: 'hardware/point-of-sale'
+        url: 'usecases/point-of-sale'
         gaaction: 'usecase-pos'
       - title:
           en: Interactive Wayfinder
           de: Digitales Wegeleitsystem
-        url: 'software/wayfinder'
+        url: 'usecases/wayfinder'
         gaaction: 'usecase-wayfinder'
 
   - title:
@@ -82,17 +82,17 @@ footersitemap:
       - title:
           en: Exhibitions & Events
           de: Messen & Events
-        url: 'software/promotion'
+        url: 'usecases/promotion'
         gaaction: 'usecase-promotion'
       - title:
           en: Point of Sale
           de: Im Verkaufsgespräch
-        url: 'hardware/point-of-sale'
+        url: 'usecases/point-of-sale'
         gaaction: 'usecase-pos'
       - title:
           en: Interactive Wayfinder
           de: Digitales Wegeleitsystem
-        url: 'software/wayfinder'
+        url: 'usecases/wayfinder'
         gaaction: 'usecase-wayfinder'
   - title:
       en: Software
