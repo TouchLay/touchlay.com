@@ -2,6 +2,7 @@
   <h1 class="text-center section-title{% if include.subtitle %} has-sub{% endif %}">
     {{ include.title[page.lang] }}<br/>
     <span class="h1-sub">{{ include.subtitle[page.lang] }}</span>
+    <p class="section-list-description">{{ include.description[page.lang] }}</p>
   </h1>
   <div class="section-list">
     {% for item in include.list %}

@@ -23,31 +23,9 @@
   </div>
 </section>
 
+{% include components/branches.html class="gray" %}
+
 {% include components/process.html %}
-
-<section id="usecases" class="padded">
-  <div class="container">
-    <h1 class="text-center section-title">Usecases</h1>
-    {% include components/usecases.html %}
-    <!--<button ga-event-category="usecases" ga-event-action="more" class="block-center section-btn">weitere usecases</button>-->
-  </div>
-</section>
-
-<section id="overview-hardware" class="paddedTop gray section-a">
-  {% assign content = site.data.pages.home.hardware %}{% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
-  {% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
-  {% include components/feature-section.html
-      title=content.title
-      subtitle=content.subtitle
-      description=content.description
-      image=content.image
-      cta=site.data.base.texts.more
-      ctalink=hardwarePageUrl
-
-      gacategory="hardware"
-      gaaction="more"
-  %}
-</section>
 
 <section id="cta" class="section-even orange verypadded">
   <div class="container flexcontainer row middle spacebetween">

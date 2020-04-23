@@ -1,0 +1,2 @@
+{% capture class %}contentoptions {% if include.class %}{{ include.class }}{% endif %}{% endcapture %}
+{% include components/feature-loop.html class=class features=site.data.branches %}

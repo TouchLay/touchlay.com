@@ -1,0 +1,49 @@
+- title:
+    en: Various Presentation Options
+    de: Einsatzbereiche
+  description:
+    en: TBD
+    de: Unsere Lösungen sind flexibel und für alle Branchen geeignet. Wir haben bereits viel Erfahrung mit diversen Branchen und können somit ein perfekt angepasstes Konzept erstellen, um Ihre Produkte so attraktiv wie möglich darzustellen. Hier eine Auswahl von Bereichen, für die wir bereits perfekt angepasste Lösungen erarbeitet haben.
+  list:
+    - title:
+        en: Website
+        de: Industrie
+      icon: /img/icons/website.svg
+      description:
+        en: show your company website
+        de: Darstellung komplexer Maschinen und Abläufe
+    - title:
+        en: Android
+        de: Banken
+      icon: /img/icons/android.svg
+      description:
+        en: present your mobile application
+        de: Präsentation von Apps und diversen Rechnern
+    - title:
+        en: Interactive Map
+        de: Forschungsinstitute
+      icon: /img/icons/map.svg
+      description:
+        en: visualize your locations
+        de: Visualisierung von Partnern weltweit
+    - title:
+        en: Promotions
+        de: Autohändler
+      icon: /img/icons/game.svg
+      description:
+        en: playfully generate leads
+        de: Überblick über Ihr gesamtes Sortiment
+    - title:
+        en: Product Presentation
+        de: Hotels
+      icon: /img/icons/lightbulb.svg
+      description:
+        en: present all your products
+        de: Digitaler Eingangsbereich mit Buchungsmöglichkeiten
+    - title:
+        en: Customized Applications
+        de: Museen
+      icon: /img/icons/star.svg
+      description:
+        en: we also develop custom interactive applications
+        de: Interaktives Vermitteln von Wissen
