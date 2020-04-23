@@ -229,6 +229,10 @@ h3 {
   margin: 0;
 }
 
+.nav-sub .container a.active {
+  text-decoration: underline;
+}
+
 .nav-sub .container a:hover {
   color: #3293c7;
   opacity: 1;

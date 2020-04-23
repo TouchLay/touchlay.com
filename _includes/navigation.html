@@ -37,7 +37,12 @@
                   {% else %}
                     {% capture subPageUrl %}/{{page.lang}}/{{subitem.url}}{% endcapture %}
                   {% endif %}
-                  <a ga-on="click" ga-event-category="nav" ga-event-action="{{subitem.gaaction}}" class="nav-text" href={{subPageUrl}} >{{subitem.title[page.lang]}}</a>
+                  {% if subitem.append %}
+                    {% capture subPageUrlCheck %}{{subitem.url}}.html{% endcapture %}
+                  {% else %}
+                    {% capture subPageUrlCheck %}/{{page.lang}}/{{subitem.url}}.html{% endcapture %}
+                  {% endif %}
+                  <a ga-on="click" ga-event-category="nav" ga-event-action="{{subitem.gaaction}}" class="nav-text{% if page.url == subPageUrl or page.url == subPageUrlCheck %} active{% endif %}" href={{subPageUrl}} >{{subitem.title[page.lang]}}</a>
                 {% endfor %}
               </div>
             </div>
