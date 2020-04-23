@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon/maps/directions_car_24px_outlined</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.92,5.01 C18.72,4.42 18.16,4 17.5,4 L6.5,4 C5.84,4 5.29,4.42 5.08,5.01 L3,11 L3,19 C3,19.55 3.45,20 4,20 L5,20 C5.55,20 6,19.55 6,19 L6,18 L18,18 L18,19 C18,19.55 18.45,20 19,20 L20,20 C20.55,20 21,19.55 21,19 L21,11 L18.92,5.01 Z M6.85,6 L17.14,6 L18.22,9.11 L5.77,9.11 L6.85,6 Z M19,16 L5,16 L5,11 L19,11 L19,16 Z M7.5,12 C6.67157288,12 6,12.6715729 6,13.5 C6,14.3284271 6.67157288,15 7.5,15 C8.32842712,15 9,14.3284271 9,13.5 C9,12.6715729 8.32842712,12 7.5,12 Z M16.5,12 C15.6715729,12 15,12.6715729 15,13.5 C15,14.3284271 15.6715729,15 16.5,15 C17.3284271,15 18,14.3284271 18,13.5 C18,12.6715729 17.3284271,12 16.5,12 Z" id="path-1"></path>
+    </defs>
+    <g id="icon/maps/directions_car_24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="Color/Icons/Default" mask="url(#mask-2)" fill="#000000" fill-opacity="0.87">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

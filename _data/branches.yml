@@ -8,42 +8,42 @@
     - title:
         en: Website
         de: Industrie
-      icon: /img/icons/website.svg
+      icon: /img/icons/industry.svg
       description:
         en: show your company website
         de: Darstellung komplexer Maschinen und Abläufe
     - title:
         en: Android
         de: Banken
-      icon: /img/icons/android.svg
+      icon: /img/icons/bank.svg
       description:
         en: present your mobile application
         de: Präsentation von Apps und diversen Rechnern
     - title:
         en: Interactive Map
         de: Forschungsinstitute
-      icon: /img/icons/map.svg
+      icon: /img/icons/research.svg
       description:
         en: visualize your locations
         de: Visualisierung von Partnern weltweit
     - title:
         en: Promotions
         de: Autohändler
-      icon: /img/icons/game.svg
+      icon: /img/icons/car.svg
       description:
         en: playfully generate leads
         de: Überblick über Ihr gesamtes Sortiment
     - title:
         en: Product Presentation
         de: Hotels
-      icon: /img/icons/lightbulb.svg
+      icon: /img/icons/hotel.svg
       description:
         en: present all your products
         de: Digitaler Eingangsbereich mit Buchungsmöglichkeiten
     - title:
         en: Customized Applications
         de: Museen
-      icon: /img/icons/star.svg
+      icon: /img/icons/museum.svg
       description:
         en: we also develop custom interactive applications
         de: Interaktives Vermitteln von Wissen
