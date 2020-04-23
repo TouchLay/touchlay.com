@@ -170,7 +170,7 @@ footertitle:
   en: 'Interested? Contact us!'
   de: 'Interessiert? Kontaktieren Sie uns!'
 
-interessts:
+interests:
   en:
     - nova
     - rent
@@ -200,7 +200,7 @@ interessts:
     - pos
     - gebraucht
 
-interesstsplaceholder:
+interestsplaceholder:
   en: 'interested in...'
   de: 'Interessiert an...'
 

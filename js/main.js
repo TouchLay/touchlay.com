@@ -135,15 +135,15 @@ $(document).ready(function() {
 
 
   // Handle autocomplete
-  var autocompleteElements = $.map({{ site.data.base.interessts | jsonify }}[lang], function(item, index) {
+  var autocompleteElements = $.map({{ site.data.base.interests | jsonify }}[lang], function(item, index) {
     return { id: index + 1, text: item };
   })
-  var placeholder = {{ site.data.base.interesstsplaceholder | jsonify }}[lang]
+  var placeholder = {{ site.data.base.interestsplaceholder | jsonify }}[lang]
 
-  // Handle preselected interessts
-  var preInteressts = $('body').data('interessts')
-  if (preInteressts) {
-    var preselect = $.map(String(preInteressts).split(','), function(item){
+  // Handle preselected interests
+  var preInterests = $('body').data('interests')
+  if (preInterests) {
+    var preselect = $.map(String(preInterests).split(','), function(item){
       return autocompleteElements[item]
     })
   }
@@ -152,7 +152,7 @@ $(document).ready(function() {
     items: autocompleteElements,
     multiple: true,
     placeholder: placeholder,
-    data: preInteressts && (preselect || [])
+    data: preInterests && (preselect || [])
   });
 
   var countryPlaceholder = {{ site.data.base.countryplaceholder | jsonify }}[lang]
