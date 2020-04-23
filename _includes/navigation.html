@@ -27,6 +27,21 @@
             {% endif %}
           >
             <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" href={{pageUrl}} >{{navitem.title[page.lang]}}</a>
+            {% if navitem.subitems %}
+            <div class="nav-sub">
+              <div class="arrow"></div>
+              <div class="container">
+                {% for subitem in navitem.subitems %}
+                  {% if subitem.append %}
+                    {% capture subPageUrl %}{{subitem.url}}{% endcapture %}
+                  {% else %}
+                    {% capture subPageUrl %}/{{page.lang}}/{{subitem.url}}{% endcapture %}
+                  {% endif %}
+                  <a ga-on="click" ga-event-category="nav" ga-event-action="{{subitem.gaaction}}" class="nav-text" href={{subPageUrl}} >{{subitem.title[page.lang]}}</a>
+                {% endfor %}
+              </div>
+            </div>
+            {% endif %}
           </li>
         {% endfor %}
         <li class="language-toggle-menu">

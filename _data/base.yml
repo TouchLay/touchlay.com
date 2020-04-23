@@ -4,18 +4,61 @@ navigation:
       de: 'Usecases'
     url: 'usecases/'
     gaaction: 'usecases'
+    subitems:
+      - title:
+          en: Exhibitions & Events
+          de: Messen & Events
+        url: 'software/promotion'
+        gaaction: 'usecase-promotion'
+      - title:
+          en: Point of Sale
+          de: Im Verkaufsgespräch
+        url: 'hardware/point-of-sale'
+        gaaction: 'usecase-pos'
+      - title:
+          en: Interactive Wayfinder
+          de: Digitales Wegeleitsystem
+        url: 'software/wayfinder'
+        gaaction: 'usecase-wayfinder'
 
   - title:
       en: 'Hardware'
       de: 'Hardware'
     url: 'hardware/'
     gaaction: 'hardware'
+    subitems:
+      - title:
+          en: Multitouch Tables
+          de: Multitouch Tische
+        url: 'hardware/'
+        gaaction: 'hardware-nova'
+      - title:
+          en: Second-Hand Touchtables
+          de: Gebrauchte Touchtische
+        url: 'hardware/secondhand'
+        gaaction: 'hardware-secondhand'
 
   - title:
       en: 'Software'
       de: 'Software'
     url: 'software/'
     gaaction: 'software'
+    subitems:
+      - title:
+          en: Our Solutions
+          de: Unsere Digitallösungen
+        url: 'software/'
+        gaaction: 'software-main'
+      - title:
+          en: Product Presentation
+          de: Produktpräsentation
+        url: 'software/presentation'
+        gaaction: 'software-presentation'
+      - title:
+          en: Interactive Maps
+          de: Interaktive Karten
+        url: 'software/wayfinder'
+        gaaction: 'software-wayfinder'
 
   - title:
       en: 'About Us'

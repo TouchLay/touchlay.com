@@ -189,6 +189,79 @@ h3 {
   color: $touchlay-blue;
 }
 
+.nav-sub {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 250px;
+  margin-left: -55px;
+  margin-top: -7px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.nav-sub .arrow {
+  padding-top: 5px;
+  width: 0;
+  height: 0;
+  content: '';
+  margin: 0 auto;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+}
+
+.nav-sub .container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 0.3em;
+  text-align: center;
+}
+
+.nav-sub .container a {
+  display: block;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 18px;
+  transition: color 0.2s;
+  line-height: 2em;
+  padding: 0.3em 0;
+  margin: 0;
+}
+
+.nav-sub .container a:hover {
+  color: #3293c7;
+  opacity: 1;
+}
+
+@keyframes navSubAppear {
+  from {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 0px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.nav-sub:hover {
+  opacity: 1;
+  animation-name: navSubAppear;
+  animation-duration: 0.2s;
+  pointer-events: all;
+}
+
+a:hover + .nav-sub {
+  opacity: 1;
+  animation-name: navSubAppear;
+  animation-duration: 0.2s;
+  pointer-events: all;
+}
+
 @media screen and (max-width: $breakpoint-tablet) {
   .usecases .section-text {
     text-align: center;

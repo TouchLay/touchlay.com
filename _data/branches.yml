@@ -18,7 +18,7 @@
       icon: /img/icons/bank.svg
       description:
         en: present your mobile application
-        de: Präsentation von Apps und diversen Rechnern
+        de: Präsentation von Apps und diversen Finanzierungs-Rechnern
     - title:
         en: Interactive Map
         de: Forschungsinstitute
@@ -32,7 +32,7 @@
       icon: /img/icons/car.svg
       description:
         en: playfully generate leads
-        de: Überblick über Ihr gesamtes Sortiment
+        de: Überblick über Ihr gesamtes Angebot
     - title:
         en: Product Presentation
         de: Hotels
