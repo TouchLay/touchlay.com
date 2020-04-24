@@ -59,10 +59,6 @@ summary, time, mark, audio, video {
     vertical-align: baseline;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 #aftercaret {
   position: relative;
   top: -140px;
@@ -1466,6 +1462,10 @@ footer {
   background: $black;
   color: $white-two;
   padding-top: 2em;
+}
+
+footer:target {
+  padding-top: 8em;
 }
 
 footer .end {
