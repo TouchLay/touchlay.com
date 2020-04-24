@@ -2,8 +2,8 @@ header:
   image: /img/header-wayfinder.png
   imagelink: true
   title:
-    en: TouchLay wayfinder
-    de: TouchLay wayfinder
+    en: TouchLay Wayfinder
+    de: TouchLay Wayfinder
   subtitle:
     en: interactive & always up-to-date!
     de: Digitales Wegeleitsystem
@@ -12,8 +12,8 @@ header:
     de: https://www.youtube.com/watch?v=uqmbjX4ii28
   buttonlink: '#contact'
   description:
-    en: Easily visualize exhibitions, events or buildings<br />with the interactive TouchLay <i>wayfinder</i>
-    de: Stellen Sie Messen, Events oder Gebäude einfach, klar und verständlich dar<br />mit dem digitalen Wegweiser TouchLay <i>wayfinder</i>
+    en: Easily visualize exhibitions, events or buildings<br />with the interactive TouchLay Wayfinder
+    de: Stellen Sie Messen, Events oder Gebäude einfach, klar und verständlich dar<br />mit dem digitalen Wegweiser TouchLay Wayfinder
 
 features:
   - id: setup
@@ -40,7 +40,7 @@ features:
       de: Werbeintegration
     description:
       en: 'Integrate various forms of advertisement, like logo highlights, banners and animations - to attract the attention of your visitors to the <i>wayfinder</i> as well as certain action areas.'
-      de: 'Integrieren Sie diverse Werbeformen, wie Logofahnen, Banner, sowie Animationen - um die Besucher auf den <i>wayfinder</i>, sowie bestimmte Aktionsflächen aufmerksam zu machen.'
+      de: 'Integrieren Sie diverse Werbeformen, wie Logofahnen, Banner, sowie Animationen - um die Besucher auf den Wayfinder, sowie bestimmte Aktionsflächen aufmerksam zu machen.'
     image: /img/wayfinder-flag.png
 
   - id: stats
@@ -49,7 +49,7 @@ features:
       de: Tracking und Statistiken
     description:
       en: '<p>The <i>wayfinder</i> automatically collects user input data and generates statistics.</p><p>For example: Heatmap of touch behavior, input in search fields, clicks on action areas & advertisements, and much more.</p>'
-      de: '<p>Der <i>wayfinder</i> sammelt automatisch Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Heatmap über Touchverhalten, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze, und vieles mehr.</p>'
+      de: '<p>Der Wayfinder sammelt automatisch DSGVO-konforme Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Heatmap über Touchverhalten, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze, und vieles mehr.</p>'
     image: /img/feature-stats.jpg
 
   - id: package
@@ -58,20 +58,20 @@ features:
       de: Alles aus einer Hand
     description:
       en: '<p>We also offer the <i>wayfinder</i> as part of a complete package with fitting hardware, like the TouchLay <i>nova</i>.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
-      de: '<p>Wir bieten den <i>wayfinder</i> auch als Komplettlösung mit passender Hardware, wie dem TouchLay <i>nova</i> an.</p><p>Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung sowie während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
+      de: '<p>Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem <a href="/page.lang/hardware/" ga-on="click" ga-event-category="wayfinder" ga-event-action="nova">TouchLay Nova</a>, an.</p><p>Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung sowie während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
     image: /img/feature-devices-white.jpg
 
 customers:
-  en: Customers who use the <b>TouchLay wayfinder</b>
-  de: Kunden, die den <b>TouchLay wayfinder</b> nutzen
+  en: Customers who use the <b>TouchLay Wayfinder</b>
+  de: Kunden, die den <b>TouchLay Wayfinder</b> nutzen
 
 cta:
   headline:
     en: Request Demo / Pricing
     de: Demo / Preise anfragen
   text:
-    en: Want to use the <i>wayfinder</i> for your exhibition, event or building? Send us an inquiry and we will get back to you as soon as possible.
-    de: Sie möchten den <i>wayfinder</i> für Ihre Veranstaltung, Messe oder Gebäude nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
+    en: Want to use the Wayfinder for your exhibition, event or building? Send us an inquiry and we will get back to you as soon as possible.
+    de: Sie möchten den Wayfinder für Ihre Veranstaltung, Messe oder Gebäude nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
   buttontext:
     en: REQUEST NOW
     de: JETZT ANFRAGEN

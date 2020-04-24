@@ -21,7 +21,7 @@
   <div class="content">
     <span class="card-title">{{ include.title }}</span>
     <span class="card-subtitle">{{ include.subtitle }}</span>
-    <p>{{ include.description }}</p>
+    <p>{{ include.description | replace: "page.lang", page.lang }}</p>
     {% if include.link %}<button style="width: 100%; margin-top: 5px;" class="btn btn-blue btn-small">{{include.linktext}}</button>{% endif %}
   </div>
 </div>

@@ -515,7 +515,7 @@ nav .language-toggle-menu {
 nav .language-toggle {
   color: rgba(255, 255, 255, 0.6);
   position: absolute;
-  top: 2.2em;
+  top: 33px;
   right: 2em;
 
   a {
@@ -1206,13 +1206,10 @@ section.verypaddedTop {
   vertical-align: bottom;
 }
 
-.section-text a {
-  margin-bottom: 1.5em;
-}
-
 .section-description {
-  margin-top: 1.5em;
-  margin-bottom: -1.5em;
+  padding-top: 1em;
+  line-height: 1.5;
+  margin-bottom: -0.5em;
 }
 
 .section-description-paddedTop-fix {

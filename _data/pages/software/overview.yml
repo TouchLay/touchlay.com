@@ -67,10 +67,10 @@ features:
   - id: tracking
     title:
       en: Branch-specific Modules
-      de: Branchenspezifische Module
+      de: Branchenspezifische Software
     description:
       en: '<p>We also develop branch specific modules for the TouchLay <i>cloud</i>.</p><p>At the moment, in addition to standardized presentation apps, we offer the TouchLay <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="overview" ga-event-action="wayfinder"><i>wayfinder</i></a> (interactive map).</p>'
-      de: '<p>Wir entwickeln auch maßgeschneiderte, branchenspezifische Module.</p><p>Momentan bieten wir neben der interaktiven Produktpräsentation den TouchLay <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="overview" ga-event-action="wayfinder"><i>wayfinder</i></a> (interaktives Wegeleitsystem) an.</p>'
+      de: '<p>Wir entwickeln auch maßgeschneiderte, branchenspezifische Software.</p><p>Momentan bieten wir neben der <a href="/page.lang/software/presentation/" ga-on="click" ga-event-category="software" ga-event-action="presentation">interaktiven Produktpräsentation</a> ein <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">interaktives Wegeleitsystem</a> an.</p>'
     image: /img/feature-modules.png
 
 cta:
