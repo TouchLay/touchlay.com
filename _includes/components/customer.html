@@ -18,7 +18,7 @@
   <div class="banner">
     <div class="content">
       <span class="card-subtitle">{{ include.subtitle }}</span>
-      <p>{{ include.description }}</p>
+      <p>{{ include.description | replace: 'page.lang', page.lang }}</p>
     </div>
     {% if include.link %}
     <a {% if include.lity %}

@@ -2044,6 +2044,10 @@ section.contentoptions {
   padding-bottom: 0;
 }
 
+#overview-hardware .section-image, #feature-handling .section-image {
+  align-self: flex-end;
+}
+
 #overview-hardware .section-text {
   margin-bottom: 1.5em;
 }

@@ -6,6 +6,11 @@ navigation:
     gaaction: 'usecases'
     subitems:
       - title:
+          en: All Usecases
+          de: Alle Usecases
+        url: 'usecases/'
+        gaaction: 'usecase-all'
+      - title:
           en: Exhibitions & Events
           de: Messen & Events
         url: 'usecases/promotion'
@@ -177,7 +182,7 @@ interests:
     - buy
     - project
     - software
-    - cloud
+    - presentation
     - leasing
     - wayfinder
     - exhibition
@@ -191,7 +196,7 @@ interests:
     - kaufen
     - projekt
     - software
-    - cloud
+    - präsentation
     - leasing
     - wayfinder
     - messe
