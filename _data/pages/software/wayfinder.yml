@@ -39,7 +39,7 @@ features:
       en: Advertisement Integration
       de: Werbeintegration
     description:
-      en: 'Integrate various forms of advertisement, like logo highlights, banners and animations - to attract the attention of your visitors to the <i>wayfinder</i> as well as certain action areas.'
+      en: 'Integrate various forms of advertisement, like logo highlights, banners and animations - to attract the attention of your visitors to the Wayfinder as well as certain action areas.'
       de: 'Integrieren Sie diverse Werbeformen, wie Logofahnen, Banner, sowie Animationen - um die Besucher auf den Wayfinder, sowie bestimmte Aktionsflächen aufmerksam zu machen.'
     image: /img/wayfinder-flag.png
 
@@ -48,7 +48,7 @@ features:
       en: Tracking and Statistics
       de: Tracking und Statistiken
     description:
-      en: '<p>The <i>wayfinder</i> automatically collects user input data and generates statistics.</p><p>For example: Heatmap of touch behavior, input in search fields, clicks on action areas & advertisements, and much more.</p>'
+      en: '<p>The Wayfinder automatically collects user input data and generates statistics.</p><p>For example: Heatmap of touch behavior, input in search fields, clicks on action areas & advertisements, and much more.</p>'
       de: '<p>Der Wayfinder sammelt automatisch DSGVO-konforme Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Heatmap über Touchverhalten, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze, und vieles mehr.</p>'
     image: /img/feature-stats.jpg
 
@@ -57,7 +57,7 @@ features:
       en: Everything from One Source
       de: Alles aus einer Hand
     description:
-      en: '<p>We also offer the <i>wayfinder</i> as part of a complete package with fitting hardware, like the TouchLay <i>nova</i>.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
+      en: '<p>We also offer the Wayfinder as part of a complete package with fitting hardware, like the TouchLay Nova.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
       de: '<p>Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem <a href="/page.lang/hardware/" ga-on="click" ga-event-category="wayfinder" ga-event-action="nova">TouchLay Nova</a>, an.</p><p>Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung sowie während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
     image: /img/feature-devices-white.jpg
 

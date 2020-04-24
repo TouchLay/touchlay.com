@@ -82,8 +82,8 @@ features:
       en: Attract Customers
       de: Fallen Sie Auf
     description:
-      en: '<p>The first impression is really important at exhibitions and events.</p><p>The elegant and modern design of the TouchLay <i>nova</i> turns your booth into a customer magnet.</p><p>Impress potential and existing customers with interactive presentations!</p>'
-      de: '<p>Auf Messen und Events zählt der erste Eindruck.</p><p>Durch das elegante und moderne Design des TouchLay <i>nova</i> wird Ihr Messestand zum Kundenmagnet. Doch nicht nur die Form, sondern auch die Funktionalität überzeugt.</p><p>Begeistern Sie Ihre potentiellen und existierenden Kunden über interaktive Präsentationen!</p>'
+      en: '<p>The first impression is really important at exhibitions and events.</p><p>The elegant and modern design of the TouchLay Nova turns your booth into a customer magnet.</p><p>Impress potential and existing customers with interactive presentations!</p>'
+      de: '<p>Auf Messen und Events zählt der erste Eindruck.</p><p>Durch das elegante und moderne Design des TouchLay Nova wird Ihr Messestand zum Kundenmagnet. Doch nicht nur die Form, sondern auch die Funktionalität überzeugt.</p><p>Begeistern Sie Ihre potentiellen und existierenden Kunden über interaktive Präsentationen!</p>'
     image: /img/nova-arts.jpg
 
   - id: handling
@@ -101,7 +101,7 @@ features:
       en: Interactive Booth
       de: Interaktiver Messestand
     description:
-      en: '<p>Upgrade to an interactive booth via TouchLay software and touchscreens to stand out.</p><p>Turn your booth into a customer magnet through interactive presentations via multitouch screens!</p>'
+      en: '<p>Upgrade to an interactive booth via TouchLay Software and touchscreens to stand out.</p><p>Turn your booth into a customer magnet through interactive presentations via multitouch screens!</p>'
       de: '<p>Über <a href="/page.lang/software/" ga-on="click" ga-event-category="promotion" ga-event-action="software">TouchLay Software</a> sowie Touchscreens rüsten Sie zum interaktiven Messestand auf und heben sich dadurch von den anderen Ständen ab.</p><p>Durch interaktive Präsentationen über <a href="/page.lang/hardware/" ga-on="click" ga-event-category="promotion" ga-event-action="nova">Multitouch-Bildschirme</a> wird Ihr Messestand zum Kundenmagnet!</p>'
     image: /img/interactive-booth.jpg
 
@@ -110,7 +110,7 @@ cta:
     en: Request Price / Book Now
     de: Preise anfragen / Reservieren
   text:
-    en: <p>Do you want to use our services or the TouchLay <i>nova</i> for an event, exhibition or promotion?</p><p>Send us an inquiry and we will get back to you as soon as possible.</p>
+    en: <p>Do you want to use our services or the TouchLay Nova for an event, exhibition or promotion?</p><p>Send us an inquiry and we will get back to you as soon as possible.</p>
     de: <p>Sie möchten unser Service oder den TouchLay Nova für eine Veranstaltung, Messe oder Promotion nutzen?</p><p>Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.</p>
   buttontext:
     en: REQUEST NOW

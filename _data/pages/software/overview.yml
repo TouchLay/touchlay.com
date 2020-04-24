@@ -15,7 +15,7 @@ header:
     de: Wir schaffen leistungsfähige & interaktive Markenerlebnisse.<br />Beigeistern Sie jetzt Ihre Kunden mit unseren innovativen Digtallösungen!
 
 customers:
-  en: Customers who use <b>TouchLay software</b>
+  en: Customers who use <b>TouchLay Software</b>
   de: Kunden, die <b>TouchLay Software</b> nutzen
 
 features:
@@ -34,7 +34,7 @@ features:
       de: Einfaches Update
     description:
       en: '<p>Pick a presentation app from our catalog that best fits the data you want to present.</p><p>We also offer development of custom applications, specifically tailored to your data and needs.</p>'
-      de: '<p>Durch unser speziell entwickeltes System können Sie unsere Digitallösungen mit Ihren bestehenden Daten verbinden und jederzeit selbst aktualisieren.</p><p>Die Anwendungen können flexibel auf verschiedenen Geräten ausgespielt werden, darunter Smartphones, Tablets, Digital Signage Screens, und natürlich dem TouchLay nova!</p>'
+      de: '<p>Durch unser speziell entwickeltes System können Sie unsere Digitallösungen mit Ihren bestehenden Daten verbinden und jederzeit selbst aktualisieren.</p><p>Die Anwendungen können flexibel auf verschiedenen Geräten ausgespielt werden, darunter Smartphones, Tablets, Digital Signage Screens, und natürlich dem TouchLay Nova!</p>'
     image: /img/feature-sources.jpg
 
   - id: style
@@ -51,7 +51,7 @@ features:
       en: 4. Assign Devices
       de: Vielfältige Inhalte
     description:
-      en: '<p>Finally, select a device to deploy the presentation on.</p><p>Supported are the TouchLay <i>nova</i>, as well as various tablets, smartphones, desktops and signage screens.</p>'
+      en: '<p>Finally, select a device to deploy the presentation on.</p><p>Supported are the TouchLay Nova, as well as various tablets, smartphones, desktops and signage screens.</p>'
       de: '<p>Unsere Software ist vollständig kompatibel mit allen gängigen Inhalten, beispielsweise Videos, Fotos, 3D Modelle, auch die Integration von bestehenden Webseiten ist möglich.</p><p>Unsere Digitallösungen können sowohl in einer App, als auch auf einer Webseite ausgespielt werden.</p>'
     image: /img/feature-devices.jpg
 
@@ -69,7 +69,7 @@ features:
       en: Branch-specific Modules
       de: Branchenspezifische Software
     description:
-      en: '<p>We also develop branch specific modules for the TouchLay <i>cloud</i>.</p><p>At the moment, in addition to standardized presentation apps, we offer the TouchLay <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="overview" ga-event-action="wayfinder"><i>wayfinder</i></a> (interactive map).</p>'
+      en: '<p>We also develop branch specific modules for the TouchLay <i>cloud</i>.</p><p>At the moment, in addition to standardized presentation apps, we offer the TouchLay <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">Wayfinder</a> (interactive map).</p>'
       de: '<p>Wir entwickeln auch maßgeschneiderte, branchenspezifische Software.</p><p>Momentan bieten wir neben der <a href="/page.lang/software/presentation/" ga-on="click" ga-event-category="software" ga-event-action="presentation">interaktiven Produktpräsentation</a> ein <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">interaktives Wegeleitsystem</a> an.</p>'
     image: /img/feature-modules.png
 

@@ -2,8 +2,8 @@ header:
   image: /img/header-image.png
   imagelink: true
   title:
-    en: TouchLay nova
-    de: TouchLay nova
+    en: TouchLay Nova
+    de: TouchLay Nova
   subtitle:
     en: the people magnet
     de: Der Kundenmagnet
@@ -16,8 +16,8 @@ header:
     de: Der TouchLay Nova ist ein 55 Zoll Multitouch-Präsentationstisch<br />mit verstellbarer Höhe & Neigung im Hoch- und Querformat
 
 customers:
-  en: Customers who use the <b>TouchLay nova</b>
-  de: Kunden, die den <b>TouchLay nova</b> nutzen
+  en: Customers who use the <b>TouchLay Nova</b>
+  de: Kunden, die den <b>TouchLay Nova</b> nutzen
 
 features:
   - id: flexible
@@ -162,7 +162,7 @@ specs:
           de: 'Farbe'
         description:
           en: 'nova white (default) - Other RAL colors upon request'
-          de: 'nova weiß (Standard) - Andere RAL Farben auf Anfrage'
+          de: 'Nova-Weiß (Standard) - Andere RAL Farben auf Anfrage'
       - title:
           en: 'Dimensions Framework (without display)'
           de: 'Abmessungen Unterkonstruktion (ohne Display)'
