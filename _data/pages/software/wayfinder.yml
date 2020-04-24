@@ -16,6 +16,15 @@ header:
     de: Stellen Sie Messen, Events oder Gebäude einfach, klar und verständlich dar<br />mit dem digitalen Wegweiser TouchLay Wayfinder
 
 features:
+  - id: special
+    title:
+      en: Simple Setup
+      de: Individuelle Karte
+    description:
+      en: '<p>Simply upload the site plan and adjust the design to your corporate identity via logos and colors.</p><p>Action areas can be imported from existing data or defined through our editor.</p>'
+      de: '<p>Der TouchLay Wayfinder ist die perfekte Lösung für die Darstellung von Messen, Events und Gebäuden. Unser flexibles System erlaubt die Anpassung an Ihr Design, sowie das Einbinden von diversen Informationen.</p>'
+    image: /img/wayfinder-dashboard.png
+    
   - id: setup
     title:
       en: Simple Setup
@@ -34,6 +43,15 @@ features:
       de: '<p>An Aktionsflächen kann jeglicher (interaktiver) Content verknüpft werden.</p><p>Zum Beispiel kann das Programm einer Bühne angezeigt werden, bei dem das aktive Event hervorgehoben wird.</p>'
     image: /img/wayfinder-content.png
 
+  - id: algorithm
+    title:
+      en: Simple Setup
+      de: Automatische Wegeerkennung
+    description:
+      en: '<p>Simply upload the site plan and adjust the design to your corporate identity via logos and colors.</p><p>Action areas can be imported from existing data or defined through our editor.</p>'
+      de: '<p>Mit der visuellen Wegeleitung und unserem speziell entwickelten automatischen Wege-Erkennungs-Algorithmus kommen Besucher so effizient wie möglich ans Ziel!</p>'
+    image: /img/wayfinder-dashboard.png
+
   - id: ads
     title:
       en: Advertisement Integration
@@ -49,7 +67,7 @@ features:
       de: Tracking und Statistiken
     description:
       en: '<p>The Wayfinder automatically collects user input data and generates statistics.</p><p>For example: Heatmap of touch behavior, input in search fields, clicks on action areas & advertisements, and much more.</p>'
-      de: '<p>Der Wayfinder sammelt automatisch DSGVO-konforme Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Heatmap über Touchverhalten, Eingaben in Suchfeldern, Klicks auf bestimmte Datensätze, und vieles mehr.</p>'
+      de: '<p>Der Wayfinder sammelt automatisch DSGVO-konforme Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Effektivität von Werbungen, Interessen von Besuchern, Eingaben in Suchfeldern, und vieles mehr.</p>'
     image: /img/feature-stats.jpg
 
   - id: package
