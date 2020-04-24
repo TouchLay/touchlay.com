@@ -12,32 +12,31 @@
   
     herodescription=site.data.pages.hardware.nova.header.description
   %}
+
+  <section id="intro" class="padded gray">
+    <div class="container">
+      <h1 class="text-center section-title">Zuverlässige Hardware</h1>
+      <p class="text-center">
+        {{site.data.pages.home.hardware.description[page.lang] | replace: "<p>", "" | replace: "</p>", " " }}
+        <br />
+        <a class="text-center" href="/{{page.lang}}/hardware/">
+          <button ga-on="click" ga-event-category="secondhand" ga-event-action="nova" class="section-btn">
+              mehr über den TouchLay Nova erfahren
+          </button>
+        </a>
+      </p>
+    </div>
+  </section>
   
-  <section id="devicesList" class="padded gray">
+  <section id="devicesList" class="padded">
     <div class="container">
       <h1 class="text-center section-title">{{ site.data.base.texts.secondhandTitle[page.lang] }}</h1>
     </div>
   </section>
 
   {% include components/secondhand-loop.html features=site.data.secondhand %}
-  
-  <section id="overview-hardware" class="paddedTop docked-bottom section-a">
-    {% assign content = site.data.pages.home.hardware %}
-    {% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
-    {% include components/feature-section.html
-        title=content.title
-        subtitle=content.subtitle
-        description=content.description
-        image=content.image
-        cta=site.data.base.texts.more
-        ctalink=hardwarePageUrl
-  
-        gacategory="hardware"
-        gaaction="more"
-    %}
-  </section>
 
-  <section id="customers" class="padded grey">
+  <section id="customers" class="padded">
     <div class="container">
       <h1 class="text-center section-title">{{ site.data.pages.hardware.nova.customers[page.lang] }}</h1>
       {%

@@ -2,9 +2,15 @@
   <div class="container">
     <h1 class="text-center section-title">Unser All-In-One Service</h1>
     <div class="item intro">
-      Gerne bieten wir für unsere <a href="/de/software/">Digitallösungen</a>
-      auch perfekt angepasste <a href="/de/hardware/">Hardware</a>,
-      wie Touch-Bildschirme, an. Außerdem kümmern wir uns um den gesamten Ablauf,
+      Gerne bieten wir für unsere
+      {% if include.hardwareFirst %}
+        <a href="/{{page.lang}}/hardware/">Hardware</a> auch perfekt angepasste
+        <a href="/{{page.lang}}/software/">Digitallösungen</a>
+      {% else %}
+        <a href="/{{page.lang}}/software/">Digitallösungen</a> auch perfekt angepasste
+        <a href="/{{page.lang}}/hardware/">Hardware</a>, wie Touch-Bildschirme,
+      {% endif %}
+      an. Außerdem kümmern wir uns um den gesamten Ablauf,
       vom Konzept über Logistik bis zur Wartung und Unterstützung im Live-Betrieb.
       Wir sind jederzeit für Sie verfügbar und lassen Sie nie im Stich!
     </div>
