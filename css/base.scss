@@ -2053,12 +2053,12 @@ section.contentoptions {
   padding-bottom: 0 !important;
 }
 
-.docked-bottom .section-image {
-  align-self: flex-end;
+.docked-bottom .section-text {
+  padding-bottom: 2em;
 }
 
-#overview-hardware .section-text {
-  margin-bottom: 1.5em;
+.docked-bottom .section-image {
+  align-self: flex-end;
 }
 
 #usecases {
