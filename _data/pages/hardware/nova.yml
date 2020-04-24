@@ -24,6 +24,7 @@ features:
     title:
       en: Flexible Design
       de: Flexibles Design
+    class: docked-bottom
     description:
       en: '<p>The TouchLay <i>nova</i> adjusts perfectly to your needs.</p><p>Use your <i>nova</i> as presentation screen, touch table, or even as a "big smartphone" in portrait mode.</p><p>When purchasing your <i>nova</i>, components can be upgraded and a custom RAL color can be selected.</p>'
       de: '<p>Der TouchLay <i>nova</i> passt sich perfekt an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihren <i>nova</i> als Präsentationsbildschirm, Touch-Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Beim Kauf können Komponenten aufgerüstet, sowie eine eigene RAL Farbe gewählt werden.</p>'
@@ -43,6 +44,7 @@ features:
     title:
       en: Precise Multitouch
       de: Präziser Multitouch
+    class: docked-bottom
     description:
       en: '<p>Our precise multitouch sensor can detect multiple touch points at once, and even objects up to 1.5mm!</p><p>The sensor refreshes 250 times per second to ensure fluid interaction with your TouchLay <i>nova</i>.'
       de: '<p>Unser präziser Multitouch Sensor kann mehrere Berührungspunkte gleichzeitig und sogar Objekte bis 1,5mm erkennen!</p><p>Der Sensor aktualisiert 250 mal pro Sekunde, dadurch wird eine flüssige Interaktion mit Ihrem TouchLay <i>nova</i> gewährleistet.</p>'
@@ -62,6 +64,7 @@ features:
     title:
       en: Excellent Quality
       de: Exzellente Qualität
+    class: docked-top
     description:
       en: '<p>Quality is very important to us, which is why we produce every TouchLay <i>nova</i> in our home country, beautiful Austria.</p><p>We pay attention to detail during the production to ensure that your products and services can be presented without any troubles.</p><p>Additionally, we also provide services for content creation and support during events - we are always here to help!</p>'
       de: '<p>Uns ist Qualität sehr wichtig, deshalb fertigen wir jeden TouchLay <i>nova</i> im wunderschönen Österreich.</p><p>Bei der Produktion achten wir auf jedes Detail, sodass Sie Ihre Produkte und Dienstleistungen problemlos präsentieren können.</p><p>Darüber hinaus unterstützen wir Sie auch gerne bei der Aufbereitung von Inhalten und während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
@@ -229,7 +232,7 @@ specs:
 brochuere:
   text:
     en: download folder
-    de: Brochüre herunterladen
+    de: Broschüre herunterladen
   link:
     en: '/downloads/info_nova_2017_english.pdf'
     de: '/downloads/info_nova_2017_deutsch.pdf'

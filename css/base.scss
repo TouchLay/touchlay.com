@@ -2037,21 +2037,28 @@ section.contentoptions {
   margin-top: -1px;
 }
 
-#overview-hardware, #feature-handling {
-  padding-bottom: 0;
+.docked-top {
+  padding-top: 0 !important;
 }
 
-#overview-hardware .section-image, #feature-handling .section-image {
+.docked-top .section-text {
+  padding-top: 2em;
+}
+
+.docked-top .section-image {
+  align-self: flex-start;
+}
+
+.docked-bottom {
+  padding-bottom: 0 !important;
+}
+
+.docked-bottom .section-image {
   align-self: flex-end;
 }
 
 #overview-hardware .section-text {
   margin-bottom: 1.5em;
-}
-
-#feature-quality {
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 #usecases {
