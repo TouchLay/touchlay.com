@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="301px" height="207px" viewBox="0 0 301 207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>menu</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu">
+            <rect id="Background" stroke-opacity="0.6" stroke="#000000" stroke-width="3" stroke-linejoin="round" x="8.5" y="8.5" width="284" height="190" rx="5"></rect>
+            <g id="Content" transform="translate(36.000000, 34.000000)" fill="#000000">
+                <g id="Header" fill-opacity="0.3">
+                    <rect x="0" y="0" width="120" height="10" rx="1"></rect>
+                </g>
+                <g id="Cards" transform="translate(0.000000, 30.000000)" fill-opacity="0.15">
+                    <g id="Card">
+                        <rect x="0" y="0" width="50" height="50" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(60.000000, 0.000000)">
+                        <rect x="0" y="0" width="50" height="50" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(120.000000, 0.000000)">
+                        <rect x="0" y="0" width="50" height="50" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(180.000000, 0.000000)">
+                        <rect x="0" y="0" width="50" height="50" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(0.000000, 60.000000)">
+                        <rect x="0" y="0" width="50" height="50" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(60.000000, 60.000000)">
+                        <rect x="0" y="0" width="50" height="50" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(120.000000, 60.000000)">
+                        <rect x="0" y="0" width="50" height="50" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(180.000000, 60.000000)">
+                        <rect x="0" y="0" width="50" height="50" rx="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

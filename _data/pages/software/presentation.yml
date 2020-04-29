@@ -20,7 +20,7 @@ features:
     description:
       en: '<p>Simply upload the site plan and adjust the design to your corporate identity via logos and colors.</p><p>Action areas can be imported from existing data or defined through our editor.</p>'
       de: '<p>Stellen Sie diverse Produktgruppen dar, damit Ihre Kunden schnell die gewünschten Artikel finden. Dadurch behalten Ihre Kunden den Überblick und können gleichzeitig auch Details nachlesen.</p>'
-    image: /img/wayfinder-dashboard.png
+    image: /img/concept/menu.svg
 
   - id: content
     title:
@@ -29,7 +29,7 @@ features:
     description:
       en: '<p>Any (interactive) content can be assigned to action areas.</p><p>For example, you could display the timetable for a stage, which highlights the currently active event.</p>'
       de: '<p>Eine ausführliche Bild-Beschreibung erlaubt die visuelle Darstellung Ihrer Produkte. Sie können Punkte in der Grafik markieren und auf weitere Informationen verlinken.</p>'
-    image: /img/wayfinder-content.png
+    image: /img/concept/annotated.svg
 
   - id: ads
     title:
@@ -38,7 +38,7 @@ features:
     description:
       en: 'Integrate various forms of advertisement, like logo highlights, banners and animations - to attract the attention of your visitors to the Wayfinder as well as certain action areas.'
       de: 'Zeigen Sie Ihre Marktstärke und stellen Sie Ihre Standorte, Kunden oder Partner auf einer interaktiven Weltkarte dar.'
-    image: /img/wayfinder-flag.png
+    image: /img/concept/world.svg
 
   - id: stats
     title:
@@ -47,7 +47,7 @@ features:
     description:
       en: '<p>The Wayfinder automatically collects user input data and generates statistics.</p><p>For example: Heatmap of touch behavior, input in search fields, clicks on action areas & advertisements, and much more.</p>'
       de: 'Ermöglicht die Eingabe von Kontaktdaten oder sogar der Bestellung direkt über die Präsentation im Verkaufsgespräch.'
-    image: /img/feature-stats.jpg
+    image: /img/concept/form.svg
 
   - id: package
     title:
@@ -56,7 +56,7 @@ features:
     description:
       en: '<p>We also offer the Wayfinder as part of a complete package with fitting hardware, like the TouchLay Nova.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
       de: 'Generieren Sie spielerisch Kundenkontakte oder bringen Sie dem Kunden Ihr Unternehmen und Ihre Produkte näher durch Memory, Quiz oder andere Gewinnspiele.'
-    image: /img/feature-devices-white.jpg
+    image: /img/concept/memory.svg
 
   - id: more
     title:
@@ -65,7 +65,7 @@ features:
     description:
       en: '<p>We also offer the Wayfinder as part of a complete package with fitting hardware, like the TouchLay Nova.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
       de: 'Wollen Sie noch weitere oder maßgeschneiderte Module in Ihrer Präsentation darstellen? Kontaktieren Sie uns jetzt und wir erstellen Ihnen gerne ein unverbindliches Konzept!'
-    image: /img/feature-devices-white.jpg
+    image: /img/concept/custom.svg
 
 customers:
   en: Customers who use <b>TouchLay Presentations</b>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="301px" height="207px" viewBox="0 0 301 207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>memory</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Memory">
+            <rect id="Background" stroke-opacity="0.6" stroke="#000000" stroke-width="3" stroke-linejoin="round" x="8.5" y="8.5" width="284" height="190" rx="5"></rect>
+            <g id="Content" transform="translate(51.000000, 30.000000)" fill="#000000">
+                <g id="Cards">
+                    <g id="Card" fill-opacity="0.15">
+                        <rect x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Selected-Card" transform="translate(52.000000, 0.000000)" fill-opacity="0.3">
+                        <rect id="Card" x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(105.000000, 0.000000)" fill-opacity="0.15">
+                        <rect x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(157.000000, 0.000000)" fill-opacity="0.15">
+                        <rect x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(0.000000, 52.000000)" fill-opacity="0.15">
+                        <rect x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(52.000000, 52.000000)" fill-opacity="0.15">
+                        <rect x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(105.000000, 52.000000)" fill-opacity="0.15">
+                        <rect x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(157.000000, 52.000000)" fill-opacity="0.15">
+                        <rect x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(0.000000, 104.000000)" fill-opacity="0.15">
+                        <rect x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(52.000000, 104.000000)" fill-opacity="0.15">
+                        <rect x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Card" transform="translate(105.000000, 104.000000)" fill-opacity="0.15">
+                        <rect x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                    <g id="Selected-Card" transform="translate(157.000000, 104.000000)" fill-opacity="0.3">
+                        <rect id="Card" x="0" y="0" width="43" height="44" rx="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
