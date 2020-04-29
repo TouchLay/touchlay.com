@@ -61,7 +61,7 @@ features:
       de: Digitale Prospekte
     description:
       en: 'User input will be automatically collected and statistics generated, e.g. heatmap, input in search fields, clicks on certain data sets, and much more!'
-      de: '<p>Wir orientieren uns immer an Benutzerfreundlichkeit und Nachhaltigkeit. Mit unseren Digitallösungen können Sie einfach digitale Prospekte an Ihre Kunden verteilen.</p><p>Die Inhalte, die das Kundeninteresse während einer Präsentation geweckt haben, können zusätzlich über E-Mail oder per QR-Code direkt an den Kunden verschickt werden!</p>'
+      de: '<p>Wir orientieren uns immer an Benutzerfreundlichkeit und Nachhaltigkeit. Mit unseren Digitallösungen können Sie einfach als digitale Prospekte an Ihre Kunden verteilen.</p><p>Die Inhalte, die das Kundeninteresse während einer Präsentation geweckt haben, können zusätzlich über E-Mail oder per QR-Code direkt an den Kunden verschickt werden!</p>'
     image: /img/feature-layout.png
 
   - id: tracking

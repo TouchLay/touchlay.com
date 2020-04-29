@@ -13,7 +13,25 @@
     herodescription=site.data.pages.hardware.nova.header.description
   %}
 
-  <section id="intro" class="padded gray">
+  <section class="padded">
+    <div class="container">
+      <h1 class="text-center section-title">{{ site.data.base.texts.secondhandTitle[page.lang] }}</h1>
+      <p class="text-center">
+        Wir bieten auch gebrauchte Modelle unseres TouchLay Nova an. Diese sind
+        noch in sehr gutem Zustand, weisen lediglich leichte Gebrauchsspuren auf
+        und wurden nur zur Vermietung an Kunden eingesetzt. Wenn Sie Interesse
+        an unseren gebrauchten Modellen haben, kontaktieren Sie uns einfach!
+        <br />
+        <a class="text-center" href="/{{page.lang}}/hardware/secondhand#contact">
+          <button ga-on="click" ga-event-category="secondhand" ga-event-action="contact" class="section-btn">
+              jetzt kontaktieren
+          </button>
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <section class="padded gray">
     <div class="container">
       <h1 class="text-center section-title">Zuverlässige Hardware</h1>
       <p class="text-center">
@@ -27,14 +45,6 @@
       </p>
     </div>
   </section>
-  
-  <section id="devicesList" class="padded">
-    <div class="container">
-      <h1 class="text-center section-title">{{ site.data.base.texts.secondhandTitle[page.lang] }}</h1>
-    </div>
-  </section>
-
-  {% include components/secondhand-loop.html features=site.data.secondhand %}
 
   <section id="customers" class="padded">
     <div class="container">
@@ -46,7 +56,7 @@
     </div>
   </section>
   
-  {% include components/newsletter.html class="grey" %}
+  {% include components/newsletter.html %}
   
   <section id="team">
     <div class="container">
