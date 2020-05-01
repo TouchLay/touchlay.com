@@ -35,7 +35,7 @@ features:
     description:
       en: '<p>Pick a presentation app from our catalog that best fits the data you want to present.</p><p>We also offer development of custom applications, specifically tailored to your data and needs.</p>'
       de: '<p>Durch unser speziell entwickeltes System können Sie unsere Digitallösungen mit Ihren bestehenden Daten verbinden und jederzeit selbst aktualisieren.</p><p>Die Anwendungen können flexibel auf verschiedenen Geräten ausgespielt werden, darunter Smartphones, Tablets, Digital Signage Screens, und natürlich dem TouchLay Nova!</p>'
-    image: /img/feature-sources.jpg
+    image: /img/feature-sources.png
 
   - id: style
     title:
@@ -44,7 +44,7 @@ features:
     description:
       en: 'Upload your company logo and adjust the colors to your corporate identity.'
       de: '<p>Wir sammeln automatisch DSGVO-konforme Nutzungsstatistiken und generieren Statistiken für Sie. Durch diese detaillierte Analyse haben Sie ständig einen Überblick über Kundeninteressen und potenzielle Kunden.</p><p>Dadurch können Sie Ihre Präsentation perfekt an die Kundeninteressen anpasen!</p>'
-    image: /img/feature-stats.jpg
+    image: /img/feature-stats.png
 
   - id: devices
     title:

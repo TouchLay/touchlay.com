@@ -32,7 +32,7 @@ features:
     description:
       en: '<p>Simply upload the site plan and adjust the design to your corporate identity via logos and colors.</p><p>Action areas can be imported from existing data or defined through our editor.</p>'
       de: '<p>Laden Sie einfach Ihren Lageplan hoch und passen Sie das Design an Ihre Firmen-Identität über Logos und Farben an.</p><p>Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.</p>'
-    image: /img/wayfinder-dashboard.png
+    image: /img/wayfinder-setup.png
 
   - id: content
     title:
@@ -50,7 +50,7 @@ features:
     description:
       en: '<p>Simply upload the site plan and adjust the design to your corporate identity via logos and colors.</p><p>Action areas can be imported from existing data or defined through our editor.</p>'
       de: '<p>Mit der visuellen Wegeleitung und unserem speziell entwickelten automatischen Wege-Erkennungs-Algorithmus kommen Besucher so effizient wie möglich ans Ziel!</p>'
-    image: /img/wayfinder-dashboard.png
+    image: /img/wayfinder-path.png
 
   - id: ads
     title:
@@ -68,7 +68,7 @@ features:
     description:
       en: '<p>The Wayfinder automatically collects user input data and generates statistics.</p><p>For example: Heatmap of touch behavior, input in search fields, clicks on action areas & advertisements, and much more.</p>'
       de: '<p>Der Wayfinder sammelt automatisch DSGVO-konforme Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Effektivität von Werbungen, Interessen von Besuchern, Eingaben in Suchfeldern, und vieles mehr.</p>'
-    image: /img/feature-stats.jpg
+    image: /img/feature-stats.png
 
   - id: package
     title:
