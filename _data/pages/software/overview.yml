@@ -26,7 +26,7 @@ features:
     description:
       en: '<p>Import existing data into the TouchLay <i>cloud</i>.</p><p>Various services are already integrated. On request we also implement new services or import data from an existing website.</p>'
       de: '<p>Wir fertigen individuelle Digitallösungen für Sie an, die sich perfekt an Ihre Firmen-Identität anpassen und Ihre Produkte und Dienstleistungen bestmöglich präsentieren.</p><p>Interaktive Präsentationen begeistern und integrieren Ihren Kunden in das Verkaufsgespräch!</p>'
-    image: /img/feature-style.png
+    image: /img/interface-animation.svg
 
   - id: layout
     title:
