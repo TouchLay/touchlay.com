@@ -1116,6 +1116,17 @@ section.gray,
   background: $gray;
 }
 
+section.dark-gray,
+.bg-dark-gray {
+  background: $dark-gray;
+}
+
+section.black,
+.bg-black {
+  background: $black;
+  color: $white-two;
+}
+
 section.orange {
   background: $touchlay-orange;
   color: $white-two;
