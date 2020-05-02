@@ -1,5 +1,6 @@
 header:
-  image: /img/header-wayfinder.png
+  image: /img/interface-animation.svg
+  imageclass: 'interface-animation-header header-image'
   imagelink: true
   title:
     en: TouchLay Presentations

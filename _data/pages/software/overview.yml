@@ -53,7 +53,7 @@ features:
     description:
       en: '<p>Finally, select a device to deploy the presentation on.</p><p>Supported are the TouchLay Nova, as well as various tablets, smartphones, desktops and signage screens.</p>'
       de: '<p>Unsere Software ist vollständig kompatibel mit allen gängigen Inhalten, beispielsweise Videos, Fotos, 3D Modelle, auch die Integration von bestehenden Webseiten ist möglich.</p><p>Unsere Digitallösungen können sowohl in einer App, als auch auf einer Webseite ausgespielt werden.</p>'
-    image: /img/feature-devices.jpg
+    image: /img/feature-content.png
 
   - id: tracking
     title:
@@ -62,7 +62,7 @@ features:
     description:
       en: 'User input will be automatically collected and statistics generated, e.g. heatmap, input in search fields, clicks on certain data sets, and much more!'
       de: '<p>Wir orientieren uns immer an Benutzerfreundlichkeit und Nachhaltigkeit. Mit unseren Digitallösungen können Sie einfach als digitale Prospekte an Ihre Kunden verteilen.</p><p>Die Inhalte, die das Kundeninteresse während einer Präsentation geweckt haben, können zusätzlich über E-Mail oder per QR-Code direkt an den Kunden verschickt werden!</p>'
-    image: /img/feature-layout.png
+    image: /img/feature-sharing.png
 
   - id: tracking
     title:
