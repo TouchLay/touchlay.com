@@ -1,6 +1,6 @@
 <section id="process">
   <div class="container">
-    <h1 class="text-center section-title">Unser All-In-One Service</h1>
+    <h1 class="text-center section-title">{{site.data.process.title[page.lang]}}</h1>
     <div class="item intro">
       Gerne bieten wir für unsere
       {% if include.hardwareFirst %}
@@ -10,44 +10,17 @@
         <a href="/{{page.lang}}/software/">Digitallösungen</a> auch perfekt angepasste
         <a href="/{{page.lang}}/hardware/">Hardware</a>, wie Touch-Bildschirme,
       {% endif %}
-      an. Außerdem kümmern wir uns um den gesamten Ablauf,
-      vom Konzept über Logistik bis zur Wartung und Unterstützung im Live-Betrieb.
-      Wir sind jederzeit für Sie verfügbar und lassen Sie nie im Stich!
+      an. 
+      {{site.data.process.description[page.lang]}}
     </div>
-    <div class="item">
-      <div class="circle">{% include icons/lightbulb.svg %}</div>
-      <div class="content">
-        <div class="title">Konzept</div>
-        <div class="text">Sie erzählen uns über Ihre Vorstellungen, wir besprechen gemeinsam die Möglichkeiten und erstellen unverbindlich ein grafisches Konzept.</div>
+    {% for process in site.data.process.items %}
+      <div class="item">
+        <div class="circle">{% include {{process.image}} %}</div>
+        <div class="content">
+          <div class="title">{{process.title[[page.lang]]}}</div>
+          <div class="text">{{process.description[[page.lang]]}}</div>
+        </div>
       </div>
-    </div>
-    <div class="item">
-      <div class="circle">{% include icons/brush.svg %}</div>
-      <div class="content">
-        <div class="title">Design</div>
-        <div class="text">Im nächsten Schritt erarbeiten wir perfekt angepasste Lösungen für Sie, um Ihre Bedürfnisse bestmöglich abzudecken.</div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="circle">{% include icons/verified.svg %}</div>
-      <div class="content">
-        <div class="title">Kontrolle</div>
-        <div class="text">Jeder Schritt ist für Sie nachvollziehbar und Sie können gegebenenfalls Vorschläge einbringen oder Änderungen vornehmen.</div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="circle">{% include icons/shipping.svg %}</div>
-      <div class="content">
-        <div class="title">Logistik</div>
-        <div class="text">Wir arbeiten eng mit unseren kompetenten Logistikpartnern zusammen, um Ihre Hardware sicher anzuliefern, aufzubauen, und die Funktionsweise vor Ort zu erklären.</div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="circle">{% include icons/build.svg %}</div>
-      <div class="content">
-        <div class="title">Wartung & Unterstützung</div>
-        <div class="text">Auch nach der Umsetzung stehen wir weiterhin jederzeit zur Verfügung und bieten Beratung, Wartung und Unterstützung bei der Verwendung unserer Produkte an.</div>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>

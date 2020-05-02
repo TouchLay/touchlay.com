@@ -6,65 +6,64 @@ header:
     en: TouchLay Presentations
     de: TouchLay Präsentationen
   subtitle:
-    en: interactive & always up-to-date!
+    en: unique & interactive
     de: Einzigartig & Interaktiv
   buttonlink: '#contact'
   description:
-    en: Easily visualize exhibitions, events or buildings<br />with the interactive TouchLay Wayfinder
-    de: Mithilfe von unseren maßgeschneiderten und einzigartigen Präsentationen schaffen Sie den effektiven Mehrwert für Ihre Produkte
+    en: Thanks to our customized and unique presentations you can create the most effective value for your products (x).
+    de: Mithilfe von unseren maßgeschneiderten und einzigartigen Präsentationen schaffen Sie einen effektiven Mehrwert für Ihre Produkte (x).
 
 features:
   - id: catalog
     title:
-      en: Simple Setup
+      en: Interactive product catalogue
       de: Interaktiver Produktkatalog
     description:
-      en: '<p>Simply upload the site plan and adjust the design to your corporate identity via logos and colors.</p><p>Action areas can be imported from existing data or defined through our editor.</p>'
+      en: '<p>Present diverse product groups for your customers to quickly find the desired item. This enables your customers to maintain an overview while also reading up on details.  </p>'
       de: '<p>Stellen Sie diverse Produktgruppen dar, damit Ihre Kunden schnell die gewünschten Artikel finden. Dadurch behalten Ihre Kunden den Überblick und können gleichzeitig auch Details nachlesen.</p>'
     image: /img/concept/menu.svg
 
   - id: content
     title:
-      en: Interactive Content
+      en: Interactive Graphics
       de: Interaktive Grafik
     description:
-      en: '<p>Any (interactive) content can be assigned to action areas.</p><p>For example, you could display the timetable for a stage, which highlights the currently active event.</p>'
+      en: '<p>An extensive image description allows for the visual presentation of your products. You can highlight certain points in your graphics to e.g. provide links to further information.</p>'
       de: '<p>Eine ausführliche Bild-Beschreibung erlaubt die visuelle Darstellung Ihrer Produkte. Sie können Punkte in der Grafik markieren und auf weitere Informationen verlinken.</p>'
     image: /img/concept/annotated.svg
 
   - id: ads
     title:
-      en: Advertisement Integration
+      en: World map
       de: Die Weltkarte
     description:
-      en: 'Integrate various forms of advertisement, like logo highlights, banners and animations - to attract the attention of your visitors to the Wayfinder as well as certain action areas.'
+      en: 'Show your market strength and display your locations, customers or partners on an interactive world map.'
       de: 'Zeigen Sie Ihre Marktstärke und stellen Sie Ihre Standorte, Kunden oder Partner auf einer interaktiven Weltkarte dar.'
     image: /img/concept/world.svg
 
   - id: stats
     title:
-      en: Tracking and Statistics
+      en: The Form
       de: Das Formular
     description:
-      en: '<p>The Wayfinder automatically collects user input data and generates statistics.</p><p>For example: Heatmap of touch behavior, input in search fields, clicks on action areas & advertisements, and much more.</p>'
-      de: 'Ermöglicht die Eingabe von Kontaktdaten oder sogar der Bestellung direkt über die Präsentation im Verkaufsgespräch.'
+      en: '<p>Provides the opportunity for submission of contact information or order directly through the presentation during the sales pitch. </p>'
+      de: 'Ermöglicht die Eingabe von Kontaktdaten oder sogar die Bestellung direkt über die Präsentation im Verkaufsgespräch.'
     image: /img/concept/form.svg
 
   - id: package
     title:
-      en: Everything from One Source
+      en: Contests
       de: Gewinnspiele
     description:
-      en: '<p>We also offer the Wayfinder as part of a complete package with fitting hardware, like the TouchLay Nova.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
+      en: '<p>Playfully generate customer interaction or let customers get to know your company and products through memory games, quizzes or other contests.</p>'
       de: 'Generieren Sie spielerisch Kundenkontakte oder bringen Sie dem Kunden Ihr Unternehmen und Ihre Produkte näher durch Memory, Quiz oder andere Gewinnspiele.'
     image: /img/concept/memory.svg
-
   - id: more
     title:
-      en: Everything from One Source
+      en: Further Modules
       de: Weitere Module
     description:
-      en: '<p>We also offer the Wayfinder as part of a complete package with fitting hardware, like the TouchLay Nova.</p><p>Additionally, we help you setting up and maintaining the software and support you during events - we are always here to help!</p>'
+      en: '<p>Do you want to include additional or customized modules in your presentation? Contact us now and we will gladly create a noncommital concept for you!</p>'
       de: 'Wollen Sie noch weitere oder maßgeschneiderte Module in Ihrer Präsentation darstellen? Kontaktieren Sie uns jetzt und wir erstellen Ihnen gerne ein unverbindliches Konzept!'
     image: /img/concept/custom.svg
 
@@ -74,11 +73,11 @@ customers:
 
 cta:
   headline:
-    en: Request Demo Now
+    en: Have we sparked your interest?
     de: Haben wir Ihr Interesse geweckt?
   text:
-    en: <p>At the moment, the TouchLay <i>cloud</i> is in testing stage and we are still giving it the final touch.</p><p>If you are interested, we can provide you demo access. Just contact us!</p>
+    en: <p>Contact us now and we will create a noncommital concept for you!</p>
     de: <p>Kontaktieren Sie uns jetzt und wir erstellen unverbindlich ein Konzept für Sie!</p>
   buttontext:
-    en: Request software demo
+    en: Contact now
     de: Jetzt kontaktieren

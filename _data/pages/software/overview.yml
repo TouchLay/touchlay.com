@@ -11,8 +11,8 @@ header:
     de: Jetzt kontaktieren
   buttonlink: '#contact'
   description:
-    en: Generate your own interactive presentation from existing data<br />and automatically collect extensive statistics
-    de: Wir schaffen leistungsfähige & interaktive Markenerlebnisse.<br />Beigeistern Sie jetzt Ihre Kunden mit unseren innovativen Digtallösungen!
+    en: We create powerful & interactive brand experiences.<br />Wow your customers with our innovative digital solutions!
+    de: Wir schaffen leistungsfähige & interaktive Markenerlebnisse.<br />Begeistern Sie jetzt Ihre Kunden mit unseren innovativen Digitallösungen!
 
 customers:
   en: Customers who use <b>TouchLay Software</b>
@@ -21,65 +21,65 @@ customers:
 features:
   - id: sources
     title:
-      en: 1. Connect Data Sources
+      en: Exceptional Design
       de: Außergewöhnliches Design
     description:
-      en: '<p>Import existing data into the TouchLay <i>cloud</i>.</p><p>Various services are already integrated. On request we also implement new services or import data from an existing website.</p>'
+      en: '<p>We create customized digital solutions, that will perfectly match your corporate identity and products as well as present your services in the best possible way.<i>cloud</i>.</p><p>Interactive presentations can excite your customers and include them in the sales pitch.</p>'
       de: '<p>Wir fertigen individuelle Digitallösungen für Sie an, die sich perfekt an Ihre Firmen-Identität anpassen und Ihre Produkte und Dienstleistungen bestmöglich präsentieren.</p><p>Interaktive Präsentationen begeistern und integrieren Ihren Kunden in das Verkaufsgespräch!</p>'
     image: /img/interface-animation.svg
 
   - id: layout
     title:
-      en: 2. Choose Presentation
+      en: Easy Updating
       de: Einfaches Update
     description:
-      en: '<p>Pick a presentation app from our catalog that best fits the data you want to present.</p><p>We also offer development of custom applications, specifically tailored to your data and needs.</p>'
+      en: '<p>Thanks to our specifically depeloped system you can connect our digital solutions with your already existing data and update it yourself, whenever you need.</p><p>Applications can be used on different devices, such as smartphones, tablets, digital signage screens and of course, the TouchLay Nova!</p>'
       de: '<p>Durch unser speziell entwickeltes System können Sie unsere Digitallösungen mit Ihren bestehenden Daten verbinden und jederzeit selbst aktualisieren.</p><p>Die Anwendungen können flexibel auf verschiedenen Geräten ausgespielt werden, darunter Smartphones, Tablets, Digital Signage Screens, und natürlich dem TouchLay Nova!</p>'
     image: /img/feature-sources.png
 
   - id: style
     title:
-      en: 3. Define Style
+      en: Detailed Analysis
       de: Detaillierte Analyse
     description:
-      en: 'Upload your company logo and adjust the colors to your corporate identity.'
-      de: '<p>Wir sammeln automatisch DSGVO-konforme Nutzungsstatistiken und generieren Statistiken für Sie. Durch diese detaillierte Analyse haben Sie ständig einen Überblick über Kundeninteressen und potenzielle Kunden.</p><p>Dadurch können Sie Ihre Präsentation perfekt an die Kundeninteressen anpasen!</p>'
+      en: '<p>We automatically collect DSGVO-conform usage data and generate statistics for you. Through this detailed analysis you will have a continous overview of the customers' interests as well as potential customers.</p><p>This enables you to match your presentation exactly to your customer's interests!</p>'
+      de: '<p>Wir sammeln automatisch DSGVO-konforme Nutzungsdaten und generieren Statistiken für Sie. Durch diese detaillierte Analyse haben Sie ständig einen Überblick über Kundeninteressen und potenzielle Kunden.</p><p>Dadurch können Sie Ihre Präsentation perfekt an die Kundeninteressen anpassen!</p>'
     image: /img/feature-stats.png
 
   - id: devices
     title:
-      en: 4. Assign Devices
+      en: Versatile content
       de: Vielfältige Inhalte
     description:
-      en: '<p>Finally, select a device to deploy the presentation on.</p><p>Supported are the TouchLay Nova, as well as various tablets, smartphones, desktops and signage screens.</p>'
+      en: '<p>Our Software is compatible with a variety of formats, such as videos, photos, 3D models, this also includes the integration of already existing websites.</p><p>Our digital solutions can be displayed in an app, as well as a website.</p>'
       de: '<p>Unsere Software ist vollständig kompatibel mit allen gängigen Inhalten, beispielsweise Videos, Fotos, 3D Modelle, auch die Integration von bestehenden Webseiten ist möglich.</p><p>Unsere Digitallösungen können sowohl in einer App, als auch auf einer Webseite ausgespielt werden.</p>'
     image: /img/feature-content.png
 
   - id: tracking
     title:
-      en: Tracking & Statistics
+      en: Digital brochures
       de: Digitale Prospekte
     description:
-      en: 'User input will be automatically collected and statistics generated, e.g. heatmap, input in search fields, clicks on certain data sets, and much more!'
-      de: '<p>Wir orientieren uns immer an Benutzerfreundlichkeit und Nachhaltigkeit. Mit unseren Digitallösungen können Sie einfach als digitale Prospekte an Ihre Kunden verteilen.</p><p>Die Inhalte, die das Kundeninteresse während einer Präsentation geweckt haben, können zusätzlich über E-Mail oder per QR-Code direkt an den Kunden verschickt werden!</p>'
+      en: '<p>We focus on usability and sustainability. You can easily distribute digital brochures to your customers with our digital solutions.</p><p>The content that has sparked your customers' interest the most during a presentation can then be sent directly to the customer, via e-mail or QR-Code!</p>'
+      de: '<p>Wir orientieren uns immer an Benutzerfreundlichkeit und Nachhaltigkeit. Mit unseren Digitallösungen können Sie einfach digitale Prospekte an Ihre Kunden verteilen.</p><p>Die Inhalte, die das Kundeninteresse während einer Präsentation geweckt haben, können zusätzlich über E-Mail oder per QR-Code direkt an den Kunden verschickt werden!</p>'
     image: /img/feature-sharing.png
 
   - id: tracking
     title:
-      en: Branch-specific Modules
+      en: Branch-specific software
       de: Branchenspezifische Software
     description:
-      en: '<p>We also develop branch specific modules for the TouchLay <i>cloud</i>.</p><p>At the moment, in addition to standardized presentation apps, we offer the TouchLay <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">Wayfinder</a> (interactive map).</p>'
+      en: '<p>We also develop customized, branch-specific software.</p><p>We currently offer <a href="/page.lang/software/presentation/" ga-on="click" ga-event-category="software" ga-event-action="presentation">interactive product presentations</a> as well as <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">an interactive wayfinding system.</a> </p>'
       de: '<p>Wir entwickeln auch maßgeschneiderte, branchenspezifische Software.</p><p>Momentan bieten wir neben der <a href="/page.lang/software/presentation/" ga-on="click" ga-event-category="software" ga-event-action="presentation">interaktiven Produktpräsentation</a> ein <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">interaktives Wegeleitsystem</a> an.</p>'
     image: /img/feature-modules.png
 
 cta:
   headline:
-    en: Request Demo Now
+    en: Have we sparked your interest?
     de: Haben wir Ihr Interesse geweckt?
   text:
-    en: <p>At the moment, the TouchLay <i>cloud</i> is in testing stage and we are still giving it the final touch.</p><p>If you are interested, we can provide you demo access. Just contact us!</p>
+    en: <p>Contact us now and we will create a noncommital concept for you!</p>
     de: <p>Kontaktieren Sie uns jetzt und wir erstellen unverbindlich ein Konzept für Sie!</p>
   buttontext:
-    en: Request software demo
+    en: Contact now
     de: Jetzt kontaktieren

@@ -1,0 +1,48 @@
+title: 
+  en: 'Our All-In-One Service'
+  de: 'Unser All-In-One Service'
+description: 
+  en: ''
+  de: 'Außerdem kümmern wir uns um den gesamten Ablauf,
+      vom Konzept über Logistik bis zur Wartung und Unterstützung im Live-Betrieb.
+      Wir sind jederzeit für Sie verfügbar und lassen Sie nie im Stich!'
+items:
+  - title:
+      en: Concept
+      de: Konzept
+    image: icons/lightbulb.svg
+    description:
+      en: 
+      de: Sie erzählen uns über Ihre Vorstellungen, wir besprechen gemeinsam die Möglichkeiten und erstellen unverbindlich ein grafisches Konzept.
+
+  - title:
+      en:
+      de: Design
+    image: icons/brush.svg 
+    description: 
+      en:
+      de: Im nächsten Schritt erarbeiten wir perfekt angepasste Lösungen für Sie, um Ihre Bedürfnisse bestmöglich abzudecken.
+
+  - title:
+      en:
+      de: Kontrolle
+    image: icons/verified.svg 
+    description: 
+      en:
+      de: Jeder Schritt ist für Sie nachvollziehbar und Sie können gegebenenfalls Vorschläge einbringen oder Änderungen vornehmen.
+
+  - title:
+      en:
+      de: Logistik
+    image: icons/shipping.svg 
+    description: 
+      en:
+      de: Wir arbeiten eng mit unseren kompetenten Logistikpartnern zusammen, um Ihre Hardware sicher anzuliefern, aufzubauen, und die Funktionsweise vor Ort zu erklären.
+
+  - title:
+      en:
+      de: Wartung & Unterstützung
+    image: icons/build.svg 
+    description: 
+      en:
+      de: Auch nach der Umsetzung stehen wir weiterhin jederzeit zur Verfügung und bieten Beratung, Wartung und Unterstützung bei der Verwendung unserer Produkte an.
