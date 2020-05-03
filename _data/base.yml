@@ -218,8 +218,8 @@ texts:
     en: 'learn more'
     de: 'mehr erfahren'
   sendrequest:
-    en: 'send request'
-    de: 'Anfrage senden'
+    en: 'send request now'
+    de: 'jetzt Anfrage senden'
   secondhand:
     en: 'buy second-hand'
     de: 'gebraucht kaufen'
@@ -283,9 +283,6 @@ texts:
   specs:
     en: 'Specs'
     de: 'Ausstattung'
-  secondhandTitle:
-    en: 'Second-Hand Multitouch Tables'
-    de: 'Gebrauchte Multitouch-Tische'
 
 newsletter:
   headline:

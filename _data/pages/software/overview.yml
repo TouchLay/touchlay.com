@@ -42,7 +42,7 @@ features:
       en: Detailed Analysis
       de: Detaillierte Analyse
     description:
-      en: '<p>We automatically collect DSGVO-conform usage data and generate statistics for you. Through this detailed analysis you will have a continous overview of the customers' interests as well as potential customers.</p><p>This enables you to match your presentation exactly to your customer's interests!</p>'
+      en: <p>We automatically collect DSGVO-conform usage data and generate statistics for you. Through this detailed analysis you will have a continous overview of the customers' interests as well as potential customers.</p><p>This enables you to match your presentation exactly to your customer's interests!</p>
       de: '<p>Wir sammeln automatisch DSGVO-konforme Nutzungsdaten und generieren Statistiken für Sie. Durch diese detaillierte Analyse haben Sie ständig einen Überblick über Kundeninteressen und potenzielle Kunden.</p><p>Dadurch können Sie Ihre Präsentation perfekt an die Kundeninteressen anpassen!</p>'
     image: /img/feature-stats.png
 
@@ -60,7 +60,7 @@ features:
       en: Digital brochures
       de: Digitale Prospekte
     description:
-      en: '<p>We focus on usability and sustainability. You can easily distribute digital brochures to your customers with our digital solutions.</p><p>The content that has sparked your customers' interest the most during a presentation can then be sent directly to the customer, via e-mail or QR-Code!</p>'
+      en: <p>We focus on usability and sustainability. You can easily distribute digital brochures to your customers with our digital solutions.</p><p>The content that has sparked your customers' interest the most during a presentation can then be sent directly to the customer, via e-mail or QR-Code!</p>
       de: '<p>Wir orientieren uns immer an Benutzerfreundlichkeit und Nachhaltigkeit. Mit unseren Digitallösungen können Sie einfach digitale Prospekte an Ihre Kunden verteilen.</p><p>Die Inhalte, die das Kundeninteresse während einer Präsentation geweckt haben, können zusätzlich über E-Mail oder per QR-Code direkt an den Kunden verschickt werden!</p>'
     image: /img/feature-sharing.png
 

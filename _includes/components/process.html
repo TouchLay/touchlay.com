@@ -2,15 +2,11 @@
   <div class="container">
     <h1 class="text-center section-title">{{site.data.process.title[page.lang]}}</h1>
     <div class="item intro">
-      Gerne bieten wir für unsere
       {% if include.hardwareFirst %}
-        <a href="/{{page.lang}}/hardware/">Hardware</a> auch perfekt angepasste
-        <a href="/{{page.lang}}/software/">Digitallösungen</a>
+        {{site.data.process.linktext.hardwareFirst[page.lang]}}
       {% else %}
-        <a href="/{{page.lang}}/software/">Digitallösungen</a> auch perfekt angepasste
-        <a href="/{{page.lang}}/hardware/">Hardware</a>, wie Touch-Bildschirme,
+        {{site.data.process.linktext.hardwareSecond[page.lang]}}
       {% endif %}
-      an. 
       {{site.data.process.description[page.lang]}}
     </div>
     {% for process in site.data.process.items %}

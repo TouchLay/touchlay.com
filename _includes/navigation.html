@@ -8,7 +8,7 @@
         <label for="nav-toggle" class="label-toggle"></label>
       </input>
 
-      <ul>
+      <ul class="nav-ul">
         {% for navitem in site.data.base.navigation %}
           {% if navitem.append %}
             {% capture pageUrl %}{{navitem.url}}{% endcapture %}
@@ -26,8 +26,10 @@
             class="nav-item invert cta-highlight"
             {% endif %}
           >
-            <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" href={{pageUrl}} >{{navitem.title[page.lang]}}</a>
             {% if navitem.subitems %}
+            <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text has-sub" href={{pageUrl}} >{{navitem.title[page.lang]}}</a>
+            <input type="radio" name="radio-nav" id="radio-{{navitem.title[page.lang]}}"> 
+            <label ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" for="radio-{{navitem.title[page.lang]}}">{{navitem.title[page.lang]}}</label>
             <div class="nav-sub">
               <div class="arrow"></div>
               <div class="container">
@@ -46,6 +48,8 @@
                 {% endfor %}
               </div>
             </div>
+            {% else %}
+              <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" href={{pageUrl}} >{{navitem.title[page.lang]}}</a>
             {% endif %}
           </li>
         {% endfor %}

@@ -15,16 +15,13 @@
 
   <section class="padded">
     <div class="container">
-      <h1 class="text-center section-title">{{ site.data.base.texts.secondhandTitle[page.lang] }}</h1>
+      <h1 class="text-center section-title">{{ site.data.pages.hardware.secondhand.title[page.lang] }}</h1>
       <p class="text-center">
-        Wir bieten auch gebrauchte Modelle unseres TouchLay Nova an. Diese sind
-        noch in sehr gutem Zustand, weisen lediglich leichte Gebrauchsspuren auf
-        und wurden nur zur Vermietung an Kunden eingesetzt. Wenn Sie Interesse
-        an unseren gebrauchten Modellen haben, kontaktieren Sie uns einfach!
+        {{ site.data.pages.hardware.secondhand.description[page.lang] }}
         <br />
         <a class="text-center" href="/{{page.lang}}/hardware/secondhand#contact">
           <button ga-on="click" ga-event-category="secondhand" ga-event-action="contact" class="section-btn">
-              jetzt kontaktieren
+            {{ site.data.base.texts.sendrequest[page.lang] }}
           </button>
         </a>
       </p>
@@ -33,13 +30,13 @@
 
   <section class="padded gray">
     <div class="container">
-      <h1 class="text-center section-title">Zuverlässige Hardware</h1>
+      <h1 class="text-center section-title">{{ site.data.pages.hardware.secondhand.hardwareTitle[page.lang] }}</h1>
       <p class="text-center">
         {{site.data.pages.home.hardware.description[page.lang] | replace: "<p>", "" | replace: "</p>", " " }}
         <br />
         <a class="text-center" href="/{{page.lang}}/hardware/">
           <button ga-on="click" ga-event-category="secondhand" ga-event-action="nova" class="section-btn">
-              mehr über den TouchLay Nova erfahren
+              {{ site.data.pages.hardware.secondhand.moreText[page.lang] }}
           </button>
         </a>
       </p>

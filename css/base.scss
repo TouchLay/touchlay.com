@@ -179,11 +179,31 @@ h3 {
 
 .nav-item.invert {
   background: $white-two;
+  border-radius: 3px;
 }
 
 .nav-item.invert .nav-text {
   color: $touchlay-blue;
 }
+
+.nav-ul label {
+  cursor: pointer;
+  display: none;
+}
+
+.nav-ul input {
+  display: none;
+}
+
+.nav-ul input:checked+label {
+}
+
+.nav-ul input:checked~.nav-sub {
+  opacity: 1;
+  height: auto;
+  pointer-events: all;
+}
+
 
 .nav-sub {
   display: block;
@@ -255,7 +275,7 @@ h3 {
   pointer-events: all;
 }
 
-a:hover + .nav-sub {
+a:hover ~ .nav-sub {
   opacity: 1;
   animation-name: navSubAppear;
   animation-duration: 0.2s;
@@ -265,6 +285,46 @@ a:hover + .nav-sub {
 @media screen and (max-width: $breakpoint-tablet) {
   .usecases .section-text {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .nav-sub {
+    opacity: 0;
+    pointer-events: none;
+    position: static;
+    width: 100%;
+    margin: 0;
+    height: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .nav-sub:hover {
+    animation-name: none;
+  }
+
+  a:hover + .nav-sub {
+    height: auto;
+    animation-name: none;
+  }
+
+  .nav-sub .arrow { 
+    display: none;
+  }
+
+  .nav-sub .container {
+    border-radius: none;
+    box-shadow: none;
+    padding: 0;
+    background: none;
+  }
+
+  .nav-ul label {
+    display: inline;
+  }
+
+  .nav-ul a.has-sub {
+    display: none;
   }
 }
 
@@ -446,7 +506,7 @@ nav ul {
       text-align: center;
     }
 
-    a {
+    a, label {
       margin: 1em;
       text-decoration: none;
       transition: opacity 0.2s;
@@ -494,10 +554,13 @@ nav ul {
   }
 }
 
-#nav-toggle:checked ~ ul {
-      opacity: 1;
-      height: 100vh;
-      visibility: visible;
+@media screen and (max-width: $breakpoint-tablet) {
+  #nav-toggle:checked ~ ul {
+    opacity: 1;
+    min-height: calc(100vh - 68px);
+    visibility: visible;
+    overflow: scroll;
+  }
 }
 
 nav .language-toggle-menu {
@@ -2197,6 +2260,35 @@ section.contentoptions {
 @media screen and (max-width: $breakpoint-tablet) {
   #process .item .title {
     flex-grow: 1;
+  }
+}
+
+
+@media screen and (max-width: $breakpoint-mobile) {
+  #process .item .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    line-height: 100px;
+    min-width: 100px;
+  }
+
+  #process .item .circle svg {
+    width: 50px;
+    height: 100%;
+  }
+
+  #process .item {
+    flex-direction: column;
+  }
+
+  #process .item .content {
+    margin-top: 1em;
+  }
+
+  #process .item .title,
+  #process .item .text {
+    text-align: center;
   }
 }
 

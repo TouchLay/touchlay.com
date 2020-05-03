@@ -1,8 +1,15 @@
 title: 
   en: 'Our All-In-One Service'
   de: 'Unser All-In-One Service'
+linktext:
+  hardwareFirst:
+    en: We gladly offer <a href="/en/software/">digital solutions</a> perfectly tailored to our <a href="/en/hardware/">hardware</a>.
+    de: Gerne bieten wir für unsere <a href="/de/hardware/">Hardware</a> auch perfekt angepasste <a href="/de/software/">Digitallösungen</a> an. 
+  hardwareSecond:
+    en: We gladly offer <a href="/en/hardware/">hardware</a>, such as touchscreens, perfectly tailored to our <a href="/en/software/">digital solutions</a>.
+    de: Gerne bieten wir für unsere <a href="/de/software/">Digitallösungen</a> auch perfekt angepasste <a href="/de/hardware/">Hardware</a>, wie Touch-Bildschirme, an.
 description: 
-  en: ''
+  en: 'We take care of the whole process, from the first concept to maintenance and support during usage. We are always at the ready and will never let you down!'
   de: 'Außerdem kümmern wir uns um den gesamten Ablauf,
       vom Konzept über Logistik bis zur Wartung und Unterstützung im Live-Betrieb.
       Wir sind jederzeit für Sie verfügbar und lassen Sie nie im Stich!'
@@ -12,37 +19,37 @@ items:
       de: Konzept
     image: icons/lightbulb.svg
     description:
-      en: 
+      en: You tell us about your expectations and together we will discuss the possibilities and create a noncommital graphic concept. 
       de: Sie erzählen uns über Ihre Vorstellungen, wir besprechen gemeinsam die Möglichkeiten und erstellen unverbindlich ein grafisches Konzept.
 
   - title:
-      en:
+      en: Design
       de: Design
     image: icons/brush.svg 
     description: 
-      en:
+      en: During the next step we work out the perfectly customized solution, to optimally meet your needs. 
       de: Im nächsten Schritt erarbeiten wir perfekt angepasste Lösungen für Sie, um Ihre Bedürfnisse bestmöglich abzudecken.
 
   - title:
-      en:
+      en: Control
       de: Kontrolle
     image: icons/verified.svg 
     description: 
-      en:
+      en: Every step will be transparent and provide the opportunity for you to make suggestions or changes. 
       de: Jeder Schritt ist für Sie nachvollziehbar und Sie können gegebenenfalls Vorschläge einbringen oder Änderungen vornehmen.
 
   - title:
-      en:
+      en: Logistics
       de: Logistik
     image: icons/shipping.svg 
     description: 
-      en:
+      en: We work in close collaboration with our competent logistic partners to safely deliver and set up your hardware as well as explain how to operate the device on-site.
       de: Wir arbeiten eng mit unseren kompetenten Logistikpartnern zusammen, um Ihre Hardware sicher anzuliefern, aufzubauen, und die Funktionsweise vor Ort zu erklären.
 
   - title:
-      en:
+      en: maintenance & support
       de: Wartung & Unterstützung
     image: icons/build.svg 
     description: 
-      en:
+      en: After the finished realization of a project we are available anytime and ready to offer consulting, maintenance and support for the use of our products.
       de: Auch nach der Umsetzung stehen wir weiterhin jederzeit zur Verfügung und bieten Beratung, Wartung und Unterstützung bei der Verwendung unserer Produkte an.
