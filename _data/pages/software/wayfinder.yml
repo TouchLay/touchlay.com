@@ -23,7 +23,7 @@ features:
     description:
       en: '<p>The TouchLay Wayfinder is the perfect solution for the visualization of exhibitions, events and buildings. Our flexible system allows for the customization of your design, as well as the inclusion of various information.</p>'
       de: '<p>Der TouchLay Wayfinder ist die perfekte Lösung für die Darstellung von Messen, Events und Gebäuden. Unser flexibles System erlaubt die Anpassung an Ihr Design, sowie das Einbinden von diversen Informationen.</p>'
-    image: /img/wayfinder-dashboard.png
+    image: /img/wayfinde-example.png
     
   - id: setup
     title:
