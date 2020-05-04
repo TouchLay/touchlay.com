@@ -10,7 +10,7 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <use id="icon/toggle/star_outline_24px" fill-opacity="0.3" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <use id="icon/toggle/star_outline_24px" fill="#3293C7" fill-rule="nonzero" xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>
