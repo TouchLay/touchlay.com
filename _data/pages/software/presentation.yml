@@ -1,7 +1,6 @@
 header:
   image: /img/interface-animation.svg
   imageclass: 'interface-animation-header header-image'
-  imagelink: true
   title:
     en: TouchLay Presentations
     de: TouchLay Präsentationen
