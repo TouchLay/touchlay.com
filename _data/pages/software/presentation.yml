@@ -12,6 +12,22 @@ header:
     en: Thanks to our customized and unique presentations you can create the most effective value for your products.
     de: Mithilfe von unseren maßgeschneiderten und einzigartigen Präsentationen schaffen Sie einen effektiven Mehrwert für Ihre Produkte.
 
+intro:
+  title:
+    en: Your Own Presentation
+    de: Ihre eigene Präsentation
+  description:
+    en: Simply mix and match different modules, to quickly put together your individual presentation. We support you with data preparation and modification, after which you can also update the data yourself, whenever you need.
+    de: Wählen Sie einfach ein Modul, oder kombinieren Sie mehrere Module, um blitzschnell zu Ihrer individuellen Präsentation zu kommen. Wir unterstützen Sie bei der Aufbereitung und Anpassung, anschließend können Sie, wenn Sie möchten, die Daten auch selbstständig aktualisieren.
+  button:
+    en: find out more about our digital solutions
+    de: mehr über unsere Digitallösungen erfahren
+
+modules:
+  title:
+    en: Possible Modules
+    de: Mögliche Module
+
 features:
   - id: catalog
     title:
