@@ -39,42 +39,42 @@ features:
           de: Webseite
         icon: /img/icons/website.svg
         description:
-          en: show your company website
+          en: Show your company website.
           de: Binden Sie Ihre Firmenwebseite ein.
       - title:
           en: Android
           de: Android
         icon: /img/icons/android.svg
         description:
-          en: present your mobile application
+          en: Present your mobile application.
           de: Präsentieren Sie Ihre Mobile Applikation.
       - title:
           en: Interactive Map
           de: Interaktive Karte
         icon: /img/icons/map.svg
         description:
-          en: visualize your locations
+          en: Visualize your locations.
           de: Stellen Sie Ihre Standorte o.Ä. dar.
       - title:
           en: Promotions
           de: Gewinnspiele
         icon: /img/icons/game.svg
         description:
-          en: playfully generate leads
+          en: Playfully generate leads.
           de: Generieren Sie spielerisch Kundenkontakte.
       - title:
           en: Product Presentation
           de: Produktpräsentation
         icon: /img/icons/lightbulb.svg
         description:
-          en: present all your products
+          en: Present all your products.
           de: Präsentieren Sie Ihre gesamte Produktpalette.
       - title:
           en: Customized Applications
           de: Individuelle Applikationen
         icon: /img/icons/star.svg
         description:
-          en: we also develop custom interactive applications
+          en: We also develop custom interactive applications.
           de: Wir entwickeln auch maßgeschneiderte Lösungen.
 
   - id: customermagnet

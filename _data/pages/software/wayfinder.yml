@@ -5,7 +5,7 @@ header:
     en: TouchLay Wayfinder
     de: TouchLay Wayfinder
   subtitle:
-    en: Digital wayfinding system
+    en: digital wayfinding system
     de: Digitales Wegeleitsystem
   video:
     en: https://www.youtube.com/watch?v=-D9gWWacPKw
@@ -45,10 +45,10 @@ features:
 
   - id: algorithm
     title:
-      en: Automatic path finding 
+      en: Automatic Path Detection 
       de: Automatische Wegeerkennung
     description:
-      en: '<p>The visual routing and our specifically developed automatic path-finding-algorithm help visitors reach their destination as efficiently as possible. </p>'
+      en: '<p>The visual routing and our specifically developed automatic path-detection-algorithm help visitors reach their destination as efficiently as possible. </p>'
       de: '<p>Mit der visuellen Wegeleitung und unserem speziell entwickelten automatischen Wege-Erkennungs-Algorithmus kommen Besucher so effizient wie möglich ans Ziel!</p>'
     image: /img/wayfinder-path.png
 
@@ -66,7 +66,7 @@ features:
       en: Tracking and Statistics
       de: Tracking und Statistiken
     description:
-      en: '<p>The Wayfinder automatically collects user input data and generates statistics.</p><p>For example: efficiency of advertising, interests of visitors, input in search fields and much more.</p>'
+      en: '<p>The Wayfinder automatically collects GDPR-compliant user input data and generates statistics.</p><p>For example: efficiency of advertising, interests of visitors, input in search fields and much more.</p>'
       de: '<p>Der Wayfinder sammelt automatisch DSGVO-konforme Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Effektivität von Werbungen, Interessen von Besuchern, Eingaben in Suchfeldern, und vieles mehr.</p>'
     image: /img/feature-stats.png
 

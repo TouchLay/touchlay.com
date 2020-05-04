@@ -16,7 +16,7 @@ header:
 features:
   - id: catalog
     title:
-      en: Interactive product catalogue
+      en: Interactive Product Catalogue
       de: Interaktiver Produktkatalog
     description:
       en: '<p>Present diverse product groups for your customers to quickly find the desired item. This enables your customers to maintain an overview while also reading up on details.  </p>'
@@ -34,7 +34,7 @@ features:
 
   - id: ads
     title:
-      en: World map
+      en: World Map
       de: Die Weltkarte
     description:
       en: 'Show your market strength and display your locations, customers or partners on an interactive world map.'

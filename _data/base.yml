@@ -214,6 +214,9 @@ countryplaceholder:
   de: 'Land'
 
 texts:
+  specialities:
+    en: Our Specialities
+    de: Unsere Spezialgebiete
   more:
     en: 'learn more'
     de: 'mehr erfahren'
