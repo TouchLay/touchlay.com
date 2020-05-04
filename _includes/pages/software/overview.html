@@ -16,38 +16,25 @@
 
 {% include components/feature-loop.html features=site.data.pages.software.overview.features %}
 
-<section id="usecases" class="padded">
+<section id="software-solutions" class="padded">
   <div class="container">
-    <h1 class="text-center section-title">Usecases</h1>
-    {% include components/usecases.html %}
-    <!--<button ga-event-category="usecases" ga-event-action="more" class="block-center section-btn">weitere usecases</button>-->
+    <h1 class="text-center section-title">{{site.data.base.texts.specialities[page.lang]}}</h1>
+    {% include components/solutions.html %}
   </div>
 </section>
 
-<section id="overview-hardware" class="paddedTop gray section-a">
-  {% assign content = site.data.pages.home.hardware %}{% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
-  {% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
-  {% include components/feature-section.html
-      title=content.title
-      subtitle=content.subtitle
-      description=content.description
-      image=content.image
-      cta=site.data.base.texts.more
-      ctalink=hardwarePageUrl
+{% include components/branches.html class="gray" %}
 
-      gacategory="hardware"
-      gaaction="more"
-  %}
-</section>
+{% include components/process.html %}
 
-<section id="cta" class="section-even orange verypadded">
+<section id="cta" class="section-even black verypadded">
   <div class="container flexcontainer row middle spacebetween">
     <div class="section-text">
         <h1 class="h1-white">{{site.data.pages.software.overview.cta.headline[page.lang]}}</h1>
         <p>{{site.data.pages.software.overview.cta.text[page.lang]}}</p>
     </div>
     <div class="section-image">
-      <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-white cta-highlight">
+      <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-orange cta-highlight">
         {{site.data.pages.software.overview.cta.buttontext[page.lang]}}
       </button></a>
     </div>

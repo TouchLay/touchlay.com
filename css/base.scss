@@ -59,7 +59,9 @@ summary, time, mark, audio, video {
     vertical-align: baseline;
 }
 
-html {
+#aftercaret {
+  position: relative;
+  top: -140px;
 }
 
 /* Text styles */
@@ -162,6 +164,10 @@ h3 {
   font-size: 24px;
 }
 
+.newsletter-description p {
+  font-size: 14px;
+}
+
 .nav-text {
 	font-size: 22px;
 	color: $white-two;
@@ -173,15 +179,152 @@ h3 {
 
 .nav-item.invert {
   background: $white-two;
+  border-radius: 3px;
 }
 
 .nav-item.invert .nav-text {
   color: $touchlay-blue;
 }
 
+.nav-ul label {
+  cursor: pointer;
+  display: none;
+}
+
+.nav-ul input {
+  display: none;
+}
+
+.nav-ul input:checked+label {
+}
+
+.nav-ul input:checked~.nav-sub {
+  opacity: 1;
+  height: auto;
+  pointer-events: all;
+}
+
+
+.nav-sub {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 250px;
+  margin-left: -55px;
+  margin-top: -7px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.nav-sub .arrow {
+  padding-top: 5px;
+  width: 0;
+  height: 0;
+  content: '';
+  margin: 0 auto;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+}
+
+.nav-sub .container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 0.3em;
+  text-align: center;
+}
+
+.nav-sub .container a {
+  display: block;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 18px;
+  transition: color 0.2s;
+  line-height: 2em;
+  padding: 0.3em 0;
+  margin: 0;
+}
+
+.nav-sub .container a.active {
+  text-decoration: underline;
+}
+
+.nav-sub .container a:hover {
+  color: #3293c7;
+  opacity: 1;
+}
+
+@keyframes navSubAppear {
+  from {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 0px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.nav-sub:hover {
+  opacity: 1;
+  animation-name: navSubAppear;
+  animation-duration: 0.2s;
+  pointer-events: all;
+}
+
+a:hover ~ .nav-sub {
+  opacity: 1;
+  animation-name: navSubAppear;
+  animation-duration: 0.2s;
+  pointer-events: all;
+}
+
 @media screen and (max-width: $breakpoint-tablet) {
   .usecases .section-text {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .nav-sub {
+    opacity: 0;
+    pointer-events: none;
+    position: static;
+    width: 100%;
+    margin: 0;
+    height: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .nav-sub:hover {
+    animation-name: none;
+  }
+
+  a:hover + .nav-sub {
+    height: auto;
+    animation-name: none;
+  }
+
+  .nav-sub .arrow { 
+    display: none;
+  }
+
+  .nav-sub .container {
+    border-radius: none;
+    box-shadow: none;
+    padding: 0;
+    background: none;
+  }
+
+  .nav-ul label {
+    display: inline;
+  }
+
+  .nav-ul a.has-sub {
+    display: none;
   }
 }
 
@@ -194,20 +337,20 @@ h3 {
 }
 
 .btn-text-white {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 500;
 	color: $white-two;
 }
 
 .btn-text-blue {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 500;
 	color: $touchlay-blue;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	color: $black;
 }
 
@@ -363,7 +506,7 @@ nav ul {
       text-align: center;
     }
 
-    a {
+    a, label {
       margin: 1em;
       text-decoration: none;
       transition: opacity 0.2s;
@@ -405,16 +548,19 @@ nav ul {
     display: block;
     float: right;
     height: 22px;
-    margin-top: 1.5em;
+    margin-top: 1.2em;
     margin-right: .5em;
     width: 30px;
   }
 }
 
-#nav-toggle:checked ~ ul {
-      opacity: 1;
-      height: 100vh;
-      visibility: visible;
+@media screen and (max-width: $breakpoint-tablet) {
+  #nav-toggle:checked ~ ul {
+    opacity: 1;
+    min-height: calc(100vh - 68px);
+    visibility: visible;
+    overflow: scroll;
+  }
 }
 
 nav .language-toggle-menu {
@@ -428,7 +574,7 @@ nav .language-toggle-menu {
 nav .language-toggle {
   color: rgba(255, 255, 255, 0.6);
   position: absolute;
-  top: 2.2em;
+  top: 33px;
   right: 2em;
 
   a {
@@ -546,6 +692,7 @@ nav .language-toggle {
   font-family: Sawasdee, Roboto, Arial;
   font-size: 200%;
   animation: caret 1.2s infinite ease-in-out;
+  color: white;
 }
 
 /* Header */
@@ -1032,6 +1179,17 @@ section.gray,
   background: $gray;
 }
 
+section.dark-gray,
+.bg-dark-gray {
+  background: $dark-gray;
+}
+
+section.black,
+.bg-black {
+  background: $black;
+  color: $white-two;
+}
+
 section.orange {
   background: $touchlay-orange;
   color: $white-two;
@@ -1119,7 +1277,9 @@ section.verypaddedTop {
 }
 
 .section-description {
-  margin-top: 1.5em;
+  padding-top: 1em;
+  line-height: 1.5;
+  margin-bottom: -0.5em;
 }
 
 .section-description-paddedTop-fix {
@@ -1378,9 +1538,12 @@ footer {
   padding-top: 2em;
 }
 
+footer:target {
+  padding-top: 8em;
+}
+
 footer .end {
   background: #000;
-  padding: 2em 0;
 }
 
 footer ul {
@@ -1408,11 +1571,11 @@ footer a {
   display: inline-block;
   width: 32.9%;
   vertical-align: top;
+  padding-top: 2em;
 
   @media screen and (max-width: $breakpoint-tablet) {
     width: 100%;
     text-align: center;
-    padding-bottom: 2em;
   }
 }
 
@@ -1877,6 +2040,13 @@ input[type='text'].selectivity-multiple-input {
   justify-content: center;
 }
 
+.section-list-description {
+  padding-top: 1em;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
 .section-item {
   flex-basis: 33%;
   text-align: center;
@@ -1902,7 +2072,7 @@ input[type='text'].selectivity-multiple-input {
 }
 
 .section-item .description {
-  /* TODO */
+  line-height: 1.7em;
 }
 
 .section-item .icon img {
@@ -1927,11 +2097,12 @@ input[type='text'].selectivity-multiple-input {
 }
 
 p {
-  line-height: 1.3em;
+  line-height: 1.7em;
 }
 
 .card .content p {
   margin: 0.5em 0;
+  font-size: 0.8em;
 }
 
 section.contentoptions {
@@ -1939,13 +2110,28 @@ section.contentoptions {
   margin-top: -1px;
 }
 
-#overview-hardware, #feature-handling {
-  padding-bottom: 0;
+.docked-top {
+  padding-top: 0 !important;
 }
 
-#feature-quality {
-  padding-top: 0;
-  padding-bottom: 0;
+.docked-top .section-text {
+  padding-top: 2em;
+}
+
+.docked-top .section-image {
+  align-self: flex-start;
+}
+
+.docked-bottom {
+  padding-bottom: 0 !important;
+}
+
+.docked-bottom .section-text {
+  padding-bottom: 2em;
+}
+
+.docked-bottom .section-image {
+  align-self: flex-end;
 }
 
 #usecases {
@@ -1954,15 +2140,23 @@ section.contentoptions {
 
 #team-description {
   font-size: 1.5em;
-  line-height: 1.5em;
+  line-height: 1.7em;
   text-align: justify;
+}
+
+#modules-header {
+  padding-bottom: 0;
+  margin-bottom: -2em;
 }
 
 #process {
   background-color: #3393c7;
+  color: rgba(255,255,255,0.9);
   text-align: center;
   font-weight: 300;
+}
 
+#process.home {
   margin-top: -50px; /* fix for video being too high */
 
   @media screen and (min-width: 1921px) {
@@ -1970,10 +2164,40 @@ section.contentoptions {
   }
 }
 
+#process .section-title {
+  color: rgba(255,255,255,0.9);
+}
+
+#process .item .title {
+  text-align: left;
+  font-size: 30px;
+}
+
 #process .item {
   display: flex;
   align-items: center;
   margin: 2em 0;
+}
+
+#process .item.intro {
+  line-height: 1.5;
+  font-size: 22px;
+  padding-bottom: 24px;
+  display: block;
+}
+
+#process .item a {
+  padding: 4px;
+  margin-left: -2px;
+  margin-right: -2px;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+#process .item a:hover {
+  color: #3393c7;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 #process .item .circle {
@@ -1986,12 +2210,26 @@ section.contentoptions {
   line-height: 100px;
   margin: 0 1em;
   min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#process .item .circle svg {
+  width: 50px;
+  height: 100%;
+}
+
+#process .item .circle path {
+  fill: #3393c7;
 }
 
 #process .item .text {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 30px;
   text-align: left;
+  padding-top: 8px;
+  font-weight: 400;
+  max-width: 700px;
+  line-height: 1.3;
 }
 
 #process .container {
@@ -2000,22 +2238,54 @@ section.contentoptions {
 
 @media screen and (max-width: $breakpoint-desktop) {
   #process .item .circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    line-height: 50px;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    line-height: 75px;
     font-size: 30px;
-    min-width: 50px;
+    min-width: 75px;
   }
 
-  #process .item .text {
+  #process .item .title {
     font-size: 23px;
+  }
+
+  #process .item .circle svg {
+    width: 35px;
+    height: 100%;
   }
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-  #process .item .text {
+  #process .item .title {
     flex-grow: 1;
+  }
+}
+
+
+@media screen and (max-width: $breakpoint-mobile) {
+  #process .item .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    line-height: 100px;
+    min-width: 100px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  #process .item .circle svg {
+    width: 50px;
+    height: 100%;
+  }
+
+  #process .item {
+    flex-direction: column;
+  }
+
+  #process .item .title,
+  #process .item .text {
+    text-align: center;
   }
 }
 
@@ -2060,4 +2330,10 @@ section.secondhand-device.padded {
 .secondhand-device .price b {
   font-weight: bold;
   font-size: 32px;
+}
+
+.interface-animation-header.header-image {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.1);
 }

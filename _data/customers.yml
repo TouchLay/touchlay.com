@@ -5,8 +5,8 @@
     - hardware
     - promotion
   description:
-    en: 'uses the TouchLay <i>nova</i> at various events to present their apps.'
-    de: 'setzt den TouchLay <i>nova</i> bei diversen Events ein, um Ihre Apps zu präsentieren.'
+    en: 'uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> at various events to present their apps.'
+    de: 'setzt den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> bei diversen Events ein, um Ihre Apps zu präsentieren.'
 
 - company: "Reed Exhibitions Wien/Salzburg"
   image: "/img/customer-8.jpg"
@@ -16,8 +16,8 @@
     - software
     - wayfinder
   description:
-    en: 'regularly uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map and timetable at exhibitions.'
-    de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> regelmäßig bei Messen als interaktive Karte und Zeitplan ein.'
+    en: 'regularly uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> and <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder">Wayfinder</a> as interactive map and timetable at exhibitions.'
+    de: 'setzt den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> und <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder">Wayfinder</a> regelmäßig bei Messen als interaktive Karte und Zeitplan ein.'
   media: "https://www.youtube.com/watch?v=UKmZ6LIZKaI"
 
 - company: "Procter & Gamble"
@@ -26,6 +26,7 @@
   tags:
     - hardware
     - promotion
+    - presentation
 
 - company: "Russian Railways"
   image: "/img/customer-16.jpg"
@@ -34,8 +35,8 @@
     - hardware
     - promotion
   description:
-    en: 'uses 3 TouchLay <i>nova</i> on their booth at the International Railway Forum.'
-    de: 'setzt 3 TouchLay <i>nova</i> beim International Railway Forum am Messestand ein.'
+    en: 'uses 3 <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> on their booth at the International Railway Forum.'
+    de: 'setzt 3 <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> beim International Railway Forum am Messestand ein.'
 
 - company: "KPMG Austria"
   image: "/img/customer-13.png"
@@ -44,8 +45,8 @@
     - hardware
     - promotion
   description:
-    en: 'uses 5 TouchLay <i>nova</i> to present their research on digital transformation to their clients.'
-    de: 'nutzt 5 TouchLay <i>nova</i> um Ihre Erkenntnisse zum Thema Digitale Transformation zu präsentieren.'
+    en: 'uses 5 <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> to present their research on digital transformation to their clients.'
+    de: 'nutzt 5 <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> um Ihre Erkenntnisse zum Thema Digitale Transformation zu präsentieren.'
 
 - company: "Österreichische Post"
   image: "/img/customer-2.jpg"
@@ -54,8 +55,8 @@
     - hardware
     - pos
   description:
-    en: 'uses the TouchLay <i>nova</i> to support sales of telecom products in post offices via Guided Selling.'
-    de: 'nutzt den TouchLay <i>nova</i>, um den Verkauf von Telekomprodukten in Postfilialen über Guided Selling zu unterstützen.'
+    en: 'uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> to support sales of telecom products in post offices via Guided Selling.'
+    de: 'nutzt den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a>, um den Verkauf von Telekomprodukten in Postfilialen über Guided Selling zu unterstützen.'
 
 - company: "OPEC"
   logo: "/img/customer-logo-17.png"
@@ -65,9 +66,11 @@
 
 - company: "VerVieVas Graphic Recording"
   image: "/img/customer-17.jpg"
+  tags:
+    - hardware
   description:
-    en: 'uses the TouchLay <i>nova</i> for Graphic Recording at events of an Austrian political party.'
-    de: 'nutzt den TouchLay <i>nova</i> für Graphic Recording einer Auftaktveranstaltung einer österreichischen Partei.'
+    en: 'uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> for Graphic Recording at events of an Austrian political party.'
+    de: 'nutzt den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> für Graphic Recording einer Auftaktveranstaltung einer österreichischen Partei.'
 
 - company: "United Nations"
   logo: "/img/customer-logo-25.png"
@@ -75,6 +78,7 @@
     - hardware
     - promotion
     - software
+    - presentation
 
 - company: "DHL"
   logo: "/img/customer-logo-28.png"
@@ -82,6 +86,7 @@
     - hardware
     - promotion
     - software
+    - presentation
 
 - company: "Koelnmesse"
   logo: "/img/customer-logo-26.png"
@@ -106,17 +111,18 @@
     - software
     - wayfinder
   description:
-    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> as interactive map for the largest book fair worldwide (Frankfurt Book Fair).'
-    de: 'setzt den TouchLay <i>nova</i> und <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> als interaktive Karte für die größte Buchmesse der Welt ein (Frankfurter Buchmesse).'
+    en: 'uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> and <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder">Wayfinder</a> as interactive map for the largest book fair worldwide (Frankfurt Book Fair).'
+    de: 'setzt den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> und <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder">Wayfinder</a> als interaktive Karte für die größte Buchmesse der Welt ein (Frankfurter Buchmesse).'
 
 - company: "ABB"
   image: "/img/customer-10.jpg"
   logo: "/img/customer-logo-12.png"
   tags:
     - hardware
+    - promotion
   description:
-    en: 'uses the TouchLay <i>nova</i> at various events to present their software solutions.'
-    de: 'setzt den TouchLay <i>nova</i> bei diversen Events ein, um Ihre Software Lösungen zu präsentieren.'
+    en: 'uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> at various events to present their software solutions.'
+    de: 'setzt den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> bei diversen Events ein, um Ihre Software Lösungen zu präsentieren.'
 
 - company: "d&b Audiotechnik"
   logo: "/img/customer-logo-22.png"
@@ -140,8 +146,8 @@
     - promotion
     - pos
   description:
-    en: 'uses the TouchLay <i>nova</i> to present a Smart Home solution.'
-    de: 'nutzt den TouchLay <i>nova</i> um eine Smart Home Lösung zu präsentieren.'
+    en: 'uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> to present a Smart Home solution.'
+    de: 'nutzt den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> um eine Smart Home Lösung zu präsentieren.'
 
 - company: "Otto Immobilien"
   image: "/img/customer-7.jpg"
@@ -151,9 +157,10 @@
     - software
     - promotion
     - pos
+    - presentation
   description:
-    en: 'uses the TouchLay <i>nova</i> to present their real estate portfolio.'
-    de: 'nutzt den TouchLay <i>nova</i>, um ihr Immobilienportfolio zu präsentieren.'
+    en: 'uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> to present their real estate portfolio.'
+    de: 'nutzt den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a>, um ihr Immobilienportfolio zu präsentieren.'
 
 - company: "Wirtschaftskammer Wien"
   image: "/img/customer-6.jpg"
@@ -162,8 +169,8 @@
     - hardware
     - promotion
   description:
-    en: 'uses the TouchLay <i>nova</i> at various events to present their apps.'
-    de: 'verwendet den TouchLay <i>nova</i> bei diversen Events, um verschiedene Apps zu präsentieren.'
+    en: 'uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> at various events to present their apps.'
+    de: 'verwendet den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> bei diversen Events, um verschiedene Apps zu präsentieren.'
 
 - company: "Fifteen Seconds Festival"
   logo: "/img/customer-logo-23.png"
@@ -173,8 +180,8 @@
     - software
     - wayfinder
   description:
-    en: 'uses the TouchLay <i>nova</i> and <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a> to give their visitors the best possible overview of the event.'
-    de: 'setzt auf den TouchLay <i>nova</i> und den <a href="https://wayfinder.touchlay.com" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder"><i>wayfinder</i></a>, um ihren Besuchern den bestmöglichen Überblick über das Event zu geben.'
+    en: 'uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> and <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder">Wayfinder</a> to give their visitors the best possible overview of the event.'
+    de: 'setzt auf den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> und den <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="customers" ga-event-action="wayfinder">Wayfinder</a>, um ihren Besuchern den bestmöglichen Überblick über das Event zu geben.'
 
 - company: "Wunschhaus"
   image: "/img/customer-4.jpg"
@@ -184,9 +191,10 @@
     - software
     - promotion
     - pos
+    - presentation
   description:
-    en: 'utilises the TouchLay <i>nova</i> in combination with a video wall at events, for planning, discussions & in their foyer.'
-    de: 'benützt den TouchLay <i>nova</i> im Zusammenspiel mit einer Videowall bei Events, sowie bei Planungsgesprächen und im Foyer.'
+    en: 'utilises the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">Nova</a> in combination with a video wall at events, for planning, discussions & in their foyer.'
+    de: 'benützt den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">Nova</a> im Zusammenspiel mit einer Videowall bei Events, sowie bei Planungsgesprächen und im Foyer.'
   lity: true
   media: "https://www.youtube.com/watch?v=NANhuQXJYD0"
 
@@ -197,9 +205,10 @@
     - hardware
     - software
     - pos
+    - presentation
   description:
-    en: 'positions the TouchLay <i>nova</i> in their meeting room for interactive customer presentations.'
-    de: 'positioniert den TouchLay <i>nova</i> im Besprechungsraum, um Kunden interaktiv Informationen zu präsentieren.'
+    en: 'positions the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> in their meeting room for interactive customer presentations.'
+    de: 'positioniert den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> im Besprechungsraum, um Kunden interaktiv Informationen zu präsentieren.'
 
 - company: "Austrian Energy Agency"
   logo: "/img/customer-logo-19.png"
@@ -219,21 +228,23 @@
   tags:
     - hardware
     - software
-    - cloud
+    - presentation
     - promotion
   description:
-    en: 'presents an interactive map of their partners with the TouchLay <i>cloud</i> and on the <i>nova</i>.'
-    de: 'präsentiert über die TouchLay <i>cloud</i> und den <i>nova</i> eine interaktive Karte ihrer Partner.'
+    en: 'presents an interactive map of their partners with <a href="/page.lang/software/presentation/" ga-on="click" ga-event-category="customers" ga-event-action="presentation">TouchLay Presentations</a> and on the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">Nova</a>.'
+    de: 'präsentiert über <a href="/page.lang/software/presentation/" ga-on="click" ga-event-category="customers" ga-event-action="presentation">TouchLay Präsentationen</a> und dem <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">Nova</a> eine interaktive Karte ihrer Partner.'
 
 - company: "Tourismus Marketing Niedersachsen"
   image: "/img/customer-15.jpg"
   logo: "/img/customer-logo-15.png"
   tags:
     - hardware
+    - software
+    - presentation
     - promotion
   description:
-    en: 'uses the TouchLay <i>nova</i> to present their new website at ITB in Berlin.'
-    de: 'setzt den TouchLay <i>nova</i> zur Präsentation ihrer neuen Webseite auf der ITB in Berlin ein.'
+    en: 'uses the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> to present their new website at ITB in Berlin.'
+    de: 'setzt den <a href="/page.lang/hardware/" ga-on="click" ga-event-category="customers" ga-event-action="nova">TouchLay Nova</a> zur Präsentation ihrer neuen Webseite auf der ITB in Berlin ein.'
 
 #- company: "Energy Agency Austria"
 #  logo: "/img/customer-logo-19.png"

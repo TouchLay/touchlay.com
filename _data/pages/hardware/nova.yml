@@ -2,8 +2,8 @@ header:
   image: /img/header-image.png
   imagelink: true
   title:
-    en: TouchLay nova
-    de: TouchLay nova
+    en: TouchLay Nova
+    de: TouchLay Nova
   subtitle:
     en: the people magnet
     de: Der Kundenmagnet
@@ -12,21 +12,22 @@ header:
     de: https://www.youtube.com/watch?v=0DydF2SkYYQ
   buttonlink: '#contact'
   description:
-    en: The TouchLay <i>nova</i> is a 55 inch multitouch presentation table<br />with adjustable height & tilt in landscape and portrait mode
-    de: Der TouchLay <i>nova</i> ist ein 55 Zoll Multitouch-Präsentationstisch<br />mit verstellbarer Höhe & Neigung im Hoch- und Querformat
+    en: The TouchLay Nova is a 55 inch multitouch presentation table<br />with adjustable height & tilt in landscape and portrait mode
+    de: Der TouchLay Nova ist ein 55 Zoll Multitouch-Präsentationstisch<br />mit verstellbarer Höhe & Neigung im Hoch- und Querformat
 
 customers:
-  en: Customers who use the <b>TouchLay nova</b>
-  de: Kunden, die den <b>TouchLay nova</b> nutzen
+  en: Customers who use the <b>TouchLay Nova</b>
+  de: Kunden, die den <b>TouchLay Nova</b> nutzen
 
 features:
   - id: flexible
     title:
       en: Flexible Design
       de: Flexibles Design
+    class: docked-bottom
     description:
-      en: '<p>The TouchLay <i>nova</i> adjusts perfectly to your needs.</p><p>Use your <i>nova</i> as presentation screen, touch table, or even as a "big smartphone" in portrait mode.</p><p>When purchasing your <i>nova</i>, components can be upgraded and a custom RAL color can be selected.</p>'
-      de: '<p>Der TouchLay <i>nova</i> passt sich perfekt an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihren <i>nova</i> als Präsentationsbildschirm, Touch-Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Beim Kauf können Komponenten aufgerüstet, sowie eine eigene RAL Farbe gewählt werden.</p>'
+      en: '<p>The TouchLay Nova adjusts perfectly to your needs.</p><p>Use your Nova as presentation screen, touch table, or even as a "big smartphone" in portrait mode.</p><p>When purchasing your Nova, components can be upgraded and a custom RAL color can be selected.</p>'
+      de: '<p>Der TouchLay Nova passt sich perfekt an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihren Nova als Präsentationsbildschirm, Touch-Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Beim Kauf können Komponenten aufgerüstet, sowie eine eigene RAL Farbe gewählt werden.</p>'
     image: /img/feature-flexible.jpg
     topOnly: true
 
@@ -35,17 +36,18 @@ features:
       en: Vivid Display
       de: Lebhaftes Display
     description:
-      en: 'The TouchLay <i>nova</i> multitouch presentation screen uses a 55 inch full HD 24/7 industrial display. We personally made sure that your products look as good and impressive as possible from any angle.'
-      de: 'Der TouchLay <i>nova</i> Multitouch Präsentationsbildschirm hat ein 55 Zoll Full-HD 24/7 Industrie-Display, bei dem wir besonders darauf geachtet haben, dass Ihre Produkte so beeindruckend wie möglich, sowie von jedem Winkel, präsentiert werden können.'
+      en: 'The TouchLay Nova multitouch presentation screen uses a 55 inch full HD 24/7 industrial display. We personally made sure that your products look as good and impressive as possible from any angle.'
+      de: 'Der TouchLay Nova Multitouch Präsentationsbildschirm hat ein 55 Zoll Full-HD 24/7 Industrie-Display, bei dem wir besonders darauf geachtet haben, dass Ihre Produkte so beeindruckend wie möglich, sowie von jedem Winkel, präsentiert werden können.'
     image: /img/feature-display.jpg
 
   - id: Multitouch
     title:
       en: Precise Multitouch
       de: Präziser Multitouch
+    class: docked-bottom
     description:
-      en: '<p>Our precise multitouch sensor can detect multiple touch points at once, and even objects up to 1.5mm!</p><p>The sensor refreshes 250 times per second to ensure fluid interaction with your TouchLay <i>nova</i>.'
-      de: '<p>Unser präziser Multitouch Sensor kann mehrere Berührungspunkte gleichzeitig und sogar Objekte bis 1,5mm erkennen!</p><p>Der Sensor aktualisiert 250 mal pro Sekunde, dadurch wird eine flüssige Interaktion mit Ihrem TouchLay <i>nova</i> gewährleistet.</p>'
+      en: '<p>Our precise multitouch sensor can detect multiple touch points at once, and even objects up to 1.5mm!</p><p>The sensor refreshes 250 times per second to ensure fluid interaction with your TouchLay Nova.'
+      de: '<p>Unser präziser Multitouch Sensor kann mehrere Berührungspunkte gleichzeitig und sogar Objekte bis 1,5mm erkennen!</p><p>Der Sensor aktualisiert 250 mal pro Sekunde, dadurch wird eine flüssige Interaktion mit Ihrem TouchLay Nova gewährleistet.</p>'
     image: /img/feature-multitouch.jpg
     topOnly: true
 
@@ -54,17 +56,18 @@ features:
       en: Known Systems
       de: Bekannte Systeme
     description:
-      en: 'We made sure that you do not need to learn anything new to be able to use your TouchLay <i>nova</i>. You can use Windows 10, Android 6.0 or a custom solution.'
-      de: '<p>Wir haben darauf geachtet, dass Sie nichts Neues lernen müssen, um Ihren TouchLay <i>nova</i> verwenden zu können.</p><p>Sie können Windows 10, Android 6.0 oder Ihre eigene Lösung verwenden.</p>'
+      en: 'We made sure that you do not need to learn anything new to be able to use your TouchLay Nova. You can use Windows 10, Android 6.0 or a custom solution.'
+      de: '<p>Wir haben darauf geachtet, dass Sie nichts Neues lernen müssen, um Ihren TouchLay Nova verwenden zu können.</p><p>Sie können Windows 10, Android 6.0 oder Ihre eigene Lösung verwenden.</p>'
     image: /img/feature-os.png
 
   - id: quality
     title:
       en: Excellent Quality
       de: Exzellente Qualität
+    class: docked-top
     description:
-      en: '<p>Quality is very important to us, which is why we produce every TouchLay <i>nova</i> in our home country, beautiful Austria.</p><p>We pay attention to detail during the production to ensure that your products and services can be presented without any troubles.</p><p>Additionally, we also provide services for content creation and support during events - we are always here to help!</p>'
-      de: '<p>Uns ist Qualität sehr wichtig, deshalb fertigen wir jeden TouchLay <i>nova</i> im wunderschönen Österreich.</p><p>Bei der Produktion achten wir auf jedes Detail, sodass Sie Ihre Produkte und Dienstleistungen problemlos präsentieren können.</p><p>Darüber hinaus unterstützen wir Sie auch gerne bei der Aufbereitung von Inhalten und während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
+      en: '<p>Quality is very important to us, which is why we produce every TouchLay Nova in our home country, beautiful Austria.</p><p>We pay attention to detail during the production to ensure that your products and services can be presented without any troubles.</p><p>Additionally, we also provide services for content creation and support during events - we are always here to help!</p>'
+      de: '<p>Uns ist Qualität sehr wichtig, deshalb fertigen wir jeden TouchLay Nova im wunderschönen Österreich.</p><p>Bei der Produktion achten wir auf jedes Detail, sodass Sie Ihre Produkte und Dienstleistungen problemlos präsentieren können.</p><p>Darüber hinaus unterstützen wir Sie auch gerne bei der Aufbereitung von Inhalten und während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
     image: /img/feature-map.jpg
 
 specs:
@@ -159,7 +162,7 @@ specs:
           de: 'Farbe'
         description:
           en: 'nova white (default) - Other RAL colors upon request'
-          de: 'nova weiß (Standard) - Andere RAL Farben auf Anfrage'
+          de: 'Nova-Weiß (Standard) - Andere RAL Farben auf Anfrage'
       - title:
           en: 'Dimensions Framework (without display)'
           de: 'Abmessungen Unterkonstruktion (ohne Display)'
@@ -229,7 +232,7 @@ specs:
 brochuere:
   text:
     en: download folder
-    de: Brochüre herunterladen
+    de: Broschüre herunterladen
   link:
     en: '/downloads/info_nova_2017_english.pdf'
     de: '/downloads/info_nova_2017_deutsch.pdf'
@@ -239,5 +242,5 @@ cta:
     en: Buy, Rent or Lease
     de: Kauf, Miete oder Leasing
   text:
-    en: <p>You can buy, lease or rent the TouchLay <i>nova</i>.</p><p>If you are interested, send us an inquiry! We will get back to you as soon as possible.</p>
-    de: <p>Sie können den TouchLay <i>nova</i> kaufen, leasen oder mieten.</p><p>Wenn Sie interessiert sind, senden Sie uns eine Anfrage! Wir melden uns daraufhin in Kürze bei Ihnen.</p>
+    en: <p>You can buy, lease or rent the TouchLay Nova.</p><p>If you are interested, send us an inquiry! We will get back to you as soon as possible.</p>
+    de: <p>Sie können den TouchLay Nova kaufen, leasen oder mieten.</p><p>Wenn Sie interessiert sind, senden Sie uns eine Anfrage! Wir melden uns daraufhin in Kürze bei Ihnen.</p>

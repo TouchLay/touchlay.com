@@ -4,7 +4,7 @@
       {{ include.title[page.lang] }}<br/>
       <span class="h1-sub">{{ include.subtitle[page.lang] }}</span>
     </h2>
-    <p class="section-description {% if include.paddedTopFix %}section-description-paddedTop-fix{% endif %}">{{ include.description[page.lang] }}</p>
+    <div class="section-description {% if include.paddedTopFix %}section-description-paddedTop-fix{% endif %}">{{ include.description[page.lang] | replace: "page.lang", page.lang }}</div>
     {% if include.cta %}
       <a href="{{include.ctalink}}" target="{% if include.newpage %}_blank{% endif %}">
         <button

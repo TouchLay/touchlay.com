@@ -12,32 +12,38 @@
   
     herodescription=site.data.pages.hardware.nova.header.description
   %}
-  
-  <section id="devicesList" class="padded gray">
+
+  <section class="padded">
     <div class="container">
-      <h1 class="text-center section-title">{{ site.data.base.texts.secondhandTitle[page.lang] }}</h1>
+      <h1 class="text-center section-title">{{ site.data.pages.hardware.secondhand.title[page.lang] }}</h1>
+      <p class="text-center">
+        {{ site.data.pages.hardware.secondhand.description[page.lang] }}
+        <br />
+        <a class="text-center" href="/{{page.lang}}/hardware/secondhand#contact">
+          <button ga-on="click" ga-event-category="secondhand" ga-event-action="contact" class="section-btn">
+            {{ site.data.base.texts.sendrequest[page.lang] }}
+          </button>
+        </a>
+      </p>
     </div>
   </section>
 
-  {% include components/secondhand-loop.html features=site.data.secondhand %}
-  
-  <section id="overview-hardware" class="paddedTop section-a">
-    {% assign content = site.data.pages.home.hardware %}
-    {% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
-    {% include components/feature-section.html
-        title=content.title
-        subtitle=content.subtitle
-        description=content.description
-        image=content.image
-        cta=site.data.base.texts.more
-        ctalink=hardwarePageUrl
-  
-        gacategory="hardware"
-        gaaction="more"
-    %}
+  <section class="padded gray">
+    <div class="container">
+      <h1 class="text-center section-title">{{ site.data.pages.hardware.secondhand.hardwareTitle[page.lang] }}</h1>
+      <p class="text-center">
+        {{site.data.pages.home.hardware.description[page.lang] | replace: "<p>", "" | replace: "</p>", " " }}
+        <br />
+        <a class="text-center" href="/{{page.lang}}/hardware/">
+          <button ga-on="click" ga-event-category="secondhand" ga-event-action="nova" class="section-btn">
+              {{ site.data.pages.hardware.secondhand.moreText[page.lang] }}
+          </button>
+        </a>
+      </p>
+    </div>
   </section>
 
-  <section id="customers" class="padded grey">
+  <section id="customers" class="padded">
     <div class="container">
       <h1 class="text-center section-title">{{ site.data.pages.hardware.nova.customers[page.lang] }}</h1>
       {%
@@ -47,7 +53,7 @@
     </div>
   </section>
   
-  {% include components/newsletter.html class="grey" %}
+  {% include components/newsletter.html %}
   
   <section id="team">
     <div class="container">

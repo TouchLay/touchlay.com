@@ -4,18 +4,66 @@ navigation:
       de: 'Usecases'
     url: 'usecases/'
     gaaction: 'usecases'
+    subitems:
+      - title:
+          en: All Usecases
+          de: Alle Usecases
+        url: 'usecases/'
+        gaaction: 'usecase-all'
+      - title:
+          en: Exhibitions & Events
+          de: Messen & Events
+        url: 'usecases/promotion'
+        gaaction: 'usecase-promotion'
+      - title:
+          en: Point of Sale
+          de: Im Verkaufsgespräch
+        url: 'usecases/point-of-sale'
+        gaaction: 'usecase-pos'
+      - title:
+          en: Interactive Wayfinder
+          de: Digitales Wegeleitsystem
+        url: 'usecases/wayfinder'
+        gaaction: 'usecase-wayfinder'
 
   - title:
       en: 'Hardware'
       de: 'Hardware'
     url: 'hardware/'
     gaaction: 'hardware'
+    subitems:
+      - title:
+          en: Multitouch Tables
+          de: Multitouch Tische
+        url: 'hardware/'
+        gaaction: 'hardware-nova'
+      - title:
+          en: Second-Hand Touchtables
+          de: Gebrauchte Touchtische
+        url: 'hardware/secondhand'
+        gaaction: 'hardware-secondhand'
 
   - title:
       en: 'Software'
       de: 'Software'
     url: 'software/'
     gaaction: 'software'
+    subitems:
+      - title:
+          en: Our Solutions
+          de: Unsere Digitallösungen
+        url: 'software/'
+        gaaction: 'software-main'
+      - title:
+          en: Product Presentation
+          de: Produktpräsentation
+        url: 'software/presentation'
+        gaaction: 'software-presentation'
+      - title:
+          en: Interactive Maps
+          de: Interaktive Karten
+        url: 'software/wayfinder'
+        gaaction: 'software-wayfinder'
 
   - title:
       en: 'About Us'
@@ -39,32 +87,37 @@ footersitemap:
       - title:
           en: Exhibitions & Events
           de: Messen & Events
-        url: 'software/promotion'
+        url: 'usecases/promotion'
         gaaction: 'usecase-promotion'
       - title:
           en: Point of Sale
           de: Im Verkaufsgespräch
-        url: 'hardware/point-of-sale'
+        url: 'usecases/point-of-sale'
         gaaction: 'usecase-pos'
       - title:
           en: Interactive Wayfinder
           de: Digitales Wegeleitsystem
-        url: 'software/wayfinder'
+        url: 'usecases/wayfinder'
         gaaction: 'usecase-wayfinder'
   - title:
       en: Software
       de: Software
     items:
       - title:
+          en: Our Solutions
+          de: Unsere Digitallösungen
+        url: 'software/'
+        gaaction: 'software-main'
+      - title:
+          en: Product Presentation
+          de: Produktpräsentation
+        url: 'software/presentation'
+        gaaction: 'software-presentation'
+      - title:
           en: Interactive Maps
           de: Interaktive Karten
         url: 'software/wayfinder'
         gaaction: 'software-wayfinder'
-      - title:
-          en: Product Presentation
-          de: Produktpräsentation
-        url: 'software/'
-        gaaction: 'software-presentation'
       # - title:
       #     en: Custom Software
       #     de: Maßgeschneiderte Software
@@ -122,14 +175,14 @@ footertitle:
   en: 'Interested? Contact us!'
   de: 'Interessiert? Kontaktieren Sie uns!'
 
-interessts:
+interests:
   en:
     - nova
     - rent
     - buy
     - project
     - software
-    - cloud
+    - presentation
     - leasing
     - wayfinder
     - exhibition
@@ -143,7 +196,7 @@ interessts:
     - kaufen
     - projekt
     - software
-    - cloud
+    - präsentation
     - leasing
     - wayfinder
     - messe
@@ -152,7 +205,7 @@ interessts:
     - pos
     - gebraucht
 
-interesstsplaceholder:
+interestsplaceholder:
   en: 'interested in...'
   de: 'Interessiert an...'
 
@@ -161,12 +214,15 @@ countryplaceholder:
   de: 'Land'
 
 texts:
+  specialities:
+    en: Our Specialities
+    de: Unsere Spezialgebiete
   more:
     en: 'learn more'
     de: 'mehr erfahren'
   sendrequest:
-    en: 'send request'
-    de: 'Anfrage senden'
+    en: 'send request now'
+    de: 'jetzt Anfrage senden'
   secondhand:
     en: 'buy second-hand'
     de: 'gebraucht kaufen'
@@ -230,9 +286,6 @@ texts:
   specs:
     en: 'Specs'
     de: 'Ausstattung'
-  secondhandTitle:
-    en: 'Second-Hand Multitouch Tables'
-    de: 'Gebrauchte Multitouch-Tische'
 
 newsletter:
   headline:

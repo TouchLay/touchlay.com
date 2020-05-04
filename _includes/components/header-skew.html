@@ -15,7 +15,12 @@
             href={{include.imagelink[page.lang]}}
           {% endif %}>
       {% endif %}
-          {% include components/image.html image=include.image class="header-image" nolazy=true %}
+          {% if include.imageclass %}
+            {% assign headerclass = include.imageclass %}
+          {% else %}
+            {% assign headerclass = "header-image" %}
+          {% endif %}
+          {% include components/image.html image=include.image class=headerclass nolazy=true %}
       {% if include.imagelink %}
         </a>
       {% endif %}

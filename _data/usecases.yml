@@ -4,9 +4,9 @@
   image: /img/usecase-events.jpg
   cardimage: /img/usecase-1.jpg
   description:
-    en: "Attracting attendees' attention is the essential goal at exhibitions and events. With the TouchLay <i>nova</i> you magnetically attract customers."
-    de: "Die Aufmerksamkeit von Besuchern auf sich zu ziehen ist das essentiellste Ziel von Messen und Events. Mit dem <i>nova</i> ziehen Sie Kunden magnetisch an."
-  link: '/software/promotion'
+    en: Attracting attendees' attention is the essential goal at exhibitions and events. With the TouchLay Nova you magnetically attract usecases.
+    de: Die Aufmerksamkeit von Besuchern auf sich zu ziehen ist das essentiellste Ziel von Messen und Events. Mit dem TouchLay Nova ziehen Sie Kunden magnetisch an.
+  link: '/usecases/promotion'
   gacategory: 'usecases'
   gaaction: 'promotion'
   main: true
@@ -19,7 +19,7 @@
   description:
     en: "Explaining your products can be hard. Include your customer directly through interactive presentations and effortlessly increase sales."
     de: "Oft ist es schwierig, Produkte zu erklären. Durch interaktive Präsentation können Sie Kunden direkt in das Verkaufsgespräch einbinden und so spielend leicht die Abschlussrate steigern."
-  link: '/hardware/point-of-sale'
+  link: '/usecases/point-of-sale'
   gacategory: 'usecases'
   gaaction: 'pos'
   main: true
@@ -30,20 +30,42 @@
   image: /img/feature-devices-white.jpg
   cardimage: /img/usecase-3.jpg
   description:
-    en: "The <i>wayfinder</i> always keeps data up-to-date and offers visitors an overview over events and buildings. Tracking and advertisements increase the frequency."
-    de: "Der <i>wayfinder</i> hält Daten immer am letzten Stand und bietet Besuchern Überblick über Events und Gebäude. Tracking und Werbeflächen steigern die Frequenz."
-  link: '/software/wayfinder'
+    en: The TouchLay Wayfinder always keeps data up-to-date and offers visitors an overview over events and buildings. Tracking and advertisements increase the frequency.
+    de: Der TouchLay Wayfinder hält Daten immer am letzten Stand und bietet Besuchern den perfekten Überblick über Events und Gebäude. Tracking und Werbeflächen steigern die Frequenz.
+  link: '/usecases/wayfinder'
   gacategory: 'usecases'
   gaaction: 'wayfinder'
   main: true
+
+- title:
+    en: Product Presentation
+    de: Produktpräsentation
+  image: /img/icons/lightbulb.svg
+  description:
+    en: present your products and services interactively and amaze & inform your usecases!
+    de: Präsentieren Sie Ihre Produkte und Dienstleistungen auf interaktive Weise und begeistern & informieren Sie Ihre Kunden!
+  link: '/software/presentation/'
+  gacategory: 'usecases'
+  gaaction: 'presentation'
+
+- title:
+    en: Interactive Map
+    de: Interaktive Karte
+  image: /img/icons/map.svg
+  description:
+    en: visualize your locations (offices, partner, etc) on a map of the world.
+    de: Präsentieren Sie Ihre Standorte (Firmenstandorte, Partner, etc) auf einer Weltkarte.
+  link: '/software/presentation/'
+  gacategory: 'usecases'
+  gaaction: 'map'
 
 - title:
     en: Website
     de: Webseite
   image: /img/icons/website.svg
   description:
-    en: interactively present your company website on the TouchLay <i>nova</i>.
-    de: Präsentieren Sie Ihre Firmenwebseite interaktiv mit dem TouchLay <i>nova</i>
+    en: interactively present your company website on the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="usecases" ga-event-action="nova">TouchLay Nova</a>.
+    de: Präsentieren Sie Ihre Firmenwebseite interaktiv mit dem <a href="/page.lang/hardware/" ga-on="click" ga-event-category="usecases" ga-event-action="nova">TouchLay Nova</a>
   link: '/hardware/'
   gacategory: 'usecases'
   gaaction: 'website'
@@ -53,44 +75,22 @@
     de: Android
   image: /img/icons/android.svg
   description:
-    en: present your mobile application with the TouchLay <i>nova</i> as a gigantic smartphone.
-    de: Präsentieren Sie Ihre Mobile Applikation mit dem TouchLay <i>nova</i> als gigantisches Smartphone.
+    en: present your mobile application with the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="usecases" ga-event-action="nova">TouchLay Nova</a> as a gigantic smartphone.
+    de: Präsentieren Sie Ihre Mobile Applikation mit dem <a href="/page.lang/hardware/" ga-on="click" ga-event-category="usecases" ga-event-action="nova">TouchLay Nova</a> als gigantisches Smartphone.
   link: '/hardware/'
   gacategory: 'usecases'
   gaaction: 'android'
-
-- title:
-    en: Interactive Map
-    de: Interaktive Karte
-  image: /img/icons/map.svg
-  description:
-    en: visualize your locations (offices, partner, etc) on a map of the world.
-    de: präsentieren Sie Ihre Standorte (Firmenstandorte, Partner, etc) auf einer Weltkarte.
-  link: '/software/'
-  gacategory: 'usecases'
-  gaaction: 'map'
 
 - title:
     en: Promotions
     de: Gewinnspiele
   image: /img/icons/game.svg
   description:
-    en: playfully generate leads with the TouchLay <i>nova</i>.
-    de: Generieren Sie spielerisch Kundenkontakte mit dem TouchLay <i>nova</i>.
-  link: '/hardware/'
+    en: playfully generate leads with the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="usecases" ga-event-action="nova">TouchLay Nova</a>.
+    de: Generieren Sie spielerisch Kundenkontakte mit dem <a href="/page.lang/hardware/" ga-on="click" ga-event-category="usecases" ga-event-action="nova">TouchLay Nova</a>.
+  link: '/software/presentation/'
   gacategory: 'usecases'
   gaaction: 'promotions'
-
-- title:
-    en: Product Presentation
-    de: Produktpräsentation
-  image: /img/icons/lightbulb.svg
-  description:
-    en: present your products and services interactively and amaze & inform your customers!
-    de: präsentieren Sie Ihre Produkte und Dienstleistungen auf interaktive Weise und begeistern & informieren Sie Ihre Kunden!
-  link: '/software/'
-  gacategory: 'usecases'
-  gaaction: 'presentation'
 
 - title:
     en: Custom Solutions

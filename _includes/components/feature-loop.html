@@ -2,11 +2,12 @@
   {% assign loopindex = forloop.index | modulo: 2 %}
   {% if include.reverse == true %}{% assign condition = 0 %}{% else %}{% assign condition = 1 %}{% endif %}
   {% capture padding %}{% if feature.topOnly %}paddedTop{% else %}padded{% endif %}{% endcapture %}
-  <section id="feature-{{feature.id}}" class="{{include.class}} {{padding}} section-{% unless loopindex == condition %}b gray{% else %}a{% endunless %}{% if include.class %} {{include.class}}{% endif %}">
+  <section id="feature-{{feature.id}}" class="{{include.class}} {{feature.class}} {{padding}} section-{% unless loopindex == condition %}b gray{% else %}a{% endunless %}{% if include.class %} {{include.class}}{% endif %}">
   {% if feature.list %}
     {% include components/feature-list-section.html
         title=feature.title
         subtitle=feature.subtitle
+        description=feature.description
         list=feature.list
     %}
   {% else %}

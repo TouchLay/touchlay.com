@@ -1,0 +1,98 @@
+header:
+  image: /img/interface-animation.svg
+  imageclass: 'interface-animation-header header-image'
+  title:
+    en: TouchLay Presentations
+    de: TouchLay Präsentationen
+  subtitle:
+    en: unique & interactive
+    de: Einzigartig & Interaktiv
+  buttonlink: '#contact'
+  description:
+    en: Thanks to our customized and unique presentations you can create the most effective value for your products.
+    de: Mithilfe von unseren maßgeschneiderten und einzigartigen Präsentationen schaffen Sie einen effektiven Mehrwert für Ihre Produkte.
+
+intro:
+  title:
+    en: Your Own Presentation
+    de: Ihre eigene Präsentation
+  description:
+    en: Simply mix and match different modules, to quickly put together your individual presentation. We support you with data preparation and modification, after which you can also update the data yourself, whenever you need.
+    de: Wählen Sie einfach ein Modul, oder kombinieren Sie mehrere Module, um blitzschnell zu Ihrer individuellen Präsentation zu kommen. Wir unterstützen Sie bei der Aufbereitung und Anpassung, anschließend können Sie, wenn Sie möchten, die Daten auch selbstständig aktualisieren.
+  button:
+    en: find out more about our digital solutions
+    de: mehr über unsere Digitallösungen erfahren
+
+modules:
+  title:
+    en: Possible Modules
+    de: Mögliche Module
+
+features:
+  - id: catalog
+    title:
+      en: Interactive Product Catalogue
+      de: Interaktiver Produktkatalog
+    description:
+      en: '<p>Present diverse product groups for your customers to quickly find the desired item. This enables your customers to maintain an overview while also reading up on details.  </p>'
+      de: '<p>Stellen Sie diverse Produktgruppen dar, damit Ihre Kunden schnell die gewünschten Artikel finden. Dadurch behalten Ihre Kunden den Überblick und können gleichzeitig auch Details nachlesen.</p>'
+    image: /img/concept/menu.svg
+
+  - id: content
+    title:
+      en: Interactive Graphics
+      de: Interaktive Grafik
+    description:
+      en: '<p>An extensive image description allows for the visual presentation of your products. You can highlight certain points in your graphics to e.g. provide links to further information.</p>'
+      de: '<p>Eine ausführliche Bild-Beschreibung erlaubt die visuelle Darstellung Ihrer Produkte. Sie können Punkte in der Grafik markieren und auf weitere Informationen verlinken.</p>'
+    image: /img/concept/annotated.svg
+
+  - id: ads
+    title:
+      en: World Map
+      de: Die Weltkarte
+    description:
+      en: 'Show your market strength and display your locations, customers or partners on an interactive world map.'
+      de: 'Zeigen Sie Ihre Marktstärke und stellen Sie Ihre Standorte, Kunden oder Partner auf einer interaktiven Weltkarte dar.'
+    image: /img/concept/world.svg
+
+  - id: stats
+    title:
+      en: The Form
+      de: Das Formular
+    description:
+      en: '<p>Provides the opportunity for submission of contact information or order directly through the presentation during the sales pitch. </p>'
+      de: 'Ermöglicht die Eingabe von Kontaktdaten oder sogar die Bestellung direkt über die Präsentation im Verkaufsgespräch.'
+    image: /img/concept/form.svg
+
+  - id: package
+    title:
+      en: Contests
+      de: Gewinnspiele
+    description:
+      en: '<p>Playfully generate customer interaction or let customers get to know your company and products through memory games, quizzes or other contests.</p>'
+      de: 'Generieren Sie spielerisch Kundenkontakte oder bringen Sie dem Kunden Ihr Unternehmen und Ihre Produkte näher durch Memory, Quiz oder andere Gewinnspiele.'
+    image: /img/concept/memory.svg
+  - id: more
+    title:
+      en: Further Modules
+      de: Weitere Module
+    description:
+      en: '<p>Do you want to include additional or customized modules in your presentation? Contact us now and we will gladly create a noncommital concept for you!</p>'
+      de: 'Wollen Sie noch weitere oder maßgeschneiderte Module in Ihrer Präsentation darstellen? Kontaktieren Sie uns jetzt und wir erstellen Ihnen gerne ein unverbindliches Konzept!'
+    image: /img/concept/custom.svg
+
+customers:
+  en: Customers who use <b>TouchLay Presentations</b>
+  de: Kunden, die <b>TouchLay Präsentationen</b> nutzen
+
+cta:
+  headline:
+    en: Have we sparked your interest?
+    de: Haben wir Ihr Interesse geweckt?
+  text:
+    en: <p>Contact us now and we will create a noncommital concept for you!</p>
+    de: <p>Kontaktieren Sie uns jetzt und wir erstellen unverbindlich ein Konzept für Sie!</p>
+  buttontext:
+    en: Contact now
+    de: Jetzt kontaktieren

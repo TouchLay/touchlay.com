@@ -21,7 +21,23 @@
 
 {% include components/feature-loop.html features=site.data.pages.hardware.pos.features %}
 
-<section id="overview-hardware" class="paddedTop section-a">
+<section id="overview-software" class="section-a padded">
+  {% assign content = site.data.pages.home.software %}
+  {% capture softwarePageUrl %}/{{page.lang}}/software/{% endcapture %}
+  {% include components/feature-section.html
+      title=content.title
+      subtitle=content.subtitle
+      description=content.description
+      image=content.image
+      cta=site.data.base.texts.more
+      ctalink=softwarePageUrl
+
+      gacategory="software"
+      gaaction="more"
+  %}
+</div>
+
+<section id="overview-hardware" class="paddedTop docked-bottom section-b gray">
   {% assign content = site.data.pages.home.hardware %}
   {% include components/feature-section.html
       title=content.title
@@ -36,14 +52,16 @@
   %}
 </section>
 
-<section id="cta" class="section-even orange verypadded">
+{% include components/process.html %}
+
+<section id="cta" class="section-even black verypadded">
   <div class="container flexcontainer row middle spacebetween">
     <div class="section-text">
         <h1 class="h1-white">{{site.data.pages.hardware.pos.cta.headline[page.lang]}}</h1>
         <p>{{site.data.pages.hardware.pos.cta.text[page.lang]}}</p>
     </div>
     <div class="section-image">
-      <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-white cta-highlight">
+      <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-orange cta-highlight">
         {{site.data.pages.hardware.pos.cta.buttontext[page.lang]}}
       </button></a>
     </div>
