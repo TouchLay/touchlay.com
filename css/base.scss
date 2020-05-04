@@ -2270,6 +2270,8 @@ section.contentoptions {
     border-radius: 50px;
     line-height: 100px;
     min-width: 100px;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   #process .item .circle svg {
@@ -2279,10 +2281,6 @@ section.contentoptions {
 
   #process .item {
     flex-direction: column;
-  }
-
-  #process .item .content {
-    margin-top: 1em;
   }
 
   #process .item .title,
