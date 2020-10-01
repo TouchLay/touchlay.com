@@ -69,8 +69,8 @@ features:
       en: Branch-Specific Software
       de: Branchenspezifische Software
     description:
-      en: '<p>We also develop customized, branch-specific software.</p><p>We currently offer <a href="/page.lang/software/presentation/" ga-on="click" ga-event-category="software" ga-event-action="presentation">interactive product presentations</a> as well as <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">an interactive wayfinding system.</a> </p>'
-      de: '<p>Wir entwickeln auch maßgeschneiderte, branchenspezifische Software.</p><p>Momentan bieten wir neben der <a href="/page.lang/software/presentation/" ga-on="click" ga-event-category="software" ga-event-action="presentation">interaktiven Produktpräsentation</a> ein <a href="/page.lang/software/wayfinder/" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">interaktives Wegeleitsystem</a> an.</p>'
+      en: '<p>We also develop customized, branch-specific software.</p><p>We currently offer <a href="/page.lang/software/presentation" ga-on="click" ga-event-category="software" ga-event-action="presentation">interactive product presentations</a> as well as <a href="/page.lang/software/wayfinder" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">an interactive wayfinding system.</a> </p>'
+      de: '<p>Wir entwickeln auch maßgeschneiderte, branchenspezifische Software.</p><p>Momentan bieten wir neben der <a href="/page.lang/software/presentation" ga-on="click" ga-event-category="software" ga-event-action="presentation">interaktiven Produktpräsentation</a> ein <a href="/page.lang/software/wayfinder" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">interaktives Wegeleitsystem</a> an.</p>'
     image: /img/feature-modules.png
 
 cta:
