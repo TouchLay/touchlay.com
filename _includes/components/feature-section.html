@@ -1,0 +1,23 @@
+<div class="container flexcontainer centereverything">
+  <div class="section-text">
+    <h2 {% if include.subtitle %}class="has-sub"{% endif %}>
+      {{ include.title[page.lang] }}<br/>
+      <span class="h1-sub">{{ include.subtitle[page.lang] }}</span>
+    </h2>
+    <div class="section-description {% if include.paddedTopFix %}section-description-paddedTop-fix{% endif %}">{{ include.description[page.lang] | replace: "page.lang", page.lang }}</div>
+    {% if include.cta %}
+      <a href="{{include.ctalink}}" target="{% if include.newpage %}_blank{% endif %}">
+        <button
+          ga-on="click"
+          {% if include.gacategory %}ga-event-category="{{ include.gacategory }}"{% endif %}
+          {% if include.gacategory and include.gaaction %}ga-event-action="{{ include.gaaction }}"{% endif %}
+          class="section-btn">
+            {{ include.cta[page.lang] }}
+        </button>
+      </a>
+    {% endif %}
+  </div>
+  <div class="section-image">
+    {% include components/image.html image=include.image %}
+  </div>
+</div>

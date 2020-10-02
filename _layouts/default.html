@@ -1,0 +1,81 @@
+{% assign currentDE = page.url | downcase | replace_first: '/en/','/de/' %}
+{% assign currentEN = page.url | downcase | replace_first: '/de/','/en/' %}
+<!DOCTYPE html>
+<html lang="{{page.lang}}" data-wf-site="51fff4fae3bb0b2562000155">
+<head>
+<meta charset="utf-8">
+
+<title>{{ page.title }}</title>
+
+{% seo title=false %}
+
+<meta name="theme-color" content="#3293C7">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="alternate" hreflang="{% if page.lang == 'en' %}de{% else %}en{% endif %}" href="{% if page.lang == 'en' %}{{currentDE}}{% else %}{{currentEN}}{% endif %}" />
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+
+<link rel="icon" type="image/x-icon" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-144-precomposed.png">
+
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src='/js/autotrack.js'></script>
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-23939953-1', 'auto');
+ga('require', 'eventTracker');
+ga('require', 'impressionTracker');
+ga('require', 'maxScrollTracker');
+ga('require', 'outboundLinkTracker');
+ga('require', 'pageVisibilityTracker');
+ga('require', 'GTM-5Q7GXHG');
+ga('send', 'pageview');
+</script>
+</head>
+<body data-lang="{{page.lang}}" data-interests="{{page.interests}}" class="no-js {{page.className}}">
+  <a style="display: none;" href="https://plus.google.com/109985994085811390634" rel="publisher">Google+</a>
+
+    {% include navigation.html %}
+
+		<div class="content-container">
+       {% if page.container %}<div class="container paddedTop">{% endif %}
+	      {{ content }}
+       {% if page.container %}</div>{% endif %}
+    </div>
+
+    {% include footer.html %}
+
+<script type="text/javascript" src="/js/main.js"></script>
+
+<script type="text/javascript">
+  /* <![CDATA[ */
+  goog_snippet_vars = function() {
+    var w = window;
+    w.google_conversion_id = 850591796;
+    w.google_conversion_label = "GHyYCJaDt3IQtIDMlQM";
+    w.google_remarketing_only = false;
+  }
+  // DO NOT CHANGE THE CODE BELOW.
+  goog_report_conversion = function(url) {
+    goog_snippet_vars();
+    window.google_conversion_format = "3";
+    var opt = new Object();
+    opt.onload_callback = function() {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  }
+  var conv_handler = window['google_trackConversion'];
+  if (typeof(conv_handler) == 'function') {
+    conv_handler(opt);
+  }
+}
+/* ]]> */
+</script>
+<script type="text/javascript"
+  src="//www.googleadservices.com/pagead/conversion_async.js">
+</script>
+</body>
+</html>

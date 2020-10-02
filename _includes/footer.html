@@ -1,0 +1,100 @@
+<footer id="contact">
+  <div class="container">
+    <h1 class="h1-white">{{ site.data.base.footertitle[page.lang] }}</h1>
+
+    <div class="flexcontainer row space-between" style="margin-top: 2em;">
+      <form id="contact-form" class="contact-form">
+        <input ga-on="click" ga-event-category="inquiry" ga-event-action="name" id="contact-name" type="text" placeholder="{{ site.data.base.texts.name[page.lang] }}" />
+        <input ga-on="click" ga-event-category="inquiry" ga-event-action="email" id="contact-email" type="email" placeholder="{{ site.data.base.texts.email[page.lang] }}" />
+        <span style="clear: both;"></span>
+        <br />
+        <textarea ga-on="click" ga-event-category="inquiry" ga-event-action="message" id="contact-message" rows="6" placeholder="{{ site.data.base.texts.message[page.lang] }}"></textarea>
+        <br />
+        <div ga-on="click" ga-event-category="inquiry" ga-event-action="country" id="contact-country"></div>
+        <div ga-on="click" ga-event-category="inquiry" ga-event-action="interests" id="contact-interested"></div>
+        <span style="clear: both;"></span>
+        <br />
+        <div style="float: right;">
+          <div id="contact-confirmation-loading">{{ site.data.base.texts.contactloading[page.lang] }}</div>
+          <div id="contact-confirmation-success">{{ site.data.base.texts.contactsuccess[page.lang] }}</div>
+          <div id="contact-confirmation-error">{{ site.data.base.texts.contacterror[page.lang] }}</div>
+
+          <div id="contact-checkbox"><input ga-on="click" ga-event-category="inquiry" ga-event-action="newsletter" type="checkbox" name="newsletter" id="checkbox-newsletter" value="newsletter">
+          <label for="checkbox-newsletter" id="contact-checkbox-description">{{ site.data.base.texts.requestnewsletter[page.lang] }}</label>
+        </div>
+          <button ga-on="click" ga-event-category="inquiry" ga-event-action="send" id="contact-submit" type="submit" class="btn-orange">{{ site.data.base.texts.send[page.lang] }}</button>
+        </div>
+        <span style="clear: both;"></span>
+      </form>
+
+      <div class="contact-information">
+      <address>
+        <div class="address-description">{{ site.data.base.texts.phone[page.lang] }}</div>
+        <div class="address-content"><a ga-on="click" ga-event-category="footer" ga-event-action="phone" href="tel:+432236374382">+43 (0) 2236 374382</a></div>
+        <div class="address-description">{{ site.data.base.texts.email[page.lang] }}</div>
+        <div class="address-content"><a ga-on="click" ga-event-category="footer" ga-event-action="email" href="mailto:hello@touchlay.com">hello@touchlay.com</a></div>
+        <div class="address-description">{{ site.data.base.texts.address[page.lang] }}</div>
+        <div class="address-content">
+          <a target="_blank" ga-on="click" ga-event-category="footer" ga-event-action="address" href="https://www.google.com/maps/place/Enzersdorfer+Str.+19,+2340+Mödling/@48.0881282,16.2811531,17z/data=!3m1!4b1!4m5!3m4!1s0x476daf0dad4215b7:0xab1c6f91372fe04d!8m2!3d48.0881246!4d16.2833471">TouchLay GmbH<br/>
+          Enzersdorferstraße 19,<br/>
+          2340 Mödling<br/>
+          {{ site.data.base.texts.austria[page.lang] }}</a>
+        </div>
+      </address>
+    </div>
+    </div>
+
+    <div class="social-icon-wrapper flexcontainer centereverything">
+      <div style="width: 12%; float: left;">
+        <hr>
+      </div>
+      <div class="flexcontainer centereverything" style="width:76%; float: left;">
+          <a ga-on="click" ga-event-category="social" ga-event-action="facebook" href="https://facebook.com/TouchLay">{% include components/image.html image="/img/icon-facebook.png" class="social-icon" %}</a>
+          <a ga-on="click" ga-event-category="social" ga-event-action="instagram" href="https://instagram.com/touchlay.gmbh">{% include components/image.html image="/img/icon-instagram.png" class="social-icon" %}</a>
+          <a ga-on="click" ga-event-category="social" ga-event-action="youtube" href="https://youtube.com/user/touchlay">{% include components/image.html image="/img/icon-youtube.png" class="social-icon" %}</a>
+          <a ga-on="click" ga-event-category="social" ga-event-action="twitter" href="https://twitter.com/TouchLay">{% include components/image.html image="/img/icon-twitter.png" class="social-icon" %}</a>
+          <a ga-on="click" ga-event-category="social" ga-event-action="blog" href="https://blog.touchlay.com">{% include components/image.html image="/img/icon-medium.png" class="social-icon" %}</a>
+      </div>
+      <div style="width: 12%; float: left;">
+        <hr>
+      </div>
+    </div>
+
+  </div>
+  <div class="end">
+    <div class="container">
+
+      <div class="footer-sitemap">
+        {% for section in site.data.base.footersitemap %}
+        <div class="section">
+          <h3>{{ section.title[page.lang] }}</h3>
+          <ul>
+            {% for item in section.items %}
+            <li><a ga-on="click" ga-event-category="footer-sitemap" ga-event-action="{{item.gaaction}}" href="{% if item.full_url %}{{item.full_url}}{% else %}/{{page.lang}}/{{item.url}}{% endif %}">{{item.title[page.lang]}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="footer-nav">
+        <ul>
+            <li><span>&copy; TouchLay GmbH {{ 'now' | date: "%Y" }}</span></li>
+          {% for footeritem in site.data.base.footer %}
+            <li>
+              <a ga-on="click" ga-event-category="footer" ga-event-action="{{footeritem.gaaction}}" href="{% if footeritem.full_url %}{{footeritem.full_url}}{% else %}/{{page.lang}}/{{footeritem.url}}{% endif %}">{{footeritem.title[page.lang]}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <span class="language-toggle hide-tablet">
+          Language:
+          <a ga-on="click" ga-event-category="footer" ga-event-action="english" href="{{currentEN}}">English</a>
+          |
+          <a ga-on="click" ga-event-category="footer" ga-event-action="german" href="{{currentDE}}">Deutsch</a>
+        </span>
+      </div>
+
+    </div>
+  </div>
+</footer>

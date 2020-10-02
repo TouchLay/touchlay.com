@@ -1,0 +1,88 @@
+<div class="m-scooch">
+  <div class="m-fade-out">
+    <div class="m-scooch-inner">
+            {% for customer in site.data.customers %}
+              {% if customer.image %}
+                {% capture subtitle %}{{customer.company}}{% endcapture %}
+                {% capture description %}{{customer.description[page.lang]}}{% endcapture %}
+                {% capture image %}{{customer.image}}{% endcapture %}
+                {% capture logo %}{{customer.logo}}{% endcapture %}
+                {% capture tags %}{{customer.tags}}{% endcapture %}
+                {% capture playtext %}{{site.data.base.texts.playvideo[page.lang]}}{% endcapture %}
+                {% assign media = customer.media %}
+                {% capture gaaction %}click {{customer.company}}{% endcapture %}
+
+                {% if include.tags %}
+                  {% for tag in include.tags %}
+                      {% for _tag in tags %}
+                        {% if _tag contains tag %}
+                          <div class="m-item {% if forloop.index == 1 %}m-active{% endif %}">
+                            {% include components/customer.html
+                                  image=image
+                                  alt=subtitle
+                                  subtitle=subtitle
+                                  logo=logo
+                                  description=description
+                                  size="small"
+                                  link=media
+                                  linktext=playtext
+                                  lity=true
+
+                                  gacategory="customers"
+                                  gaaction=gaaction
+                            %}
+                          </div>
+                        {% endif %}
+                      {% endfor %}
+                  {% endfor %}
+                {% else %}
+                  <div class="m-item {% if forloop.index == 1 %}m-active{% endif %}">
+                    {% include components/customer.html
+                          image=image
+                          alt=subtitle
+                          subtitle=subtitle
+                          logo=logo
+                          description=description
+                          size="small"
+                          link=media
+                          linktext=playtext
+                          lity=true
+
+                          gacategory="customers"
+                          gaaction=gaaction
+                    %}
+                  </div>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+    </div>
+  </div>
+
+  <div class="m-scooch-controls">
+    <a ga-on="click" ga-event-category="customers" ga-event-action="prev" href="#" data-m-slide="prev" class="carousel-prev">{% include components/image.html image="/img/chevron-left.png" %}</a>
+    <a ga-on="click" ga-event-category="customers" ga-event-action="next" href="#" data-m-slide="next" class="carousel-next">{% include components/image.html image="/img/chevron-right.png" %}</a>
+  </div>
+</div>
+
+<div id="customerlogos" class="container flexcontainer centereverything">
+  {% for customer in site.data.customers %}
+    {% if customer.logo %}
+      {% capture tags %}{{customer.tags}}{% endcapture %}
+      {% if include.tags %}
+        {% for tag in include.tags %}
+            {% for _tag in tags %}
+              {% if _tag contains tag %}
+                <div class="customer-logo-wrapper">
+                  {% include components/lazyImage.html alt=customer.company image=customer.logo class="customer-logo" %}
+                </div>
+              {% endif %}
+            {% endfor %}
+        {% endfor %}
+      {% else %}
+        <div class="customer-logo-wrapper">
+          {% include components/image.html alt=customer.company image=customer.logo class="customer-logo" %}
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,95 @@
+header:
+  image: /img/header-wayfinder.png
+  imagelink: true
+  title:
+    en: TouchLay Wayfinder
+    de: TouchLay Wayfinder
+  subtitle:
+    en: digital wayfinding system
+    de: Digitales Wegeleitsystem
+  video:
+    en: https://www.youtube.com/watch?v=-D9gWWacPKw
+    de: https://www.youtube.com/watch?v=uqmbjX4ii28
+  buttonlink: '#contact'
+  description:
+    en: Easily visualize exhibitions, events or buildings<br />with the interactive TouchLay Wayfinder
+    de: Stellen Sie Messen, Events oder Gebäude einfach, klar und verständlich dar<br />mit dem digitalen Wegweiser TouchLay Wayfinder
+
+features:
+  - id: special
+    title:
+      en: Individual map
+      de: Individuelle Karte
+    description:
+      en: '<p>The TouchLay Wayfinder is the perfect solution for the visualization of exhibitions, events and buildings. Our flexible system allows for the customization of your design, as well as the inclusion of various information.</p>'
+      de: '<p>Der TouchLay Wayfinder ist die perfekte Lösung für die Darstellung von Messen, Events und Gebäuden. Unser flexibles System erlaubt die Anpassung an Ihr Design, sowie das Einbinden von diversen Informationen.</p>'
+    image: /img/wayfinde-example.png
+    
+  - id: setup
+    title:
+      en: Simple Setup
+      de: Einfaches Setup
+    description:
+      en: '<p>Simply upload the site plan and adjust the design to your corporate identity via logos and colors.</p><p>Action areas can be imported from existing data or defined through our editor.</p>'
+      de: '<p>Laden Sie einfach Ihren Lageplan hoch und passen Sie das Design an Ihre Firmen-Identität über Logos und Farben an.</p><p>Die Aktionsflächen können aus bestehenden Daten importiert oder über unseren Editor bearbeitet werden.</p>'
+    image: /img/wayfinder-setup.png
+
+  - id: content
+    title:
+      en: Interactive Content
+      de: Interaktive Inhalte
+    description:
+      en: '<p>Any (interactive) content can be assigned to action areas.</p><p>For example, you can display the timetable for a stage, which highlights the currently active event.</p>'
+      de: '<p>An Aktionsflächen kann jeglicher (interaktiver) Content verknüpft werden.</p><p>Zum Beispiel kann das Programm einer Bühne angezeigt werden, bei dem das aktive Event hervorgehoben wird.</p>'
+    image: /img/wayfinder-content.png
+
+  - id: algorithm
+    title:
+      en: Automatic Path Detection 
+      de: Automatische Wegeerkennung
+    description:
+      en: '<p>The visual routing and our specifically developed automatic path-detection-algorithm help visitors reach their destination as efficiently as possible. </p>'
+      de: '<p>Mit der visuellen Wegeleitung und unserem speziell entwickelten automatischen Wege-Erkennungs-Algorithmus kommen Besucher so effizient wie möglich ans Ziel!</p>'
+    image: /img/wayfinder-path.png
+
+  - id: ads
+    title:
+      en: Advertisement Integration
+      de: Werbeintegration
+    description:
+      en: 'Integrate various forms of advertisement, like logo highlights, banners and animations - to attract the attention of your visitors to the Wayfinder as well as certain action areas.'
+      de: 'Integrieren Sie diverse Werbeformen, wie Logofahnen, Banner, sowie Animationen - um die Besucher auf den Wayfinder, sowie bestimmte Aktionsflächen aufmerksam zu machen.'
+    image: /img/wayfinder-flag.png
+
+  - id: stats
+    title:
+      en: Tracking and Statistics
+      de: Tracking und Statistiken
+    description:
+      en: '<p>The Wayfinder automatically collects GDPR-compliant user input data and generates statistics.</p><p>For example: efficiency of advertising, interests of visitors, input in search fields and much more.</p>'
+      de: '<p>Der Wayfinder sammelt automatisch DSGVO-konforme Daten über Benutzereingaben und generiert Statistiken.</p><p>Zum Beispiel: Effektivität von Werbungen, Interessen von Besuchern, Eingaben in Suchfeldern, und vieles mehr.</p>'
+    image: /img/feature-stats.png
+
+  - id: package
+    title:
+      en: Everything from One Source
+      de: Alles aus einer Hand
+    description:
+      en: '<p>We also offer the Wayfinder as part of a complete package with fitting hardware, like the <a href="/page.lang/hardware/" ga-on="click" ga-event-category="wayfinder" ga-event-action="nova">TouchLay Nova</a>.</p><p>Additionally, we help with setting up and maintaining the software and support you during events - we are always here to help!</p>'
+      de: '<p>Wir bieten den Wayfinder auch als Komplettlösung mit passender Hardware, wie dem <a href="/page.lang/hardware/" ga-on="click" ga-event-category="wayfinder" ga-event-action="nova">TouchLay Nova</a>, an.</p><p>Weiters bieten wir Wartung und Unterstützung bei der Aufbereitung sowie während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
+    image: /img/feature-devices-white.jpg
+
+customers:
+  en: Customers who use the <b>TouchLay Wayfinder</b>
+  de: Kunden, die den <b>TouchLay Wayfinder</b> nutzen
+
+cta:
+  headline:
+    en: Request Demo / Pricing
+    de: Demo / Preise anfragen
+  text:
+    en: Want to use the Wayfinder for your exhibition, event or building? Send us an inquiry and we will get back to you as soon as possible.
+    de: Sie möchten den Wayfinder für Ihre Veranstaltung, Messe oder Gebäude nutzen? Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.
+  buttontext:
+    en: REQUEST NOW
+    de: JETZT ANFRAGEN

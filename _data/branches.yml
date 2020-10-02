@@ -1,0 +1,49 @@
+- title:
+    en: Areas of Application
+    de: Einsatzbereiche
+  description:
+    en: Our solutions are flexible and suitable for all industries. We already have a lot of experience with various industries and can therefore create a perfectly fitting concept, to make your products look as attractive as possble. Here you can see a selection of areas, for which we have already created the perfect solutions.
+    de: Unsere Lösungen sind flexibel und für alle Branchen geeignet. Wir haben bereits viel Erfahrung mit diversen Branchen und können somit ein perfekt angepasstes Konzept erstellen, um Ihre Produkte so attraktiv wie möglich darzustellen. Hier eine Auswahl von Bereichen, für die wir bereits perfekt angepasste Lösungen erarbeitet haben.
+  list:
+    - title:
+        en: Industrial sector
+        de: Industrie
+      icon: /img/icons/industry.svg
+      description:
+        en: Display of complex machinery and processes
+        de: Darstellung komplexer Maschinen und Abläufe
+    - title:
+        en: Banks
+        de: Banken
+      icon: /img/icons/bank.svg
+      description:
+        en: Presentation of apps and various financial calculators
+        de: Präsentation von Apps und diversen Finanzierungs-Rechnern
+    - title:
+        en: Research institutes
+        de: Forschungsinstitute
+      icon: /img/icons/research.svg
+      description:
+        en: Visualization of partners worldwide
+        de: Visualisierung von Partnern weltweit
+    - title:
+        en: Car dealers
+        de: Autohändler
+      icon: /img/icons/car.svg
+      description:
+        en: Overview of your entire product range
+        de: Überblick über Ihr gesamtes Angebot
+    - title:
+        en: Hotels
+        de: Hotels
+      icon: /img/icons/hotel.svg
+      description:
+        en: Digital foyer with booking opportunities
+        de: Digitaler Eingangsbereich mit Buchungsmöglichkeiten
+    - title:
+        en: Museums
+        de: Museen
+      icon: /img/icons/museum.svg
+      description:
+        en: Interactive sharing of knowledge        
+        de: Interaktives Vermitteln von Wissen

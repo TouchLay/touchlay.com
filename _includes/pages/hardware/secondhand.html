@@ -1,0 +1,66 @@
+{% include components/header-skew.html
+    image=site.data.pages.hardware.nova.header.image
+    imagelink=site.data.pages.hardware.nova.header.imagelink
+    title=site.data.pages.hardware.nova.header.title
+    subtitle=site.data.pages.hardware.nova.header.subtitle
+    gacategory="hardwareIntro"
+  
+    primarytext=site.data.base.texts.playvideo
+    primarylink=site.data.pages.hardware.nova.header.video
+    primarylity=true
+    primarygaaction="playVideo"
+  
+    herodescription=site.data.pages.hardware.nova.header.description
+  %}
+
+  <section class="padded">
+    <div class="container">
+      <h1 class="text-center section-title">{{ site.data.pages.hardware.secondhand.title[page.lang] }}</h1>
+      <p class="text-center">
+        {{ site.data.pages.hardware.secondhand.description[page.lang] }}
+        <br />
+        <a class="text-center" href="/{{page.lang}}/hardware/secondhand#contact">
+          <button ga-on="click" ga-event-category="secondhand" ga-event-action="contact" class="section-btn">
+            {{ site.data.base.texts.sendrequest[page.lang] }}
+          </button>
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <section class="padded gray">
+    <div class="container">
+      <h1 class="text-center section-title">{{ site.data.pages.hardware.secondhand.hardwareTitle[page.lang] }}</h1>
+      <p class="text-center">
+        {{site.data.pages.home.hardware.description[page.lang] | replace: "<p>", "" | replace: "</p>", " " }}
+        <br />
+        <a class="text-center" href="/{{page.lang}}/hardware/">
+          <button ga-on="click" ga-event-category="secondhand" ga-event-action="nova" class="section-btn">
+              {{ site.data.pages.hardware.secondhand.moreText[page.lang] }}
+          </button>
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <section id="customers" class="padded">
+    <div class="container">
+      <h1 class="text-center section-title">{{ site.data.pages.hardware.nova.customers[page.lang] }}</h1>
+      {%
+        include components/customers.html
+        tags='hardware'
+      %}
+    </div>
+  </section>
+  
+  {% include components/newsletter.html %}
+  
+  <section id="team">
+    <div class="container">
+      <div class="flexcontainer row middle space-around">
+        <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+        {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
+      </div>
+    </div>
+  </section>
+  

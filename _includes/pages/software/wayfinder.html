@@ -1,0 +1,56 @@
+{% include components/header-skew.html
+  image=site.data.pages.software.wayfinder.header.image
+  imagelink=site.data.pages.software.wayfinder.header.imagelink
+  title=site.data.pages.software.wayfinder.header.title
+  subtitle=site.data.pages.software.wayfinder.header.subtitle
+  gacategory="wayfinderIntro"
+  class="softwarePage"
+
+  primarytext=site.data.base.texts.playvideo
+  primarylink=site.data.pages.software.wayfinder.header.video
+  primarylity=true
+  primarygaaction="playVideo"
+
+  secondarytext=site.data.base.texts.requestprice
+  secondarylink=site.data.pages.software.wayfinder.header.buttonlink
+  secondarygaaction="requestPrice"
+
+  herodescription=site.data.pages.software.wayfinder.header.description
+%}
+
+{% include components/feature-loop.html features=site.data.pages.software.wayfinder.features %}
+
+<section id="cta" class="section-even black verypadded">
+  <div class="container flexcontainer row middle spacebetween">
+    <div class="section-text">
+        <h1 class="h1-white">{{site.data.pages.software.wayfinder.cta.headline[page.lang]}}</h1>
+        <p>{{site.data.pages.software.wayfinder.cta.text[page.lang]}}</p>
+    </div>
+    <div class="section-image">
+      <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-orange cta-highlight">
+        {{site.data.pages.software.wayfinder.cta.buttontext[page.lang]}}
+      </button></a>
+    </div>
+  </div>
+</section>
+
+<section id="customers" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{ site.data.pages.software.wayfinder.customers[page.lang] }}</h1>
+    {%
+      include components/customers.html
+      tags='wayfinder'
+    %}
+  </div>
+</section>
+
+{% include components/newsletter.html %}
+
+<section id="team">
+  <div class="container">
+    <div class="flexcontainer row middle space-around">
+      <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
+    </div>
+  </div>
+</section>

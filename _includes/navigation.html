@@ -1,0 +1,78 @@
+<nav>
+  <div class="container">
+    <div class="wrapper">
+      <a href="/{{page.lang}}/" ga-on="click" ga-event-category="nav" ga-event-action="home">
+        {% include components/image.html image="/img/tl-logo.png" class="logo" nolazy=true %}
+      </a>
+      <input ga-on="click" ga-event-category="nav" ga-event-action="toggle" type="checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="label-toggle"></label>
+      </input>
+
+      <ul class="nav-ul">
+        {% for navitem in site.data.base.navigation %}
+          {% if navitem.append %}
+            {% capture pageUrl %}{{navitem.url}}{% endcapture %}
+          {% else %}
+            {% capture pageUrl %}/{{page.lang}}/{{navitem.url}}{% endcapture %}
+          {% endif %}
+
+          <li
+            {% if page.url == pageUrl %}
+            class="nav-item active"
+            {% elsif page.url contains pageUrl %}
+            class="nav-item active sub"
+            {% endif %}
+            {% if navitem.invert %}
+            class="nav-item invert cta-highlight"
+            {% endif %}
+          >
+            {% if navitem.subitems %}
+            <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text has-sub" href={{pageUrl}} >{{navitem.title[page.lang]}}</a>
+            <input type="radio" name="radio-nav" id="radio-{{navitem.title[page.lang]}}"> 
+            <label ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" for="radio-{{navitem.title[page.lang]}}">{{navitem.title[page.lang]}}</label>
+            <div class="nav-sub">
+              <div class="arrow"></div>
+              <div class="container">
+                {% for subitem in navitem.subitems %}
+                  {% if subitem.append %}
+                    {% capture subPageUrl %}{{subitem.url}}{% endcapture %}
+                  {% else %}
+                    {% capture subPageUrl %}/{{page.lang}}/{{subitem.url}}{% endcapture %}
+                  {% endif %}
+                  {% if subitem.append %}
+                    {% capture subPageUrlCheck %}{{subitem.url}}.html{% endcapture %}
+                  {% else %}
+                    {% capture subPageUrlCheck %}/{{page.lang}}/{{subitem.url}}.html{% endcapture %}
+                  {% endif %}
+                  <a ga-on="click" ga-event-category="nav" ga-event-action="{{subitem.gaaction}}" class="nav-text{% if page.url == subPageUrl or page.url == subPageUrlCheck %} active{% endif %}" href={{subPageUrl}} >{{subitem.title[page.lang]}}</a>
+                {% endfor %}
+              </div>
+            </div>
+            {% else %}
+              <a ga-on="click" ga-event-category="nav" ga-event-action="{{navitem.gaaction}}" class="nav-text" href={{pageUrl}} >{{navitem.title[page.lang]}}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+        <li class="language-toggle-menu">
+            <a ga-on="click" ga-event-category="nav" ga-event-action="english" class="nav-text" href="{{currentEN}}">English</a>
+             |
+            <a ga-on="click" ga-event-category="nav" ga-event-action="german" class="nav-text" href="{{currentDE}}">Deutsch</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="language-toggle">
+    <a ga-on="click" ga-event-category="nav" ga-event-action="english" href="{{currentEN}}">English</a>
+     |
+    <a ga-on="click" ga-event-category="nav" ga-event-action="german" href="{{currentDE}}">Deutsch</a>
+  </div>
+</nav>
+
+<div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cookie-banner">
+  <!--googleoff: all-->
+  <span id="cookieconsent:desc" class="cc-message">{{ site.data.base.cookie.description[page.lang] }}
+    <a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="https://cookiesandyou.com" target="_blank">{{ site.data.base.texts.more[page.lang] }}</a>
+  </span>
+  <button id="accept-cookie" aria-label="dismiss cookie message" role="button" tabindex="0">{{ site.data.base.cookie.accept[page.lang] }}</button>
+  <!--googleon: all-->
+</div>

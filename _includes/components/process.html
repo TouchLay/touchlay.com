@@ -1,0 +1,22 @@
+<section id="process">
+  <div class="container">
+    <h1 class="text-center section-title">{{site.data.process.title[page.lang]}}</h1>
+    <div class="item intro">
+      {% if include.hardwareFirst %}
+        {{site.data.process.linktext.hardwareFirst[page.lang]}}
+      {% else %}
+        {{site.data.process.linktext.hardwareSecond[page.lang]}}
+      {% endif %}
+      {{site.data.process.description[page.lang]}}
+    </div>
+    {% for process in site.data.process.items %}
+      <div class="item">
+        <div class="circle">{% include {{process.image}} %}</div>
+        <div class="content">
+          <div class="title">{{process.title[[page.lang]]}}</div>
+          <div class="text">{{process.description[[page.lang]]}}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

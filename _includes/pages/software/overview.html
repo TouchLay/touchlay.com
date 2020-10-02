@@ -1,0 +1,63 @@
+{% capture hardwarePageUrl %}/{{page.lang}}/hardware/{% endcapture %}
+
+{% include components/header-skew.html
+  image=site.data.pages.software.overview.header.image
+  title=site.data.pages.software.overview.header.title
+  subtitle=site.data.pages.software.overview.header.subtitle
+  gacategory="softwareIntro"
+  class="softwarePage"
+
+  primarytext=site.data.pages.software.overview.header.buttontext
+  primarylink=site.data.pages.software.overview.header.buttonlink
+  primarygaaction="requestDemo"
+
+  herodescription=site.data.pages.software.overview.header.description
+%}
+
+{% include components/feature-loop.html features=site.data.pages.software.overview.features %}
+
+<section id="software-solutions" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{site.data.base.texts.specialities[page.lang]}}</h1>
+    {% include components/solutions.html %}
+  </div>
+</section>
+
+{% include components/branches.html class="gray" %}
+
+{% include components/process.html %}
+
+<section id="cta" class="section-even black verypadded">
+  <div class="container flexcontainer row middle spacebetween">
+    <div class="section-text">
+        <h1 class="h1-white">{{site.data.pages.software.overview.cta.headline[page.lang]}}</h1>
+        <p>{{site.data.pages.software.overview.cta.text[page.lang]}}</p>
+    </div>
+    <div class="section-image">
+      <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-orange cta-highlight">
+        {{site.data.pages.software.overview.cta.buttontext[page.lang]}}
+      </button></a>
+    </div>
+  </div>
+</section>
+
+<section id="customers" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{ site.data.pages.software.overview.customers[page.lang] }}</h1>
+    {%
+      include components/customers.html
+      tags='software'
+    %}
+  </div>
+</section>
+
+{% include components/newsletter.html %}
+
+<section id="team">
+  <div class="container">
+    <div class="flexcontainer row middle space-around">
+      <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
+    </div>
+  </div>
+</section>

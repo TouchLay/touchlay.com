@@ -1,0 +1,28 @@
+{% if include.link %}
+  <a {% if include.lity %}
+    data-lity data-lity-target="{{include.link}}"
+  {% else %}
+    href="{{include.link}}"
+  {% endif %}
+  ga-on="click"
+  {% if include.gacategory %}ga-event-category="{{ include.gacategory }}"{% endif %}
+  {% if include.gacategory and include.gaaction %}ga-event-action="{{ include.gaaction }}"{% endif %}
+  >
+{% endif %}
+<div class="card {{include.size}}">
+  <div style="position: relative;">
+    {% if include.image %}
+      {% include components/image.html alt=include.alt image=include.image class="lazyload card-image" %}
+    {% endif %}
+    {% if include.logo %}
+      {% include components/image.html alt=include.alt image=include.logo class="card-logo" %}
+    {% endif %}
+  </div>
+  <div class="content">
+    <span class="card-title">{{ include.title }}</span>
+    <span class="card-subtitle">{{ include.subtitle }}</span>
+    <p>{{ include.description | replace: "page.lang", page.lang }}</p>
+    {% if include.link %}<button style="width: 100%; margin-top: 5px;" class="btn btn-blue btn-small">{{include.linktext}}</button>{% endif %}
+  </div>
+</div>
+{% if include.link %}</a>{% endif %}

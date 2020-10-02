@@ -1,0 +1,22 @@
+<div class="flexcontainer centereverything">
+  {% for solution in site.data.solutions %}
+    {% if solution.main %}
+      {% capture title %}{{solution.title[page.lang]}}{% endcapture %}
+      {% if solution.link %}{% capture link %}/{{page.lang}}{{solution.link}}{% endcapture %}{% else %}{% assign link = false %}{% endif %}
+      {% capture description %}{{solution.description[page.lang]}}{% endcapture %}
+      {% capture image %}{{solution.cardimage}}{% endcapture %}
+      {% capture moretext %}{{site.data.base.texts.more[page.lang]}}{% endcapture %}
+
+      <div class="card-wrapper">
+        {% include components/card.html
+              image=image
+              title=title
+              description=description
+              size="small"
+              link=link
+              linktext=moretext
+        %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

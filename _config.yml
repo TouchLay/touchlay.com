@@ -1,0 +1,19 @@
+markdown: kramdown
+exclude: ["node_modules","vendor"]
+url: https://touchlay.com
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+title: TouchLay
+description: Amaze & inform your customers with our interactive software and hardware solutions.
+twitter:
+  username: touchlay
+facebook:
+  publisher: https://www.facebook.com/TouchLay
+google_site_verification: '9VUnCw57X_YgwyvKB0LsvIngTMtZTCePSRw-LCYQ3Nw'
+lang: en_US
+
+sass:
+  style: compressed
+  sass_dir: css/

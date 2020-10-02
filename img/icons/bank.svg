@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon/maps/local_atm_24px_outlined</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11,17 L13,17 L13,16 L14,16 C14.55,16 15,15.55 15,15 L15,12 C15,11.45 14.55,11 14,11 L11,11 L11,10 L15,10 L15,8 L13,8 L13,7 L11,7 L11,8 L10,8 C9.45,8 9,8.45 9,9 L9,12 C9,12.55 9.45,13 10,13 L13,13 L13,14 L9,14 L9,16 L11,16 L11,17 Z M20,4 L4,4 C2.89,4 2.01,4.89 2.01,6 L2,18 C2,19.11 2.89,20 4,20 L20,20 C21.11,20 22,19.11 22,18 L22,6 C22,4.89 21.11,4 20,4 Z M20,18 L4,18 L4,6 L20,6 L20,18 Z" id="path-1"></path>
+    </defs>
+    <g id="icon/maps/local_atm_24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="Color/Icons/Default" mask="url(#mask-2)" fill="#000000" fill-opacity="0.87">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

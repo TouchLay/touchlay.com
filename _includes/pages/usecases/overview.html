@@ -1,0 +1,23 @@
+{% include components/feature-loop.html class="usecases" features=site.data.usecases %}
+
+{% include components/branches.html class="gray" %}
+
+{% include components/process.html %}
+
+<section id="customers" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{ site.data.pages.home.customers[page.lang] }}</h1>
+    {% include components/customers.html %}
+  </div>
+</section>
+
+{% include components/newsletter.html class="grey" %}
+
+<section id="team">
+  <div class="container">
+    <div class="flexcontainer row middle space-around">
+      <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
+    </div>
+  </div>
+</section>

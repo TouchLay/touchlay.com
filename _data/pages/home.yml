@@ -1,0 +1,50 @@
+header:
+  video: /img/moodvideo.mp4
+  img: /img/moodvideo-fallback.png
+
+vision:
+  en: <b>Amaze</b> & <b>inform</b> your customers<br />with interactive presentations
+  de: <b>Begeistern</b> und <b>Informieren</b> Sie Ihre Kunden<br />mit interaktiven Präsentationen
+
+process:
+  first:
+    en: You tell us about your ideas
+    de: Sie erzählen uns über Ihre Vorstellungen
+  second:
+    en: We figure out the best presentation options
+    de: Wir erarbeiten die besten Präsentationsmöglichkeiten
+  third:
+    en: We offer custom tailored or standardized solutions
+    de: Wir bieten maßgeschneiderte oder vorgefertigte Lösungen
+
+teammore:
+  en: 'more about the team'
+  de: 'Mehr über das Team erfahren'
+
+customers:
+  en: <b>Our Customers</b>
+  de: <b>Unsere Kunden</b>
+
+software:
+  title:
+    en: "Extensive<br />Presentation Platform"
+    de: "Umfangreiche<br />Präsentations-Plattform"
+  subtitle:
+    en: "interactive & always up-to-date!"
+    de: "interaktiv & immer up-to-date!"
+  description:
+    en: "<p>We create powerful & interactive brand experiences tailored to your corporate identity.</p><p>Thanks to our specifically developed system you can connect our digital solutions with your already existing data and update it yourself, whenever you need.</p><p>Detailed analysis will give you a continous overview of the customers' interests as well as potential customers.</p><p>Wow your customers with our innovative digital solutions!</p>"
+    de: "<p>Wir schaffen leistungsfähige & interaktive Markenerlebnisse, perfekt angepasst an Ihre Firmen-Identität.</p><p>Durch unser speziell entwickeltes System können Sie unsere Digitallösungen mit Ihren bestehenden Daten verbinden und jederzeit selbst aktualisieren.</p><p>Detaillierte Statistiken bieten einen Überblick über Kundeninteressen und potenzielle Kunden.</p><p>Beigeistern Sie jetzt Ihre Kunden mit unseren innovativen Digtallösungen!</p>"
+  image: "/img/feature-sources.png"
+
+hardware:
+  title:
+    en: "Reliable Hardware"
+    de: "Zuverlässige Hardware"
+  subtitle:
+    en: "elegant & precise"
+    de: "elegant & präzise"
+  description:
+    en: '<p>The TouchLay Nova adjusts perfectly to your needs.</p><p>Use your Nova as presentation screen, multitouch table, or even as a "big smartphone" in portrait mode.</p><p>Our precise multitouch sensor can detect 2 - 32 touch points at the same time, including objects up to 1.5mm.</p>'
+    de: '<p>Der TouchLay Nova passt sich perfekt an Ihre Bedürfnisse an.</p><p>Verwenden Sie Ihren Nova als Präsentations-Bildschirm, Multitouch-Tisch oder sogar als “großes Smartphone” im Hochformat.</p><p>Unser präziser Multitouch Sensor kann 2 - 32 Berührungspunkte gleichzeitig und sogar Objekte bis 1,5mm erkennen.</p>'
+  image: "/img/overview-hardware.png"

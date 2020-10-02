@@ -1,0 +1,38 @@
+- title:
+    en: Exhibitions and Events
+    de: Produktpräsentation
+  image: /img/usecase-events.jpg
+  cardimage: /img/usecase-1.jpg
+  description:
+    en: Attracting attendees' attention is the essential goal at exhibitions and events. With the TouchLay Nova you magnetically attract customers.
+    de: Mithilfe von unseren einzigartigen Präsentationen schaffen Sie den effektiven Mehrwert für Ihre Produkte und Dienstleistungen.
+  link: '/software/presentation'
+  gacategory: 'solutions'
+  gaaction: 'presentation'
+  main: true
+
+- title:
+    en: Wayfinder
+    de: Wayfinder
+  image: /img/feature-devices-white.jpg
+  cardimage: /img/usecase-3.jpg
+  description:
+    en: The Wayfinder always keeps data up-to-date and offers visitors an overview over events and buildings. Tracking and advertisements increase the frequency.
+    de: Der Wayfinder hält Daten immer am letzten Stand und bietet Besuchern den perfekten Überblick über Events und Gebäude. Tracking und Werbeflächen steigern die Frequenz.
+  link: '/software/wayfinder'
+  gacategory: 'solutions'
+  gaaction: 'wayfinder'
+  main: true
+
+- title:
+    en: Custom Solutions
+    de: Individuelle Lösungen
+  image: /img/icons/star.svg
+  cardimage: /img/individual-solution.jpg
+  description:
+    en: we also develop custom interactive solutions, perfectly tailored to your needs.
+    de: Wir entwickeln auch maßgeschneiderte interaktive Lösungen, perfekt an Ihre Bedürfnisse angepasst.
+  link: '#contact'
+  gacategory: 'solutions'
+  gaaction: 'custom'
+  main: true

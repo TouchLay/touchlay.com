@@ -1,0 +1,117 @@
+header:
+  image: /img/header-promotion.png
+  imagelink: true
+  title:
+    en: Exhibitions, Events<br/>and Promotions
+    de: Messen, Events<br/>und Promotions
+  subtitle:
+    en: impress the attendees
+    de: Begeistern Sie die Besucher
+  video:
+    en: https://www.youtube.com/watch?v=nhPHPHCceFQ
+    de: https://www.youtube.com/watch?v=0DydF2SkYYQ
+  buttonlink: '#contact'
+  description:
+    en: Your presentation is extremely important at exhibitions & events:<br />With our unique multitouch screen tables we design<br />your presentation in an interactive way and impress your customers
+    de: 'Ihre Präsentation auf Messen, Events und Promotions ist besonders wichtig:<br />Mit unseren einzigartigen Touchscreen Tischen<br />gestalten wir Ihren Auftritt interaktiv und begeistern Ihre Kunden'
+
+customers:
+  en: Customers who use <b>TouchLay products</b><br />at exhibitions & events
+  de: Kunden, die <b>TouchLay Produkte</b><br />auf Messen & Events einsetzen
+
+features:
+  - id: reach
+    title:
+      en: Reach Your Customers
+      de: Erreichen Sie Ihre Kunden
+    description:
+      en: Our goal is getting attendees' attention to your brand and include them into your presentation through interactive multitouch screens. Upgrade to an interactive booth now!
+      de: 'Unser Ziel ist es, Besucher auf Ihre Marke aufmerksam zu machen und sie über interaktive Multitouch-Screens direkt in die Präsentation einzubinden. Rüsten Sie jetzt zum interaktiven Messestand auf!'
+    image: /img/nova-group.jpg
+
+  - id: contentoptions
+    title:
+      en: Various Presentation Options
+      de: Diverse Präsentations-Möglichkeiten
+    list:
+      - title:
+          en: Website
+          de: Webseite
+        icon: /img/icons/website.svg
+        description:
+          en: Show your company website.
+          de: Binden Sie Ihre Firmenwebseite ein.
+      - title:
+          en: Android
+          de: Android
+        icon: /img/icons/android.svg
+        description:
+          en: Present your mobile application.
+          de: Präsentieren Sie Ihre Mobile Applikation.
+      - title:
+          en: Interactive Map
+          de: Interaktive Karte
+        icon: /img/icons/map.svg
+        description:
+          en: Visualize your locations.
+          de: Stellen Sie Ihre Standorte o.Ä. dar.
+      - title:
+          en: Promotions
+          de: Gewinnspiele
+        icon: /img/icons/game.svg
+        description:
+          en: Playfully generate leads.
+          de: Generieren Sie spielerisch Kundenkontakte.
+      - title:
+          en: Product Presentation
+          de: Produktpräsentation
+        icon: /img/icons/lightbulb.svg
+        description:
+          en: Present all your products.
+          de: Präsentieren Sie Ihre gesamte Produktpalette.
+      - title:
+          en: Customized Applications
+          de: Individuelle Applikationen
+        icon: /img/icons/star.svg
+        description:
+          en: We also develop custom interactive applications.
+          de: Wir entwickeln auch maßgeschneiderte Lösungen.
+
+  - id: customermagnet
+    title:
+      en: Attract Customers
+      de: Fallen Sie Auf
+    description:
+      en: '<p>The first impression is really important at exhibitions and events.</p><p>The elegant and modern design of the TouchLay Nova turns your booth into a customer magnet.</p><p>Impress potential and existing customers with interactive presentations!</p>'
+      de: '<p>Auf Messen und Events zählt der erste Eindruck.</p><p>Durch das elegante und moderne Design des TouchLay Nova wird Ihr Messestand zum Kundenmagnet. Doch nicht nur die Form, sondern auch die Funktionalität überzeugt.</p><p>Begeistern Sie Ihre potentiellen und existierenden Kunden über interaktive Präsentationen!</p>'
+    image: /img/nova-arts.jpg
+
+  - id: handling
+    title:
+      en: Simple Process
+      de: Einfacher Ablauf
+    class: docked-bottom
+    description:
+      en: '<p>We offer a complete package and provide hardware, software, service and support. We come up with the perfect interactive presentation for you.</p><p>We figure out transportation and even support you during the event - we are always here to help!</p>'
+      de: '<p>Wir bieten Ihnen Hardware, Software und Abwicklung aus einer Hand. In wenigen Schritten erarbeiten wir für Sie ein individuelles Konzept.</p><p>Lieferung, sowie Auf- und Abbau erfolgt termingerecht und unkompliziert. Wir unterstützen Sie bei der Aufbereitung und auch während Veranstaltungen - wir lassen Sie nie im Stich!</p>'
+    image: /img/team-image-large.jpg
+
+  - id: interactivebooth
+    title:
+      en: Interactive Booth
+      de: Interaktiver Messestand
+    description:
+      en: '<p>Upgrade to an interactive booth via TouchLay Software and touchscreens to stand out.</p><p>Turn your booth into a customer magnet through interactive presentations via multitouch screens!</p>'
+      de: '<p>Über <a href="/page.lang/software/" ga-on="click" ga-event-category="promotion" ga-event-action="software">TouchLay Software</a> sowie Touchscreens rüsten Sie zum interaktiven Messestand auf und heben sich dadurch von den anderen Ständen ab.</p><p>Durch interaktive Präsentationen über <a href="/page.lang/hardware/" ga-on="click" ga-event-category="promotion" ga-event-action="nova">Multitouch-Bildschirme</a> wird Ihr Messestand zum Kundenmagnet!</p>'
+    image: /img/interactive-booth.jpg
+
+cta:
+  headline:
+    en: Request Price / Book Now
+    de: Preise anfragen / Reservieren
+  text:
+    en: <p>Do you want to use our services or the TouchLay Nova for an event, exhibition or promotion?</p><p>Send us an inquiry and we will get back to you as soon as possible.</p>
+    de: <p>Sie möchten unser Service oder den TouchLay Nova für eine Veranstaltung, Messe oder Promotion nutzen?</p><p>Schicken Sie uns eine Anfrage und wir melden uns in Kürze bei Ihnen.</p>
+  buttontext:
+    en: REQUEST NOW
+    de: JETZT ANFRAGEN

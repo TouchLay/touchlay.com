@@ -1,0 +1,16 @@
+<div class="container">
+  <h1 class="text-center section-title{% if include.subtitle %} has-sub{% endif %}">
+    {{ include.title[page.lang] }}<br/>
+    <span class="h1-sub">{{ include.subtitle[page.lang] }}</span>
+    <p class="section-list-description">{{ include.description[page.lang] }}</p>
+  </h1>
+  <div class="section-list">
+    {% for item in include.list %}
+      <div class="section-item">
+        {% if item.icon %}<div class="icon"><img src="{{item.icon}}" /></div>{% endif %}
+        <div class="title">{{item.title[page.lang]}}</div>
+        <div class="description">{{item.description[page.lang]}}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

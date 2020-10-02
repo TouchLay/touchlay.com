@@ -1,0 +1,85 @@
+header:
+  image: /img/header-software.png
+  title:
+    en: TouchLay Software
+    de: TouchLay Software
+  subtitle:
+    en: interactive & always up-to-date!
+    de: Interaktiv & Immer Up-To-Date!
+  buttontext:
+    en: request demo
+    de: Jetzt kontaktieren
+  buttonlink: '#contact'
+  description:
+    en: We create powerful & interactive brand experiences.<br />Wow your customers with our innovative digital solutions!
+    de: Wir schaffen leistungsfähige & interaktive Markenerlebnisse.<br />Begeistern Sie jetzt Ihre Kunden mit unseren innovativen Digitallösungen!
+
+customers:
+  en: Customers who use <b>TouchLay Software</b>
+  de: Kunden, die <b>TouchLay Software</b> nutzen
+
+features:
+  - id: sources
+    title:
+      en: Exceptional Design
+      de: Außergewöhnliches Design
+    description:
+      en: '<p>We create customized digital solutions, that will perfectly match your corporate identity and products as well as present your services in the best possible way.</p><p>Interactive presentations excite your customers and include them in the sales pitch!</p>'
+      de: '<p>Wir fertigen individuelle Digitallösungen für Sie an, die sich perfekt an Ihre Firmen-Identität anpassen und Ihre Produkte und Dienstleistungen bestmöglich präsentieren.</p><p>Interaktive Präsentationen begeistern und integrieren Ihren Kunden in das Verkaufsgespräch!</p>'
+    image: /img/interface-animation.svg
+
+  - id: layout
+    title:
+      en: Easy Updating
+      de: Einfaches Update
+    description:
+      en: '<p>Thanks to our specifically developed system you can connect our digital solutions with your already existing data and update it yourself, whenever you need.</p><p>Our Applications can be used on different devices, such as smartphones, tablets, digital signage screens and of course, the TouchLay Nova!</p>'
+      de: '<p>Durch unser speziell entwickeltes System können Sie unsere Digitallösungen mit Ihren bestehenden Daten verbinden und jederzeit selbst aktualisieren.</p><p>Unsere Anwendungen können flexibel auf verschiedenen Geräten ausgespielt werden, darunter Smartphones, Tablets, Digital Signage Screens, und natürlich dem TouchLay Nova!</p>'
+    image: /img/feature-sources.png
+
+  - id: style
+    title:
+      en: Detailed Analysis
+      de: Detaillierte Analyse
+    description:
+      en: <p>We automatically collect GDPR-compliant usage data and generate statistics for you. Through this detailed analysis you will have a continous overview of the customers' interests as well as potential customers.</p><p>This enables you to match your presentation exactly to your customer's interests!</p>
+      de: '<p>Wir sammeln automatisch DSGVO-konforme Nutzungsdaten und generieren Statistiken für Sie. Durch diese detaillierte Analyse haben Sie ständig einen Überblick über Kundeninteressen und potenzielle Kunden.</p><p>Dadurch können Sie Ihre Präsentation perfekt an die Kundeninteressen anpassen!</p>'
+    image: /img/feature-stats.png
+
+  - id: devices
+    title:
+      en: Versatile Content
+      de: Vielfältige Inhalte
+    description:
+      en: '<p>Our Software is compatible with a variety of formats, such as videos, photos, 3D models, this also includes the integration of already existing websites.</p><p>Our digital solutions can be displayed in an app, as well as a website.</p>'
+      de: '<p>Unsere Software ist vollständig kompatibel mit allen gängigen Inhalten, beispielsweise Videos, Fotos, 3D Modelle, auch die Integration von bestehenden Webseiten ist möglich.</p><p>Unsere Digitallösungen können sowohl in einer App, als auch auf einer Webseite ausgespielt werden.</p>'
+    image: /img/feature-content.png
+
+  - id: tracking
+    title:
+      en: Digital Brochures
+      de: Digitale Prospekte
+    description:
+      en: <p>We focus on usability and sustainability. With our digital solutions, you can easily distribute digital brochures to your customers.</p><p>The content that has sparked your customers' interest the most during a presentation can then be sent directly to the customer, via e-mail or QR-Code!</p>
+      de: '<p>Wir orientieren uns immer an Benutzerfreundlichkeit und Nachhaltigkeit. Mit unseren Digitallösungen können Sie einfach digitale Prospekte an Ihre Kunden verteilen.</p><p>Die Inhalte, die das Kundeninteresse während einer Präsentation geweckt haben, können zusätzlich über E-Mail oder per QR-Code direkt an den Kunden verschickt werden!</p>'
+    image: /img/feature-sharing.png
+
+  - id: tracking
+    title:
+      en: Branch-Specific Software
+      de: Branchenspezifische Software
+    description:
+      en: '<p>We also develop customized, branch-specific software.</p><p>We currently offer <a href="/page.lang/software/presentation" ga-on="click" ga-event-category="software" ga-event-action="presentation">interactive product presentations</a> as well as <a href="/page.lang/software/wayfinder" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">an interactive wayfinding system.</a> </p>'
+      de: '<p>Wir entwickeln auch maßgeschneiderte, branchenspezifische Software.</p><p>Momentan bieten wir neben der <a href="/page.lang/software/presentation" ga-on="click" ga-event-category="software" ga-event-action="presentation">interaktiven Produktpräsentation</a> ein <a href="/page.lang/software/wayfinder" ga-on="click" ga-event-category="software" ga-event-action="wayfinder">interaktives Wegeleitsystem</a> an.</p>'
+    image: /img/feature-modules.png
+
+cta:
+  headline:
+    en: Have we sparked your interest?
+    de: Haben wir Ihr Interesse geweckt?
+  text:
+    en: <p>Contact us now and we will create a noncommital concept for you!</p>
+    de: <p>Kontaktieren Sie uns jetzt und wir erstellen unverbindlich ein Konzept für Sie!</p>
+  buttontext:
+    en: Contact now
+    de: Jetzt kontaktieren

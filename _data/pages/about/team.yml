@@ -1,0 +1,39 @@
+headline:
+  en: 'Hi, we are <span style="color: #3293c7;">TouchLay</span>!'
+  de: 'Hallo, wir sind die <span style="color: #3293c7;">TouchLay GmbH</span>!'
+
+description:
+  en: 'TouchLay is a software and hardware company. We specialize in innovative designs and user experience. We develop solutions that help companies improve the presentation of their products, as well as simplify and improve cooperation between their employees and customers. We quickly react to new trends and wishes of our customers. This requires a tight cooperation, which works perfectly with us!'
+  de: 'TouchLay ist eine Software- und Hardwarefirma, die sich besonders auf innovative Designs und User-Experience spezialisiert hat. Wir entwickeln Produktlösungen, die Firmen die Präsentation ihrer Produkte, sowie die Zusammenarbeit zwischen Mitarbeitern und Kunden erleichtern und verbessern. Wir reagieren schnell auf neue Trends und setzen die Wünsche unserer Kunden zeitnah um. Dafür ist eine enge Zusammenarbeit nötig. Nicht ohne Stolz können wir sagen, dass diese mit uns reibungslos funktioniert!'
+
+articleheadline:
+  en: 'Latest Articles'
+  de: 'Aktuelle Artikel'
+
+solutions:
+  headline:
+    en: 'Our Solutions'
+    de: 'Unsere Leistungen'
+  list:
+    - en: rental & sale of touchscreens
+      de: Vermietung & Verkauf von Touchscreens
+    - en: standardized software solutions (e.g. <a href="/en/software/wayfinder">Wayfinder</a>)
+      de: Vorgefertigte Softwarelösungen (z.B. <a href="/de/software/wayfinder">Wayfinder</a>)
+    - en: custom tailored hardware & software solutions
+      de: Maßgeschneiderte Hardware- & Softwarelösungen
+    - en: reliable support anytime
+      de: Jederzeit zuverlässige Betreuung
+
+values:
+  headline:
+    en: 'Our Values'
+    de: 'Unsere Werte'
+  list:
+    - en: focus on perfect design & user experience
+      de: Fokus auf perfektes Design & User Experience
+    - en: always work in a customer-focused way
+      de: Immer kundenzentriert arbeiten
+    - en: be uncomplicated and flexible
+      de: Unkompliziert und flexibel sein
+    - en: act as a team
+      de: Als Team agieren

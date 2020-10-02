@@ -1,0 +1,307 @@
+navigation:
+  - title:
+      en: 'Usecases'
+      de: 'Usecases'
+    url: 'usecases/'
+    gaaction: 'usecases'
+    subitems:
+      - title:
+          en: All Usecases
+          de: Alle Usecases
+        url: 'usecases/'
+        gaaction: 'usecase-all'
+      - title:
+          en: Exhibitions & Events
+          de: Messen & Events
+        url: 'usecases/promotion'
+        gaaction: 'usecase-promotion'
+      - title:
+          en: Point of Sale
+          de: Im Verkaufsgespräch
+        url: 'usecases/point-of-sale'
+        gaaction: 'usecase-pos'
+      - title:
+          en: Interactive Wayfinder
+          de: Digitales Wegeleitsystem
+        url: 'usecases/wayfinder'
+        gaaction: 'usecase-wayfinder'
+
+  - title:
+      en: 'Hardware'
+      de: 'Hardware'
+    url: 'hardware/'
+    gaaction: 'hardware'
+    subitems:
+      - title:
+          en: Multitouch Tables
+          de: Multitouch Tische
+        url: 'hardware/'
+        gaaction: 'hardware-nova'
+      - title:
+          en: Second-Hand Touchtables
+          de: Gebrauchte Touchtische
+        url: 'hardware/secondhand'
+        gaaction: 'hardware-secondhand'
+
+  - title:
+      en: 'Software'
+      de: 'Software'
+    url: 'software/'
+    gaaction: 'software'
+    subitems:
+      - title:
+          en: Our Solutions
+          de: Unsere Digitallösungen
+        url: 'software/'
+        gaaction: 'software-main'
+      - title:
+          en: Product Presentation
+          de: Produktpräsentation
+        url: 'software/presentation'
+        gaaction: 'software-presentation'
+      - title:
+          en: Interactive Maps
+          de: Interaktive Karten
+        url: 'software/wayfinder'
+        gaaction: 'software-wayfinder'
+
+  - title:
+      en: 'About Us'
+      de: 'Über Uns'
+    url: 'about/'
+    gaaction: 'about'
+
+  - title:
+      en: 'Contact'
+      de: 'Kontakt'
+    url: '#contact'
+    gaaction: 'contact-nav'
+    invert: true
+    append: true
+
+footersitemap:
+  - title:
+      en: Usecases
+      de: Usecases
+    items:
+      - title:
+          en: Exhibitions & Events
+          de: Messen & Events
+        url: 'usecases/promotion'
+        gaaction: 'usecase-promotion'
+      - title:
+          en: Point of Sale
+          de: Im Verkaufsgespräch
+        url: 'usecases/point-of-sale'
+        gaaction: 'usecase-pos'
+      - title:
+          en: Interactive Wayfinder
+          de: Digitales Wegeleitsystem
+        url: 'usecases/wayfinder'
+        gaaction: 'usecase-wayfinder'
+  - title:
+      en: Software
+      de: Software
+    items:
+      - title:
+          en: Our Solutions
+          de: Unsere Digitallösungen
+        url: 'software/'
+        gaaction: 'software-main'
+      - title:
+          en: Product Presentation
+          de: Produktpräsentation
+        url: 'software/presentation'
+        gaaction: 'software-presentation'
+      - title:
+          en: Interactive Maps
+          de: Interaktive Karten
+        url: 'software/wayfinder'
+        gaaction: 'software-wayfinder'
+      # - title:
+      #     en: Custom Software
+      #     de: Maßgeschneiderte Software
+      #   url: 'custom/'
+      #   gaaction: 'software-custom'
+  - title:
+      en: Hardware
+      de: Hardware
+    items:
+      - title:
+          en: Multitouch Tables
+          de: Multitouch Tische
+        url: 'hardware/'
+        gaaction: 'hardware-nova'
+      - title:
+          en: Second-Hand Touchtables
+          de: Gebrauchte Touchtische
+        url: 'hardware/secondhand'
+        gaaction: 'hardware-secondhand'
+      # - title:
+      #     en: Custom Hardware
+      #     de: Maßgeschneiderte Hardware
+      #   url: 'custom/'
+      #   gaaction: 'hardware-custom'
+
+
+footer:
+  - title:
+      en: 'About Us'
+      de: 'Über Uns'
+    url: 'about'
+    gaaction: 'about'
+  - title:
+      en: 'Imprint'
+      de: 'Impressum'
+    url: 'imprint'
+    gaaction: 'imprint'
+  - title:
+      en: 'Press'
+      de: 'Presse'
+    url: 'press'
+    gaaction: 'press'
+  - title:
+      en: 'Jobs'
+      de: 'Jobs'
+    url: 'jobs'
+    gaaction: 'jobs'
+  - title:
+      en: 'Blog'
+      de: 'Blog'
+    full_url: 'https://blog.touchlay.com'
+    gaaction: 'blog'
+
+footertitle:
+  en: 'Interested? Contact us!'
+  de: 'Interessiert? Kontaktieren Sie uns!'
+
+interests:
+  en:
+    - nova
+    - rent
+    - buy
+    - project
+    - software
+    - presentation
+    - leasing
+    - wayfinder
+    - exhibition
+    - event
+    - promotion
+    - pos
+    - secondhand
+  de:
+    - nova
+    - mieten
+    - kaufen
+    - projekt
+    - software
+    - präsentation
+    - leasing
+    - wayfinder
+    - messe
+    - event
+    - promotion
+    - pos
+    - gebraucht
+
+interestsplaceholder:
+  en: 'interested in...'
+  de: 'Interessiert an...'
+
+countryplaceholder:
+  en: 'country'
+  de: 'Land'
+
+texts:
+  specialities:
+    en: Our Specialities
+    de: Unsere Spezialgebiete
+  more:
+    en: 'learn more'
+    de: 'mehr erfahren'
+  sendrequest:
+    en: 'send request now'
+    de: 'jetzt Anfrage senden'
+  secondhand:
+    en: 'buy second-hand'
+    de: 'gebraucht kaufen'
+  buynow:
+    en: 'buy now'
+    de: 'jetzt kaufen'
+  playvideo:
+    en: 'play video'
+    de: 'Video abspielen'
+  subscribe:
+    en: 'subscribe'
+    de: 'anmelden'
+  send:
+    en: 'send'
+    de: 'senden'
+  email:
+    en: 'email'
+    de: 'E-Mail'
+  phone:
+    en: 'phone'
+    de: 'Telefon'
+  address:
+    en: 'address'
+    de: 'Adresse'
+  austria:
+    en: 'Austria'
+    de: 'Österreich'
+  name:
+    en: 'name'
+    de: 'Name'
+  message:
+    en: 'message (optional)'
+    de: 'Nachricht (optional)'
+  requestnewsletter:
+    en: 'subscribe to newsletter'
+    de: 'Newsletter erhalten'
+  requestprice:
+    en: "request pricing"
+    de: "Preise anfragen"
+  contactloading:
+    en: 'Sending inquiry... please wait a moment'
+    de: 'Anfrage wird gesendet... bitte einen Moment warten'
+  contactsuccess:
+    en: '✔ Received inquiry - thank you!'
+    de: '✔ Anfrage erhalten - danke!'
+  contacterror:
+    en: ❌ Could not send your request, please contact us at <a href="mailto:hello@touchlay.com" ga-on="click" ga-event-category="inquiryerror" ga-event-action="email">hello@touchlay.com</a>.
+    de: ❌ Wir konnten Ihre Anfrage nicht senden, bitte kontaktieren Sie uns unter <a href="mailto:hello@touchlay.com" ga-on="click" ga-event-category="inquiryerror" ga-event-action="email">hello@touchlay.com</a>.
+  specification:
+    en: 'Specification'
+    de: 'Spezifikation'
+  status:
+    en: 'Status'
+    de: 'Zustand'
+  price:
+    en: 'Price (excl. Tax)'
+    de: 'Preis (exkl. USt)'
+  color:
+    en: 'Color'
+    de: 'Farbe'
+  specs:
+    en: 'Specs'
+    de: 'Ausstattung'
+
+newsletter:
+  headline:
+    en: Stay up-to-date
+    de: Bleiben Sie am letzten Stand
+  description:
+    en: 'We are constantly finding new ways of presentation.<br />Receive special offers, information about new products, and tips and tricks to impress your customers.'
+    de: 'Es gibt immer wieder neue Wege der Präsentation.<br />Erhalten Sie Informationen über Sonderangebote, neue Produkte, sowie Tipps und Tricks um Ihre Kunden zu begeistern.'
+
+cookie:
+  description:
+    en: "This website uses cookies to ensure you get the best experience on our website."
+    de: "Diese Webseite verwendet Cookies. Durch das Nutzen dieser Seite sind Sie mit der Verwendung von Cookies einverstanden."
+  more:
+    en: "Learn more"
+    de: "Mehr erfahren"
+  accept:
+    en: "got it!"
+    de: "ok!"

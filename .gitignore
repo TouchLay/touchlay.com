@@ -1,0 +1,7 @@
+.DS_Store
+_components/
+node_modules/
+_site/
+
+# Ignore semantic components
+semantic/dist/components/

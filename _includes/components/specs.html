@@ -1,0 +1,11 @@
+{% for section in include.specs %}
+  <h3 class="spec-section">{{section.title[page.lang]}}</h3>
+    <div class="flexcontainer row">
+      {% for propertie in section.properties %}
+        <div class="spec-item">
+          <b style="font-weight: 550;">{{propertie.title[page.lang]}}</b>
+          <p>{{propertie.description[page.lang]}}</p>
+        </div>
+      {% endfor %}
+    </div>
+{% endfor %}

@@ -1,0 +1,94 @@
+{% include components/header-skew.html
+  image=site.data.pages.hardware.nova.header.image
+  imagelink=site.data.pages.hardware.nova.header.imagelink
+  title=site.data.pages.hardware.nova.header.title
+  subtitle=site.data.pages.hardware.nova.header.subtitle
+  gacategory="hardwareIntro"
+
+  primarytext=site.data.base.texts.playvideo
+  primarylink=site.data.pages.hardware.nova.header.video
+  primarylity=true
+  primarygaaction="playVideo"
+
+  secondarytext=site.data.base.texts.requestprice
+  secondarylink=site.data.pages.hardware.nova.header.buttonlink
+  secondarygaaction="requestPrice"
+
+  herodescription=site.data.pages.hardware.nova.header.description
+%}
+
+
+{% include components/feature-loop.html features=site.data.pages.hardware.nova.features %}
+
+<section id="usecases" class="padded gray">
+  <div class="container">
+    <h1 class="text-center section-title">Usecases</h1>
+    {% include components/usecases.html %}
+  </div>
+</section>
+
+<section id="specs" class="padded">
+  <div class="container">
+    <h2>{{ site.data.base.texts.specification[page.lang] }}</h2>
+    {% include components/specs.html specs=site.data.pages.hardware.nova.specs %}
+    <div class="nova-dimensions-space"></div>
+    {% include components/image.html class="nova-dimensions" image="/img/nova-dimensions.png" %}
+    <a href="{{site.data.pages.hardware.nova.brochuere.link[page.lang]}}" download>
+      <button class="section-btn" ga-on="click" ga-event-category="hardware" ga-event-action="download-brochuere">{{site.data.pages.hardware.nova.brochuere.text[page.lang]}}</button>
+    </a>
+  </div>
+</section>
+
+<section id="overview-software" class="section-a padded gray">
+  {% assign content = site.data.pages.home.software %}
+  {% capture softwarePageUrl %}/{{page.lang}}/software/{% endcapture %}
+  {% include components/feature-section.html
+      title=content.title
+      subtitle=content.subtitle
+      description=content.description
+      image=content.image
+      cta=site.data.base.texts.more
+      ctalink=softwarePageUrl
+
+      gacategory="software"
+      gaaction="more"
+  %}
+</div>
+
+{% include components/branches.html %}
+
+{% include components/process.html hardwareFirst=true %}
+
+<section id="cta" class="section-even black verypadded">
+  <div class="container flexcontainer row middle spacebetween">
+    <div class="section-text">
+        <h1 class="h1-white">{{site.data.pages.hardware.nova.cta.headline[page.lang]}}</h1>
+        <p>{{site.data.pages.hardware.nova.cta.text[page.lang]}}</p>
+    </div>
+    <div class="section-image">
+      <a href="#contact" ga-on="click" ga-event-category="hardware" ga-event-action="requstprice"><button class="btn-orange cta-highlight">{{site.data.base.texts.requestprice[page.lang]}}</button></a>
+      <a style="padding-left: 1em" href="/{{page.lang}}/hardware/secondhand" ga-on="click" ga-event-category="hardware" ga-event-action="secondhand"><button class="btn-white cta-highlight">{{site.data.base.texts.secondhand[page.lang]}}</button></a>
+    </div>
+  </div>
+</section>
+
+<section id="customers" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{ site.data.pages.hardware.nova.customers[page.lang] }}</h1>
+    {%
+      include components/customers.html
+      tags='hardware'
+    %}
+  </div>
+</section>
+
+{% include components/newsletter.html %}
+
+<section id="team">
+  <div class="container">
+    <div class="flexcontainer row middle space-around">
+      <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
+    </div>
+  </div>
+</section>

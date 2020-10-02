@@ -1,0 +1,78 @@
+{% include components/header-skew.html
+  image=site.data.pages.software.presentation.header.image
+  imageclass=site.data.pages.software.presentation.header.imageclass
+  imagelink=site.data.pages.software.presentation.header.imagelink
+  title=site.data.pages.software.presentation.header.title
+  subtitle=site.data.pages.software.presentation.header.subtitle
+  gacategory="presentationIntro"
+  class="softwarePage"
+
+  primarytext=site.data.pages.software.overview.header.buttontext
+  primarylink=site.data.pages.software.overview.header.buttonlink
+  primarygaaction="requestDemo"
+
+  herodescription=site.data.pages.software.presentation.header.description
+%}
+
+
+<section id="intro" class="padded gray">
+  <div class="container">
+    <h1 class="text-center section-title">{{site.data.pages.software.presentation.intro.title[page.lang]}}</h1>
+    <p class="text-center">
+      {{site.data.pages.software.presentation.intro.description[page.lang]}}
+    <br />
+    <a class="text-center" href="/{{page.lang}}/software/">
+      <button ga-on="click" ga-event-category="presentation" ga-event-action="software" class="section-btn">
+        {{site.data.pages.software.presentation.intro.button[page.lang]}}
+      </button>
+    </a>
+  </p>
+  </div>
+</section>
+
+<section id="modules-header" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{site.data.pages.software.presentation.modules.title[page.lang]}}</h1>
+  </div>
+</section>
+
+{% include components/feature-loop.html features=site.data.pages.software.presentation.features %}
+
+{% include components/branches.html %}
+
+{% include components/process.html %}
+
+<section id="cta" class="section-even black verypadded">
+  <div class="container flexcontainer row middle spacebetween">
+    <div class="section-text">
+        <h1 class="h1-white">{{site.data.pages.software.presentation.cta.headline[page.lang]}}</h1>
+        <p>{{site.data.pages.software.presentation.cta.text[page.lang]}}</p>
+    </div>
+    <div class="section-image">
+      <a href="#contact" ga-on="click" ga-event-category="software" ga-event-action="requstdemo"><button class="btn-orange cta-highlight">
+        {{site.data.pages.software.presentation.cta.buttontext[page.lang]}}
+      </button></a>
+    </div>
+  </div>
+</section>
+
+<section id="customers" class="padded">
+  <div class="container">
+    <h1 class="text-center section-title">{{ site.data.pages.software.presentation.customers[page.lang] }}</h1>
+    {%
+      include components/customers.html
+      tags='presentation'
+    %}
+  </div>
+</section>
+
+{% include components/newsletter.html %}
+
+<section id="team">
+  <div class="container">
+    <div class="flexcontainer row middle space-around">
+      <a href="/{{page.lang}}/about/"><button ga-event-category="team" ga-event-action="more">{{ site.data.pages.home.teammore[page.lang] }}</button></a>
+      {% include components/image.html image="/img/team-image.jpg" class="team-image"%}
+    </div>
+  </div>
+</section>
